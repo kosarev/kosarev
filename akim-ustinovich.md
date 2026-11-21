@@ -3,7 +3,7 @@
 между 1846 и 1876<sup>? [2](#akim-birth)</sup>
 
 **Отец:**
-- [Устин Косарев](ustin-kosarev.md)<sup>[3](#akim-patronym)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[3](#akim-patronym)</sup>
 
 **Дети:**
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#viktor-kosarev-words)</sup>

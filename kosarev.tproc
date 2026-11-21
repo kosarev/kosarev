@@ -600,6 +600,69 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 родился около 1845–1865 годов, вероятно, тоже от второго брака Устина;
 оценка 1846–1876 {cite::akim-birth} это допускает, но вероятнее её начало.}
 
+{source::cdtnf-origin:Cdtnf, {url::https://forum.vgd.ru}:
+«Косаревы из М.Б однодворцы. Прибыли
+скорее всего в 1812г из Тульской губернии из однодворческих селений.»}
+
+{source::surname-overview:Форум ВГД:
+Обзор фамилии: «2. Восточная ветвь (Поволжская). Движение и
+распространение фамилии шло с Северо-Запада на Юго-Восток, синхронно со
+строительством оборонительных укреплений от Козлова до Симбирска и далее на
+Закамских рубежах. Фамилия в данном случае имеет два варианта написания:
+Косырев, Касырев и Косарев ("Косырев" распространено шире и устойчивей,
+старое звучание с ударением на последний слог - Косырёв). Версии
+географического происхождения: - Подмосковье-Рязань - ответвление Южной
+ветви - Новгородская Земля. … В настоящее время фамилия наиболее
+распространена на территории Поволжья (Мордовия, Самарская, Ульяновская,
+Саратовская области), а также в Рязанской, Воронежской, Липецкой,
+Тамбовской, Пензенской областях.»}
+
+{unreliable_source::ustin-birthplace:{me}:
+Наблюдение: Устин родился в 1807–1809 годах {cite::revision-1835}, а семья,
+вероятно, переселилась около 1812 года — по сведениям Cdtnf, из Тульской
+губернии {cite::cdtnf-origin}. Но в селе водворились и переселенцы из
+Рязанской губернии, которым земля утверждена в 1831 году
+{cite::rgia-ryazan}, а форма фамилии «Косырев» может указывать на рязанское
+происхождение {cite::surname-overview}. Значит, он, вероятно, родился ещё
+до переселения — в Тульской или Рязанской губернии — и приехал в Малую
+Быковку ребёнком.}
+
+{source::early-registers:{me}:
+Наблюдение: семья Алексея Евдокимова Косарева жила в селе уже ко времени
+7-й ревизии (1815–1816) {cite::revision-1835}, а метрические книги села за
+1817–1832 годы сохранились {cite::catalogues-search}
+{cite::registers-1827-1832-post}. В них могут быть записи о семье —
+например, о рождении дочери Устиньи (около 1816–1817) и о браке Устина
+(около 1828–1829).}
+
+{unreliable_source::family-in-village:{me}:
+Наблюдение: Алексей и Устин — в Малой Быковке уже к 1816 году
+{cite::revision-1835}; Устин — и около 1833 года {cite::ustin-bobovo}; его
+внук Павел родился там в 1896 году {cite::pavel-missing-report}; правнучка
+Антонина — в 1924 году {cite::myheritage-antonina}; Мария Петровна жила там
+в 1942 году {cite::pavel-missing-report}. Значит, семья, вероятно, жила там
+непрерывно больше 125 лет; первым известным уехавшим был Виктор.}
+
+{unreliable_source::bobovo-kosarevs:{me}:
+Наблюдение: в Бобове, основанном однодворцами Малой Быковки, единственным
+Косаревым среди которых был Устин {cite::ustin-bobovo}, в 1901–1918 годах
+жили Алексей Васильев Косарев (около 1880 г. р.), его брат, по-видимому,
+Семен Васильев, Михаил Васильев и Иван Иванов Косаревы
+{cite::kuznetsov-registers}. Значит, вероятно, это потомки Устина, например
+через сына Василия (около 1840–1860 г. р.), брата Акима; так думает и
+Кузнецов. В Малой Быковке в 1918 году жили Мария Михайловна Косарева (около
+1898–1899 г. р.) и, вероятно, её брат Николай Михайлович
+{cite::kuznetsov-registers} — ещё одна ветвь, дети Михаила, возможно сына
+Акима или Петра Устиновича.}
+
+{unreliable_source::second-marriage:{me}:
+Наблюдение: если Василий (около 1854–1855 г. р.) и Константин (около
+1859–1860 г. р.) — сыновья Устина {cite::ustin-sons}, то их мать, вероятно,
+не Евдокия, жена Устина по ревизской сказке 1835 года: она родилась в
+1809–1810 годах {cite::revision-1835}, и ей было бы около 45 и 50 лет.
+Значит, Устин, вероятно, был женат вторично, и младшие сыновья — от второго
+брака.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -634,6 +697,87 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 {record::akim-patronym:ustin-kosarev:
 {first_name::Устин}
 {surname::Косарев}
+}
+
+{record::revision-1835:ustin-kosarev:
+{first_name::Устин}
+{patronym::Алексеевич}
+{surname::Косарев}
+{birth_date::{between::{date::1807}:{date::1809}}}
+{father::aleksey-evdokimovich}
+{partner::evdokiya-kosareva}
+}
+
+{record::ustin-bobovo:ustin-kosarev:
+{patronym::Алексеевич}
+}
+
+{record::revision-1835:aleksey-evdokimovich:
+{first_name::Алексей}
+{patronym::Евдокимович}
+{surname::Косарев}
+}
+
+{record::revision-1835:evdokiya-kosareva:
+{first_name::Евдокия}
+{surname::Косарева}
+}
+
+{record::revision-1835:ustinya-alekseevna:
+{first_name::Устинья}
+{patronym::Алексеевна}
+{surname::Косарева}
+{father::aleksey-evdokimovich}
+}
+
+{record::revision-1835:ustin-kosarev:
+{fact::В 1835 году жил одним двором (семья № 132) с отцом Алексеем, его женой
+Катериной, сестрой Устиньей, своей женой Евдокией и сыном Петром.}
+}
+
+{record::ustin-birthplace:ustin-kosarev:
+{fact::Вероятно, родился ещё до переселения — в Тульской или Рязанской губернии —
+и ребёнком приехал с семьёй в {link::malaya-bykovka:Малую Быковку} около 1812 года.}
+}
+
+{record::early-registers:ustin-kosarev:
+{fact::Семья жила в селе уже к 1816 году. Записи о ней — крещение сестры Устиньи
+(около 1816–1817), брак Устина (около 1828–1829), крещение сына Петра
+(около 1829–1830) — могут быть в метрических книгах {link::malaya-bykovka:Тягуновки (Малой
+Быковки)} за 1817–1832 годы.}
+}
+
+{record::ustin-bobovo:ustin-kosarev:
+{fact::Однодворец; вероятно, один из однодворцев {link::malaya-bykovka:Малой Быковки}, совладельцев земли
+села, — «Устин Алексеев Косарев», единственный Косарев среди 39 названных
+однодворцев.}
+}
+
+{record::family-in-village:ustin-kosarev:
+{fact::Семья жила в {link::malaya-bykovka:Малой Быковке}, вероятно, непрерывно больше 125 лет — от 1810-х
+до 1940-х годов; первым известным уехавшим был Виктор Иванович.}
+}
+
+{record::ustin-identity:ustin-kosarev:
+{fact::Вероятно, это тот же Устин, что и отец Акима Устиновича: то же имя и
+фамилия, то же село. Связь пока выведена только из отчества Акима;
+документ, где Аким записан «Устиновым сыном», может найтись в ревизских
+сказках 1850 или 1858 года.}
+}
+
+{record::bobovo-kosarevs:ustin-kosarev:
+{fact::В Бобове, основанном однодворцами {link::malaya-bykovka:Малой Быковки}, в 1901–1918 годах жили
+Косаревы: Алексей Васильевич (около 1880 г. р.), Семен Васильевич, Михаил
+Васильевич, Иван Иванович. Вероятно, это потомки Устина — например, через
+сына Василия, брата Акима. В Малой Быковке в 1918 году — Мария Михайловна
+(около 1898–1899 г. р.) и, вероятно, её брат Николай Михайлович: ещё одна
+ветвь, дети Михаила.}
+}
+
+{record::second-marriage:ustin-kosarev:
+{fact::Вероятно, был женат вторично: если Василий (около 1855 г. р.) и Константин
+(около 1860 г. р.) — его сыновья, то Евдокии, его жене по ревизской сказке
+1835 года, было бы около 45 и 50 лет.}
 }
 
 {record::malaya-bykovka-family:akim-ustinovich:
@@ -1296,19 +1440,37 @@ class MarkdownWriter(object):
         return ' '.join(p.fields[f][0].value for f in self.NAME_FIELDS
                         if f in p.fields)
 
-    # Tells whether a person is male by the patronym.
+    # Tells whether a person is male by the patronym, or else by the
+    # surname.
     def __male(self, p):
-        patronym = p.fields['patronym'][0].value
-        if patronym.endswith('ич'):
+        if 'patronym' in p.fields:
+            patronym = p.fields['patronym'][0].value
+            if patronym.endswith('ич'):
+                return True
+            assert patronym.endswith('на'), patronym
+            return False
+        surname = p.fields['surname'][0].value
+        if surname.endswith(('ов', 'ев', 'ин')):
             return True
-        assert patronym.endswith('на'), patronym
+        assert surname.endswith(('ова', 'ева', 'ина')), surname
         return False
 
+    # The middle of a person's known birth date, to order people by; those
+    # of unknown birth come last.
+    def __birth(self, p):
+        if 'birth_date' not in p.fields:
+            return float('inf')
+        d = p.fields['birth_date'][0].value
+        if isinstance(d, Between):
+            return (d.first.year + d.last.year) / 2
+        return d.year
+
     # The people whose father is the given person, each with the value
-    # that says so.
+    # that says so, by birth.
     def __children(self, p, register):
-        return [(c, v) for c in register.subjects.values()
-                for v in c.fields.get('father', []) if v.value == p.id]
+        return sorted(((c, v) for c in register.subjects.values()
+                       for v in c.fields.get('father', []) if v.value == p.id),
+                      key=lambda t: self.__birth(t[0]))
 
     # The person's partners, recorded on either side, each with the value
     # that says so.
@@ -1330,7 +1492,7 @@ class MarkdownWriter(object):
                     both.sources = v.sources + [s for s in w.sources
                                                 if s not in v.sources]
                     siblings.append((c, both))
-        return siblings
+        return sorted(siblings, key=lambda t: self.__birth(t[0]))
 
     # Sources are listed at the end of the page, each under a heading of its
     # id, so it can be linked to: page.md#source-id. They are numbered on
