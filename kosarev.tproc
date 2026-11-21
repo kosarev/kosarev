@@ -1126,15 +1126,15 @@ class MarkdownWriter(object):
                     siblings.append((c, both))
         return siblings
 
-    # Sources are footnotes, numbered on the page in the order they are
-    # first cited.
+    # Sources are footnotes, labelled by their ids, so they can be linked
+    # to; GitHub numbers them in the order they are first cited.
     def __write_page(self, f, p, register):
         sources = []
 
         def ref(id):
             if id not in sources:
                 sources.append(id)
-            return f'[^{sources.index(id) + 1}]'
+            return f'[^{id}]'
 
         # A value is reliable only if all its sources are.
         def refs(value):
@@ -1209,7 +1209,7 @@ class MarkdownWriter(object):
                             for n in s.notes)
             notes = ' '.join(notes.split())
             text = ' — '.join(t for t in (notes, str(s.provider)) if t)
-            f.write(f'[^{i + 1}]: {"" if s.reliable else "? "}{text}\n')
+            f.write(f'[^{s.id}]: {"" if s.reliable else "? "}{text}\n')
             i += 1
 
     def write(self, register):

@@ -1,10 +1,10 @@
-# Виктор Иванович Косарев[^1]
+# Виктор Иванович Косарев[^ivan-kosarev]
 
 **Отец:**
-- [Иван Акимович Косарев](ivan-akimovich.md)[^1]
+- [Иван Акимович Косарев](ivan-akimovich.md)[^ivan-kosarev]
 
 **Сестра:**
-- [Антонина Ивановна Косарева](antonina-kosareva.md)[^1][^2]
+- [Антонина Ивановна Косарева](antonina-kosareva.md)[^ivan-kosarev][^myheritage-ivan]
 
-[^1]: Иван
-[^2]: https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
+[^ivan-kosarev]: Иван
+[^myheritage-ivan]: https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
