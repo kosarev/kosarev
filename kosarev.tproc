@@ -3048,6 +3048,9 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 }
 
 @
+import os
+
+
 # A value and the sources that give it.
 class Value(object):
     def __init__(self, value):
@@ -3552,10 +3555,89 @@ class MarkdownWriter(object):
                     f'[{i + 1}] {"" if s.reliable else "? "}{text}\n')
             i += 1
 
+    # The years of birth and death, for the index.
+    def __years(self, p):
+        def years(d):
+            if isinstance(d, Between):
+                return f'{d.first.year}–{d.last.year}'
+            return str(d.year)
+
+        parts = [f'{prefix} {years(p.fields[n][0].value)}'
+                 for n, prefix in (('birth_date', 'р.'), ('death_date', 'ум.'))
+                 if n in p.fields]
+        return f' ({", ".join(parts)})' if parts else ''
+
+    def __descendants(self, p, register):
+        found = set()
+        for c, v in self.__children(p, register):
+            if c not in found:
+                found |= {c} | self.__descendants(c, register)
+        return found
+
+    # A person of the index tree with their partners, and their children
+    # nested under them. A link to a parent or a partner that rests on a
+    # guess is marked «?». A partner is only mentioned: they still appear
+    # in the tree of their own parents.
+    def __write_tree(self, f, p, v, depth, register, shown, mentioned):
+        def mark(v):
+            reliable = all(register.sources[s].reliable for s in v.sources)
+            return '' if reliable else '? '
+
+        def link(q):
+            return f'[{self.__name(q)}](../{q.id}.md)'
+
+        shown.add(p)
+        line = (f'{"  " * depth}- {mark(v) if v else ""}{link(p)}'
+                f'{self.__years(p)}')
+        if partners := self.__partners(p, register):
+            if len(partners) > 1:
+                title = 'супруги'
+            else:
+                title = 'супруг' if self.__male(partners[0][0]) else 'супруга'
+            line += f' — {title}: ' + ', '.join(mark(w) + link(q)
+                                                for q, w in partners)
+            mentioned.update(q for q, w in partners)
+        f.write(line + '\n')
+        for c, w in self.__children(p, register):
+            if c not in shown:
+                self.__write_tree(f, c, w, depth + 1, register, shown,
+                                  mentioned)
+
+    # The index: a tree for each earliest known ancestor, bigger trees
+    # first, so that each person is shown once, with most of their family;
+    # those mentioned as partners get no tree of their own. Then the
+    # places.
+    def __write_index(self, f, register):
+        people = [p for p in register.subjects.values()
+                  if 'name' not in p.fields]
+        places = [p for p in register.subjects.values()
+                  if 'name' in p.fields]
+        roots = [p for p in people
+                 if 'father' not in p.fields and 'mother' not in p.fields]
+        roots.sort(key=lambda p: (-len(self.__descendants(p, register)),
+                                  not self.__male(p), self.__birth(p)))
+        f.write('# Косаревы\n\n'
+                'Деревья — по самым ранним известным предкам; дети — под '
+                'родителями, по году рождения. «?» — связь с родителем или '
+                'супругом предположительна.\n')
+        shown, mentioned = set(), set()
+        for p in roots:
+            if p not in shown | mentioned:
+                f.write(f'\n## {self.__name(p)}\n\n')
+                self.__write_tree(f, p, None, 0, register, shown, mentioned)
+        assert shown | mentioned == set(people), (
+            set(people) - shown - mentioned)
+        f.write('\n## Места\n\n')
+        for p in places:
+            f.write(f'- [{self.__name(p)}](../{p.id}.md)\n')
+
     def write(self, register):
         for p in register.subjects.values():
             with open(f'{p.id}.md', 'w', encoding='utf-8') as f:
                 self.__write_page(f, p, register)
+        os.makedirs('docs', exist_ok=True)
+        with open('docs/README.md', 'w', encoding='utf-8') as f:
+            self.__write_index(f, register)
 
 
 # Writes a page for each person.
