@@ -132,6 +132,20 @@ class MarkdownWriter(object):
         return ' '.join(p.fields[f][0].value for f in self.NAME_FIELDS
                         if f in p.fields)
 
+    # Tells whether a person is male by the patronym.
+    def __male(self, p):
+        patronym = p.fields['patronym'][0].value
+        if patronym.endswith('ич'):
+            return True
+        assert patronym.endswith('на'), patronym
+        return False
+
+    # The people whose father is the given person, each with the value
+    # that says so.
+    def __children(self, p, register):
+        return [(c, v) for c in register.people.values()
+                for v in c.fields.get('father', []) if v.value == p.id]
+
     # Sources are footnotes, numbered on the page in the order they are
     # first cited.
     def __write_page(self, f, p, register):
@@ -157,6 +171,15 @@ class MarkdownWriter(object):
             father = register.people[v.value]
             f.write(f'\n**Отец:** [{self.__name(father)}]({father.id}.md)'
                     f'{refs(v)}\n')
+
+        if children := self.__children(p, register):
+            if len(children) > 1:
+                title = 'Дети'
+            else:
+                title = 'Сын' if self.__male(children[0][0]) else 'Дочь'
+            f.write(f'\n**{title}:** ' +
+                    ', '.join(f'[{self.__name(c)}]({c.id}.md){refs(v)}'
+                              for c, v in children) + '\n')
 
         f.write('\n')
         for i, id in enumerate(sources):
