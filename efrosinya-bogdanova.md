@@ -4,6 +4,9 @@
 
 **Родилась:** между 1878 и 1916<sup>? [3](#efrosinya-birth)</sup>
 
+**Отец:**
+- [Константин Молодцов](konstantin-molodtsov.md)<sup>? [1](#geni-efrosinya)</sup>
+
 **Дети:**
 - [Нина Егоровна Косарева](nina-kosareva.md)<sup>? [4](#geni-nina), [2](#myheritage-nina)</sup>
 - [Фаина Егоровна Половцева](faina-polovtseva.md)<sup>? [5](#geni-faina)</sup>

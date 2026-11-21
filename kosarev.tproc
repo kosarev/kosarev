@@ -883,6 +883,24 @@ MyHeritage: муж Прасковьи Акимовны Путиной — Мих
 {cite::myheritage-putin}. Путины жили в Малой Быковке {cite::putins-post};
 родство псаломщика с её мужем не известно.}
 
+{unreliable_source::geni-konstantin-molodtsov:{url::https://www.geni.com/people/Константин-Молодцов/6000000058693003821}:
+Добавлено Евгением Терещенко {cite::tereshchenko}.}
+
+{unreliable_source::geni-olga-molodtsova:{url::https://www.geni.com/people/Ольга-Молодцова/6000000058691944054}:
+Добавлено Евгением Терещенко {cite::tereshchenko}.}
+
+{unreliable_source::konstantin-molodtsov-birth:{me}:
+Предположение по дате рождения дочери.
+Дочь, Ефросинья Константиновна Богданова, родилась в 1878–1916 годах
+{cite::efrosinya-birth}. Если отцу при её рождении было от 20 до 50 лет, он
+родился в 1828–1896 годах.}
+
+{unreliable_source::olga-molodtsova-birth:{me}:
+Предположение, что Ольга Молодцова — мать Ефросиньи Константиновны
+Богдановой: она жена её отца, хотя профиль Ефросиньи указывает только отца.
+Ефросинья родилась в 1878–1916 годах {cite::efrosinya-birth}. Если матери
+при её рождении было от 18 до 45 лет, она родилась в 1833–1898 годах.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -963,6 +981,35 @@ MyHeritage: муж Прасковьи Акимовны Путиной — Мих
 
 {record::faina-birth:faina-polovtseva:
 {birth_date::{between::{date::1907}:{date::1961}}}
+}
+
+{record::geni-efrosinya:efrosinya-bogdanova:
+{father::konstantin-molodtsov}
+}
+
+{record::geni-konstantin-molodtsov:konstantin-molodtsov:
+{first_name::Константин}
+{surname::Молодцов}
+{partner::olga-molodtsova}
+}
+
+{record::konstantin-molodtsov-birth:konstantin-molodtsov:
+{birth_date::{between::{date::1828}:{date::1896}}}
+}
+
+{record::geni-olga-molodtsova:olga-molodtsova:
+{first_name::Ольга}
+{surname::Молодцова}
+}
+
+{record::olga-molodtsova-birth:olga-molodtsova:
+{birth_date::{between::{date::1833}:{date::1898}}}
+}
+
+{record::olga-molodtsova-birth:olga-molodtsova:
+{fact::Вероятно, мать Ефросиньи Константиновны Богдановой: она жена её отца,
+Константина Молодцова, но в профиле Ефросиньи на geni.com указан только
+отец. На этом предположении основана и оценка года её рождения.}
 }
 
 {record::geni-faina:faina-polovtseva:
