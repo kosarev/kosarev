@@ -1207,6 +1207,19 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 {surname::Косарева}
 }
 
+{record::myheritage-praskovya myheritage-antonina myheritage-ivan:antonina-kosareva:
+{birth_date::{date::1924:3:4}}
+{birth_place::{link::malaya-bykovka:с. Малая Быковка}, Балаковский район}
+}
+
+{record::myheritage-antonina:antonina-kosareva:
+{death_date::{date::2009:11}}
+}
+
+{record::myheritage-praskovya:antonina-kosareva:
+{mother::praskovya-plakhina}
+}
+
 {record::pavel-wife-praskovya-version:pavel-akimovich:
 {first_name::Павел}
 {patronym::Акимович}
@@ -1585,23 +1598,45 @@ def pieces(tokens):
     return tuple(result)
 
 
-# A date; only years for now.
+MONTHS = ('январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль',
+          'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь')
+MONTHS_OF = ('января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля',
+             'августа', 'сентября', 'октября', 'ноября', 'декабря')
+
+
+# A date: a year, possibly with a month and a day.
 class Date(object):
-    def __init__(self, year):
+    def __init__(self, year, month=None, day=None):
         self.year = year
+        self.month = month
+        self.day = day
 
     def __eq__(self, other):
-        return isinstance(other, Date) and self.year == other.year
+        return (isinstance(other, Date) and
+                (self.year, self.month, self.day) ==
+                (other.year, other.month, other.day))
 
     def __hash__(self):
-        return hash(self.year)
+        return hash((self.year, self.month, self.day))
+
+    # The earliest and the latest day the date may be.
+    def earliest(self):
+        return (self.year, self.month or 1, self.day or 1)
+
+    def latest(self):
+        return (self.year, self.month or 12, self.day or 31)
 
     def __str__(self):
+        if self.day:
+            return f'{self.day} {MONTHS_OF[self.month - 1]} {self.year}'
+        if self.month:
+            return f'{MONTHS[self.month - 1]} {self.year}'
         return str(self.year)
 
 
-def date(year):
-    return Date(int(text(year)))
+# {date::year:month:day}, the month and the day being optional.
+def date(*parts):
+    return Date(*(int(text(p)) for p in parts))
 
 
 # A date known to be between two dates.
@@ -1660,8 +1695,12 @@ def death_date(value):
     return FieldValue('death_date', content(value))
 
 
-def death_place(value):
-    return FieldValue('death_place', content(value))
+def birth_place(*text):
+    return FieldValue('birth_place', pieces(rest(*text)))
+
+
+def death_place(*text):
+    return FieldValue('death_place', pieces(rest(*text)))
 
 
 # A link to a subject's page, with the text to show for it.
@@ -1785,6 +1824,35 @@ class MarkdownWriter(object):
         assert surname.endswith(('ова', 'ева', 'ина')), surname
         return False
 
+    # A value as text; places and facts may have links in them.
+    def __shown(self, value):
+        if isinstance(value, tuple):
+            return ' '.join(''.join(f'[{x.text}]({x.id}.md)'
+                                    if isinstance(x, Link) else x
+                                    for x in value).split())
+        return str(value)
+
+    # The age at death, in full years, or the range of the ages possible,
+    # when both dates are known.
+    def __age(self, p):
+        if 'birth_date' not in p.fields or 'death_date' not in p.fields:
+            return None
+        birth = p.fields['birth_date'][0].value
+        death = p.fields['death_date'][0].value
+        if not isinstance(birth, Date) or not isinstance(death, Date):
+            return None
+
+        def years(a, b):
+            return b[0] - a[0] - (b[1:] < a[1:])
+
+        least = years(birth.latest(), death.earliest())
+        most = years(birth.earliest(), death.latest())
+        n = most % 100
+        word = ('лет' if 11 <= n <= 14 else 'год' if n % 10 == 1 else
+                'года' if 2 <= n % 10 <= 4 else 'лет')
+        return (f'{least} {word}' if least == most else
+                f'{least}–{most} {word}')
+
     # The middle of a person's known birth date, to order people by; those
     # of unknown birth come last.
     def __birth(self, p):
@@ -1859,17 +1927,24 @@ class MarkdownWriter(object):
             v = p.fields['birth_surname'][0]
             f.write(f'\n({v.value}{refs(v)})\n')
 
-        if 'birth_date' in p.fields:
-            v = p.fields['birth_date'][0]
+        # A date and a place; if both have the same sources, mark only
+        # the last one.
+        def event(names):
+            values = [p.fields[n][0] for n in names if n in p.fields]
+            same = len(set(tuple(v.sources) for v in values)) == 1
+            return ', '.join(self.__shown(v.value) +
+                             (refs(v) if not same or v is values[-1] else '')
+                             for v in values)
+
+        if 'birth_date' in p.fields or 'birth_place' in p.fields:
             f.write(f'\n**{"Родился" if self.__male(p) else "Родилась"}:** '
-                    f'{v.value}{refs(v)}\n')
+                    f'{event(("birth_date", "birth_place"))}\n')
 
         if 'death_date' in p.fields or 'death_place' in p.fields:
-            death = [f'{v.value}{refs(v)}' for v in
-                     (p.fields[n][0] for n in ('death_date', 'death_place')
-                      if n in p.fields)]
+            age = self.__age(p)
             f.write(f'\n**{"Умер" if self.__male(p) else "Умерла"}:** '
-                    f'{", ".join(death)}\n')
+                    f'{event(("death_date", "death_place"))}'
+                    f'{f" ({age})" if age else ""}\n')
 
         # A relation's title on a line of its own, then each person on a
         # line of their own.
@@ -1911,9 +1986,7 @@ class MarkdownWriter(object):
 
         # Facts come last, each a paragraph of its own.
         for v in p.fields.get('facts', []):
-            fact = ''.join(f'[{x.text}]({x.id}.md)' if isinstance(x, Link)
-                           else x for x in v.value)
-            f.write(f'\n{" ".join(fact.split())}{refs(v)}\n')
+            f.write(f'\n{self.__shown(v.value)}{refs(v)}\n')
 
         # Citations in the notes add more sources as they are written.
         f.write('\n## Источники\n')

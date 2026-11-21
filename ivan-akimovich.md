@@ -10,8 +10,8 @@
 - [Ксения Косарева](kseniya-kosareva.md)<sup>[5](#myheritage-ivan)</sup>
 
 **Дети:**
-- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan)</sup>
 - [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[5](#myheritage-ivan)</sup>
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan)</sup>
 
 **Брат и сестра:**
 - [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#viktor-kosarev-words), [6](#pavel-brother)</sup>

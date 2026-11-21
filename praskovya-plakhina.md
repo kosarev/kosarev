@@ -5,7 +5,8 @@
 **Супруг:**
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [4](#geni-ivan-wife)</sup>
 
-**Сын:**
+**Дети:**
+- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[2](#myheritage-praskovya)</sup>
 - [Виктор Иванович Косарев](viktor-kosarev.md)<sup>? [1](#geni-viktor)</sup>
 
 ## Источники
