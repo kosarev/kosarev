@@ -1,0 +1,36 @@
+#!/usr/bin/env tproc
+
+The Kosarev family research.
+
+@
+people = {}
+
+
+class Person(object):
+    def __init__(self, id, first_name, patronymic_name, surname):
+        self.id = id
+        self.first_name = first_name
+        self.patronymic_name = patronymic_name
+        self.surname = surname
+
+    def name(self):
+        return ' '.join((self.first_name, self.patronymic_name, self.surname))
+
+
+def person(id, **names):
+    assert id not in people, id
+    people[id] = Person(id, **names)
+
+
+# Writes a page for each person.
+def main():
+    for p in people.values():
+        with open(f'{p.id}.md', 'w', encoding='utf-8') as f:
+            f.write(f'# {p.name()}\n')
+
+
+@
+person('viktor-kosarev',
+       first_name='Виктор',
+       patronymic_name='Иванович',
+       surname='Косарев')
