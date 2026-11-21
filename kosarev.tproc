@@ -51,6 +51,22 @@ class Person(object):
             v.sources.append(source)
 
 
+# Keeps the sources, and the people assembled from field values. Values
+# refer to their sources by id, so a record may come before its source.
+class Register(object):
+    def __init__(self):
+        self.sources = {}
+        self.people = {}
+
+    def add_source(self, source):
+        assert source.id not in self.sources, source.id
+        self.sources[source.id] = source
+
+    def add_field(self, subject, field, value, source):
+        p = self.people.setdefault(subject, Person(subject))
+        p.add(field, value, source)
+
+
 def text(tokens):
     return ''.join(t.content for t in tokens
                    if isinstance(t.content, str)).strip()
@@ -106,22 +122,6 @@ class Record(object):
 
 
 record = Record
-
-
-# Keeps the sources, and the people assembled from field values. Values
-# refer to their sources by id, so a record may come before its source.
-class Register(object):
-    def __init__(self):
-        self.sources = {}
-        self.people = {}
-
-    def add_source(self, source):
-        assert source.id not in self.sources, source.id
-        self.sources[source.id] = source
-
-    def add_field(self, subject, field, value, source):
-        p = self.people.setdefault(subject, Person(subject))
-        p.add(field, value, source)
 
 
 # Writes the register as Markdown: a page for each person.
