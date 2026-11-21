@@ -87,7 +87,8 @@ The Kosarev family research.
 Сар.об.». «Заключение райвоенкома: Призыв в Сов.Армию подтверждается
 книгой призыв.Балаковского РВК. Связь прекратилась в августе 1942г.Сведен.
 о прох. службы РВК не располагает. Писем, присл. семье, не сохранилось.
-Считать пропавшим б/вести в 1942г.»}
+Считать пропавшим б/вести в 1942г.»
+Копия: {material::pavel-akimovich/00000420}.}
 
 {unreliable_source::pavel-brother:{me}:
 Вывод: Павел Акимович Косарев — брат Ивана Акимовича Косарева, сын Акима
@@ -112,7 +113,8 @@ The Kosarev family research.
 Источник информации: Книга памяти. Саратовская область. Том 10
 В книге, с. 56, раздел «Балаковский район»: «КОСЫРЕВ Павел Акимович, род.
 1896, с. Малая Быковка. Призван в Сов. Арм. 1942, Балаков. РВК. Рядовой.
-Пропал без вести дек. 1942.»}
+Пропал без вести дек. 1942.»
+Копия: {material::pavel-akimovich/00000058}.}
 
 {source::malaya-bykovka-family:{me}:
 Наблюдение: в с. Малая Быковка в 1896 году родился Павел Акимович Косарев
@@ -804,7 +806,8 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 Дата выбытия: __.11.1941
 Источник информации: Книга памяти. Саратовская область. Том 2
 В книге, с. 546, раздел «Балаковский район»: «КОСЫРЕВ Павел Акимович, род.
-1896. Призван в Сов. Арм. 1941. Красноармеец. Пропал без вести нояб. 1941.»}
+1896. Призван в Сов. Арм. 1941. Красноармеец. Пропал без вести нояб. 1941.»
+Копия: {material::pavel-akimovich/00000563}.}
 
 {source::pavel-comparison:{me}:
 Сопоставление семейных сведений с армейскими документами
@@ -3287,6 +3290,16 @@ class Cite(object):
 cite = Cite
 
 
+# A copy of a document, kept in the repository under materials/: a
+# directory with the copy and a README.md describing it.
+class Material(object):
+    def __init__(self, path):
+        self.path = 'materials/' + text(path)
+
+
+material = Material
+
+
 # A web page, as a source's provider.
 class Url(object):
     def __init__(self, address):
@@ -3546,7 +3559,9 @@ class MarkdownWriter(object):
         i = 0
         while i < len(sources):
             s = register.sources[sources[i]]
-            notes = ''.join(ref(n.id) if isinstance(n, Cite) else n
+            notes = ''.join(ref(n.id) if isinstance(n, Cite) else
+                            f'[{n.path}]({n.path})'
+                            if isinstance(n, Material) else n
                             for n in s.notes)
             notes = ' '.join(notes.split())
             provider = ''.join(str(x) for x in s.provider).strip()
