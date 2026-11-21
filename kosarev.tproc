@@ -3,10 +3,25 @@
 The Kosarev family research.
 
 @records
-{record::Иван Александрович Косарев:viktor-kosarev:
+{source::ivan-kosarev:Иван Александрович Косарев}
+
+{source::viktor-kosarev-words:Иван Александрович Косарев:
+Со слов Виктора Ивановича Косарева.}
+
+{record::ivan-kosarev:viktor-kosarev:
 {first_name::Виктор}
 {patronym::Иванович}
 {surname::Косарев}
+{father::ivan-akimovich}
+}
+
+{record::ivan-kosarev:ivan-akimovich:
+{first_name::Иван}
+{surname::Косарев}
+}
+
+{record::viktor-kosarev-words:ivan-akimovich:
+{patronym::Акимович}
 }
 
 @
@@ -60,6 +75,23 @@ def surname(value):
     return FieldValue('surname', value)
 
 
+# The id of the subject's father.
+def father(value):
+    return FieldValue('father', value)
+
+
+# A piece of evidence: who provided it, and notes on what it is.
+class Source(object):
+    def __init__(self, id, provider, notes=()):
+        self.id = id
+        self.provider = text(provider)
+        self.notes = text(notes)
+
+
+def source(id, provider, notes=()):
+    return Source(text(id), provider, notes)
+
+
 # What a source says about a subject: the values of its fields.
 class Record(object):
     def __init__(self, source, subject, values):
@@ -76,22 +108,34 @@ class Record(object):
 record = Record
 
 
-# Absorbs records, assembling the people from them.
+# Absorbs sources and records, assembling the people from them. Values
+# refer to their sources by id, so a record may come before its source.
 class Register(object):
     def __init__(self):
+        self.sources = {}
         self.people = {}
 
-    def add(self, record):
-        p = self.people.setdefault(record.subject, Person(record.subject))
-        for v in record.values:
-            p.add(v.field, v.value, record.source)
+    def add(self, item):
+        if isinstance(item, Source):
+            assert item.id not in self.sources, item.id
+            self.sources[item.id] = item
+            return
+        p = self.people.setdefault(item.subject, Person(item.subject))
+        for v in item.values:
+            p.add(v.field, v.value, item.source)
 
 
 # Writes the register as Markdown: a page for each person.
 class MarkdownWriter(object):
+    NAME_FIELDS = ('first_name', 'patronym', 'surname')
+
+    def __name(self, p):
+        return ' '.join(p.fields[f][0].value for f in self.NAME_FIELDS
+                        if f in p.fields)
+
     # Sources are footnotes, numbered on the page in the order they are
     # first cited.
-    def __write_page(self, f, p):
+    def __write_page(self, f, p, register):
         sources = []
 
         def refs(value):
@@ -103,21 +147,28 @@ class MarkdownWriter(object):
 
         # If all the parts of the name have the same sources, mark only the
         # last one.
-        parts = [p.fields[f][0]
-                 for f in ('first_name', 'patronym', 'surname')]
+        parts = [p.fields[f][0] for f in self.NAME_FIELDS if f in p.fields]
         same = len(set(tuple(v.sources) for v in parts)) == 1
         f.write('# ' + ' '.join(v.value + (refs(v) if not same or
                                            v is parts[-1] else '')
                                 for v in parts) + '\n')
 
+        if 'father' in p.fields:
+            v = p.fields['father'][0]
+            father = register.people[v.value]
+            f.write(f'\n**Отец:** [{self.__name(father)}]({father.id}.md)'
+                    f'{refs(v)}\n')
+
         f.write('\n')
-        for i, s in enumerate(sources):
-            f.write(f'[^{i + 1}]: {s}\n')
+        for i, id in enumerate(sources):
+            s = register.sources[id]
+            note = f'{s.notes} — ' if s.notes else ''
+            f.write(f'[^{i + 1}]: {note}{s.provider}\n')
 
     def write(self, register):
         for p in register.people.values():
             with open(f'{p.id}.md', 'w', encoding='utf-8') as f:
-                self.__write_page(f, p)
+                self.__write_page(f, p, register)
 
 
 # Writes a page for each person.
@@ -125,7 +176,7 @@ def main():
     # Process records.
     r = Register()
     for t in tproc.expand_field('records'):
-        if isinstance(t, Record):
+        if isinstance(t, (Source, Record)):
             r.add(t)
         else:
             assert not t.strip(), t
