@@ -107,6 +107,29 @@ https://pamyat-naroda.ru/heroes/memorial-chelovek_dopolnitelnoe_donesenie7028589
 Ответ Евгения Терещенко {cite::tereshchenko}: «У Ивана Акимовича Косарева
 сестра Прасковья Акимовна Путина. Думаю, это часть дерева из MyHeritage.»}
 
+{source::book-of-memory-pavel:Иван Александрович Косарев:
+https://pamyat-naroda.ru/heroes/memorial-chelovek_pechatnoi_knigi_pamyati406835906
+«Память народа»:
+КОСЫРЕВ Павел Акимович
+Печатная Книга Памяти
+Дата рождения: __.__.1896
+Место рождения: с. Малая Выковка
+Дата и место призыва: Балаков. РВК
+Дата выбытия: __.12.1942
+Источник информации: Книга памяти. Саратовская область. Том 10
+В книге, с. 56, раздел «Балаковский район»: «КОСЫРЕВ Павел Акимович, род.
+1896, с. Малая Быковка. Призван в Сов. Арм. 1942, Балаков. РВК. Рядовой.
+Пропал без вести дек. 1942.»}
+
+{source::malaya-bykovka-family:Иван Александрович Косарев:
+Наблюдение: в с. Малая Быковка в 1896 году родился Павел Акимович Косарев
+{cite::pavel-missing-report} {cite::book-of-memory-pavel}, брат Ивана
+Акимовича {cite::pavel-brother}, а в 1924 году — дочь Ивана Акимовича и
+Прасковьи Дмитриевны, Антонина {cite::myheritage-praskovya}
+{cite::myheritage-antonina} {cite::myheritage-ivan}. Поэтому вероятно, что
+Иван Акимович был из этого села, Прасковья Дмитриевна жила там в 1924 году,
+а Аким Устинович, отец обоих братьев, тоже жил там.}
+
 {source::praskovya-sister:Иван Александрович Косарев:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -216,6 +239,15 @@ https://pamyat-naroda.ru/heroes/memorial-chelovek_dopolnitelnoe_donesenie7028589
 {father::akim-ustinovich}
 }
 
+{record::ivan-birth-estimate:ivan-akimovich:
+{birth_date::{between::{date::1873}:{date::1907}}}
+}
+
+{record::malaya-bykovka-family:ivan-akimovich:
+{fact::Вероятно, был из с. Малая Быковка Балаковского района: там в 1896 году
+родился его брат Павел, а в 1924 году — его дочь Антонина.}
+}
+
 @
 # A value and the sources that give it.
 class Value(object):
@@ -264,11 +296,73 @@ def text(tokens):
                    if isinstance(t.content, str)).strip()
 
 
+# The rest of a field from the given argument on. tproc splits arguments
+# at colons, so the colons in text come as separate arguments; this joins
+# them back.
+def rest(*parts):
+    for i, part in enumerate(parts):
+        if i:
+            yield tproc.LiteralToken(':')
+        yield from part
+
+
+# The one value of the given tokens: an object, such as a date, or else
+# the text.
+def content(tokens):
+    tokens = list(tokens)
+    objects = [t.content for t in tokens if not isinstance(t.content, str)]
+    if objects:
+        assert len(objects) == 1, objects
+        assert not text(tokens), tokens
+        return objects[0]
+    return text(tokens)
+
+
+# A date; only years for now.
+class Date(object):
+    def __init__(self, year):
+        self.year = year
+
+    def __eq__(self, other):
+        return isinstance(other, Date) and self.year == other.year
+
+    def __hash__(self):
+        return hash(self.year)
+
+    def __str__(self):
+        return str(self.year)
+
+
+def date(year):
+    return Date(int(text(year)))
+
+
+# A date known to be between two dates.
+class Between(object):
+    def __init__(self, first, last):
+        self.first = first
+        self.last = last
+
+    def __eq__(self, other):
+        return (isinstance(other, Between) and
+                (self.first, self.last) == (other.first, other.last))
+
+    def __hash__(self):
+        return hash((self.first, self.last))
+
+    def __str__(self):
+        return f'между {self.first} и {self.last}'
+
+
+def between(first, last):
+    return Between(content(first), content(last))
+
+
 # A field's value, as given in a record.
 class FieldValue(object):
-    def __init__(self, field, value):
+    def __init__(self, field, tokens):
         self.field = field
-        self.value = text(value)
+        self.value = content(tokens)
 
 
 def first_name(value):
@@ -285,6 +379,15 @@ def surname(value):
 
 def birth_surname(value):
     return FieldValue('birth_surname', value)
+
+
+def birth_date(value):
+    return FieldValue('birth_date', value)
+
+
+# A free-text fact about the subject; all facts may be true at once.
+def fact(*text):
+    return FieldValue('facts', rest(*text))
 
 
 # The id of the subject's father.
@@ -321,16 +424,6 @@ class Source(object):
                 self.notes[-1] += t.content
             else:
                 self.notes.append(t.content)
-
-
-# The rest of a field from the given argument on. tproc splits arguments
-# at colons, so the colons in text come as separate arguments; this joins
-# them back.
-def rest(*parts):
-    for i, part in enumerate(parts):
-        if i:
-            yield tproc.LiteralToken(':')
-        yield from part
 
 
 def source(id, provider, *notes):
@@ -430,6 +523,10 @@ class MarkdownWriter(object):
             v = p.fields['birth_surname'][0]
             f.write(f'\n({v.value}{refs(v)})\n')
 
+        if 'birth_date' in p.fields:
+            v = p.fields['birth_date'][0]
+            f.write(f'\n{v.value}{refs(v)}\n')
+
         # A relation's title on a line of its own, then each person on a
         # line of their own.
         def relation(title, people):
@@ -464,6 +561,10 @@ class MarkdownWriter(object):
                 if t]
             relation(' и '.join(titles[:1] + [t.lower() for t in titles[1:]]),
                      siblings)
+
+        # Facts come last, each a paragraph of its own.
+        for v in p.fields.get('facts', []):
+            f.write(f'\n{" ".join(v.value.split())}{refs(v)}\n')
 
         # Citations in the notes add more sources as they are written.
         f.write('\n')
