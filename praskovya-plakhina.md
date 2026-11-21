@@ -2,7 +2,8 @@
 
 (Плахина[^2][^3])
 
-**Супруг:** [Иван Акимович Косарев](ivan-akimovich.md)<sup>?</sup>[^4]
+**Супруг:**
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>?</sup>[^4]
 
 [^1]: ? https://www.geni.com/people/Виктор-Косарев/6000000058692404845 Добавлено Евгением Терещенко [^5]. — Иван Александрович Косарев
 [^2]: https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000086/прасковья-плахина

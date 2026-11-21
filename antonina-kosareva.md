@@ -1,6 +1,7 @@
 # Антонина[^1][^2][^3] Ивановна[^1] Косарева[^1][^2][^3]
 
-**Отец:** [Иван Акимович Косарев](ivan-akimovich.md)[^1]
+**Отец:**
+- [Иван Акимович Косарев](ivan-akimovich.md)[^1]
 
 [^1]: https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
 [^2]: https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000086/прасковья-плахина

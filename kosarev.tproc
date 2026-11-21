@@ -290,29 +290,30 @@ class MarkdownWriter(object):
             v = p.fields['birth_surname'][0]
             f.write(f'\n({v.value}{refs(v)})\n')
 
+        # A relation's title on a line of its own, then each person on a
+        # line of their own.
+        def relation(title, people):
+            f.write(f'\n**{title}:**\n')
+            for q, v in people:
+                f.write(f'- [{self.__name(q)}]({q.id}.md){refs(v)}\n')
+
         if 'father' in p.fields:
             v = p.fields['father'][0]
-            father = register.people[v.value]
-            f.write(f'\n**Отец:** [{self.__name(father)}]({father.id}.md)'
-                    f'{refs(v)}\n')
+            relation('Отец', [(register.people[v.value], v)])
 
         if partners := self.__partners(p, register):
             if len(partners) > 1:
                 title = 'Супруги'
             else:
                 title = 'Супруг' if self.__male(partners[0][0]) else 'Супруга'
-            f.write(f'\n**{title}:** ' +
-                    ', '.join(f'[{self.__name(q)}]({q.id}.md){refs(v)}'
-                              for q, v in partners) + '\n')
+            relation(title, partners)
 
         if children := self.__children(p, register):
             if len(children) > 1:
                 title = 'Дети'
             else:
                 title = 'Сын' if self.__male(children[0][0]) else 'Дочь'
-            f.write(f'\n**{title}:** ' +
-                    ', '.join(f'[{self.__name(c)}]({c.id}.md){refs(v)}'
-                              for c, v in children) + '\n')
+            relation(title, children)
 
         # Citations in the notes add more sources as they are written.
         f.write('\n')
