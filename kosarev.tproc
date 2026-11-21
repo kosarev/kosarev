@@ -755,6 +755,38 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 
 {source::myheritage-nina:{url::https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000036/нина-богданова}}
 
+{unreliable_source::geni-egor:{url::https://www.geni.com/people/Егор-Богданов/6000000058689841298}:
+Добавлено Евгением Терещенко {cite::tereshchenko}.}
+
+{unreliable_source::geni-efrosinya:{url::https://www.geni.com/people/Ефросинья-Богданова/6000000058692793834}:
+Добавлено Евгением Терещенко {cite::tereshchenko}.}
+
+{unreliable_source::geni-faina:{url::https://www.geni.com/people/Фаина-Половцева/6000000078875223856}:
+Добавлено Евгением Терещенко {cite::tereshchenko}.}
+
+{unreliable_source::nina-birth:{me}:
+Предположение по датам рождения сыновей и мужа.}
+
+{unreliable_source::efrosinya-birth:{me}:
+Предположение по дате рождения дочери.
+Дочь, Нина Егоровна Косарева, родилась в 1923–1934 годах
+{cite::nina-birth}. Если матери при её рождении было от 18 до 45 лет, она
+родилась в 1878–1916 годах.}
+
+{unreliable_source::egor-birth:{me}:
+Предположение по дате рождения дочери.
+Дочь, Нина Егоровна Косарева, родилась в 1923–1934 годах
+{cite::nina-birth}. Если отцу при её рождении было от 20 до 50 лет, он
+родился в 1873–1914 годах.}
+
+{unreliable_source::faina-birth:{me}:
+Предположение по дате рождения матери и дате смерти.
+Мать, Ефросинья Константиновна Богданова, родилась в 1878–1916 годах
+{cite::efrosinya-birth}. Если матери при её рождении было от 18 до 45 лет,
+она родилась в 1896–1961 годах.
+Умерла в 2007 году; если ей тогда было меньше 100 лет, она родилась не
+раньше 1907 года.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -797,6 +829,54 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 {patronym::Егоровна}
 {birth_surname::Богданова}
 {death_date::{date::1985}}
+{father::egor-bogdanov}
+{mother::efrosinya-bogdanova}
+}
+
+{record::myheritage-nina:nina-kosareva:
+{father::egor-bogdanov}
+{mother::efrosinya-bogdanova}
+}
+
+{record::geni-egor myheritage-nina:egor-bogdanov:
+{first_name::Егор}
+{surname::Богданов}
+}
+
+{record::geni-efrosinya myheritage-nina:efrosinya-bogdanova:
+{first_name::Ефросинья}
+{birth_surname::Молодцова}
+}
+
+{record::geni-efrosinya:efrosinya-bogdanova:
+{patronym::Константиновна}
+{surname::Богданова}
+}
+
+{record::nina-birth:nina-kosareva:
+{birth_date::{between::{date::1923}:{date::1934}}}
+}
+
+{record::egor-birth:egor-bogdanov:
+{birth_date::{between::{date::1873}:{date::1914}}}
+}
+
+{record::efrosinya-birth:efrosinya-bogdanova:
+{birth_date::{between::{date::1878}:{date::1916}}}
+}
+
+{record::faina-birth:faina-polovtseva:
+{birth_date::{between::{date::1907}:{date::1961}}}
+}
+
+{record::geni-faina:faina-polovtseva:
+{first_name::Фаина}
+{patronym::Егоровна}
+{surname::Половцева}
+{birth_surname::Богданова}
+{death_date::{date::2007}}
+{father::egor-bogdanov}
+{mother::efrosinya-bogdanova}
 }
 
 {record::viktor-birthplace:viktor-kosarev:
