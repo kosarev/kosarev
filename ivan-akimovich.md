@@ -1,6 +1,6 @@
-# Иван<sup>[1](#ivan-kosarev)</sup> Акимович<sup>[2](#viktor-kosarev-words)</sup> Косарев<sup>[1](#ivan-kosarev)</sup>
+# Иван<sup>[1](#ivan)</sup> Акимович<sup>[2](#viktor-kosarev-words)</sup> Косарев<sup>[1](#ivan)</sup>
 
-между 1873 и 1907<sup>? [3](#ivan-birth-estimate)</sup>
+**Родился:** между 1873 и 1907<sup>? [3](#ivan-birth-estimate)</sup>
 
 **Отец:**
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#viktor-kosarev-words)</sup>
@@ -10,7 +10,7 @@
 - [Ксения Косарева](kseniya-kosareva.md)<sup>[5](#myheritage-ivan)</sup>
 
 **Дети:**
-- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan-kosarev)</sup>
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan)</sup>
 - [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[5](#myheritage-ivan)</sup>
 
 **Брат и сестра:**
@@ -21,7 +21,7 @@
 
 ## Источники
 
-### ivan-kosarev
+### ivan
 
 [1] Иван
 

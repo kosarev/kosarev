@@ -1,6 +1,6 @@
 # Евдоким Косарев<sup>[1](#evdokim-patronym)</sup>
 
-между 1722 и 1754<sup>? [2](#evdokim-birth)</sup>
+**Родился:** между 1722 и 1754<sup>? [2](#evdokim-birth)</sup>
 
 **Сын:**
 - [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[1](#evdokim-patronym)</sup>

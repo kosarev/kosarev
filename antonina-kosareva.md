@@ -4,7 +4,7 @@
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#myheritage-ivan)</sup>
 
 **Брат:**
-- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#myheritage-ivan), [4](#ivan-kosarev)</sup>
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#myheritage-ivan), [4](#ivan)</sup>
 
 ## Источники
 
@@ -20,6 +20,6 @@
 
 [3] https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000104/антонина-косарева
 
-### ivan-kosarev
+### ivan
 
 [4] Иван

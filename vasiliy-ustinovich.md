@@ -1,6 +1,6 @@
 # Василий Устинович Косарев<sup>[1](#confession-1910)</sup>
 
-между 1854 и 1855<sup>[1](#confession-1910)</sup>
+**Родился:** между 1854 и 1855<sup>[1](#confession-1910)</sup>
 
 **Отец:**
 - [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup>

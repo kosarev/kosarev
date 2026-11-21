@@ -1,6 +1,6 @@
 # Алексей Евдокимович Косарев<sup>[1](#revision-1835)</sup>
 
-между 1772 и 1774<sup>[1](#revision-1835)</sup>
+**Родился:** между 1772 и 1774<sup>[1](#revision-1835)</sup>
 
 **Отец:**
 - [Евдоким Косарев](evdokim-kosarev.md)<sup>[2](#evdokim-patronym)</sup>

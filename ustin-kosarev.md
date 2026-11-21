@@ -1,6 +1,6 @@
 # Устин<sup>[1](#akim-patronym), [2](#revision-1835)</sup> Алексеевич<sup>? [2](#revision-1835), [3](#ustin-bobovo)</sup> Косарев<sup>[1](#akim-patronym), [2](#revision-1835)</sup>
 
-между 1807 и 1809<sup>[2](#revision-1835)</sup>
+**Родился:** между 1807 и 1809<sup>[2](#revision-1835)</sup>
 
 **Отец:**
 - [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[2](#revision-1835)</sup>

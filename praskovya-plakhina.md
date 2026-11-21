@@ -5,6 +5,9 @@
 **Супруг:**
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [4](#geni-ivan-wife)</sup>
 
+**Сын:**
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>? [1](#geni-viktor)</sup>
+
 ## Источники
 
 ### geni-viktor

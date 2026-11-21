@@ -6,7 +6,7 @@ The Kosarev family research.
 Иван
 
 @records
-{source::ivan-kosarev:{me}}
+{source::ivan:{me}}
 
 {source::viktor-kosarev-words:{me}:
 Со слов Виктора Ивановича Косарева.}
@@ -723,18 +723,97 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 {cite::revision-1835}. Если отцу при его рождении было от 20 до 50 лет, он
 родился в 1722–1754 годах.}
 
+{source::myheritage-viktor:{url::https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000037/виктор-косарев}}
+
+{source::viktor-birthplace:{me}:
+Наблюдение: рождение Виктора Ивановича Косарева было записано в церковных
+книгах {cite::vladimir-on-birth-year}, а его сестра Антонина родилась в
+1924 году в с. Малая Быковка {cite::myheritage-praskovya}
+{cite::myheritage-antonina} {cite::myheritage-ivan}, вероятно, в пределах
+нескольких лет от него {cite::viktor-birth-estimate}. Поэтому вероятно, что
+он родился там же, а запись о его рождении — в книгах прихода, к которому
+относилось село.}
+
+{source::viktor-records:{me}:
+Наблюдение: в 1920-х годах рождения и браки в сёлах регистрировались
+волостными органами ЗАГС, а Малая Быковка была центром своей волости
+{cite::rgia-volost}. Поэтому гражданские записи о рождении Виктора и
+Антонины, если они есть, — в актовых книгах Мало-Быковской волости, а
+церковные — в метрических книгах прихода села.}
+
+{source::vladimir-on-gostiny:{me}:
+Со слов сына Владимира.}
+
+{source::viktor-on-latvia:{me}:
+Со слов Виктора Ивановича Косарева.}
+
+{source::vladimir-on-latvia:{me}:
+Со слов сына Владимира.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
 
-{record::ivan-kosarev:viktor-kosarev:
+{record::ivan:viktor-kosarev:
 {first_name::Виктор}
 {patronym::Иванович}
 {surname::Косарев}
 {father::ivan-akimovich}
 }
 
-{record::ivan-kosarev:ivan-akimovich:
+{record::viktor-birth-estimate:viktor-kosarev:
+{birth_date::{between::{date::1923}:{date::1927}}}
+}
+
+{record::myheritage-viktor:viktor-kosarev:
+{death_date::{date::2000}}
+}
+
+{record::ivan:viktor-kosarev:
+{death_place::Cēsis, Латвия}
+}
+
+{record::geni-viktor:viktor-kosarev:
+{mother::praskovya-plakhina}
+}
+
+{record::viktor-birthplace:viktor-kosarev:
+{fact::Вероятно, родился в {link::malaya-bykovka:с. Малая Быковка} Балаковского района, где в 1924 году
+родилась его сестра Антонина; запись о рождении — вероятно, в церковных
+книгах прихода, к которому относилось село.}
+}
+
+{record::viktor-records:viktor-kosarev:
+{fact::Записи о его рождении следует искать среди документов {link::malaya-bykovka:села Малая Быковка}:
+церковную — в метрических книгах прихода, гражданскую 1920-х годов, если
+она есть, — в актовых книгах Мало-Быковской волости.}
+}
+
+{record::viktor-kosarev-on-war:viktor-kosarev:
+{fact::Когда началась война, был подростком.}
+}
+
+{record::vladimir-on-gostiny:viktor-kosarev:
+{fact::В Петербурге участвовал в строительных или ремонтных работах на крыше
+Гостиного двора.}
+}
+
+{record::viktor-on-latvia:viktor-kosarev:
+{fact::Приехал в Латвию в подростковом возрасте с другом.}
+}
+
+{record::vladimir-on-latvia:viktor-kosarev:
+{fact::В Латвию попал по ошибке: с другом ехал к тётке друга на Украину, так как в
+Петербурге было трудно с едой, но на Балтийском вокзале в Петербурге они
+перепутали поезда. Ехали в ящике для инструментов под вагоном.}
+}
+
+{record::vladimir-on-birth-year:viktor-kosarev:
+{fact::Изначально год рождения был указан неточно — на год позже. Перед выходом на
+пенсию его исправили.}
+}
+
+{record::ivan:ivan-akimovich:
 {first_name::Иван}
 {surname::Косарев}
 }
@@ -1475,6 +1554,14 @@ def birth_date(value):
     return FieldValue('birth_date', content(value))
 
 
+def death_date(value):
+    return FieldValue('death_date', content(value))
+
+
+def death_place(value):
+    return FieldValue('death_place', content(value))
+
+
 # A link to a subject's page, with the text to show for it.
 class Link(object):
     def __init__(self, id, text):
@@ -1502,6 +1589,11 @@ def fact(*text):
 # The id of the subject's father.
 def father(value):
     return FieldValue('father', content(value))
+
+
+# The id of the subject's mother.
+def mother(value):
+    return FieldValue('mother', content(value))
 
 
 # The id of one of the subject's partners; all may be true at once.
@@ -1601,11 +1693,12 @@ class MarkdownWriter(object):
             return (d.first.year + d.last.year) / 2
         return d.year
 
-    # The people whose father is the given person, each with the value
-    # that says so, by birth.
+    # The people whose father or mother is the given person, each with the
+    # value that says so, by birth.
     def __children(self, p, register):
         return sorted(((c, v) for c in register.subjects.values()
-                       for v in c.fields.get('father', []) if v.value == p.id),
+                       for f in ('father', 'mother')
+                       for v in c.fields.get(f, []) if v.value == p.id),
                       key=lambda t: self.__birth(t[0]))
 
     # The person's partners, recorded on either side, each with the value
@@ -1617,18 +1710,22 @@ class MarkdownWriter(object):
                      for v in q.fields.get('partner', []) if v.value == p.id]
         return partners
 
-    # The people with the same father as the given person, each with a
-    # value whose sources are those of both fathers' values.
+    # The people with the same father or mother as the given person, each
+    # with a value whose sources are those of all the parents' values that
+    # make them siblings.
     def __siblings(self, p, register):
-        siblings = []
-        for v in p.fields.get('father', []):
-            for c, w in self.__children(register.subjects[v.value], register):
-                if c is not p:
-                    both = Value(None)
-                    both.sources = v.sources + [s for s in w.sources
-                                                if s not in v.sources]
-                    siblings.append((c, both))
-        return sorted(siblings, key=lambda t: self.__birth(t[0]))
+        siblings = {}
+        for f in ('father', 'mother'):
+            for v in p.fields.get(f, []):
+                parent = register.subjects[v.value]
+                for c, w in self.__children(parent, register):
+                    if c is p:
+                        continue
+                    both = siblings.setdefault(c, Value(None))
+                    for s in v.sources + w.sources:
+                        if s not in both.sources:
+                            both.sources.append(s)
+        return sorted(siblings.items(), key=lambda t: self.__birth(t[0]))
 
     # Sources are listed at the end of the page, each under a heading of its
     # id, so it can be linked to: page.md#source-id. They are numbered on
@@ -1662,7 +1759,15 @@ class MarkdownWriter(object):
 
         if 'birth_date' in p.fields:
             v = p.fields['birth_date'][0]
-            f.write(f'\n{v.value}{refs(v)}\n')
+            f.write(f'\n**{"Родился" if self.__male(p) else "Родилась"}:** '
+                    f'{v.value}{refs(v)}\n')
+
+        if 'death_date' in p.fields or 'death_place' in p.fields:
+            death = [f'{v.value}{refs(v)}' for v in
+                     (p.fields[n][0] for n in ('death_date', 'death_place')
+                      if n in p.fields)]
+            f.write(f'\n**{"Умер" if self.__male(p) else "Умерла"}:** '
+                    f'{", ".join(death)}\n')
 
         # A relation's title on a line of its own, then each person on a
         # line of their own.
@@ -1671,9 +1776,12 @@ class MarkdownWriter(object):
             for q, v in people:
                 f.write(f'- [{self.__name(q)}]({q.id}.md){refs(v)}\n')
 
-        if 'father' in p.fields:
-            v = p.fields['father'][0]
-            relation('Отец', [(register.subjects[v.value], v)])
+        parents = [(register.subjects[p.fields[n][0].value], p.fields[n][0])
+                   for n in ('father', 'mother') if n in p.fields]
+        if parents:
+            title = ('Родители' if len(parents) > 1 else
+                     'Отец' if 'father' in p.fields else 'Мать')
+            relation(title, parents)
 
         if partners := self.__partners(p, register):
             if len(partners) > 1:

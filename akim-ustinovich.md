@@ -1,6 +1,6 @@
 # Аким Устинович Косарев<sup>[1](#viktor-kosarev-words)</sup>
 
-между 1846 и 1876<sup>? [2](#akim-birth)</sup>
+**Родился:** между 1846 и 1876<sup>? [2](#akim-birth)</sup>
 
 **Отец:**
 - [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[3](#akim-patronym)</sup>
