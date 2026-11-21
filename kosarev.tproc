@@ -1116,6 +1116,55 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 но Васса — обычное имя по святцам, так что совпадение само по себе мало что
 значит.}
 
+{unreliable_source::children-order-1910:{me}:
+Вывод по порядку записи: в исповедной ведомости 1910 года в дворах № 4, 11
+и 58 дети записаны после жён Григория, Федора, Ивана и Тимофея
+{cite::confession-1910}; жена Тимофея прямо названа «жена Тимофея»,
+остальные — без пометки. Значит, вероятно, это их матери; но ведомость
+этого прямо не говорит. Клавдия Васильевна записана без пометки «жена», а
+отчество у неё то же, что у Григория, так что она может быть и его сестрой.}
+
+{unreliable_source::grigoriy-son:{me}:
+Слабое совпадение: Григорий Васильевич, около 1879 г. р.
+{cite::confession-1910}, мог быть сыном Василия Устиновича: тот же отчество
+и село, а по возрасту он приходится между Семеном (около 1875) и Алексеем
+(около 1881). Жил отдельным двором, № 4, как жили бы женатые сыновья,
+отделившиеся от отца.}
+
+{unreliable_source::fedor-brothers:{me}:
+Слабое совпадение: Иван Иванович (двор № 58) и Тимофей Иванович — братья
+{cite::confession-1910}; Федор Иванович (двор № 11) — тоже Иванович, того
+же поколения: родился около 1875 года, между ними. Возможно, он их брат.}
+
+{unreliable_source::fedor-wounded:{me}:
+Слабое совпадение: «Федор Косарев» из прихода Бобова, женатый, рядовой,
+ранен 26 августа 1914 года (именной список № 885 убитым, раненым и без
+вести пропавшим нижним чинам, с. 14149, по MyHeritage) — вероятно, Федор
+Иванович, единственный Федор среди Косаревых Бобова в 1910 году, женатый,
+около 1875 г. р. {cite::confession-1910}. В 1914 году ему было бы около 39
+лет — возраст ополченца или запасного.}
+
+{unreliable_source::yard-58:{me}:
+Слабое совпадение: двор № 58, Ивана Ивановича, записан в исповедной
+ведомости 1910 года сразу после двора № 57, Константина Устиновича
+{cite::confession-1910}. Нумерация дворов, вероятно, следует их
+расположению, так что семьи, вероятно, жили рядом — возможно, как
+родственники.}
+
+{unreliable_source::ivan-witness-1901:{me}:
+Слабое совпадение: «БХ Иван Иванов Косарев» — свидетель по жениху на
+венчании Алексея Васильевича Косарева в 1901 году
+{cite::kuznetsov-registers}; свидетелями по жениху часто бывали
+родственники. Вероятно, это Иван Иванович из двора № 58, около 1863 г. р.
+{cite::confession-1910}: его сын Иван в 1901 году ещё не родился.}
+
+{unreliable_source::vasiliy-timofeevich-killed:{me}:
+Слабое совпадение: «КОСАРЕВ Василий Тимофеевич. Красноармеец. Погиб в бою
+05 янв. 1942. Похоронен г. Колпино» — в Книге памяти по Балаковскому району
+{cite::book-of-memory-nikolay}; в Бобове в 1910 году — Василий, 8 лет, сын
+Тимофея Ивановича Косарева {cite::confession-1910}. Год рождения в книге не
+указан.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -2157,6 +2206,334 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 {fact::Вероятно, сын Устина Алексеевича Косарева: Бобово основали однодворцы Малой
 Быковки, единственным Косаревым среди которых был Устин; по возрасту — брат
 Акима Устиновича.}
+}
+
+{record::confession-1910:grigoriy-vasilevich:
+{first_name::Григорий}
+{patronym::Васильевич}
+{surname::Косарев}
+{birth_date::{between::{date::1878}:{date::1879}}}
+}
+
+{record::children-order-1910:grigoriy-vasilevich:
+{partner::klavdiya-vasilevna}
+}
+
+{record::confession-1910:grigoriy-vasilevich:
+{fact::В 1910 году жил в Бобове, двор № 4 по исповедной ведомости.}
+}
+
+{record::grigoriy-son:grigoriy-vasilevich:
+{fact::Слабое совпадение: возможно, сын Василия Устиновича, отделившийся от отца:
+то же отчество, то же село, а по возрасту — между его сыновьями Семеном и
+Алексеем.}
+}
+
+{record::confession-1910:klavdiya-vasilevna:
+{first_name::Клавдия}
+{patronym::Васильевна}
+{surname::Косарева}
+{birth_date::{between::{date::1879}:{date::1880}}}
+}
+
+{record::children-order-1910:klavdiya-vasilevna:
+{fact::Записана в дворе № 4 сразу после Григория Васильевича, без пометки «жена»;
+вероятно, его жена, но отчество у неё то же, что у него, так что она может
+быть и его сестрой.}
+}
+
+{record::confession-1910:fevroniya-grigorevna:
+{first_name::Феврония}
+{patronym::Григорьевна}
+{surname::Косарева}
+{birth_date::{between::{date::1900}:{date::1901}}}
+{father::grigoriy-vasilevich}
+}
+
+{record::children-order-1910:fevroniya-grigorevna:
+{mother::klavdiya-vasilevna}
+}
+
+{record::confession-1910:petr-grigorevich:
+{first_name::Петр}
+{patronym::Григорьевич}
+{surname::Косарев}
+{birth_date::{date::1906}}
+{father::grigoriy-vasilevich}
+}
+
+{record::children-order-1910:petr-grigorevich:
+{mother::klavdiya-vasilevna}
+}
+
+{record::confession-1910:aleksandr-grigorevich:
+{first_name::Александр}
+{patronym::Григорьевич}
+{surname::Косарев}
+{birth_date::{date::1907}}
+{father::grigoriy-vasilevich}
+}
+
+{record::children-order-1910:aleksandr-grigorevich:
+{mother::klavdiya-vasilevna}
+}
+
+{record::confession-1910:mikhail-grigorevich:
+{first_name::Михаил}
+{patronym::Григорьевич}
+{surname::Косарев}
+{birth_date::{date::1908}}
+{father::grigoriy-vasilevich}
+}
+
+{record::children-order-1910:mikhail-grigorevich:
+{mother::klavdiya-vasilevna}
+}
+
+{record::confession-1910:fedor-ivanovich:
+{first_name::Федор}
+{patronym::Иванович}
+{surname::Косарев}
+{birth_date::{between::{date::1874}:{date::1875}}}
+{partner::agapiya-spiridonovna}
+}
+
+{record::confession-1910:fedor-ivanovich:
+{fact::В 1910 году жил в Бобове, двор № 11 по исповедной ведомости.}
+}
+
+{record::fedor-brothers:fedor-ivanovich:
+{fact::Слабое совпадение: возможно, брат Ивана и Тимофея Ивановичей (двор № 58):
+то же отчество, то же поколение.}
+}
+
+{record::fedor-wounded:fedor-ivanovich:
+{fact::Слабое совпадение: вероятно, это он — «Федор Косарев» из прихода Бобова,
+женатый рядовой, раненый 26 августа 1914 года.}
+}
+
+{record::confession-1910:agapiya-spiridonovna:
+{first_name::Агапия}
+{patronym::Спиридоновна}
+{surname::Косарева}
+{birth_date::{between::{date::1876}:{date::1877}}}
+}
+
+{record::confession-1910:agripina-fedorovna:
+{first_name::Агрипина}
+{patronym::Федоровна}
+{surname::Косарева}
+{birth_date::{between::{date::1900}:{date::1901}}}
+{father::fedor-ivanovich}
+}
+
+{record::children-order-1910:agripina-fedorovna:
+{mother::agapiya-spiridonovna}
+}
+
+{record::confession-1910:vasiliy-fedorovich:
+{first_name::Василий}
+{patronym::Федорович}
+{surname::Косарев}
+{birth_date::{date::1906}}
+{father::fedor-ivanovich}
+}
+
+{record::children-order-1910:vasiliy-fedorovich:
+{mother::agapiya-spiridonovna}
+}
+
+{record::confession-1910:klavdiya-fedorovna:
+{first_name::Клавдия}
+{patronym::Федоровна}
+{surname::Косарева}
+{birth_date::{date::1908}}
+{father::fedor-ivanovich}
+}
+
+{record::children-order-1910:klavdiya-fedorovna:
+{mother::agapiya-spiridonovna}
+}
+
+{record::confession-1910:ivan-ivanovich:
+{first_name::Иван}
+{patronym::Иванович}
+{surname::Косарев}
+{birth_date::{between::{date::1862}:{date::1863}}}
+{partner::agrippina-mikhaylovna}
+}
+
+{record::confession-1910:ivan-ivanovich:
+{fact::В 1910 году жил в Бобове, двор № 58 по исповедной ведомости, вместе с
+семьёй брата Тимофея.}
+}
+
+{record::confession-1910:ivan-ivanovich:
+{fact::Брат Тимофея Ивановича, жившего с семьёй в том же дворе.}
+}
+
+{record::yard-58:ivan-ivanovich:
+{fact::Слабое совпадение: его двор, № 58, — следующий за двором № 57 Константина
+Устиновича; вероятно, соседи, возможно, родственники.}
+}
+
+{record::ivan-witness-1901:ivan-ivanovich:
+{fact::Слабое совпадение: вероятно, это он — «Иван Иванов Косарев», свидетель по
+жениху на венчании Алексея Васильевича в 1901 году; свидетелями часто
+бывали родственники.}
+}
+
+{record::confession-1910:agrippina-mikhaylovna:
+{first_name::Агриппина}
+{patronym::Михайловна}
+{surname::Косарева}
+{birth_date::{between::{date::1874}:{date::1875}}}
+}
+
+{record::confession-1910:vassa-ivanovna:
+{first_name::Васса}
+{patronym::Ивановна}
+{surname::Косарева}
+{birth_date::{between::{date::1895}:{date::1896}}}
+{father::ivan-ivanovich}
+}
+
+{record::children-order-1910:vassa-ivanovna:
+{mother::agrippina-mikhaylovna}
+}
+
+{record::confession-1910:ekaterina-ivanovna:
+{first_name::Екатерина}
+{patronym::Ивановна}
+{surname::Косарева}
+{birth_date::{between::{date::1897}:{date::1898}}}
+{father::ivan-ivanovich}
+}
+
+{record::children-order-1910:ekaterina-ivanovna:
+{mother::agrippina-mikhaylovna}
+}
+
+{record::confession-1910:gavriil-ivanovich:
+{first_name::Гавриил}
+{patronym::Иванович}
+{surname::Косарев}
+{birth_date::{between::{date::1899}:{date::1900}}}
+{father::ivan-ivanovich}
+}
+
+{record::children-order-1910:gavriil-ivanovich:
+{mother::agrippina-mikhaylovna}
+}
+
+{record::confession-1910:ivan-ivanovich-1902:
+{first_name::Иван}
+{patronym::Иванович}
+{surname::Косарев}
+{birth_date::{between::{date::1902}:{date::1903}}}
+{father::ivan-ivanovich}
+}
+
+{record::children-order-1910:ivan-ivanovich-1902:
+{mother::agrippina-mikhaylovna}
+}
+
+{record::confession-1910:mikhail-ivanovich:
+{first_name::Михаил}
+{patronym::Иванович}
+{surname::Косарев}
+{birth_date::{date::1906}}
+{father::ivan-ivanovich}
+}
+
+{record::children-order-1910:mikhail-ivanovich:
+{mother::agrippina-mikhaylovna}
+}
+
+{record::confession-1910:mariya-ivanovna:
+{first_name::Мария}
+{patronym::Ивановна}
+{surname::Косарева}
+{birth_date::{date::1909}}
+{father::ivan-ivanovich}
+}
+
+{record::children-order-1910:mariya-ivanovna:
+{mother::agrippina-mikhaylovna}
+}
+
+{record::confession-1910:timofey-ivanovich:
+{first_name::Тимофей}
+{patronym::Иванович}
+{surname::Косарев}
+{birth_date::{between::{date::1878}:{date::1879}}}
+{partner::paraskeva-prokopevna}
+}
+
+{record::confession-1910:timofey-ivanovich:
+{fact::Брат Ивана Ивановича («Тимофей, брат Ивана»); в 1910 году жил с семьёй в
+его дворе, № 58.}
+}
+
+{record::confession-1910:paraskeva-prokopevna:
+{first_name::Параскева}
+{patronym::Прокопьевна}
+{surname::Косарева}
+{birth_date::{between::{date::1879}:{date::1880}}}
+}
+
+{record::confession-1910:vasiliy-timofeevich:
+{first_name::Василий}
+{patronym::Тимофеевич}
+{surname::Косарев}
+{birth_date::{between::{date::1901}:{date::1902}}}
+{father::timofey-ivanovich}
+}
+
+{record::children-order-1910:vasiliy-timofeevich:
+{mother::paraskeva-prokopevna}
+}
+
+{record::vasiliy-timofeevich-killed:vasiliy-timofeevich:
+{fact::Слабое совпадение: возможно, это он — Василий Тимофеевич Косарев из
+Балаковского района, красноармеец, погибший в бою 5 января 1942 года и
+похороненный в Колпино.}
+}
+
+{record::confession-1910:pelageya-timofeevna:
+{first_name::Пелагея}
+{patronym::Тимофеевна}
+{surname::Косарева}
+{birth_date::{between::{date::1903}:{date::1904}}}
+{father::timofey-ivanovich}
+}
+
+{record::children-order-1910:pelageya-timofeevna:
+{mother::paraskeva-prokopevna}
+}
+
+{record::confession-1910:aleksandr-timofeevich:
+{first_name::Александр}
+{patronym::Тимофеевич}
+{surname::Косарев}
+{birth_date::{between::{date::1905}:{date::1906}}}
+{father::timofey-ivanovich}
+}
+
+{record::children-order-1910:aleksandr-timofeevich:
+{mother::paraskeva-prokopevna}
+}
+
+{record::confession-1910:mariya-timofeevna:
+{first_name::Мария}
+{patronym::Тимофеевна}
+{surname::Косарева}
+{birth_date::{date::1909}}
+{father::timofey-ivanovich}
+}
+
+{record::children-order-1910:mariya-timofeevna:
+{mother::paraskeva-prokopevna}
 }
 
 {record::akim-birth:akim-ustinovich:
