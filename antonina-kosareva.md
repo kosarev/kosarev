@@ -1,12 +1,25 @@
-# Антонина[^myheritage-ivan][^myheritage-praskovya][^myheritage-antonina] Ивановна[^myheritage-ivan] Косарева[^myheritage-ivan][^myheritage-praskovya][^myheritage-antonina]
+# Антонина<sup>[1](#myheritage-ivan) [2](#myheritage-praskovya) [3](#myheritage-antonina)</sup> Ивановна<sup>[1](#myheritage-ivan)</sup> Косарева<sup>[1](#myheritage-ivan) [2](#myheritage-praskovya) [3](#myheritage-antonina)</sup>
 
 **Отец:**
-- [Иван Акимович Косарев](ivan-akimovich.md)[^myheritage-ivan]
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#myheritage-ivan)</sup>
 
 **Брат:**
-- [Виктор Иванович Косарев](viktor-kosarev.md)[^myheritage-ivan][^ivan-kosarev]
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#myheritage-ivan) [4](#ivan-kosarev)</sup>
 
-[^myheritage-ivan]: <a id="myheritage-ivan"></a>[#](#myheritage-ivan) https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
-[^myheritage-praskovya]: <a id="myheritage-praskovya"></a>[#](#myheritage-praskovya) https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000086/прасковья-плахина
-[^myheritage-antonina]: <a id="myheritage-antonina"></a>[#](#myheritage-antonina) https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000104/антонина-косарева
-[^ivan-kosarev]: <a id="ivan-kosarev"></a>[#](#ivan-kosarev) Иван
+## Источники
+
+### myheritage-ivan
+
+[1] https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
+
+### myheritage-praskovya
+
+[2] https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000086/прасковья-плахина
+
+### myheritage-antonina
+
+[3] https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000104/антонина-косарева
+
+### ivan-kosarev
+
+[4] Иван

@@ -1126,25 +1126,23 @@ class MarkdownWriter(object):
                     siblings.append((c, both))
         return siblings
 
-    # Sources are footnotes, labelled by their ids; GitHub numbers them in
-    # the order they are first cited. GitHub's own footnote anchors change
-    # from one rendering to the next, so each footnote has an anchor of its
-    # own, by the source's id, and a visible link to it, to copy:
-    # page.md#source-id.
+    # Sources are listed at the end of the page, each under a heading of its
+    # id, so it can be linked to: page.md#source-id. They are numbered on
+    # the page in the order they are first cited; marks link to them.
     def __write_page(self, f, p, register):
         sources = []
 
         def ref(id):
             if id not in sources:
                 sources.append(id)
-            return f'[^{id}]'
+            return f'[{sources.index(id) + 1}](#{id})'
 
         # A value is reliable only if all its sources are.
         def refs(value):
             reliable = all(register.sources[s].reliable
                            for s in value.sources)
-            return (('' if reliable else '<sup>?</sup>') +
-                    ''.join(ref(s) for s in value.sources))
+            return ('<sup>' + ('' if reliable else '? ') +
+                    ' '.join(ref(s) for s in value.sources) + '</sup>')
 
         # If all the parts of the name have the same sources, mark only the
         # last one.
@@ -1204,7 +1202,7 @@ class MarkdownWriter(object):
             f.write(f'\n{" ".join(fact.split())}{refs(v)}\n')
 
         # Citations in the notes add more sources as they are written.
-        f.write('\n')
+        f.write('\n## Источники\n')
         i = 0
         while i < len(sources):
             s = register.sources[sources[i]]
@@ -1212,8 +1210,8 @@ class MarkdownWriter(object):
                             for n in s.notes)
             notes = ' '.join(notes.split())
             text = ' — '.join(t for t in (notes, str(s.provider)) if t)
-            f.write(f'[^{s.id}]: <a id="{s.id}"></a>[#](#{s.id}) '
-                    f'{"" if s.reliable else "? "}{text}\n')
+            f.write(f'\n### {s.id}\n\n'
+                    f'[{i + 1}] {"" if s.reliable else "? "}{text}\n')
             i += 1
 
     def write(self, register):
