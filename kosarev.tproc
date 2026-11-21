@@ -3048,6 +3048,9 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 }
 
 @
+import os
+
+
 # A value and the sources that give it.
 class Value(object):
     def __init__(self, value):
@@ -3581,7 +3584,7 @@ class MarkdownWriter(object):
             return '' if reliable else '? '
 
         def link(q):
-            return f'[{self.__name(q)}]({q.id}.md)'
+            return f'[{self.__name(q)}](../{q.id}.md)'
 
         shown.add(p)
         line = (f'{"  " * depth}- {mark(v) if v else ""}{link(p)}'
@@ -3626,13 +3629,14 @@ class MarkdownWriter(object):
             set(people) - shown - mentioned)
         f.write('\n## Места\n\n')
         for p in places:
-            f.write(f'- [{self.__name(p)}]({p.id}.md)\n')
+            f.write(f'- [{self.__name(p)}](../{p.id}.md)\n')
 
     def write(self, register):
         for p in register.subjects.values():
             with open(f'{p.id}.md', 'w', encoding='utf-8') as f:
                 self.__write_page(f, p, register)
-        with open('index.md', 'w', encoding='utf-8') as f:
+        os.makedirs('index', exist_ok=True)
+        with open('index/README.md', 'w', encoding='utf-8') as f:
             self.__write_index(f, register)
 
 
