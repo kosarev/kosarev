@@ -4,7 +4,7 @@
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#ivan-kosarev)</sup>
 
 **Сестра:**
-- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[1](#ivan-kosarev) [2](#myheritage-ivan)</sup>
+- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[1](#ivan-kosarev), [2](#myheritage-ivan)</sup>
 
 ## Источники
 

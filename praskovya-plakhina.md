@@ -1,6 +1,6 @@
-# Прасковья<sup>? [1](#geni-viktor) [2](#myheritage-praskovya)</sup> Дмитриевна<sup>? [1](#geni-viktor)</sup> Косарева<sup>? [1](#geni-viktor)</sup>
+# Прасковья<sup>? [1](#geni-viktor), [2](#myheritage-praskovya)</sup> Дмитриевна<sup>? [1](#geni-viktor)</sup> Косарева<sup>? [1](#geni-viktor)</sup>
 
-(Плахина<sup>[2](#myheritage-praskovya) [3](#myheritage-match-viktor)</sup>)
+(Плахина<sup>[2](#myheritage-praskovya), [3](#myheritage-match-viktor)</sup>)
 
 **Супруг:**
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [4](#geni-ivan-wife)</sup>

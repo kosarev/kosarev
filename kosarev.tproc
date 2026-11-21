@@ -1142,7 +1142,7 @@ class MarkdownWriter(object):
             reliable = all(register.sources[s].reliable
                            for s in value.sources)
             return ('<sup>' + ('' if reliable else '? ') +
-                    ' '.join(ref(s) for s in value.sources) + '</sup>')
+                    ', '.join(ref(s) for s in value.sources) + '</sup>')
 
         # If all the parts of the name have the same sources, mark only the
         # last one.

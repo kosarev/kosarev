@@ -6,8 +6,8 @@
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#praskovya-sister)</sup>
 
 **Братья:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[2](#praskovya-sister) [3](#viktor-kosarev-words)</sup>
-- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#praskovya-sister) [4](#pavel-brother)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[2](#praskovya-sister), [3](#viktor-kosarev-words)</sup>
+- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#praskovya-sister), [4](#pavel-brother)</sup>
 
 ## Источники
 

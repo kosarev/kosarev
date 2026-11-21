@@ -1,11 +1,11 @@
-# Павел<sup>? [1](#pavel-wife-praskovya-version) [2](#pavel-wife-mariya-version) [3](#pamyat-naroda-pavel) [4](#pavel-missing-report)</sup> Акимович<sup>? [1](#pavel-wife-praskovya-version) [2](#pavel-wife-mariya-version) [3](#pamyat-naroda-pavel) [4](#pavel-missing-report)</sup> Косарев<sup>? [1](#pavel-wife-praskovya-version) [2](#pavel-wife-mariya-version)</sup>
+# Павел<sup>? [1](#pavel-wife-praskovya-version), [2](#pavel-wife-mariya-version), [3](#pamyat-naroda-pavel), [4](#pavel-missing-report)</sup> Акимович<sup>? [1](#pavel-wife-praskovya-version), [2](#pavel-wife-mariya-version), [3](#pamyat-naroda-pavel), [4](#pavel-missing-report)</sup> Косарев<sup>? [1](#pavel-wife-praskovya-version), [2](#pavel-wife-mariya-version)</sup>
 
 **Отец:**
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [5](#pavel-brother)</sup>
 
 **Брат и сестра:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [5](#pavel-brother) [6](#viktor-kosarev-words)</sup>
-- [Прасковья Акимовна Путина](praskovya-putina.md)<sup>? [5](#pavel-brother) [7](#praskovya-sister)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [5](#pavel-brother), [6](#viktor-kosarev-words)</sup>
+- [Прасковья Акимовна Путина](praskovya-putina.md)<sup>? [5](#pavel-brother), [7](#praskovya-sister)</sup>
 
 ## Источники
 

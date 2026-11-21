@@ -14,8 +14,8 @@
 - [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[5](#myheritage-ivan)</sup>
 
 **Брат и сестра:**
-- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#viktor-kosarev-words) [6](#pavel-brother)</sup>
-- [Прасковья Акимовна Путина](praskovya-putina.md)<sup>[2](#viktor-kosarev-words) [7](#praskovya-sister)</sup>
+- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#viktor-kosarev-words), [6](#pavel-brother)</sup>
+- [Прасковья Акимовна Путина](praskovya-putina.md)<sup>[2](#viktor-kosarev-words), [7](#praskovya-sister)</sup>
 
 Вероятно, был из [с. Малая Быковка](malaya-bykovka.md) Балаковского района: там в 1896 году родился его брат Павел, а в 1924 году — его дочь Антонина.<sup>[8](#malaya-bykovka-family)</sup>
 

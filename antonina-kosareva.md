@@ -1,10 +1,10 @@
-# Антонина<sup>[1](#myheritage-ivan) [2](#myheritage-praskovya) [3](#myheritage-antonina)</sup> Ивановна<sup>[1](#myheritage-ivan)</sup> Косарева<sup>[1](#myheritage-ivan) [2](#myheritage-praskovya) [3](#myheritage-antonina)</sup>
+# Антонина<sup>[1](#myheritage-ivan), [2](#myheritage-praskovya), [3](#myheritage-antonina)</sup> Ивановна<sup>[1](#myheritage-ivan)</sup> Косарева<sup>[1](#myheritage-ivan), [2](#myheritage-praskovya), [3](#myheritage-antonina)</sup>
 
 **Отец:**
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#myheritage-ivan)</sup>
 
 **Брат:**
-- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#myheritage-ivan) [4](#ivan-kosarev)</sup>
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#myheritage-ivan), [4](#ivan-kosarev)</sup>
 
 ## Источники
 
