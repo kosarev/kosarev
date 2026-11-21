@@ -5,10 +5,26 @@
 **Отец:**
 - [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup>
 
+**Супруга:**
+- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>[1](#confession-1910)</sup>
+
+**Дети:**
+- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>[1](#confession-1910)</sup>
+- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>[1](#confession-1910)</sup>
+- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>[1](#confession-1910)</sup>
+- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>[1](#confession-1910)</sup>
+- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>[1](#confession-1910)</sup>
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>[1](#confession-1910)</sup>
+- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>[1](#confession-1910)</sup>
+
 **Братья:**
 - [Петр Устинович Косарев](petr-ustinovich.md)<sup>? [2](#ustin-sons), [3](#revision-1835)</sup>
 - [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [2](#ustin-sons)</sup>
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [2](#ustin-sons), [4](#akim-patronym)</sup>
+
+В 1910 году жил в Бобове, двор № 37 по исповедной ведомости Николаевской церкви, с женой, сыновьями, невестками и внуками.<sup>[1](#confession-1910)</sup>
+
+Вероятно, сын Устина Алексеевича Косарева: Бобово основали однодворцы Малой Быковки, единственным Косаревым среди которых был Устин; по возрасту — брат Акима Устиновича.<sup>? [2](#ustin-sons)</sup>
 
 ## Источники
 
