@@ -901,6 +901,12 @@ MyHeritage: муж Прасковьи Акимовны Путиной — Мих
 Ефросинья родилась в 1878–1916 годах {cite::efrosinya-birth}. Если матери
 при её рождении было от 18 до 45 лет, она родилась в 1833–1898 годах.}
 
+{unreliable_source::konstantin-children-order:{me}:
+Вывод по порядку записи: в исповедной ведомости 1910 года дети Константина
+Устиновича записаны после его жены, Ефросиньи Кондратьевны, ровесницы мужа
+{cite::confession-1910}. Значит, вероятно, она их мать; но ведомость этого
+прямо не говорит.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -1287,6 +1293,72 @@ MyHeritage: муж Прасковьи Акимовны Путиной — Мих
 
 {record::ustin-sons:konstantin-ustinovich:
 {father::ustin-kosarev}
+}
+
+{record::confession-1910:konstantin-ustinovich:
+{partner::efrosinya-kondratevna}
+}
+
+{record::confession-1910:efrosinya-kondratevna:
+{first_name::Ефросинья}
+{patronym::Кондратьевна}
+{surname::Косарева}
+{birth_date::{between::{date::1859}:{date::1860}}}
+}
+
+{record::confession-1910:mikhail-konstantinovich:
+{first_name::Михаил}
+{patronym::Константинович}
+{surname::Косарев}
+{birth_date::{between::{date::1890}:{date::1891}}}
+{father::konstantin-ustinovich}
+}
+
+{record::konstantin-children-order:mikhail-konstantinovich:
+{mother::efrosinya-kondratevna}
+}
+
+{record::confession-1910:tatyana-konstantinovna:
+{first_name::Татьяна}
+{patronym::Константиновна}
+{surname::Косарева}
+{birth_date::{between::{date::1892}:{date::1893}}}
+{father::konstantin-ustinovich}
+}
+
+{record::konstantin-children-order:tatyana-konstantinovna:
+{mother::efrosinya-kondratevna}
+}
+
+{record::confession-1910:matrona-konstantinovna:
+{first_name::Матрона}
+{patronym::Константиновна}
+{surname::Косарева}
+{birth_date::{between::{date::1900}:{date::1901}}}
+{father::konstantin-ustinovich}
+}
+
+{record::konstantin-children-order:matrona-konstantinovna:
+{mother::efrosinya-kondratevna}
+}
+
+{record::confession-1910:natalya-romanovna:
+{first_name::Наталья}
+{patronym::Романовна}
+{surname::Косарева}
+{birth_date::{between::{date::1889}:{date::1890}}}
+{partner::mikhail-konstantinovich}
+}
+
+{record::confession-1910:konstantin-ustinovich:
+{fact::В 1910 году жил в Бобове, двор № 57 по исповедной ведомости Николаевской
+церкви, с женой, детьми и невесткой.}
+}
+
+{record::ustin-sons:konstantin-ustinovich:
+{fact::Вероятно, сын Устина Алексеевича Косарева: Бобово основали однодворцы Малой
+Быковки, единственным Косаревым среди которых был Устин; по возрасту — брат
+Акима Устиновича.}
 }
 
 {record::akim-birth:akim-ustinovich:

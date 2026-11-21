@@ -5,10 +5,22 @@
 **Отец:**
 - [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup>
 
+**Супруга:**
+- [Ефросинья Кондратьевна Косарева](efrosinya-kondratevna.md)<sup>[1](#confession-1910)</sup>
+
+**Дети:**
+- [Михаил Константинович Косарев](mikhail-konstantinovich.md)<sup>[1](#confession-1910)</sup>
+- [Татьяна Константиновна Косарева](tatyana-konstantinovna.md)<sup>[1](#confession-1910)</sup>
+- [Матрона Константиновна Косарева](matrona-konstantinovna.md)<sup>[1](#confession-1910)</sup>
+
 **Братья:**
 - [Петр Устинович Косарев](petr-ustinovich.md)<sup>? [2](#ustin-sons), [3](#revision-1835)</sup>
 - [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [2](#ustin-sons)</sup>
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [2](#ustin-sons), [4](#akim-patronym)</sup>
+
+В 1910 году жил в Бобове, двор № 57 по исповедной ведомости Николаевской церкви, с женой, детьми и невесткой.<sup>[1](#confession-1910)</sup>
+
+Вероятно, сын Устина Алексеевича Косарева: Бобово основали однодворцы Малой Быковки, единственным Косаревым среди которых был Устин; по возрасту — брат Акима Устиновича.<sup>? [2](#ustin-sons)</sup>
 
 ## Источники
 
