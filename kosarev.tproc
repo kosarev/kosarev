@@ -2,35 +2,133 @@
 
 The Kosarev family research.
 
+@records
+{record::Иван Александрович Косарев:viktor-kosarev:
+{first_name::Виктор}
+{patronym::Иванович}
+{surname::Косарев}
+}
+
 @
-people = {}
+# A value and the sources that give it.
+class Value(object):
+    def __init__(self, value):
+        self.value = value
+        self.sources = []
 
 
 class Person(object):
-    def __init__(self, id, first_name, patronymic_name, surname):
+    def __init__(self, id):
         self.id = id
-        self.first_name = first_name
-        self.patronymic_name = patronymic_name
-        self.surname = surname
+        # Each field is a list of alternative values. A value given by
+        # several sources is one value with several sources.
+        self.fields = {}
 
-    def name(self):
-        return ' '.join((self.first_name, self.patronymic_name, self.surname))
+    def add(self, field, value, source):
+        values = self.fields.setdefault(field, [])
+        for v in values:
+            if v.value == value:
+                break
+        else:
+            v = Value(value)
+            values.append(v)
+        if source not in v.sources:
+            v.sources.append(source)
 
 
-def person(id, **names):
-    assert id not in people, id
-    people[id] = Person(id, **names)
+def text(tokens):
+    return ''.join(t.content for t in tokens
+                   if isinstance(t.content, str)).strip()
+
+
+# A field's value, as given in a record.
+class FieldValue(object):
+    def __init__(self, field, value):
+        self.field = field
+        self.value = text(value)
+
+
+def first_name(value):
+    return FieldValue('first_name', value)
+
+
+def patronym(value):
+    return FieldValue('patronym', value)
+
+
+def surname(value):
+    return FieldValue('surname', value)
+
+
+# What a source says about a subject: the values of its fields.
+class Record(object):
+    def __init__(self, source, subject, values):
+        self.source = text(source)
+        self.subject = text(subject)
+        self.values = []
+        for t in values:
+            if isinstance(t.content, FieldValue):
+                self.values.append(t.content)
+            else:
+                assert not t.content.strip(), t.content
+
+
+record = Record
+
+
+# Absorbs records, assembling the people from them.
+class Register(object):
+    def __init__(self):
+        self.people = {}
+
+    def add(self, record):
+        p = self.people.setdefault(record.subject, Person(record.subject))
+        for v in record.values:
+            p.add(v.field, v.value, record.source)
+
+
+# Writes the register as Markdown: a page for each person.
+class MarkdownWriter(object):
+    # Sources are footnotes, numbered on the page in the order they are
+    # first cited.
+    def __write_page(self, f, p):
+        sources = []
+
+        def refs(value):
+            for s in value.sources:
+                if s not in sources:
+                    sources.append(s)
+            return ''.join(f'[^{sources.index(s) + 1}]'
+                           for s in value.sources)
+
+        # If all the parts of the name have the same sources, mark only the
+        # last one.
+        parts = [p.fields[f][0]
+                 for f in ('first_name', 'patronym', 'surname')]
+        same = len(set(tuple(v.sources) for v in parts)) == 1
+        f.write('# ' + ' '.join(v.value + (refs(v) if not same or
+                                           v is parts[-1] else '')
+                                for v in parts) + '\n')
+
+        f.write('\n')
+        for i, s in enumerate(sources):
+            f.write(f'[^{i + 1}]: {s}\n')
+
+    def write(self, register):
+        for p in register.people.values():
+            with open(f'{p.id}.md', 'w', encoding='utf-8') as f:
+                self.__write_page(f, p)
 
 
 # Writes a page for each person.
 def main():
-    for p in people.values():
-        with open(f'{p.id}.md', 'w', encoding='utf-8') as f:
-            f.write(f'# {p.name()}\n')
+    # Process records.
+    r = Register()
+    for t in tproc.expand_field('records'):
+        if isinstance(t, Record):
+            r.add(t)
+        else:
+            assert not t.strip(), t
 
-
-@
-person('viktor-kosarev',
-       first_name='Виктор',
-       patronymic_name='Иванович',
-       surname='Косарев')
+    # Write output files.
+    MarkdownWriter().write(r)
