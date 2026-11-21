@@ -9,4 +9,4 @@
 [^1]: https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
 [^2]: https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000086/прасковья-плахина
 [^3]: https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000104/антонина-косарева
-[^4]: Иван Александрович Косарев
+[^4]: Иван
