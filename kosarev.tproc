@@ -108,21 +108,20 @@ class Record(object):
 record = Record
 
 
-# Absorbs sources and records, assembling the people from them. Values
+# Keeps the sources, and the people assembled from field values. Values
 # refer to their sources by id, so a record may come before its source.
 class Register(object):
     def __init__(self):
         self.sources = {}
         self.people = {}
 
-    def add(self, item):
-        if isinstance(item, Source):
-            assert item.id not in self.sources, item.id
-            self.sources[item.id] = item
-            return
-        p = self.people.setdefault(item.subject, Person(item.subject))
-        for v in item.values:
-            p.add(v.field, v.value, item.source)
+    def add_source(self, source):
+        assert source.id not in self.sources, source.id
+        self.sources[source.id] = source
+
+    def add_field(self, subject, field, value, source):
+        p = self.people.setdefault(subject, Person(subject))
+        p.add(field, value, source)
 
 
 # Writes the register as Markdown: a page for each person.
@@ -176,8 +175,11 @@ def main():
     # Process records.
     r = Register()
     for t in tproc.expand_field('records'):
-        if isinstance(t, (Source, Record)):
-            r.add(t)
+        if isinstance(t, Source):
+            r.add_source(t)
+        elif isinstance(t, Record):
+            for v in t.values:
+                r.add_field(t.subject, v.field, v.value, t.source)
         else:
             assert not t.strip(), t
 
