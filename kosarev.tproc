@@ -750,6 +750,11 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 {source::vladimir-on-latvia:{me}:
 Со слов сына Владимира.}
 
+{unreliable_source::geni-nina:{url::https://www.geni.com/people/Нина-Косарева/6000000058692694826}:
+Добавлено Евгением Терещенко {cite::tereshchenko}.}
+
+{source::myheritage-nina:{url::https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000036/нина-богданова}}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -775,6 +780,23 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 
 {record::geni-viktor:viktor-kosarev:
 {mother::praskovya-plakhina}
+{partner::nina-kosareva}
+}
+
+{record::ivan:nina-kosareva:
+{first_name::Нина}
+{surname::Косарева}
+}
+
+{record::myheritage-nina:nina-kosareva:
+{first_name::Нина}
+{birth_surname::Богданова}
+}
+
+{record::geni-nina:nina-kosareva:
+{patronym::Егоровна}
+{birth_surname::Богданова}
+{death_date::{date::1985}}
 }
 
 {record::viktor-birthplace:viktor-kosarev:

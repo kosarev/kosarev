@@ -8,6 +8,9 @@
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#ivan)</sup>
 - [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [4](#geni-viktor)</sup>
 
+**Супруга:**
+- [Нина Егоровна Косарева](nina-kosareva.md)<sup>? [4](#geni-viktor)</sup>
+
 **Сестра:**
 - [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[1](#ivan), [5](#myheritage-ivan)</sup>
 
