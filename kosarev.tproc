@@ -787,6 +787,12 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 Умерла в 2007 году; если ей тогда было меньше 100 лет, она родилась не
 раньше 1907 года.}
 
+{unreliable_source::praskovya-birth:{me}:
+Предположение по дате рождения сына.
+Сын, Виктор Иванович Косарев, родился в 1923–1927 годах
+{cite::viktor-birth-estimate}. Если матери при его рождении было от 18 до
+45 лет, она родилась в 1878–1909 годах.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -1179,6 +1185,23 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 
 {record::myheritage-match-viktor:praskovya-plakhina:
 {birth_surname::Плахина}
+}
+
+{record::praskovya-birth:praskovya-plakhina:
+{birth_date::{between::{date::1878}:{date::1909}}}
+}
+
+{record::myheritage-match-viktor myheritage-praskovya:praskovya-plakhina:
+{death_date::{date::1936:11:6}}
+}
+
+{record::pavel-wife-praskovya-version:pavel-akimovich:
+{partner::praskovya-plakhina}
+}
+
+{record::malaya-bykovka-family:praskovya-plakhina:
+{fact::Вероятно, в 1924 году жила в {link::malaya-bykovka:с. Малая Быковка}
+Балаковского района: там родилась её дочь Антонина.}
 }
 
 {record::myheritage-ivan:ivan-akimovich:

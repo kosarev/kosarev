@@ -3,6 +3,9 @@
 **Отец:**
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [5](#pavel-brother)</sup>
 
+**Супруга:**
+- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [1](#pavel-wife-praskovya-version)</sup>
+
 **Брат и сестра:**
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [5](#pavel-brother), [6](#viktor-kosarev-words)</sup>
 - [Прасковья Акимовна Путина](praskovya-putina.md)<sup>? [5](#pavel-brother), [7](#praskovya-sister)</sup>
