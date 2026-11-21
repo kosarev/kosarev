@@ -718,6 +718,11 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 подтверждает, что семьи, вероятно, жили рядом; возможно, однодворцы
 селились в одной части села.}
 
+{unreliable_source::evdokim-birth:{me}:
+Предположение по году рождения сына: Алексей родился в 1772–1774 годах
+{cite::revision-1835}. Если отцу при его рождении было от 20 до 50 лет, он
+родился в 1722–1754 годах.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -790,6 +795,10 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 {record::evdokim-patronym:evdokim-kosarev:
 {first_name::Евдоким}
 {surname::Косарев}
+}
+
+{record::evdokim-birth:evdokim-kosarev:
+{birth_date::{between::{date::1722}:{date::1754}}}
 }
 
 {record::cdtnf-origin:aleksey-evdokimovich:
