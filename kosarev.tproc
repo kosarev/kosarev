@@ -1126,8 +1126,10 @@ class MarkdownWriter(object):
                     siblings.append((c, both))
         return siblings
 
-    # Sources are footnotes, labelled by their ids, so they can be linked
-    # to; GitHub numbers them in the order they are first cited.
+    # Sources are footnotes, labelled by their ids; GitHub numbers them in
+    # the order they are first cited. GitHub's own footnote anchors change
+    # from one rendering to the next, so each footnote has an anchor of its
+    # own, by the source's id: page.md#source-id.
     def __write_page(self, f, p, register):
         sources = []
 
@@ -1209,7 +1211,8 @@ class MarkdownWriter(object):
                             for n in s.notes)
             notes = ' '.join(notes.split())
             text = ' — '.join(t for t in (notes, str(s.provider)) if t)
-            f.write(f'[^{s.id}]: {"" if s.reliable else "? "}{text}\n')
+            f.write(f'[^{s.id}]: <a id="{s.id}"></a>'
+                    f'{"" if s.reliable else "? "}{text}\n')
             i += 1
 
     def write(self, register):

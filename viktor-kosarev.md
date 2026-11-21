@@ -6,5 +6,5 @@
 **Сестра:**
 - [Антонина Ивановна Косарева](antonina-kosareva.md)[^ivan-kosarev][^myheritage-ivan]
 
-[^ivan-kosarev]: Иван
-[^myheritage-ivan]: https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
+[^ivan-kosarev]: <a id="ivan-kosarev"></a>Иван
+[^myheritage-ivan]: <a id="myheritage-ivan"></a>https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
