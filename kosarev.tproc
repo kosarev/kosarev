@@ -8,6 +8,26 @@ The Kosarev family research.
 {source::viktor-kosarev-words:Иван Александрович Косарев:
 Со слов Виктора Ивановича Косарева.}
 
+{source::tereshchenko:Иван Александрович Косарев:
+Информация на geni.com добавлена Евгением Владимировичем Терещенко из Омска
+в 2017 году. На мой вопрос об источниках Евгений сообщил, что информация,
+вероятно, им была взята из MyHeritage.}
+
+{unreliable_source::geni-viktor:Иван Александрович Косарев:
+https\://www.geni.com/people/Виктор-Косарев/6000000058692404845
+Добавлено Евгением Терещенко {cite::tereshchenko}.}
+
+{unreliable_source::geni-ivan-wife::geni.com}
+
+{source::myheritage-praskovya::
+https\://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000086/прасковья-плахина}
+
+{source::myheritage-match-viktor::
+Совпадение на MyHeritage при сопоставлении Виктора Косарева.}
+
+{source::myheritage-ivan::
+https\://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев}
+
 {record::ivan-kosarev:viktor-kosarev:
 {first_name::Виктор}
 {patronym::Иванович}
@@ -29,6 +49,34 @@ The Kosarev family research.
 {first_name::Аким}
 {patronym::Устинович}
 {surname::Косарев}
+}
+
+{record::geni-ivan-wife:ivan-akimovich:
+{partner::praskovya-plakhina}
+}
+
+{record::geni-viktor:praskovya-plakhina:
+{first_name::Прасковья}
+{patronym::Дмитриевна}
+{surname::Косарева}
+}
+
+{record::myheritage-praskovya:praskovya-plakhina:
+{first_name::Прасковья}
+{birth_surname::Плахина}
+}
+
+{record::myheritage-match-viktor:praskovya-plakhina:
+{birth_surname::Плахина}
+}
+
+{record::myheritage-ivan:ivan-akimovich:
+{partner::kseniya-kosareva}
+}
+
+{record::myheritage-ivan:kseniya-kosareva:
+{first_name::Ксения}
+{surname::Косарева}
 }
 
 @
@@ -98,21 +146,52 @@ def surname(value):
     return FieldValue('surname', value)
 
 
+def birth_surname(value):
+    return FieldValue('birth_surname', value)
+
+
 # The id of the subject's father.
 def father(value):
     return FieldValue('father', value)
 
 
-# A piece of evidence: who provided it, and notes on what it is.
+# The id of one of the subject's partners; all may be true at once.
+def partner(value):
+    return FieldValue('partner', value)
+
+
+# A citation of a source, by id, in the notes of another source.
+class Cite(object):
+    def __init__(self, id):
+        self.id = text(id)
+
+
+cite = Cite
+
+
+# A piece of evidence: who provided it, whether it is reliable, and notes
+# on what it is -- text and citations of other sources.
 class Source(object):
-    def __init__(self, id, provider, notes=()):
-        self.id = id
+    def __init__(self, id, provider, notes, reliable):
+        self.id = text(id)
         self.provider = text(provider)
-        self.notes = text(notes)
+        self.reliable = reliable
+        self.notes = []
+        for t in notes:
+            if isinstance(t.content, Cite):
+                self.notes.append(t.content)
+            elif self.notes and isinstance(self.notes[-1], str):
+                self.notes[-1] += t.content
+            else:
+                self.notes.append(t.content)
 
 
 def source(id, provider, notes=()):
-    return Source(text(id), provider, notes)
+    return Source(id, provider, notes, reliable=True)
+
+
+def unreliable_source(id, provider, notes=()):
+    return Source(id, provider, notes, reliable=False)
 
 
 # What a source says about a subject: the values of its fields.
@@ -153,17 +232,31 @@ class MarkdownWriter(object):
         return [(c, v) for c in register.people.values()
                 for v in c.fields.get('father', []) if v.value == p.id]
 
+    # The person's partners, recorded on either side, each with the value
+    # that says so.
+    def __partners(self, p, register):
+        partners = [(register.people[v.value], v)
+                    for v in p.fields.get('partner', [])]
+        partners += [(q, v) for q in register.people.values()
+                     for v in q.fields.get('partner', []) if v.value == p.id]
+        return partners
+
     # Sources are footnotes, numbered on the page in the order they are
     # first cited.
     def __write_page(self, f, p, register):
         sources = []
 
+        def ref(id):
+            if id not in sources:
+                sources.append(id)
+            return f'[^{sources.index(id) + 1}]'
+
+        # A value is reliable only if all its sources are.
         def refs(value):
-            for s in value.sources:
-                if s not in sources:
-                    sources.append(s)
-            return ''.join(f'[^{sources.index(s) + 1}]'
+            reliable = all(register.sources[s].reliable
                            for s in value.sources)
+            return (('' if reliable else '<sup>?</sup>') +
+                    ''.join(ref(s) for s in value.sources))
 
         # If all the parts of the name have the same sources, mark only the
         # last one.
@@ -173,11 +266,24 @@ class MarkdownWriter(object):
                                            v is parts[-1] else '')
                                 for v in parts) + '\n')
 
+        if 'birth_surname' in p.fields:
+            v = p.fields['birth_surname'][0]
+            f.write(f'\n({v.value}{refs(v)})\n')
+
         if 'father' in p.fields:
             v = p.fields['father'][0]
             father = register.people[v.value]
             f.write(f'\n**Отец:** [{self.__name(father)}]({father.id}.md)'
                     f'{refs(v)}\n')
+
+        if partners := self.__partners(p, register):
+            if len(partners) > 1:
+                title = 'Супруги'
+            else:
+                title = 'Супруг' if self.__male(partners[0][0]) else 'Супруга'
+            f.write(f'\n**{title}:** ' +
+                    ', '.join(f'[{self.__name(q)}]({q.id}.md){refs(v)}'
+                              for q, v in partners) + '\n')
 
         if children := self.__children(p, register):
             if len(children) > 1:
@@ -188,11 +294,17 @@ class MarkdownWriter(object):
                     ', '.join(f'[{self.__name(c)}]({c.id}.md){refs(v)}'
                               for c, v in children) + '\n')
 
+        # Citations in the notes add more sources as they are written.
         f.write('\n')
-        for i, id in enumerate(sources):
-            s = register.sources[id]
-            note = f'{s.notes} — ' if s.notes else ''
-            f.write(f'[^{i + 1}]: {note}{s.provider}\n')
+        i = 0
+        while i < len(sources):
+            s = register.sources[sources[i]]
+            notes = ''.join(ref(n.id) if isinstance(n, Cite) else n
+                            for n in s.notes)
+            notes = ' '.join(notes.split())
+            text = ' — '.join(t for t in (notes, s.provider) if t)
+            f.write(f'[^{i + 1}]: {"" if s.reliable else "? "}{text}\n')
+            i += 1
 
     def write(self, register):
         for p in register.people.values():
