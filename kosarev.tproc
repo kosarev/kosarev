@@ -486,7 +486,8 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 Ревизская сказка 1835 года (8-я ревизия), «1835 года Апреля 15 дня,
 Саратовской губернии Вольского уезда село Малая Быковка», л. 377 об. – 378,
 кадр 402; семья № 132. Шифр, по сообщению Cdtnf: ф. 153, оп. 1, д. 60 (архив
-не назван).
+не назван). Запись каталога FamilySearch, по её же ссылке:
+{url::https://www.familysearch.org/en/search/catalog/1328882?availability=Family%20History%20Library}.
 Расшифровка (лета по последней ревизии — ныне): «Алексей Евдокимов Косарев»
 — 42, 62; «Алексеев сын Устин» — 7, 27; «Устинов сын Петр» — новорожденный,
 5. «Алексея Евдокимова жена Катерина» — 55; «его же дочь Устинья» — 18;
@@ -3596,7 +3597,7 @@ class MarkdownWriter(object):
             s = register.sources[sources[i]]
             notes = ''.join(ref(n.id) if isinstance(n, Cite) else
                             f'[{n.path}]({n.path})'
-                            if isinstance(n, Material) else n
+                            if isinstance(n, Material) else str(n)
                             for n in s.notes)
             notes = ' '.join(notes.split())
             provider = ''.join(str(x) for x in s.provider).strip()
