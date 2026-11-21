@@ -1101,6 +1101,21 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 {cite::book-of-memory-nikolay}. Земляков часто призывали и отправляли
 вместе, так что они могли быть из одного села, возможно, родственниками.}
 
+{source::revision-1835-davyd:{me}:
+Ревизская сказка 1835 года, тот же лист, что и для семьи № 132
+{cite::revision-1835}; семья № 133.
+Расшифровка (лета по последней ревизии — ныне): «Давыд Евдокимов К…аревъ»
+(фамилия читается неуверенно) — 18, 38. «Давыда Евдокимова жена Лукерья» —
+20; «его же дочери Прасковья» — 18, «Степанида» — 17, «Васса» — 8.}
+
+{unreliable_source::vassa-name:{me}:
+Слабое совпадение: младшую дочь Давыда Евдокимовича в 1835 году звали Васса
+{cite::revision-1835}; Васса, 14 лет, — и среди Косаревых Бобова в 1910
+году, дочь Ивана Иванова Косарева {cite::confession-1910}. Имя не частое, а
+в крестьянских семьях имена нередко повторялись из поколения в поколение;
+но Васса — обычное имя по святцам, так что совпадение само по себе мало что
+значит.}
+
 {source::praskovya-sister:{me}:
 Вывод: как сестра Ивана Акимовича Косарева {cite::tereshchenko-answer},
 Прасковья Акимовна — дочь Акима Устиновича Косарева, урождённая Косарева.}
@@ -1312,6 +1327,66 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 {record::kuznetsov-registers:nikolay-stefanovich:
 {fact::Крещён 19 ноября 1918 года в Бобове. Восприемники — Николай Михайлович
 Косарев из {link::malaya-bykovka:Малой Быковки} и девица Александра Федоровна Никитина.}
+}
+
+{record::revision-1835-davyd:davyd-evdokimovich:
+{first_name::Давыд}
+{patronym::Евдокимович}
+{birth_date::{between::{date::1796}:{date::1798}}}
+{partner::lukerya}
+}
+
+{record::revision-1835-davyd:davyd-evdokimovich:
+{fact::Жил в {link::malaya-bykovka:Малой Быковке}. В ревизской сказке 1835 года — семья № 133, сразу
+после семьи Косаревых, № 132. Фамилия читается неуверенно, но похожа на
+«Косарев»: начинается на «К» и кончается на «-аревъ».}
+}
+
+{record::davyd-neighbour:davyd-evdokimovich:
+{fact::Жена, вероятно, вторая: она всего на 2 года старше старшей дочери и на 18
+лет моложе мужа.}
+}
+
+{record::bobovo-article:davyd-evdokimovich:
+{fact::Однодворец: среди однодворцев — совладельцев земли около 1833 года записан
+непосредственно перед Устином Алексеевым Косаревым.}
+}
+
+{record::davyd-neighbour:davyd-evdokimovich:
+{fact::Вероятно, сосед Косаревых; возможно, их родственник, например младший брат
+Алексея Евдокимовича: оба — сыновья Евдокима.}
+}
+
+{record::vassa-name:davyd-evdokimovich:
+{fact::Слабое совпадение: имя его младшей дочери, Васса, есть и среди Косаревых
+Бобова в 1910 году — Васса Ивановна, 14 лет. Имена в семьях часто
+повторялись, но Васса — обычное имя по святцам.}
+}
+
+{record::revision-1835-davyd:lukerya:
+{first_name::Лукерья}
+{birth_date::{between::{date::1814}:{date::1815}}}
+}
+
+{record::revision-1835-davyd:praskovya-davydovna:
+{first_name::Прасковья}
+{patronym::Давыдовна}
+{birth_date::{between::{date::1816}:{date::1817}}}
+{father::davyd-evdokimovich}
+}
+
+{record::revision-1835-davyd:stepanida-davydovna:
+{first_name::Степанида}
+{patronym::Давыдовна}
+{birth_date::{between::{date::1817}:{date::1818}}}
+{father::davyd-evdokimovich}
+}
+
+{record::revision-1835-davyd:vassa-davydovna:
+{first_name::Васса}
+{patronym::Давыдовна}
+{birth_date::{between::{date::1826}:{date::1827}}}
+{father::davyd-evdokimovich}
 }
 
 {record::ivan:ida-prodanova:
@@ -2890,8 +2965,13 @@ class MarkdownWriter(object):
         return ' '.join(p.fields[f][0].value for f in self.NAME_FIELDS
                         if f in p.fields)
 
+    # First names to tell the sex by when there is neither a patronym nor
+    # a surname.
+    MALES = ()
+    FEMALES = ('Лукерья',)
+
     # Tells whether a person is male by the patronym, or else by the
-    # surname.
+    # surname, or else by the first name.
     def __male(self, p):
         if 'patronym' in p.fields:
             patronym = p.fields['patronym'][0].value
@@ -2899,6 +2979,10 @@ class MarkdownWriter(object):
                 return True
             assert patronym.endswith('на'), patronym
             return False
+        if 'surname' not in p.fields:
+            first_name = p.fields['first_name'][0].value
+            assert first_name in self.MALES + self.FEMALES, first_name
+            return first_name in self.MALES
         surname = p.fields['surname'][0].value
         if surname.endswith(('ов', 'ев', 'ин')):
             return True
