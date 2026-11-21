@@ -28,6 +28,9 @@ https\://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000086/пр
 {source::myheritage-ivan::
 https\://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев}
 
+{source::myheritage-antonina::
+https\://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000104/антонина-косарева}
+
 {record::ivan-kosarev:viktor-kosarev:
 {first_name::Виктор}
 {patronym::Иванович}
@@ -76,6 +79,23 @@ https\://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/ив
 
 {record::myheritage-ivan:kseniya-kosareva:
 {first_name::Ксения}
+{surname::Косарева}
+}
+
+{record::myheritage-ivan:antonina-kosareva:
+{first_name::Антонина}
+{patronym::Ивановна}
+{surname::Косарева}
+{father::ivan-akimovich}
+}
+
+{record::myheritage-praskovya:antonina-kosareva:
+{first_name::Антонина}
+{surname::Косарева}
+}
+
+{record::myheritage-antonina:antonina-kosareva:
+{first_name::Антонина}
 {surname::Косарева}
 }
 
