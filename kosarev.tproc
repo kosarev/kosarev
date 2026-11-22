@@ -3343,6 +3343,11 @@ class Person(Subject):
         return list(siblings.items())
 
 
+# A person known only by name: mentioned, with no record of their own.
+class PersonId(Person):
+    pass
+
+
 # The subjects assembled from field values, each value with the sources
 # that give it.
 class Register(object):
@@ -3622,6 +3627,14 @@ class MarkdownWriter(object):
         return ' '.join(p.fields[f][0].value for f in self.NAME_FIELDS
                         if f in p.fields)
 
+    # A person as mentioned on a page: a link to their page, or just the
+    # name for one known only by name; from the index, pages are one level
+    # up.
+    def person(self, q, up=''):
+        if isinstance(q, PersonId):
+            return self.__name(q)
+        return f'[{self.__name(q)}]({up}{q.id}.md)'
+
     # First names to tell the sex by when there is neither a patronym nor
     # a surname.
     MALES = ()
@@ -3749,7 +3762,7 @@ class MarkdownWriter(object):
         def relation(title, people):
             f.write(f'\n**{title}:**\n')
             for q, v in people:
-                f.write(f'- [{self.__name(q)}]({q.id}.md){refs(v)}\n')
+                f.write(f'- {self.person(q)}{refs(v)}\n')
 
         # Only people have relations.
         if isinstance(p, Person):
@@ -3833,7 +3846,7 @@ class MarkdownWriter(object):
             return '' if reliable else '? '
 
         def link(q):
-            return f'[{self.__name(q)}](../{q.id}.md)'
+            return self.person(q, '../')
 
         shown.add(p)
         line = (f'{"  " * depth}- {mark(v) if v else ""}{link(p)}'
@@ -3845,7 +3858,8 @@ class MarkdownWriter(object):
                 title = 'супруг' if self.__male(partners[0][0]) else 'супруга'
             line += f' — {title}: ' + ', '.join(mark(w) + link(q)
                                                 for q, w in partners)
-            mentioned.update(q for q, w in partners)
+            mentioned.update(q for q, w in partners
+                             if not isinstance(q, PersonId))
         f.write(line + '\n')
         for c, w in self.__by_birth(p.children):
             if c not in shown:
@@ -3858,11 +3872,11 @@ class MarkdownWriter(object):
     # places.
     def __write_index(self, f, register):
         people = [p for p in register.subjects.values()
-                  if isinstance(p, Person)]
+                  if isinstance(p, Person) and not isinstance(p, PersonId)]
         places = [p for p in register.subjects.values()
                   if isinstance(p, Place)]
         roots = [p for p in people
-                 if 'father' not in p.fields and 'mother' not in p.fields]
+                 if all(isinstance(q, PersonId) for q, v in p.parents)]
         roots.sort(key=lambda p: (-len(self.__descendants(p, register)),
                                   not self.__male(p), self.__birth(p)))
         f.write('# Косаревы\n\n'
@@ -3882,6 +3896,8 @@ class MarkdownWriter(object):
 
     def write(self, register):
         for p in register.subjects.values():
+            if isinstance(p, PersonId):
+                continue
             with open(f'{p.id}.md', 'w', encoding='utf-8') as f:
                 self.__write_page(f, p, register)
         os.makedirs('index', exist_ok=True)
