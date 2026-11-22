@@ -5,7 +5,7 @@
 **Отец:**
 - [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[2](#revision-1835)</sup>
 
-**Супруга:**
+**Жена:**
 - [Евдокия Косарева](evdokiya-kosareva.md)<sup>[2](#revision-1835)</sup>
 
 **Дети:**

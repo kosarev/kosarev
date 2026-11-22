@@ -5,7 +5,7 @@
 **Отец:**
 - [Михаил Косарев](mikhail-kosarev.md)<sup>[2](#mariya-mikhaylovna-father)</sup>
 
-**Супруг:**
+**Муж:**
 - [Стефан Федорович Кондрашов](stefan-kondrashov.md)<sup>[1](#kuznetsov-registers)</sup>
 
 **Сын:**

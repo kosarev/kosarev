@@ -5,7 +5,7 @@
 **Отец:**
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#viktor-kosarev-words)</sup>
 
-**Супруги:**
+**Жёны:**
 - [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [4](#geni-ivan-wife)</sup>
 - [Ксения Косарева](kseniya-kosareva.md)<sup>[5](#myheritage-ivan)</sup>
 

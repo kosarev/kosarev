@@ -5,7 +5,7 @@
 **Отец:**
 - [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup>
 
-**Супруга:**
+**Жена:**
 - [Ефросинья Кондратьевна Косарева](efrosinya-kondratevna.md)<sup>[1](#confession-1910)</sup>
 
 **Дети:**

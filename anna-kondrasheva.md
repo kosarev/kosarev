@@ -4,7 +4,7 @@
 
 **Родилась:** между 1879 и 1880<sup>[1](#confession-1910)</sup> или между 1883 и 1884<sup>[2](#kuznetsov-registers)</sup>
 
-**Супруг:**
+**Муж:**
 - [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>[1](#confession-1910), [2](#kuznetsov-registers)</sup>
 
 **Дети:**

@@ -2,7 +2,7 @@
 
 **Родилась:** между 1814 и 1815<sup>[1](#revision-1835-davyd)</sup>
 
-**Супруг:**
+**Муж:**
 - [Давыд Евдокимович](davyd-evdokimovich.md)<sup>[1](#revision-1835-davyd)</sup>
 
 ## Источники

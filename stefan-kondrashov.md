@@ -2,7 +2,7 @@
 
 **Родился:** 1896<sup>[1](#kuznetsov-registers)</sup>
 
-**Супруги:**
+**Жёны:**
 - [Матрона Стефановна Кондрашова](matrona-kondrashova.md)<sup>[1](#kuznetsov-registers)</sup>
 - [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>[1](#kuznetsov-registers)</sup>
 

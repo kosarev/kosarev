@@ -3702,6 +3702,15 @@ class MarkdownWriter(object):
         assert first_name in self.MALES + self.FEMALES, first_name
         return first_name in self.MALES
 
+    # The title of a person's partners: «Муж» and «Жена» say nothing of
+    # whether the marriage was registered.
+    def __partners_title(self, partners):
+        males = sum(1 for q, v in partners if self.__male(q))
+        if len(partners) == 1:
+            return 'Муж' if males else 'Жена'
+        return ('Мужья' if males == len(partners) else
+                'Жёны' if not males else 'Супруги')
+
     # A value as text; places and facts may have links in them.
     def __shown(self, value):
         if isinstance(value, tuple):
@@ -3821,12 +3830,7 @@ class MarkdownWriter(object):
                 relation(title, parents)
 
             if partners := p.partners:
-                if len(partners) > 1:
-                    title = 'Супруги'
-                else:
-                    title = ('Супруг' if self.__male(partners[0][0])
-                             else 'Супруга')
-                relation(title, partners)
+                relation(self.__partners_title(partners), partners)
 
             if children := self.__by_birth(p.children):
                 if len(children) > 1:
@@ -3909,10 +3913,7 @@ class MarkdownWriter(object):
         line = (f'{"  " * depth}- {mark(v) if v else ""}{link(p)}'
                 f'{self.__years(p)}')
         if partners := p.partners:
-            if len(partners) > 1:
-                title = 'супруги'
-            else:
-                title = 'супруг' if self.__male(partners[0][0]) else 'супруга'
+            title = self.__partners_title(partners).lower()
             line += f' — {title}: ' + ', '.join(mark(w) + link(q)
                                                 for q, w in partners)
             mentioned.update(q for q, w in partners
@@ -3938,8 +3939,8 @@ class MarkdownWriter(object):
                                   not self.__male(p), self.__birth(p)))
         f.write('# Косаревы\n\n'
                 'Деревья — по самым ранним известным предкам; дети — под '
-                'родителями, по году рождения. «?» — связь с родителем или '
-                'супругом предположительна.\n')
+                'родителями, по году рождения. «?» — связь с родителем, мужем '
+                'или женой предположительна.\n')
         shown, mentioned = set(), set()
         for p in roots:
             if p in shown:

@@ -6,7 +6,7 @@
 - [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>[1](#confession-1910)</sup>
 - [Ефросинья Кондратьевна Косарева](efrosinya-kondratevna.md)<sup>? [2](#konstantin-children-order)</sup>
 
-**Супруга:**
+**Жена:**
 - [Наталья Романовна Косарева](natalya-romanovna.md)<sup>[1](#confession-1910)</sup>
 
 **Сестры:**

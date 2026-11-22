@@ -5,7 +5,7 @@
 **Отец:**
 - [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup>
 
-**Супруга:**
+**Жена:**
 - [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>[1](#confession-1910)</sup>
 
 **Дети:**

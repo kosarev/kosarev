@@ -6,7 +6,7 @@
 
 **Умерла:** 6 ноября 1936<sup>[3](#myheritage-match-viktor), [2](#myheritage-praskovya)</sup>
 
-**Супруги:**
+**Мужья:**
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [5](#geni-ivan-wife)</sup>
 - [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [6](#pavel-wife-praskovya-version)</sup>
 

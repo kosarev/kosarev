@@ -5,7 +5,7 @@
 **Отец:**
 - [Евдоким Косарев](evdokim-kosarev.md)<sup>[2](#evdokim-patronym)</sup>
 
-**Супруга:**
+**Жена:**
 - [Катерина Косарева](katerina-kosareva.md)<sup>[1](#revision-1835)</sup>
 
 **Дети:**

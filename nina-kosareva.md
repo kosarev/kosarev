@@ -10,7 +10,7 @@
 - [Егор Богданов](egor-bogdanov.md)<sup>? [3](#geni-nina), [2](#myheritage-nina)</sup>
 - [Ефросинья Константиновна Богданова](efrosinya-bogdanova.md)<sup>? [3](#geni-nina), [2](#myheritage-nina)</sup>
 
-**Супруг:**
+**Муж:**
 - [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan)</sup>
 
 **Сестра:**

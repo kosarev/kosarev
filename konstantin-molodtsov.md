@@ -2,7 +2,7 @@
 
 **Родился:** между 1828 и 1896<sup>? [2](#konstantin-molodtsov-birth)</sup>
 
-**Супруга:**
+**Жена:**
 - [Ольга Молодцова](olga-molodtsova.md)<sup>? [1](#geni-konstantin-molodtsov)</sup>
 
 **Дочь:**

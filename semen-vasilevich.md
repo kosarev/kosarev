@@ -6,7 +6,7 @@
 - [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup>
 - [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [2](#vasiliy-children-order)</sup>
 
-**Супруга:**
+**Жена:**
 - [Анна Григорьевна Косарева](anna-grigorevna.md)<sup>[1](#confession-1910)</sup>
 
 **Дети:**

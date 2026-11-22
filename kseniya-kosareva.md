@@ -1,6 +1,6 @@
 # Ксения Косарева<sup>[1](#myheritage-ivan)</sup>
 
-**Супруг:**
+**Муж:**
 - [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#myheritage-ivan)</sup>
 
 ## Источники

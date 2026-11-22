@@ -2,7 +2,7 @@
 
 **Родилась:** 1897<sup>[1](#kuznetsov-registers)</sup>
 
-**Супруг:**
+**Муж:**
 - [Стефан Федорович Кондрашов](stefan-kondrashov.md)<sup>[1](#kuznetsov-registers)</sup>
 
 ## Источники

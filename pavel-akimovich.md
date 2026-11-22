@@ -7,7 +7,7 @@
 **Отец:**
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [9](#pavel-brother)</sup>
 
-**Супруги:**
+**Жёны:**
 - [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [1](#pavel-wife-praskovya-version)</sup>
 - [Мария Петровна Косарева](mariya-petrovna.md)<sup>? [2](#pavel-wife-mariya-version), [4](#pavel-missing-report)</sup>
 
