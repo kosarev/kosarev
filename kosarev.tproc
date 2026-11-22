@@ -3353,8 +3353,14 @@ class PersonId(Person):
 class Register(object):
     def __init__(self):
         self.subjects = {}
+        # The source each id has stood for, to catch two different sources
+        # under one id.
+        self.__source_ids = {}
 
     def add_field(self, subject, field, value, source):
+        if source is not None:
+            known = self.__source_ids.setdefault(source.id, source)
+            assert known is source, f'two sources with the id {source.id}'
         # A subject is a place if it starts with a place name, and a person
         # otherwise.
         if subject not in self.subjects:
@@ -3912,6 +3918,8 @@ def read(name):
     sources, records = {}, []
     for t in tproc.expand_field(name):
         if isinstance(t, Source):
+            # Ids with '--' are left for citations made from other ids.
+            assert '--' not in t.id, t.id
             assert t.id not in sources, t.id
             sources[t.id] = t
         elif isinstance(t, Record):
