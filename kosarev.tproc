@@ -3899,9 +3899,10 @@ class MarkdownWriter(object):
                 self.__write_tree(f, p, None, 0, register, shown, mentioned)
         assert shown | mentioned == set(people), (
             set(people) - shown - mentioned)
-        f.write('\n## Места\n\n')
-        for p in places:
-            f.write(f'- [{self.__name(p)}](../{p.id}.md)\n')
+        if places:
+            f.write('\n## Места\n\n')
+            for p in places:
+                f.write(f'- [{self.__name(p)}](../{p.id}.md)\n')
 
     def write(self, register):
         for p in register.subjects.values():
