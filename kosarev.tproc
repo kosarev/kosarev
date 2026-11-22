@@ -747,6 +747,19 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 Александра, вероятно, умерла в младенчестве; Акулина в 26 лет могла и
 выйти замуж.}
 
+{unreliable_source::ustinya-gundorova:{me}:
+Вывод: в ревизских сказках 1850 и 1858 годов в семье Гундоровых —
+«Никифора Акимова жена Устинья Алексеева», 33 и 40 лет (в 1850 году — семья
+№ 130 {cite::revision-1850-list}, в 1858-м — № 127, сразу после двора
+Косаревых {cite::revision-1858-ustinya}). Дочь Алексея Евдокимова
+Косарева, Устинья, в 1835 году — 18 лет, то есть 1816–1817 года рождения
+{cite::revision-1835}, а в 1850 году в семье отца её уже нет
+{cite::revision-1850}; Устинье Алексеевне Гундоровой в 1850 году — 33, то
+есть тот же 1816–1817 год. Имя не частое, отчество и возраст совпадают;
+вероятно, это она, вышедшая за Никифора Акимовича Гундорова (их сыновья
+родились с 1843–1844 года). Документа, где она названа урождённой
+Косаревой, нет.}
+
 {unreliable_source::second-marriage:{me}:
 Наблюдение: если Василий (около 1854–1855 г. р.) и Константин (около
 1859–1860 г. р.) — сыновья Устина {cite::ustin-sons}, то их мать, вероятно,
@@ -2232,8 +2245,57 @@ XIX века не видна. Одна из версий происхожден�
 {father::aleksey-evdokimovich}
 }
 
-{record::married-out-1850:ustinya-alekseevna:
-{fact::В 1850 году в семье отца её уже нет — вероятно, вышла замуж.}
+{record::ustinya-gundorova:ustinya-alekseevna:
+{surname::Гундорова}
+{partner::nikifor-gundorov}
+{fact::В 1850 году в семье отца её уже нет: вероятно, это она — «Никифора
+Акимова жена Устинья Алексеева», 33 лет, в семье Гундоровых (№ 130); в
+1858 году — 40 лет, в соседнем с братом Устином дворе (№ 127).}
+}
+
+{record::revision-1850-list:nikifor-gundorov:
+{first_name::Никифор}
+{patronym::Акимович}
+{surname::Гундоров}
+{birth_date::{between::{date::1816}:{date::1817}}}
+{fact::В ревизских сказках 1850 и 1858 годов — в семье отца, Акима Матвеева
+Гундорова (№ 130, затем № 127), с женой Устиньей Алексеевой и сыновьями.}
+}
+
+{record::revision-1850-list:dorofey-nikiforovich:
+{first_name::Дорофей}
+{patronym::Никифорович}
+{surname::Гундоров}
+{birth_date::{between::{date::1843}:{date::1844}}}
+{father::nikifor-gundorov}
+}
+
+{record::revision-1850-list:stepan-nikiforovich:
+{first_name::Степан}
+{patronym::Никифорович}
+{surname::Гундоров}
+{birth_date::{between::{date::1845}:{date::1846}}}
+{father::nikifor-gundorov}
+}
+
+{record::revision-1858-ustinya:sidor-nikiforovich:
+{first_name::Сидор}
+{patronym::Никифорович}
+{surname::Гундоров}
+{birth_date::{between::{date::1857}:{date::1858}}}
+{father::nikifor-gundorov}
+}
+
+{record::ustinya-gundorova:dorofey-nikiforovich:
+{mother::ustinya-alekseevna}
+}
+
+{record::ustinya-gundorova:stepan-nikiforovich:
+{mother::ustinya-alekseevna}
+}
+
+{record::ustinya-gundorova:sidor-nikiforovich:
+{mother::ustinya-alekseevna}
 }
 
 {record::revision-1835:ustin-kosarev:
