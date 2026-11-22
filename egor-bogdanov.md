@@ -6,6 +6,8 @@
 - [Нина Егоровна Косарева](nina-kosareva.md)<sup>? [4](#geni-nina), [2](#myheritage-nina)</sup>
 - [Фаина Егоровна Половцева](faina-polovtseva.md)<sup>? [5](#geni-faina)</sup>
 
+Отец [Нины Егоровны Косаревой](nina-kosareva.md), жены [Виктора Ивановича Косарева](viktor-kosarev.md).<sup>? [4](#geni-nina), [2](#myheritage-nina)</sup>
+
 ## Источники
 
 ### geni-egor

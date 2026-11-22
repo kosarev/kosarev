@@ -8,6 +8,8 @@
 **Дочь:**
 - [Ефросинья Константиновна Богданова](efrosinya-bogdanova.md)<sup>? [3](#geni-efrosinya)</sup>
 
+Вероятно, дед по матери [Нины Егоровны Косаревой](nina-kosareva.md), жены [Виктора Ивановича Косарева](viktor-kosarev.md): отец её матери, Ефросиньи Константиновны.<sup>? [3](#geni-efrosinya)</sup>
+
 ## Источники
 
 ### geni-konstantin-molodtsov
