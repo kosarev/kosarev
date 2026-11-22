@@ -28,7 +28,7 @@
 
 ### geni-nina
 
-[3] ? Добавлено Евгением Терещенко [6](#tereshchenko). — https://www.geni.com/people/Нина-Косарева/6000000058692694826
+[3] ? Добавлено Евгением Терещенко<sup>[6](#tereshchenko)</sup>. — https://www.geni.com/people/Нина-Косарева/6000000058692694826
 
 ### nina-birth
 
@@ -36,7 +36,7 @@
 
 ### geni-faina
 
-[5] ? Добавлено Евгением Терещенко [6](#tereshchenko). — https://www.geni.com/people/Фаина-Половцева/6000000078875223856
+[5] ? Добавлено Евгением Терещенко<sup>[6](#tereshchenko)</sup>. — https://www.geni.com/people/Фаина-Половцева/6000000078875223856
 
 ### tereshchenko
 

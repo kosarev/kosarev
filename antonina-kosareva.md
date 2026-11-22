@@ -31,7 +31,7 @@
 
 ### geni-viktor
 
-[5] ? Добавлено Евгением Терещенко [6](#tereshchenko). — https://www.geni.com/people/Виктор-Косарев/6000000058692404845
+[5] ? Добавлено Евгением Терещенко<sup>[6](#tereshchenko)</sup>. — https://www.geni.com/people/Виктор-Косарев/6000000058692404845
 
 ### tereshchenko
 

@@ -4561,11 +4561,14 @@ class MarkdownWriter(object):
         i = 0
         while i < len(sources):
             s = sources[i]
-            notes = ''.join(ref(n) if isinstance(n, Source) else
+            # A citation in the notes is marked like a value: superscript,
+            # with «?» when the cited source is unreliable, after the word.
+            notes = ''.join('<sup>' + ('' if n.reliable else '? ') + ref(n) +
+                            '</sup>' if isinstance(n, Source) else
                             f'[{n.text}]({n.path})'
                             if isinstance(n, Material) else str(n)
                             for n in s.notes)
-            notes = ' '.join(notes.split())
+            notes = ' '.join(notes.split()).replace(' <sup>', '<sup>')
             provider = ''.join(str(x) for x in s.provider).strip()
             text = ' — '.join(t for t in (notes, provider) if t)
             f.write(f'\n### {s.id}\n\n'
