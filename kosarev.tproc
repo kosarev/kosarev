@@ -3099,7 +3099,8 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 {record::revision-1835-list:malaya-bykovka:
 {fact::В ревизской сказке 1835 года (8-я ревизия) жители записаны «казёнными
 крестьянами» «сельца Малой Быковки»: 178 семей, на лицо 161 мужчина и 142
-женщины. Сказка прочитана на мирском сходе.}
+женщины. Сказка прочитана на мирском сходе. Расшифровка всего списка
+(черновик): {material::revision-1835/transcription.md}.}
 }
 
 {record::odnodvortsy-1835:malaya-bykovka:
@@ -3414,10 +3415,12 @@ cite = Cite
 
 
 # A copy of a document, kept in the repository under materials/: a
-# directory with the copy and a README.md describing it.
+# directory with the copy and a README.md describing it, or a file in it.
+# Shown as the given text, or else as its path.
 class Material(object):
-    def __init__(self, path):
+    def __init__(self, path, *shown):
         self.path = 'materials/' + text(path)
+        self.text = text(rest(*shown)) if shown else self.path
 
 
 material = Material
@@ -3509,7 +3512,9 @@ class MarkdownWriter(object):
     def __shown(self, value):
         if isinstance(value, tuple):
             return ' '.join(''.join(f'[{x.text}]({x.id}.md)'
-                                    if isinstance(x, Link) else x
+                                    if isinstance(x, Link) else
+                                    f'[{x.text}]({x.path})'
+                                    if isinstance(x, Material) else x
                                     for x in value).split())
         return str(value)
 
@@ -3683,7 +3688,7 @@ class MarkdownWriter(object):
         while i < len(sources):
             s = register.sources[sources[i]]
             notes = ''.join(ref(n.id) if isinstance(n, Cite) else
-                            f'[{n.path}]({n.path})'
+                            f'[{n.text}]({n.path})'
                             if isinstance(n, Material) else str(n)
                             for n in s.notes)
             notes = ' '.join(notes.split())
