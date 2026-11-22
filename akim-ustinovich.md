@@ -16,6 +16,7 @@
 - [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850)</sup>
 - [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850)</sup>
 - [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850), [4](#second-wife-children)</sup>
+- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [4](#second-wife-children)</sup>
 - [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [3](#akim-patronym), [2](#revision-1858), [9](#ustin-sons)</sup>
 - [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [3](#akim-patronym), [2](#revision-1858), [9](#ustin-sons)</sup>
 - [Акулина Устиновна Косарева](akulina-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850)</sup>

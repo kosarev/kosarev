@@ -7,6 +7,7 @@
 
 **Дети:**
 - [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[1](#revision-1850)</sup>
+- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[2](#second-wife-children)</sup>
 - [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#second-wife-children)</sup>
 
 ## Источники

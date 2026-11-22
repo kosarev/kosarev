@@ -2253,6 +2253,41 @@ XIX века не видна. Одна из версий происхожден�
 дочерью от второй жены Александрой, 4 месяцев.}
 }
 
+{record::revision-1858:ustin-kosarev:
+{fact::В 1858 году ему 49 лет; после смерти отца (1850) — глава двора, семья
+№ 126: с женой Авдотьей Федоровой, 32 лет, сыновьями Петром, 27 (с женой
+Марьей Кузьминой, 27, и дочерью Дарьей, полугода), Иваном, 13, Василием, 7,
+и Акимом, 1, и дочерьми Авдотьей, 15, и Афимьей(?), 3.}
+}
+
+{record::revision-1858:afimya-ustinovna:
+{first_name::Афимья}
+{patronym::Устиновна}
+{surname::Косарева}
+{birth_date::{between::{date::1854}:{date::1855}}}
+{father::ustin-kosarev}
+{fact::Имя читается неуверенно: «Афимья(?)».}
+}
+
+{record::second-wife-children:afimya-ustinovna:
+{mother::avdotya-fedorovna}
+}
+
+{record::revision-1858:darya-petrovna:
+{first_name::Дарья}
+{patronym::Петровна}
+{surname::Косарева}
+{birth_date::{between::{date::1857}:{date::1858}}}
+{father::petr-ustinovich}
+{mother::marya-kuzminichna}
+{fact::В апреле 1858 года — полугода.}
+}
+
+{record::absent-1858:aleksandra-ustinovna:
+{death_date::{between::{date::1850}:{date::1858}}}
+{fact::В ревизской сказке 1858 года её уже нет; вероятно, умерла в младенчестве.}
+}
+
 {record::revision-1850:avdotya-fedorovna:
 {first_name::Авдотья}
 {patronym::Федоровна}
