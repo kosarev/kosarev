@@ -1776,6 +1776,26 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 {birth_date::{between::{date::1779}:{date::1780}}}
 }
 
+{record::revision-1850:katerina-kosareva:
+{first_name::Екатерина}
+{patronym::Петровна}
+{surname::Косарева}
+{birth_date::{between::{date::1779}:{date::1780}}}
+}
+
+{record::revision-1850:aleksey-evdokimovich:
+{first_name::Алексей}
+{patronym::Евдокимович}
+{surname::Косарев}
+{partner::katerina-kosareva}
+}
+
+{record::revision-1850:aleksey-evdokimovich:
+{fact::В 1850 году жив: в ревизской сказке 9-й ревизии (14 сентября 1850
+года) ему 76 лет (по ней — 1773–1774 года рождения); живёт одним двором,
+семья № 141, с женой Екатериной Петровной, 70 лет, и семьёй сына Устина.}
+}
+
 {record::evdokim-patronym:aleksey-evdokimovich:
 {father::evdokim-kosarev}
 }
