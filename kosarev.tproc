@@ -3634,8 +3634,12 @@ XIX века не видна. Одна из версий происхожден�
 
 {record::bobovo-article:bobovo:
 {place_name::Бобово}
-{fact::Названия: хутор Тягуновский, хутор Бобовый, хутор Бобовый враг, деревня
-Бобова, Бобовое, Бобовка.}
+{place_name::хутор Тягуновский}
+{place_name::хутор Бобовый}
+{place_name::хутор Бобовый враг}
+{place_name::деревня Бобова}
+{place_name::Бобовое}
+{place_name::Бобовка}
 {fact::Основано жителями {link::malaya-bykovka:Малой Быковки}, государственными крестьянами.}
 }
 
@@ -3648,6 +3652,10 @@ XIX века не видна. Одна из версий происхожден�
 {fact::Земля — «первая часть участка Бахметьевского» в Новоузенском уезде
 Самарской губернии, 1551 десятина: обмежевана при генеральном межевании в
 1832 году, межа утверждена в 1854 году, план составлен в 1874 году.}
+}
+
+{record::kuznetsov-registers:bobovo:
+{place_name::Бобов хутор}
 }
 
 {record::kuznetsov-registers:bobovo:
@@ -3686,10 +3694,28 @@ XIX века не видна. Одна из версий происхожден�
 сводки: деревня существовала уже в 1806 году.}
 }
 
-{record::cgaso-catalogue volost-post bobovo-article:malaya-bykovka:
-{fact::Названия и написания: Малая Быковка, «Малая-Быковка», «Быковка Малая»,
-«Малая Быковка (Тягуновка тож)»; Тягуновка, Тагуновка, Тигуновка,
-Тегуновка.}
+{record::cgaso-catalogue:malaya-bykovka:
+{place_name::Малая-Быковка}
+}
+
+{record::list-1897-post:malaya-bykovka:
+{place_name::Быковка Малая}
+}
+
+{record::encyclopedia-summary bobovo-article catalogues-search:malaya-bykovka:
+{place_name::Тягуновка}
+}
+
+{record::volost-post:malaya-bykovka:
+{place_name::Тагуновка}
+}
+
+{record::bobovo-article revision-1850:malaya-bykovka:
+{place_name::Тигуновка}
+}
+
+{record::revision-1858:malaya-bykovka:
+{place_name::Тегуновка}
 }
 
 {record::cgaso-catalogue registers-1827-1832-post cgaso-catalogue-2:malaya-bykovka:
@@ -4522,7 +4548,16 @@ class MarkdownWriter(object):
                              for v in alternatives)
                 for alternatives in fields)
 
-        f.write(f'# {shown(self.NAME_FIELDS, " ")}\n')
+        # A place is headed by its main name; the others follow.
+        if isinstance(p, Place):
+            names = sorted(p.fields['place_name'], key=lambda v: not reliable(v))
+            f.write(f'# {self.__shown(names[0].value)}{refs(names[0])}\n')
+            if others := names[1:]:
+                f.write('\n**Другие названия:** ' +
+                        ', '.join(self.__shown(v.value) + refs(v)
+                                  for v in others) + '\n')
+        else:
+            f.write(f'# {shown(self.NAME_FIELDS, " ")}\n')
 
         if 'birth_surname' in p.fields:
             f.write(f'\n({shown(("birth_surname",), "")})\n')
@@ -4677,6 +4712,18 @@ class MarkdownWriter(object):
                 'Деревья — по самым ранним известным предкам; дети — под '
                 'родителями, по году рождения. «?» — связь с родителем, мужем '
                 'или женой предположительна.\n')
+        if surnames := self.__surnames(people):
+            f.write('\nФамилии: ' + ', '.join(f'{n} ({c})'
+                                              for n, c in surnames) + '.\n')
+        if places:
+            def place(p):
+                names = [v.value for v in p.fields['place_name']]
+                others = f' ({", ".join(names[1:])})' if names[1:] else ''
+                return f'[{names[0]}](../{p.id}.md){others}'
+            # Places with more said about them first.
+            places = sorted(places, key=lambda p: -len(p.fields.get('facts', [])))
+            f.write('\nМеста: ' + '; '.join(place(p) for p in places) +
+                    '.\n')
         shown, mentioned = set(), set()
         for p in roots:
             if p in shown:
@@ -4687,10 +4734,21 @@ class MarkdownWriter(object):
                 self.__write_tree(f, p, None, 0, register, shown, mentioned)
         assert shown | mentioned == set(people), (
             set(people) - shown - mentioned)
-        if places:
-            f.write('\n## Места\n\n')
-            for p in places:
-                f.write(f'- [{self.__name(p)}](../{p.id}.md)\n')
+
+    # The surnames of the people, with the number of people who bore each,
+    # most common first; feminine forms count with the masculine ones, and
+    # a woman under both her birth and her married surname.
+    def __surnames(self, people):
+        def base(name):
+            return name[:-1] if name.endswith(('ова', 'ева', 'ина')) else name
+
+        counts = {}
+        for p in people:
+            names = {base(v.value) for f in ('surname', 'birth_surname')
+                     for v in p.fields.get(f, [])}
+            for n in names:
+                counts[n] = counts.get(n, 0) + 1
+        return sorted(counts.items(), key=lambda c: (-c[1], c[0]))
 
     def write(self, register):
         for p in register.subjects.values():
