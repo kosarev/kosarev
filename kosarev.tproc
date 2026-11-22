@@ -3264,6 +3264,8 @@ class Subject(object):
         # several sources is one value with several sources.
         self.fields = {}
 
+    # A value given by no source, such as a cross-reference, has the source
+    # None.
     def add(self, field, value, source):
         values = self.fields.setdefault(field, [])
         for v in values:
@@ -3272,7 +3274,7 @@ class Subject(object):
         else:
             v = Value(value)
             values.append(v)
-        if source not in v.sources:
+        if source is not None and source not in v.sources:
             v.sources.append(source)
 
 
@@ -3671,6 +3673,8 @@ class MarkdownWriter(object):
             return all(s.reliable for s in value.sources)
 
         def refs(value):
+            if not value.sources:
+                return ''
             return ('<sup>' + ('' if reliable(value) else '? ') +
                     ', '.join(ref(s) for s in value.sources) + '</sup>')
 
