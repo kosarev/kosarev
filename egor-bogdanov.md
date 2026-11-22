@@ -3,8 +3,8 @@
 **Родился:** между 1873 и 1914<sup>? [3](#egor-birth)</sup>
 
 **Дети:**
-- [Нина Егоровна Косарева](nina-kosareva.md)<sup>? [4](#geni-nina), [2](#myheritage-nina)</sup>
-- [Фаина Егоровна Половцева](faina-polovtseva.md)<sup>? [5](#geni-faina)</sup>
+- [Нина Егоровна Косарева](nina-kosareva.md)<sup>? [4](#geni-nina), [2](#myheritage-nina)</sup> (р. 1923–1934, ум. 1985)
+- [Фаина Егоровна Половцева](faina-polovtseva.md)<sup>? [5](#geni-faina)</sup> (р. 1907–1961, ум. 2007)
 
 Отец [Нины Егоровны Косаревой](nina-kosareva.md), жены [Виктора Ивановича Косарева](viktor-kosarev.md).<sup>? [4](#geni-nina), [2](#myheritage-nina)</sup>
 

@@ -5,10 +5,10 @@
 **Умер:** 1858<sup>[2](#revision-1858-list)</sup>
 
 **Жена:**
-- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>? [3](#varvara-1858)</sup>
+- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>? [3](#varvara-1858)</sup> (р. 1839–1840)
 
 **Сын:**
-- [Василий Лукьянович](vasiliy-lukyanovich.md)<sup>[2](#revision-1858-list)</sup>
+- [Василий Лукьянович](vasiliy-lukyanovich.md)<sup>[2](#revision-1858-list)</sup> (р. 1856–1857)
 
 Умер в 1858 году, до ревизии 29 апреля. В 1858 году фамилия его брата читается «Кованев(?)», в 1850 году — «Ковалев».<sup>[2](#revision-1858-list)</sup>
 

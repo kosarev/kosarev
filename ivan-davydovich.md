@@ -3,16 +3,16 @@
 **Родился:** между 1845 и 1846<sup>[1](#revision-1850-davyd)</sup>
 
 **Родители:**
-- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[1](#revision-1850-davyd)</sup>
-- [Лукерья](lukerya.md)<sup>? [2](#davyd-wives)</sup>
+- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[1](#revision-1850-davyd)</sup> (р. 1796–1798, ум. 1856)
+- [Лукерья](lukerya.md)<sup>? [2](#davyd-wives)</sup> (р. 1814–1815, ум. 1847–1850)
 
 **Братья и сестры:**
-- [Прасковья Давыдовна](praskovya-davydovna.md)<sup>[1](#revision-1850-davyd), [3](#revision-1835-davyd)</sup>
-- [Степанида Давыдовна](stepanida-davydovna.md)<sup>[1](#revision-1850-davyd), [3](#revision-1835-davyd)</sup>
-- [Васса Давыдовна](vassa-davydovna.md)<sup>[1](#revision-1850-davyd), [3](#revision-1835-davyd)</sup>
-- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>? [1](#revision-1850-davyd), [2](#davyd-wives)</sup>
-- [Ефрем Давыдович Косарев](efrem-davydovich.md)<sup>? [1](#revision-1850-davyd), [2](#davyd-wives)</sup>
-- [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>? [1](#revision-1850-davyd), [2](#davyd-wives)</sup>
+- [Прасковья Давыдовна](praskovya-davydovna.md)<sup>[1](#revision-1850-davyd), [3](#revision-1835-davyd)</sup> (р. 1816–1817)
+- [Степанида Давыдовна](stepanida-davydovna.md)<sup>[1](#revision-1850-davyd), [3](#revision-1835-davyd)</sup> (р. 1817–1818)
+- [Васса Давыдовна](vassa-davydovna.md)<sup>[1](#revision-1850-davyd), [3](#revision-1835-davyd)</sup> (р. 1826–1827)
+- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>? [1](#revision-1850-davyd), [2](#davyd-wives)</sup> (р. 1839–1840)
+- [Ефрем Давыдович Косарев](efrem-davydovich.md)<sup>? [1](#revision-1850-davyd), [2](#davyd-wives)</sup> (р. 1842–1843)
+- [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>? [1](#revision-1850-davyd), [2](#davyd-wives)</sup> (р. 1847–1848, ум. 1852)
 
 ## Источники
 

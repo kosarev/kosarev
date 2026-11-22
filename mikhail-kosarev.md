@@ -1,8 +1,8 @@
 # Михаил Косарев<sup>[1](#mariya-mikhaylovna-father)</sup>
 
 **Дети:**
-- [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>[1](#mariya-mikhaylovna-father)</sup>
-- [Николай Михайлович Косарев](nikolay-mikhaylovich.md)<sup>? [2](#nikolay-brother)</sup>
+- [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>[1](#mariya-mikhaylovna-father)</sup> (р. 1898–1899)
+- [Николай Михайлович Косарев](nikolay-mikhaylovich.md)<sup>? [2](#nikolay-brother)</sup> (р. 1901, ум. 1944)
 
 Жил в [Малой Быковке](malaya-bykovka.md); его дети родились около 1898–1901 годов.<sup>? [3](#mikhail-generation)</sup>
 

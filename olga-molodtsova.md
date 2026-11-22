@@ -3,7 +3,7 @@
 **Родилась:** между 1833 и 1898<sup>? [2](#olga-molodtsova-birth)</sup>
 
 **Муж:**
-- [Константин Молодцов](konstantin-molodtsov.md)<sup>? [3](#geni-konstantin-molodtsov)</sup>
+- [Константин Молодцов](konstantin-molodtsov.md)<sup>? [3](#geni-konstantin-molodtsov)</sup> (р. 1828–1896)
 
 Вероятно, мать Ефросиньи Константиновны Богдановой: она жена её отца, Константина Молодцова, но в профиле Ефросиньи на geni.com указан только отец. На этом предположении основана и оценка года её рождения.<sup>? [2](#olga-molodtsova-birth)</sup>
 

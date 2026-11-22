@@ -3,13 +3,13 @@
 **Родилась:** между 1879 и 1880<sup>[1](#confession-1910)</sup>
 
 **Муж:**
-- [Тимофей Иванович Косарев](timofey-ivanovich.md)<sup>[1](#confession-1910)</sup>
+- [Тимофей Иванович Косарев](timofey-ivanovich.md)<sup>[1](#confession-1910)</sup> (р. 1878–1879)
 
 **Дети:**
-- [Василий Тимофеевич Косарев](vasiliy-timofeevich.md)<sup>? [2](#children-order-1910)</sup>
-- [Пелагея Тимофеевна Косарева](pelageya-timofeevna.md)<sup>? [2](#children-order-1910)</sup>
-- [Александр Тимофеевич Косарев](aleksandr-timofeevich.md)<sup>? [2](#children-order-1910)</sup>
-- [Мария Тимофеевна Косарева](mariya-timofeevna.md)<sup>? [2](#children-order-1910)</sup>
+- [Василий Тимофеевич Косарев](vasiliy-timofeevich.md)<sup>? [2](#children-order-1910)</sup> (р. 1901–1902)
+- [Пелагея Тимофеевна Косарева](pelageya-timofeevna.md)<sup>? [2](#children-order-1910)</sup> (р. 1903–1904)
+- [Александр Тимофеевич Косарев](aleksandr-timofeevich.md)<sup>? [2](#children-order-1910)</sup> (р. 1905–1906)
+- [Мария Тимофеевна Косарева](mariya-timofeevna.md)<sup>? [2](#children-order-1910)</sup> (р. 1909)
 
 ## Источники
 

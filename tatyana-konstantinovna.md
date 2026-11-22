@@ -3,12 +3,12 @@
 **Родилась:** между 1892 и 1893<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>[1](#confession-1910)</sup>
-- [Ефросинья Кондратьевна Косарева](efrosinya-kondratevna.md)<sup>? [2](#konstantin-children-order)</sup>
+- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>[1](#confession-1910)</sup> (р. 1859–1860)
+- [Ефросинья Кондратьевна Косарева](efrosinya-kondratevna.md)<sup>? [2](#konstantin-children-order)</sup> (р. 1859–1860)
 
 **Брат и сестра:**
-- [Михаил Константинович Косарев](mikhail-konstantinovich.md)<sup>? [1](#confession-1910), [2](#konstantin-children-order)</sup>
-- [Матрона Константиновна Косарева](matrona-konstantinovna.md)<sup>? [1](#confession-1910), [2](#konstantin-children-order)</sup>
+- [Михаил Константинович Косарев](mikhail-konstantinovich.md)<sup>? [1](#confession-1910), [2](#konstantin-children-order)</sup> (р. 1890–1891)
+- [Матрона Константиновна Косарева](matrona-konstantinovna.md)<sup>? [1](#confession-1910), [2](#konstantin-children-order)</sup> (р. 1900–1901)
 
 ## Источники
 

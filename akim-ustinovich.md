@@ -3,22 +3,22 @@
 **Родился:** между 1856 и 1857<sup>[2](#revision-1858)</sup>
 
 **Родители:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[3](#akim-patronym), [2](#revision-1858)</sup>
-- [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[4](#second-wife-children)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[3](#akim-patronym), [2](#revision-1858)</sup> (р. 1807–1809)
+- [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[4](#second-wife-children)</sup> (р. 1824–1825)
 
 **Дети:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#viktor-kosarev-words)</sup>
-- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [5](#pavel-brother)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#viktor-kosarev-words)</sup> (р. 1873–1907)
+- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [5](#pavel-brother)</sup> (р. 1896, ум. 1942)
 - [Прасковья Акимовна Путина](praskovya-putina.md)<sup>[6](#praskovya-sister)</sup>
 
 **Братья и сестры:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[3](#akim-patronym), [2](#revision-1858), [7](#revision-1835), [8](#revision-1850)</sup>
-- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850)</sup>
-- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850)</sup>
-- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850), [4](#second-wife-children)</sup>
-- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [4](#second-wife-children)</sup>
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [3](#akim-patronym), [2](#revision-1858), [9](#ustin-sons)</sup>
-- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [3](#akim-patronym), [2](#revision-1858), [9](#ustin-sons)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[3](#akim-patronym), [2](#revision-1858), [7](#revision-1835), [8](#revision-1850)</sup> (р. 1829–1830)
+- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850)</sup> (р. 1841–1842)
+- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850)</sup> (р. 1843–1844)
+- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850), [4](#second-wife-children)</sup> (р. 1850, ум. 1850–1858)
+- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [4](#second-wife-children)</sup> (р. 1854–1855)
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [3](#akim-patronym), [2](#revision-1858), [9](#ustin-sons)</sup> (р. 1854–1855)
+- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [3](#akim-patronym), [2](#revision-1858), [9](#ustin-sons)</sup> (р. 1859–1860)
 - [Акулина Устиновна Косарева](akulina-ustinovna.md)<sup>[3](#akim-patronym), [2](#revision-1858), [8](#revision-1850)</sup>
 
 Вероятно, жил в [с. Малая Быковка](malaya-bykovka.md) Балаковского района: там в 1896 году родился его сын Павел, а в 1924 году — внучка Антонина.<sup>[10](#malaya-bykovka-family)</sup>

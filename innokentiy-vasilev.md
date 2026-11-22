@@ -3,7 +3,7 @@
 **Родился:** между 1869 и 1907<sup>? [2](#innokentiy-birth)</sup>
 
 **Дочь:**
-- [Ида Иннокентьевна Проданова](ida-prodanova.md)<sup>[1](#myheritage-innokentiy)</sup>
+- [Ида Иннокентьевна Проданова](ida-prodanova.md)<sup>[1](#myheritage-innokentiy)</sup> (р. 1919–1927)
 
 ## Источники
 

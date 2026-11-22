@@ -5,23 +5,23 @@
 **Умер:** 1856<sup>[4](#revision-1858-davyd)</sup>
 
 **Отец:**
-- [Евдоким Косарев](evdokim-kosarev.md)<sup>[3](#davyd-brother)</sup>
+- [Евдоким Косарев](evdokim-kosarev.md)<sup>[3](#davyd-brother)</sup> (р. 1746–1754)
 
 **Жёны:**
-- [Лукерья](lukerya.md)<sup>[1](#revision-1835-davyd)</sup>
-- [Акулина Прокофьевна Косарева](akulina-prokofevna.md)<sup>[2](#revision-1850-davyd)</sup>
+- [Лукерья](lukerya.md)<sup>[1](#revision-1835-davyd)</sup> (р. 1814–1815, ум. 1847–1850)
+- [Акулина Прокофьевна Косарева](akulina-prokofevna.md)<sup>[2](#revision-1850-davyd)</sup> (р. 1829–1830)
 
 **Дети:**
-- [Прасковья Давыдовна](praskovya-davydovna.md)<sup>[1](#revision-1835-davyd)</sup>
-- [Степанида Давыдовна](stepanida-davydovna.md)<sup>[1](#revision-1835-davyd)</sup>
-- [Васса Давыдовна](vassa-davydovna.md)<sup>[1](#revision-1835-davyd)</sup>
-- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>[2](#revision-1850-davyd)</sup>
-- [Ефрем Давыдович Косарев](efrem-davydovich.md)<sup>[2](#revision-1850-davyd)</sup>
-- [Иван Давыдович Косарев](ivan-davydovich.md)<sup>[2](#revision-1850-davyd)</sup>
-- [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>[2](#revision-1850-davyd)</sup>
+- [Прасковья Давыдовна](praskovya-davydovna.md)<sup>[1](#revision-1835-davyd)</sup> (р. 1816–1817)
+- [Степанида Давыдовна](stepanida-davydovna.md)<sup>[1](#revision-1835-davyd)</sup> (р. 1817–1818)
+- [Васса Давыдовна](vassa-davydovna.md)<sup>[1](#revision-1835-davyd)</sup> (р. 1826–1827)
+- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>[2](#revision-1850-davyd)</sup> (р. 1839–1840)
+- [Ефрем Давыдович Косарев](efrem-davydovich.md)<sup>[2](#revision-1850-davyd)</sup> (р. 1842–1843)
+- [Иван Давыдович Косарев](ivan-davydovich.md)<sup>[2](#revision-1850-davyd)</sup> (р. 1845–1846)
+- [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>[2](#revision-1850-davyd)</sup> (р. 1847–1848, ум. 1852)
 
 **Брат:**
-- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[3](#davyd-brother), [5](#evdokim-patronym)</sup>
+- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[3](#davyd-brother), [5](#evdokim-patronym)</sup> (р. 1772–1774, ум. 1850)
 
 Жил в [Малой Быковке](malaya-bykovka.md). В ревизской сказке 1835 года — семья № 133, сразу после семьи Косаревых, № 132. Фамилия там записана неразборчиво, «Ки…аревъ», — по сказке 1850 года, которая продолжает её, это та же фамилия, «Косарев».<sup>[1](#revision-1835-davyd)</sup>
 

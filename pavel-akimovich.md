@@ -5,14 +5,14 @@
 **Умер:** 1942<sup>? [7](#pavel-death-estimate)</sup>, под Сталинградом<sup>? [8](#paper-tree)</sup> (45–46 лет)
 
 **Отец:**
-- [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [9](#pavel-brother)</sup>
+- [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [9](#pavel-brother)</sup> (р. 1856–1857)
 
 **Жёны:**
-- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [1](#pavel-wife-praskovya-version)</sup>
-- [Мария Петровна Косарева](mariya-petrovna.md)<sup>? [2](#pavel-wife-mariya-version), [4](#pavel-missing-report)</sup>
+- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [1](#pavel-wife-praskovya-version)</sup> (р. 1878–1909, ум. 1936)
+- [Мария Петровна Косарева](mariya-petrovna.md)<sup>? [2](#pavel-wife-mariya-version), [4](#pavel-missing-report)</sup> (р. 1896–1926)
 
 **Брат и сестра:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [9](#pavel-brother), [10](#viktor-kosarev-words)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [9](#pavel-brother), [10](#viktor-kosarev-words)</sup> (р. 1873–1907)
 - [Прасковья Акимовна Путина](praskovya-putina.md)<sup>? [9](#pavel-brother), [11](#praskovya-sister)</sup>
 
 Призван Балаковским РВК (Саратовская обл., Балаковский р-н) 18 февраля 1942 года. Рядовой.<sup>[3](#pamyat-naroda-pavel), [4](#pavel-missing-report)</sup>

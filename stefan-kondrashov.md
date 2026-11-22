@@ -3,11 +3,11 @@
 **Родился:** 1896<sup>[1](#kuznetsov-registers)</sup>
 
 **Жёны:**
-- [Матрона Стефановна Кондрашова](matrona-kondrashova.md)<sup>[1](#kuznetsov-registers)</sup>
-- [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>[1](#kuznetsov-registers)</sup>
+- [Матрона Стефановна Кондрашова](matrona-kondrashova.md)<sup>[1](#kuznetsov-registers)</sup> (р. 1897)
+- [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>[1](#kuznetsov-registers)</sup> (р. 1898–1899)
 
 **Сын:**
-- [Николай Стефанович Кондрашов](nikolay-stefanovich.md)<sup>[1](#kuznetsov-registers)</sup>
+- [Николай Стефанович Кондрашов](nikolay-stefanovich.md)<sup>[1](#kuznetsov-registers)</sup> (р. 1918)
 
 Из Бобова. 9 января 1915 года, 18 лет 1 месяца, венчался с Матроной Стефановной Кондрашовой, 17 лет 2 месяцев, того же села; свидетели по жениху — Гавриил Никитин и Алексей Косарев.<sup>[1](#kuznetsov-registers)</sup>
 

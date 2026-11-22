@@ -3,13 +3,13 @@
 **Родился:** 1907<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Григорий Васильевич Косарев](grigoriy-vasilevich.md)<sup>[1](#confession-1910)</sup>
-- [Клавдия Васильевна Косарева](klavdiya-vasilevna.md)<sup>? [2](#children-order-1910)</sup>
+- [Григорий Васильевич Косарев](grigoriy-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1878–1879)
+- [Клавдия Васильевна Косарева](klavdiya-vasilevna.md)<sup>? [2](#children-order-1910)</sup> (р. 1879–1880)
 
 **Братья и сестра:**
-- [Феврония Григорьевна Косарева](fevroniya-grigorevna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Петр Григорьевич Косарев](petr-grigorevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Михаил Григорьевич Косарев](mikhail-grigorevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
+- [Феврония Григорьевна Косарева](fevroniya-grigorevna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1900–1901)
+- [Петр Григорьевич Косарев](petr-grigorevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1906)
+- [Михаил Григорьевич Косарев](mikhail-grigorevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1908)
 
 ## Источники
 

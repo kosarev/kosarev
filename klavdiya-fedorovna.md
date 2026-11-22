@@ -3,12 +3,12 @@
 **Родилась:** 1908<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Федор Иванович Косарев](fedor-ivanovich.md)<sup>[1](#confession-1910)</sup>
-- [Агапия Спиридоновна Косарева](agapiya-spiridonovna.md)<sup>? [2](#children-order-1910)</sup>
+- [Федор Иванович Косарев](fedor-ivanovich.md)<sup>[1](#confession-1910)</sup> (р. 1874–1875)
+- [Агапия Спиридоновна Косарева](agapiya-spiridonovna.md)<sup>? [2](#children-order-1910)</sup> (р. 1876–1877)
 
 **Брат и сестра:**
-- [Агрипина Федоровна Косарева](agripina-fedorovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Василий Федорович Косарев](vasiliy-fedorovich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
+- [Агрипина Федоровна Косарева](agripina-fedorovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1900–1901)
+- [Василий Федорович Косарев](vasiliy-fedorovich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1906)
 
 ## Источники
 

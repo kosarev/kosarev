@@ -3,23 +3,23 @@
 **Родился:** между 1893 и 1894<sup>[1](#confession-1910)</sup> или 23 апреля 1892<sup>? [2](#obd-egor), [3](#egor-identity)</sup>, с. Бобово<sup>? [2](#obd-egor), [3](#egor-identity)</sup>
 
 **Родители:**
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup>
-- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [4](#vasiliy-children-order)</sup>
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup> (р. 1854–1855)
+- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [4](#vasiliy-children-order)</sup> (р. 1855–1856)
 
 **Жена:**
 - [Варвара Косарева](varvara-kosareva.md)<sup>? [2](#obd-egor), [3](#egor-identity)</sup>
 
 **Дети:**
 - [Василий Егорович Косарев](vasiliy-egorovich.md)<sup>? [2](#obd-egor), [3](#egor-identity)</sup>
-- [Петр Егорович Косарев](petr-egorovich.md)<sup>? [2](#obd-egor), [3](#egor-identity)</sup>
+- [Петр Егорович Косарев](petr-egorovich.md)<sup>? [2](#obd-egor), [3](#egor-identity)</sup> (ум. 1996)
 
 **Братья и сестра:**
-- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup>
-- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup>
-- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup>
-- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup>
-- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup>
-- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup>
+- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup> (р. 1874–1875)
+- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup> (р. 1880–1881)
+- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup> (р. 1887)
+- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup> (р. 1887)
+- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup> (р. 1892–1893)
+- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [1](#confession-1910), [4](#vasiliy-children-order)</sup> (р. 1897–1898)
 
 Вероятно, это Егор Васильевич Косарев, родившийся 23 апреля 1892 года в Бобове: Егор — народная форма имени Георгий; то же отчество, то же село; возраст расходится на 1–2 года.<sup>? [3](#egor-identity)</sup>
 

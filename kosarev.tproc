@@ -4526,7 +4526,7 @@ class MarkdownWriter(object):
         def relation(title, people):
             f.write(f'\n**{title}:**\n')
             for q, v in people:
-                f.write(f'- {self.person(q)}{refs(v)}\n')
+                f.write(f'- {self.person(q)}{refs(v)}{self.__years(q)}\n')
 
         # Only people have relations.
         if isinstance(p, Person):

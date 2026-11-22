@@ -5,12 +5,12 @@
 **Умерла:** между 1843 и 1849<sup>? [2](#first-wife-1850)</sup>
 
 **Муж:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835)</sup> (р. 1807–1809)
 
 **Дети:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>? [2](#first-wife-1850)</sup>
-- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>? [2](#first-wife-1850)</sup>
-- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>? [2](#first-wife-1850)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>? [2](#first-wife-1850)</sup> (р. 1829–1830)
+- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>? [2](#first-wife-1850)</sup> (р. 1841–1842)
+- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>? [2](#first-wife-1850)</sup> (р. 1843–1844)
 - [Акулина Устиновна Косарева](akulina-ustinovna.md)<sup>? [2](#first-wife-1850)</sup>
 
 Вероятно, первая жена Устина: в 1850 году его старшие дети записаны «от 1 жены», а жена — уже вторая, Авдотья Федоровна; Евдокии в семье нет.<sup>? [2](#first-wife-1850)</sup>

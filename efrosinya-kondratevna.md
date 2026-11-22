@@ -3,12 +3,12 @@
 **Родилась:** между 1859 и 1860<sup>[1](#confession-1910)</sup>
 
 **Муж:**
-- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>[1](#confession-1910)</sup>
+- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>[1](#confession-1910)</sup> (р. 1859–1860)
 
 **Дети:**
-- [Михаил Константинович Косарев](mikhail-konstantinovich.md)<sup>? [2](#konstantin-children-order)</sup>
-- [Татьяна Константиновна Косарева](tatyana-konstantinovna.md)<sup>? [2](#konstantin-children-order)</sup>
-- [Матрона Константиновна Косарева](matrona-konstantinovna.md)<sup>? [2](#konstantin-children-order)</sup>
+- [Михаил Константинович Косарев](mikhail-konstantinovich.md)<sup>? [2](#konstantin-children-order)</sup> (р. 1890–1891)
+- [Татьяна Константиновна Косарева](tatyana-konstantinovna.md)<sup>? [2](#konstantin-children-order)</sup> (р. 1892–1893)
+- [Матрона Константиновна Косарева](matrona-konstantinovna.md)<sup>? [2](#konstantin-children-order)</sup> (р. 1900–1901)
 
 ## Источники
 

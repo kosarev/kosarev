@@ -3,15 +3,15 @@
 **Родился:** 1906<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Иван Иванович Косарев](ivan-ivanovich.md)<sup>[1](#confession-1910)</sup>
-- [Агриппина Михайловна Косарева](agrippina-mikhaylovna.md)<sup>? [2](#children-order-1910)</sup>
+- [Иван Иванович Косарев](ivan-ivanovich.md)<sup>[1](#confession-1910)</sup> (р. 1862–1863)
+- [Агриппина Михайловна Косарева](agrippina-mikhaylovna.md)<sup>? [2](#children-order-1910)</sup> (р. 1874–1875)
 
 **Братья и сестры:**
-- [Васса Ивановна Косарева](vassa-ivanovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Екатерина Ивановна Косарева](ekaterina-ivanovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Гавриил Иванович Косарев](gavriil-ivanovich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Иван Иванович Косарев](ivan-ivanovich-1902.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Мария Ивановна Косарева](mariya-ivanovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
+- [Васса Ивановна Косарева](vassa-ivanovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1895–1896)
+- [Екатерина Ивановна Косарева](ekaterina-ivanovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1897–1898)
+- [Гавриил Иванович Косарев](gavriil-ivanovich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1899–1900)
+- [Иван Иванович Косарев](ivan-ivanovich-1902.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1902–1903)
+- [Мария Ивановна Косарева](mariya-ivanovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1909)
 
 ## Источники
 

@@ -3,7 +3,7 @@
 **Родилась:** между 1829 и 1830<sup>[1](#revision-1850-davyd)</sup>
 
 **Муж:**
-- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[1](#revision-1850-davyd)</sup>
+- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[1](#revision-1850-davyd)</sup> (р. 1796–1798, ум. 1856)
 
 ## Источники
 

@@ -1,7 +1,7 @@
 # Ксения Косарева<sup>[1](#myheritage-ivan)</sup>
 
 **Муж:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#myheritage-ivan)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#myheritage-ivan)</sup> (р. 1873–1907)
 
 ## Источники
 

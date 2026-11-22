@@ -3,26 +3,26 @@
 **Родился:** между 1874 и 1875<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup>
-- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [2](#vasiliy-children-order)</sup>
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup> (р. 1854–1855)
+- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1855–1856)
 
 **Жена:**
-- [Анна Григорьевна Косарева](anna-grigorevna.md)<sup>[1](#confession-1910)</sup>
+- [Анна Григорьевна Косарева](anna-grigorevna.md)<sup>[1](#confession-1910)</sup> (р. 1877–1878)
 
 **Дети:**
-- [Михаил Семенович Косарев](mikhail-semenovich.md)<sup>[1](#confession-1910)</sup>
-- [Иван Семенович Косарев](ivan-semenovich.md)<sup>[1](#confession-1910)</sup>
-- [Константин Семенович Косарев](konstantin-semenovich.md)<sup>[1](#confession-1910)</sup>
-- [Мария Семеновна Косарева](mariya-semenovna.md)<sup>[1](#confession-1910)</sup>
-- [Алексей Семенович Косарев](aleksey-semenovich.md)<sup>[1](#confession-1910)</sup>
+- [Михаил Семенович Косарев](mikhail-semenovich.md)<sup>[1](#confession-1910)</sup> (р. 1894–1895)
+- [Иван Семенович Косарев](ivan-semenovich.md)<sup>[1](#confession-1910)</sup> (р. 1899–1900)
+- [Константин Семенович Косарев](konstantin-semenovich.md)<sup>[1](#confession-1910)</sup> (р. 1900–1901)
+- [Мария Семеновна Косарева](mariya-semenovna.md)<sup>[1](#confession-1910)</sup> (р. 1905–1906)
+- [Алексей Семенович Косарев](aleksey-semenovich.md)<sup>[1](#confession-1910)</sup> (р. 1907)
 
 **Братья и сестра:**
-- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
+- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1880–1881)
+- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1887)
+- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1887)
+- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1892–1893)
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1893–1894)
+- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1897–1898)
 
 В 1901 году — свидетель на венчании брата Алексея.<sup>[3](#kuznetsov-registers)</sup>
 

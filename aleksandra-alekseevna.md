@@ -3,11 +3,11 @@
 **Родилась:** между 1907 и 1908<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>[1](#confession-1910)</sup>
-- [Анна Алексеевна Косарева](anna-kondrasheva.md)<sup>? [2](#children-order)</sup>
+- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1880–1881)
+- [Анна Алексеевна Косарева](anna-kondrasheva.md)<sup>? [2](#children-order)</sup> (р. 1879–1880)
 
 **Сестра:**
-- [Елена Алексеевна Косарева](elena-alekseevna.md)<sup>? [1](#confession-1910), [2](#children-order)</sup>
+- [Елена Алексеевна Косарева](elena-alekseevna.md)<sup>? [1](#confession-1910), [2](#children-order)</sup> (р. 1905–1906)
 
 ## Источники
 

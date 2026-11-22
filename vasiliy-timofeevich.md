@@ -3,13 +3,13 @@
 **Родился:** между 1901 и 1902<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Тимофей Иванович Косарев](timofey-ivanovich.md)<sup>[1](#confession-1910)</sup>
-- [Параскева Прокопьевна Косарева](paraskeva-prokopevna.md)<sup>? [2](#children-order-1910)</sup>
+- [Тимофей Иванович Косарев](timofey-ivanovich.md)<sup>[1](#confession-1910)</sup> (р. 1878–1879)
+- [Параскева Прокопьевна Косарева](paraskeva-prokopevna.md)<sup>? [2](#children-order-1910)</sup> (р. 1879–1880)
 
 **Брат и сестры:**
-- [Пелагея Тимофеевна Косарева](pelageya-timofeevna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Александр Тимофеевич Косарев](aleksandr-timofeevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Мария Тимофеевна Косарева](mariya-timofeevna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
+- [Пелагея Тимофеевна Косарева](pelageya-timofeevna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1903–1904)
+- [Александр Тимофеевич Косарев](aleksandr-timofeevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1905–1906)
+- [Мария Тимофеевна Косарева](mariya-timofeevna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1909)
 
 Слабое совпадение: возможно, это он — Василий Тимофеевич Косарев из Балаковского района, красноармеец, погибший в бою 5 января 1942 года и похороненный в Колпино.<sup>? [3](#vasiliy-timofeevich-killed)</sup>
 

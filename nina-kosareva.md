@@ -7,14 +7,14 @@
 **Умерла:** 1985<sup>? [3](#geni-nina)</sup>
 
 **Родители:**
-- [Егор Богданов](egor-bogdanov.md)<sup>? [3](#geni-nina), [2](#myheritage-nina)</sup>
-- [Ефросинья Константиновна Богданова](efrosinya-bogdanova.md)<sup>? [3](#geni-nina), [2](#myheritage-nina)</sup>
+- [Егор Богданов](egor-bogdanov.md)<sup>? [3](#geni-nina), [2](#myheritage-nina)</sup> (р. 1873–1914)
+- [Ефросинья Константиновна Богданова](efrosinya-bogdanova.md)<sup>? [3](#geni-nina), [2](#myheritage-nina)</sup> (р. 1878–1916)
 
 **Муж:**
-- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan)</sup>
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan)</sup> (р. 1923–1927, ум. 2000)
 
 **Сестра:**
-- [Фаина Егоровна Половцева](faina-polovtseva.md)<sup>? [3](#geni-nina), [2](#myheritage-nina), [5](#geni-faina)</sup>
+- [Фаина Егоровна Половцева](faina-polovtseva.md)<sup>? [3](#geni-nina), [2](#myheritage-nina), [5](#geni-faina)</sup> (р. 1907–1961, ум. 2007)
 
 ## Источники
 

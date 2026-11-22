@@ -3,16 +3,16 @@
 **Родилась:** между 1855 и 1856<sup>[1](#confession-1910)</sup>
 
 **Муж:**
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup>
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup> (р. 1854–1855)
 
 **Дети:**
-- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup>
-- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup>
-- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup>
-- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup>
-- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [2](#vasiliy-children-order)</sup>
-- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup>
-- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup>
+- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1874–1875)
+- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1880–1881)
+- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1887)
+- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1887)
+- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1892–1893)
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1893–1894)
+- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1897–1898)
 
 Слабое совпадение: возможно, дочь Трофима Алексеевича Желудкова, одного из однодворцев — совладельцев земли около 1833 года.<sup>? [3](#anastasiya-zheludkova)</sup>
 

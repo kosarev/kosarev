@@ -3,7 +3,7 @@
 **Родилась:** между 1887 и 1888<sup>[1](#confession-1910)</sup>
 
 **Муж:**
-- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>[1](#confession-1910)</sup>
+- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1887)
 
 ## Источники
 

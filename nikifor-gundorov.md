@@ -3,12 +3,12 @@
 **Родился:** между 1816 и 1817<sup>[1](#revision-1850-list)</sup>
 
 **Жена:**
-- [Устинья Алексеевна Косарева](ustinya-alekseevna.md)<sup>? [2](#ustinya-gundorova)</sup>
+- [Устинья Алексеевна Косарева](ustinya-alekseevna.md)<sup>? [2](#ustinya-gundorova)</sup> (р. 1816–1817)
 
 **Дети:**
-- [Дорофей Никифорович Гундоров](dorofey-nikiforovich.md)<sup>[1](#revision-1850-list)</sup>
-- [Степан Никифорович Гундоров](stepan-nikiforovich.md)<sup>[1](#revision-1850-list)</sup>
-- [Сидор Никифорович Гундоров](sidor-nikiforovich.md)<sup>[3](#revision-1858-ustinya)</sup>
+- [Дорофей Никифорович Гундоров](dorofey-nikiforovich.md)<sup>[1](#revision-1850-list)</sup> (р. 1843–1844)
+- [Степан Никифорович Гундоров](stepan-nikiforovich.md)<sup>[1](#revision-1850-list)</sup> (р. 1845–1846)
+- [Сидор Никифорович Гундоров](sidor-nikiforovich.md)<sup>[3](#revision-1858-ustinya)</sup> (р. 1857–1858)
 
 В ревизских сказках 1850 и 1858 годов — в семье отца, Акима Матвеева Гундорова (№ 130, затем № 127), с женой Устиньей Алексеевой и сыновьями.<sup>[1](#revision-1850-list)</sup>
 

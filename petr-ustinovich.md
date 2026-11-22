@@ -3,23 +3,23 @@
 **Родился:** между 1829 и 1830<sup>[1](#revision-1835), [2](#revision-1850)</sup>
 
 **Родители:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup>
-- [Евдокия Косарева](evdokiya-kosareva.md)<sup>? [3](#first-wife-1850)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup> (р. 1807–1809)
+- [Евдокия Косарева](evdokiya-kosareva.md)<sup>? [3](#first-wife-1850)</sup> (р. 1809–1810, ум. 1843–1849)
 
 **Жена:**
-- [Марья Кузьминична Косарева](marya-kuzminichna.md)<sup>[2](#revision-1850)</sup>
+- [Марья Кузьминична Косарева](marya-kuzminichna.md)<sup>[2](#revision-1850)</sup> (р. 1829–1830)
 
 **Дочь:**
-- [Дарья Петровна Косарева](darya-petrovna.md)<sup>[4](#revision-1858)</sup>
+- [Дарья Петровна Косарева](darya-petrovna.md)<sup>[4](#revision-1858)</sup> (р. 1857–1858)
 
 **Братья и сестры:**
-- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>? [1](#revision-1835), [2](#revision-1850), [3](#first-wife-1850)</sup>
-- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>? [1](#revision-1835), [2](#revision-1850), [3](#first-wife-1850)</sup>
-- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup>
-- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[1](#revision-1835), [2](#revision-1850), [4](#revision-1858)</sup>
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [1](#revision-1835), [2](#revision-1850), [5](#ustin-sons)</sup>
-- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[1](#revision-1835), [2](#revision-1850), [6](#akim-patronym), [4](#revision-1858)</sup>
-- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [1](#revision-1835), [2](#revision-1850), [5](#ustin-sons)</sup>
+- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>? [1](#revision-1835), [2](#revision-1850), [3](#first-wife-1850)</sup> (р. 1841–1842)
+- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>? [1](#revision-1835), [2](#revision-1850), [3](#first-wife-1850)</sup> (р. 1843–1844)
+- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup> (р. 1850, ум. 1850–1858)
+- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[1](#revision-1835), [2](#revision-1850), [4](#revision-1858)</sup> (р. 1854–1855)
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [1](#revision-1835), [2](#revision-1850), [5](#ustin-sons)</sup> (р. 1854–1855)
+- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[1](#revision-1835), [2](#revision-1850), [6](#akim-patronym), [4](#revision-1858)</sup> (р. 1856–1857)
+- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [1](#revision-1835), [2](#revision-1850), [5](#ustin-sons)</sup> (р. 1859–1860)
 - [Акулина Устиновна Косарева](akulina-ustinovna.md)<sup>? [1](#revision-1835), [2](#revision-1850), [3](#first-wife-1850)</sup>
 
 В 1850 году ему 20 лет, женат; живёт в семье деда Алексея, № 141.<sup>[2](#revision-1850)</sup>

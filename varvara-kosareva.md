@@ -1,7 +1,7 @@
 # Варвара Косарева<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
 
 **Муж:**
-- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup> (р. 1893–1894)
 
 В годы войны жила на станции Ершов Рязано-Уральской железной дороги, Саратовская область.<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
 

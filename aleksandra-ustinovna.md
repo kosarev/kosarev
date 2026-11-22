@@ -5,17 +5,17 @@
 **Умерла:** между 1850 и 1858<sup>? [2](#absent-1858)</sup>
 
 **Родители:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1850)</sup>
-- [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[1](#revision-1850)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1850)</sup> (р. 1807–1809)
+- [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[1](#revision-1850)</sup> (р. 1824–1825)
 
 **Братья и сестры:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[1](#revision-1850), [3](#revision-1835)</sup>
-- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[1](#revision-1850)</sup>
-- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[1](#revision-1850)</sup>
-- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[1](#revision-1850), [4](#revision-1858), [5](#second-wife-children)</sup>
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [1](#revision-1850), [6](#ustin-sons)</sup>
-- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[1](#revision-1850), [7](#akim-patronym), [4](#revision-1858), [5](#second-wife-children)</sup>
-- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [1](#revision-1850), [6](#ustin-sons)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[1](#revision-1850), [3](#revision-1835)</sup> (р. 1829–1830)
+- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[1](#revision-1850)</sup> (р. 1841–1842)
+- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[1](#revision-1850)</sup> (р. 1843–1844)
+- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[1](#revision-1850), [4](#revision-1858), [5](#second-wife-children)</sup> (р. 1854–1855)
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [1](#revision-1850), [6](#ustin-sons)</sup> (р. 1854–1855)
+- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[1](#revision-1850), [7](#akim-patronym), [4](#revision-1858), [5](#second-wife-children)</sup> (р. 1856–1857)
+- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [1](#revision-1850), [6](#ustin-sons)</sup> (р. 1859–1860)
 - [Акулина Устиновна Косарева](akulina-ustinovna.md)<sup>[1](#revision-1850)</sup>
 
 В ревизской сказке 1858 года её уже нет; вероятно, умерла в младенчестве.<sup>? [2](#absent-1858)</sup>

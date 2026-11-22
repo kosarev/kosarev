@@ -3,8 +3,8 @@
 **Родился:** между 1746 и 1754<sup>? [2](#evdokim-birth)</sup>
 
 **Дети:**
-- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[1](#evdokim-patronym)</sup>
-- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[3](#davyd-brother)</sup>
+- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[1](#evdokim-patronym)</sup> (р. 1772–1774, ум. 1850)
+- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[3](#davyd-brother)</sup> (р. 1796–1798, ум. 1856)
 
 ## Источники
 

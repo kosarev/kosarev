@@ -5,17 +5,17 @@
 **Умер:** 1850<sup>[3](#revision-1858)</sup>
 
 **Отец:**
-- [Евдоким Косарев](evdokim-kosarev.md)<sup>[4](#evdokim-patronym)</sup>
+- [Евдоким Косарев](evdokim-kosarev.md)<sup>[4](#evdokim-patronym)</sup> (р. 1746–1754)
 
 **Жена:**
-- [Катерина Петровна Косарева](katerina-kosareva.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup>
+- [Катерина Петровна Косарева](katerina-kosareva.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup> (р. 1779–1780, ум. 1850–1858)
 
 **Дети:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup>
-- [Устинья Алексеевна Косарева](ustinya-alekseevna.md)<sup>[1](#revision-1835)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup> (р. 1807–1809)
+- [Устинья Алексеевна Косарева](ustinya-alekseevna.md)<sup>[1](#revision-1835)</sup> (р. 1816–1817)
 
 **Брат:**
-- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[4](#evdokim-patronym), [5](#davyd-brother)</sup>
+- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[4](#evdokim-patronym), [5](#davyd-brother)</sup> (р. 1796–1798, ум. 1856)
 
 В 1850 году жив: в ревизской сказке 9-й ревизии (14 сентября 1850 года) ему 76 лет (по ней — 1773–1774 года рождения); живёт одним двором, семья № 141, с женой Екатериной Петровной, 70 лет, и семьёй сына Устина.<sup>[2](#revision-1850)</sup>
 

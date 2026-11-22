@@ -5,7 +5,7 @@
 **Родилась:** между 1919 и 1927<sup>? [2](#ida-birth)</sup>
 
 **Отец:**
-- [Иннокентий Егорович Васильев](innokentiy-vasilev.md)<sup>[3](#myheritage-innokentiy)</sup>
+- [Иннокентий Егорович Васильев](innokentiy-vasilev.md)<sup>[3](#myheritage-innokentiy)</sup> (р. 1869–1907)
 
 **Муж:**
 - [Борис Проданов](boris-prodanov.md)<sup>[1](#ivan)</sup>

@@ -3,23 +3,23 @@
 **Родился:** между 1880 и 1881<sup>[1](#confession-1910), [2](#kuznetsov-registers)</sup>
 
 **Родители:**
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup>
-- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [3](#vasiliy-children-order)</sup>
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup> (р. 1854–1855)
+- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [3](#vasiliy-children-order)</sup> (р. 1855–1856)
 
 **Жена:**
-- [Анна Алексеевна Косарева](anna-kondrasheva.md)<sup>[2](#kuznetsov-registers), [1](#confession-1910)</sup>
+- [Анна Алексеевна Косарева](anna-kondrasheva.md)<sup>[2](#kuznetsov-registers), [1](#confession-1910)</sup> (р. 1879–1880)
 
 **Дети:**
-- [Елена Алексеевна Косарева](elena-alekseevna.md)<sup>[1](#confession-1910)</sup>
-- [Александра Алексеевна Косарева](aleksandra-alekseevna.md)<sup>[1](#confession-1910)</sup>
+- [Елена Алексеевна Косарева](elena-alekseevna.md)<sup>[1](#confession-1910)</sup> (р. 1905–1906)
+- [Александра Алексеевна Косарева](aleksandra-alekseevna.md)<sup>[1](#confession-1910)</sup> (р. 1907–1908)
 
 **Братья и сестра:**
-- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup>
-- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup>
-- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup>
-- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup>
-- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup>
-- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup>
+- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup> (р. 1874–1875)
+- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup> (р. 1887)
+- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup> (р. 1887)
+- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup> (р. 1892–1893)
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup> (р. 1893–1894)
+- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [1](#confession-1910), [3](#vasiliy-children-order)</sup> (р. 1897–1898)
 
 15 января 1901 года, 20 лет, венчался с Анной Алексеевной Кондрашевой, 17 лет, оба — из Бобова хутора (метрические книги Казакова хутора). Свидетели по жениху — Дмитрий Степанович Борщев из Малого Кушума и Иван Иванович Косарев из Бобова хутора; по невесте — Тимофей Евдокимович Гуров из Казакова хутора и Семен Васильевич Косарев.<sup>[2](#kuznetsov-registers)</sup>
 

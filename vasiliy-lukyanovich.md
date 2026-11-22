@@ -3,8 +3,8 @@
 **Родился:** между 1856 и 1857<sup>[1](#revision-1858-list)</sup>
 
 **Родители:**
-- [Лукьян Алексеевич Ковалев](lukyan-kovalev.md)<sup>[1](#revision-1858-list)</sup>
-- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>? [2](#varvara-1858)</sup>
+- [Лукьян Алексеевич Ковалев](lukyan-kovalev.md)<sup>[1](#revision-1858-list)</sup> (р. 1835–1836, ум. 1858)
+- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>? [2](#varvara-1858)</sup> (р. 1839–1840)
 
 ## Источники
 

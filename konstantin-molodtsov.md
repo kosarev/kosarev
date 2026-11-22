@@ -3,10 +3,10 @@
 **Родился:** между 1828 и 1896<sup>? [2](#konstantin-molodtsov-birth)</sup>
 
 **Жена:**
-- [Ольга Молодцова](olga-molodtsova.md)<sup>? [1](#geni-konstantin-molodtsov)</sup>
+- [Ольга Молодцова](olga-molodtsova.md)<sup>? [1](#geni-konstantin-molodtsov)</sup> (р. 1833–1898)
 
 **Дочь:**
-- [Ефросинья Константиновна Богданова](efrosinya-bogdanova.md)<sup>? [3](#geni-efrosinya)</sup>
+- [Ефросинья Константиновна Богданова](efrosinya-bogdanova.md)<sup>? [3](#geni-efrosinya)</sup> (р. 1878–1916)
 
 Вероятно, дед по матери [Нины Егоровны Косаревой](nina-kosareva.md), жены [Виктора Ивановича Косарева](viktor-kosarev.md): отец её матери, Ефросиньи Константиновны.<sup>? [3](#geni-efrosinya)</sup>
 

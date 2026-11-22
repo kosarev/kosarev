@@ -5,11 +5,11 @@
 **Умерла:** ноябрь 2009<sup>[3](#myheritage-antonina)</sup> (85 лет)
 
 **Родители:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#myheritage-ivan)</sup>
-- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>[2](#myheritage-praskovya)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#myheritage-ivan)</sup> (р. 1873–1907)
+- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>[2](#myheritage-praskovya)</sup> (р. 1878–1909, ум. 1936)
 
 **Брат:**
-- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>? [1](#myheritage-ivan), [4](#ivan), [2](#myheritage-praskovya), [5](#geni-viktor)</sup>
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>? [1](#myheritage-ivan), [4](#ivan), [2](#myheritage-praskovya), [5](#geni-viktor)</sup> (р. 1923–1927, ум. 2000)
 
 ## Источники
 

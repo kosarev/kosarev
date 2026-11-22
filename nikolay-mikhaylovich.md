@@ -8,7 +8,7 @@
 - [Михаил Косарев](mikhail-kosarev.md)<sup>? [5](#nikolay-brother)</sup>
 
 **Сестра:**
-- [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>? [5](#nikolay-brother), [6](#mariya-mikhaylovna-father)</sup>
+- [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>? [5](#nikolay-brother), [6](#mariya-mikhaylovna-father)</sup> (р. 1898–1899)
 
 Из [Малой Быковки](malaya-bykovka.md); в ноябре 1918 года — восприемник Николая, сына Марии Михайловны Косаревой и Стефана Кондрашова, в Бобове.<sup>[1](#kuznetsov-registers)</sup>
 

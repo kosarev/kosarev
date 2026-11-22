@@ -3,10 +3,10 @@
 **Родилась:** между 1829 и 1830<sup>[1](#revision-1850)</sup>
 
 **Муж:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[1](#revision-1850)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[1](#revision-1850)</sup> (р. 1829–1830)
 
 **Дочь:**
-- [Дарья Петровна Косарева](darya-petrovna.md)<sup>[2](#revision-1858)</sup>
+- [Дарья Петровна Косарева](darya-petrovna.md)<sup>[2](#revision-1858)</sup> (р. 1857–1858)
 
 ## Источники
 

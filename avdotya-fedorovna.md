@@ -3,12 +3,12 @@
 **Родилась:** между 1824 и 1825<sup>[1](#revision-1850)</sup>
 
 **Муж:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1850)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1850)</sup> (р. 1807–1809)
 
 **Дети:**
-- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[1](#revision-1850)</sup>
-- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[2](#second-wife-children)</sup>
-- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#second-wife-children)</sup>
+- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[1](#revision-1850)</sup> (р. 1850, ум. 1850–1858)
+- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>[2](#second-wife-children)</sup> (р. 1854–1855)
+- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#second-wife-children)</sup> (р. 1856–1857)
 
 ## Источники
 

@@ -3,13 +3,13 @@
 **Родилась:** между 1903 и 1904<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Тимофей Иванович Косарев](timofey-ivanovich.md)<sup>[1](#confession-1910)</sup>
-- [Параскева Прокопьевна Косарева](paraskeva-prokopevna.md)<sup>? [2](#children-order-1910)</sup>
+- [Тимофей Иванович Косарев](timofey-ivanovich.md)<sup>[1](#confession-1910)</sup> (р. 1878–1879)
+- [Параскева Прокопьевна Косарева](paraskeva-prokopevna.md)<sup>? [2](#children-order-1910)</sup> (р. 1879–1880)
 
 **Братья и сестра:**
-- [Василий Тимофеевич Косарев](vasiliy-timofeevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Александр Тимофеевич Косарев](aleksandr-timofeevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Мария Тимофеевна Косарева](mariya-timofeevna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
+- [Василий Тимофеевич Косарев](vasiliy-timofeevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1901–1902)
+- [Александр Тимофеевич Косарев](aleksandr-timofeevich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1905–1906)
+- [Мария Тимофеевна Косарева](mariya-timofeevna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1909)
 
 ## Источники
 

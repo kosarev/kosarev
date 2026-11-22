@@ -3,18 +3,18 @@
 **Родилась:** между 1816 и 1817<sup>[1](#revision-1835)</sup>
 
 **Отец:**
-- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[1](#revision-1835)</sup>
+- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[1](#revision-1835)</sup> (р. 1772–1774, ум. 1850)
 
 **Муж:**
-- [Никифор Акимович Гундоров](nikifor-gundorov.md)<sup>? [2](#ustinya-gundorova)</sup>
+- [Никифор Акимович Гундоров](nikifor-gundorov.md)<sup>? [2](#ustinya-gundorova)</sup> (р. 1816–1817)
 
 **Дети:**
-- [Дорофей Никифорович Гундоров](dorofey-nikiforovich.md)<sup>? [2](#ustinya-gundorova)</sup>
-- [Степан Никифорович Гундоров](stepan-nikiforovich.md)<sup>? [2](#ustinya-gundorova)</sup>
-- [Сидор Никифорович Гундоров](sidor-nikiforovich.md)<sup>? [2](#ustinya-gundorova)</sup>
+- [Дорофей Никифорович Гундоров](dorofey-nikiforovich.md)<sup>? [2](#ustinya-gundorova)</sup> (р. 1843–1844)
+- [Степан Никифорович Гундоров](stepan-nikiforovich.md)<sup>? [2](#ustinya-gundorova)</sup> (р. 1845–1846)
+- [Сидор Никифорович Гундоров](sidor-nikiforovich.md)<sup>? [2](#ustinya-gundorova)</sup> (р. 1857–1858)
 
 **Брат:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [3](#revision-1850)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [3](#revision-1850)</sup> (р. 1807–1809)
 
 В 1850 году в семье отца её уже нет: вероятно, это она — «Никифора Акимова жена Устинья Алексеева», 33 лет, в семье Гундоровых (№ 130); в 1858 году — 40 лет, в соседнем с братом Устином дворе (№ 127).<sup>? [2](#ustinya-gundorova)</sup>
 

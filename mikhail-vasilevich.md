@@ -3,19 +3,19 @@
 **Родился:** 1887<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup>
-- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [2](#vasiliy-children-order)</sup>
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>[1](#confession-1910)</sup> (р. 1854–1855)
+- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>? [2](#vasiliy-children-order)</sup> (р. 1855–1856)
 
 **Жена:**
-- [Наталья Филипповна Косарева](natalya-filippovna.md)<sup>[1](#confession-1910)</sup>
+- [Наталья Филипповна Косарева](natalya-filippovna.md)<sup>[1](#confession-1910)</sup> (р. 1887–1888)
 
 **Братья и сестра:**
-- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
-- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup>
+- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1874–1875)
+- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1880–1881)
+- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1887)
+- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1892–1893)
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1893–1894)
+- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>? [1](#confession-1910), [2](#vasiliy-children-order)</sup> (р. 1897–1898)
 
 В 1910 году ему и брату Ивану — по 22 года 8 месяцев: вероятно, близнецы.<sup>[1](#confession-1910)</sup>
 

@@ -6,13 +6,13 @@
 - [Михаил Косарев](mikhail-kosarev.md)<sup>[2](#mariya-mikhaylovna-father)</sup>
 
 **Муж:**
-- [Стефан Федорович Кондрашов](stefan-kondrashov.md)<sup>[1](#kuznetsov-registers)</sup>
+- [Стефан Федорович Кондрашов](stefan-kondrashov.md)<sup>[1](#kuznetsov-registers)</sup> (р. 1896)
 
 **Сын:**
-- [Николай Стефанович Кондрашов](nikolay-stefanovich.md)<sup>[1](#kuznetsov-registers)</sup>
+- [Николай Стефанович Кондрашов](nikolay-stefanovich.md)<sup>[1](#kuznetsov-registers)</sup> (р. 1918)
 
 **Брат:**
-- [Николай Михайлович Косарев](nikolay-mikhaylovich.md)<sup>? [2](#mariya-mikhaylovna-father), [3](#nikolay-brother)</sup>
+- [Николай Михайлович Косарев](nikolay-mikhaylovich.md)<sup>? [2](#mariya-mikhaylovna-father), [3](#nikolay-brother)</sup> (р. 1901, ум. 1944)
 
 19 февраля 1918 года, 19 лет, «девица» из [Малой Быковки](malaya-bykovka.md), венчалась в Бобове со Стефаном Федоровичем Кондрашовым, 21 года. Свидетели по невесте — Николай Никитич Романов и Петр Федорович Матросов из [Малой Быковки](malaya-bykovka.md); по жениху — Иван Алексеевич Палицын и Ефимий Иванович Кондрашов.<sup>[1](#kuznetsov-registers)</sup>
 

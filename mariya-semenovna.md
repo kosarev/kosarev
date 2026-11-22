@@ -3,14 +3,14 @@
 **Родилась:** между 1905 и 1906<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>[1](#confession-1910)</sup>
-- [Анна Григорьевна Косарева](anna-grigorevna.md)<sup>? [2](#children-order)</sup>
+- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1874–1875)
+- [Анна Григорьевна Косарева](anna-grigorevna.md)<sup>? [2](#children-order)</sup> (р. 1877–1878)
 
 **Братья:**
-- [Михаил Семенович Косарев](mikhail-semenovich.md)<sup>? [1](#confession-1910), [2](#children-order)</sup>
-- [Иван Семенович Косарев](ivan-semenovich.md)<sup>? [1](#confession-1910), [2](#children-order)</sup>
-- [Константин Семенович Косарев](konstantin-semenovich.md)<sup>? [1](#confession-1910), [2](#children-order)</sup>
-- [Алексей Семенович Косарев](aleksey-semenovich.md)<sup>? [1](#confession-1910), [2](#children-order)</sup>
+- [Михаил Семенович Косарев](mikhail-semenovich.md)<sup>? [1](#confession-1910), [2](#children-order)</sup> (р. 1894–1895)
+- [Иван Семенович Косарев](ivan-semenovich.md)<sup>? [1](#confession-1910), [2](#children-order)</sup> (р. 1899–1900)
+- [Константин Семенович Косарев](konstantin-semenovich.md)<sup>? [1](#confession-1910), [2](#children-order)</sup> (р. 1900–1901)
+- [Алексей Семенович Косарев](aleksey-semenovich.md)<sup>? [1](#confession-1910), [2](#children-order)</sup> (р. 1907)
 
 ## Источники
 

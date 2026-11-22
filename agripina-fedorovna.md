@@ -3,12 +3,12 @@
 **Родилась:** между 1900 и 1901<sup>[1](#confession-1910)</sup>
 
 **Родители:**
-- [Федор Иванович Косарев](fedor-ivanovich.md)<sup>[1](#confession-1910)</sup>
-- [Агапия Спиридоновна Косарева](agapiya-spiridonovna.md)<sup>? [2](#children-order-1910)</sup>
+- [Федор Иванович Косарев](fedor-ivanovich.md)<sup>[1](#confession-1910)</sup> (р. 1874–1875)
+- [Агапия Спиридоновна Косарева](agapiya-spiridonovna.md)<sup>? [2](#children-order-1910)</sup> (р. 1876–1877)
 
 **Брат и сестра:**
-- [Василий Федорович Косарев](vasiliy-fedorovich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
-- [Клавдия Федоровна Косарева](klavdiya-fedorovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup>
+- [Василий Федорович Косарев](vasiliy-fedorovich.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1906)
+- [Клавдия Федоровна Косарева](klavdiya-fedorovna.md)<sup>? [1](#confession-1910), [2](#children-order-1910)</sup> (р. 1908)
 
 ## Источники
 

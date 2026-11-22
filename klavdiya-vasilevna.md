@@ -3,13 +3,13 @@
 **Родилась:** между 1879 и 1880<sup>[1](#confession-1910)</sup>
 
 **Муж:**
-- [Григорий Васильевич Косарев](grigoriy-vasilevich.md)<sup>? [2](#children-order-1910)</sup>
+- [Григорий Васильевич Косарев](grigoriy-vasilevich.md)<sup>? [2](#children-order-1910)</sup> (р. 1878–1879)
 
 **Дети:**
-- [Феврония Григорьевна Косарева](fevroniya-grigorevna.md)<sup>? [2](#children-order-1910)</sup>
-- [Петр Григорьевич Косарев](petr-grigorevich.md)<sup>? [2](#children-order-1910)</sup>
-- [Александр Григорьевич Косарев](aleksandr-grigorevich.md)<sup>? [2](#children-order-1910)</sup>
-- [Михаил Григорьевич Косарев](mikhail-grigorevich.md)<sup>? [2](#children-order-1910)</sup>
+- [Феврония Григорьевна Косарева](fevroniya-grigorevna.md)<sup>? [2](#children-order-1910)</sup> (р. 1900–1901)
+- [Петр Григорьевич Косарев](petr-grigorevich.md)<sup>? [2](#children-order-1910)</sup> (р. 1906)
+- [Александр Григорьевич Косарев](aleksandr-grigorevich.md)<sup>? [2](#children-order-1910)</sup> (р. 1907)
+- [Михаил Григорьевич Косарев](mikhail-grigorevich.md)<sup>? [2](#children-order-1910)</sup> (р. 1908)
 
 Записана в дворе № 4 сразу после Григория Васильевича, без пометки «жена»; вероятно, его жена, но отчество у неё то же, что у него, так что она может быть и его сестрой.<sup>? [2](#children-order-1910)</sup>
 

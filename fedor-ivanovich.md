@@ -3,12 +3,12 @@
 **Родился:** между 1874 и 1875<sup>[1](#confession-1910)</sup>
 
 **Жена:**
-- [Агапия Спиридоновна Косарева](agapiya-spiridonovna.md)<sup>[1](#confession-1910)</sup>
+- [Агапия Спиридоновна Косарева](agapiya-spiridonovna.md)<sup>[1](#confession-1910)</sup> (р. 1876–1877)
 
 **Дети:**
-- [Агрипина Федоровна Косарева](agripina-fedorovna.md)<sup>[1](#confession-1910)</sup>
-- [Василий Федорович Косарев](vasiliy-fedorovich.md)<sup>[1](#confession-1910)</sup>
-- [Клавдия Федоровна Косарева](klavdiya-fedorovna.md)<sup>[1](#confession-1910)</sup>
+- [Агрипина Федоровна Косарева](agripina-fedorovna.md)<sup>[1](#confession-1910)</sup> (р. 1900–1901)
+- [Василий Федорович Косарев](vasiliy-fedorovich.md)<sup>[1](#confession-1910)</sup> (р. 1906)
+- [Клавдия Федоровна Косарева](klavdiya-fedorovna.md)<sup>[1](#confession-1910)</sup> (р. 1908)
 
 В 1910 году жил в Бобове, двор № 11 по исповедной ведомости.<sup>[1](#confession-1910)</sup>
 

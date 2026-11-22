@@ -3,17 +3,17 @@
 **Родилась:** между 1854 и 1855<sup>[1](#revision-1858)</sup>
 
 **Родители:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1858)</sup>
-- [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[2](#second-wife-children)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1858)</sup> (р. 1807–1809)
+- [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[2](#second-wife-children)</sup> (р. 1824–1825)
 
 **Братья и сестры:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[1](#revision-1858), [3](#revision-1835), [4](#revision-1850)</sup>
-- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[1](#revision-1858), [4](#revision-1850)</sup>
-- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[1](#revision-1858), [4](#revision-1850)</sup>
-- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[1](#revision-1858), [4](#revision-1850), [2](#second-wife-children)</sup>
-- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [1](#revision-1858), [5](#ustin-sons)</sup>
-- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[1](#revision-1858), [6](#akim-patronym), [2](#second-wife-children)</sup>
-- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [1](#revision-1858), [5](#ustin-sons)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[1](#revision-1858), [3](#revision-1835), [4](#revision-1850)</sup> (р. 1829–1830)
+- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[1](#revision-1858), [4](#revision-1850)</sup> (р. 1841–1842)
+- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[1](#revision-1858), [4](#revision-1850)</sup> (р. 1843–1844)
+- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[1](#revision-1858), [4](#revision-1850), [2](#second-wife-children)</sup> (р. 1850, ум. 1850–1858)
+- [Василий Устинович Косарев](vasiliy-ustinovich.md)<sup>? [1](#revision-1858), [5](#ustin-sons)</sup> (р. 1854–1855)
+- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[1](#revision-1858), [6](#akim-patronym), [2](#second-wife-children)</sup> (р. 1856–1857)
+- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [1](#revision-1858), [5](#ustin-sons)</sup> (р. 1859–1860)
 - [Акулина Устиновна Косарева](akulina-ustinovna.md)<sup>[1](#revision-1858), [4](#revision-1850)</sup>
 
 Имя читается неуверенно: «Афимья(?)».<sup>[1](#revision-1858)</sup>

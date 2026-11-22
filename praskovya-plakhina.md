@@ -7,12 +7,12 @@
 **Умерла:** 6 ноября 1936<sup>[3](#myheritage-match-viktor), [2](#myheritage-praskovya)</sup>
 
 **Мужья:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [5](#geni-ivan-wife)</sup>
-- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [6](#pavel-wife-praskovya-version)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>? [5](#geni-ivan-wife)</sup> (р. 1873–1907)
+- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [6](#pavel-wife-praskovya-version)</sup> (р. 1896, ум. 1942)
 
 **Дети:**
-- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[2](#myheritage-praskovya)</sup>
-- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>? [1](#geni-viktor)</sup>
+- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[2](#myheritage-praskovya)</sup> (р. 1924, ум. 2009)
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>? [1](#geni-viktor)</sup> (р. 1923–1927, ум. 2000)
 
 Вероятно, в 1924 году жила в [с. Малая Быковка](malaya-bykovka.md) Балаковского района: там родилась её дочь Антонина.<sup>[7](#malaya-bykovka-family)</sup>
 

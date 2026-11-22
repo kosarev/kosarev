@@ -3,13 +3,13 @@
 **Родился:** между 1878 и 1879<sup>[1](#confession-1910)</sup>
 
 **Жена:**
-- [Клавдия Васильевна Косарева](klavdiya-vasilevna.md)<sup>? [2](#children-order-1910)</sup>
+- [Клавдия Васильевна Косарева](klavdiya-vasilevna.md)<sup>? [2](#children-order-1910)</sup> (р. 1879–1880)
 
 **Дети:**
-- [Феврония Григорьевна Косарева](fevroniya-grigorevna.md)<sup>[1](#confession-1910)</sup>
-- [Петр Григорьевич Косарев](petr-grigorevich.md)<sup>[1](#confession-1910)</sup>
-- [Александр Григорьевич Косарев](aleksandr-grigorevich.md)<sup>[1](#confession-1910)</sup>
-- [Михаил Григорьевич Косарев](mikhail-grigorevich.md)<sup>[1](#confession-1910)</sup>
+- [Феврония Григорьевна Косарева](fevroniya-grigorevna.md)<sup>[1](#confession-1910)</sup> (р. 1900–1901)
+- [Петр Григорьевич Косарев](petr-grigorevich.md)<sup>[1](#confession-1910)</sup> (р. 1906)
+- [Александр Григорьевич Косарев](aleksandr-grigorevich.md)<sup>[1](#confession-1910)</sup> (р. 1907)
+- [Михаил Григорьевич Косарев](mikhail-grigorevich.md)<sup>[1](#confession-1910)</sup> (р. 1908)
 
 В 1910 году жил в Бобове, двор № 4 по исповедной ведомости.<sup>[1](#confession-1910)</sup>
 

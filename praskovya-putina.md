@@ -3,11 +3,11 @@
 (Косарева<sup>[2](#praskovya-sister)</sup>)
 
 **Отец:**
-- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#praskovya-sister)</sup>
+- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#praskovya-sister)</sup> (р. 1856–1857)
 
 **Братья:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[2](#praskovya-sister), [3](#viktor-kosarev-words)</sup>
-- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#praskovya-sister), [4](#pavel-brother)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[2](#praskovya-sister), [3](#viktor-kosarev-words)</sup> (р. 1873–1907)
+- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#praskovya-sister), [4](#pavel-brother)</sup> (р. 1896, ум. 1942)
 
 Муж — Михаил Тимофеевич Путин.<sup>[5](#myheritage-putin)</sup>
 

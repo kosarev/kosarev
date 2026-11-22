@@ -3,7 +3,7 @@
 **Умер:** 1996<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
 
 **Отец:**
-- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup> (р. 1893–1894)
 
 **Брат:**
 - [Василий Егорович Косарев](vasiliy-egorovich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup>

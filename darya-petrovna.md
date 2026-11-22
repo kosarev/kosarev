@@ -3,8 +3,8 @@
 **Родилась:** между 1857 и 1858<sup>[1](#revision-1858)</sup>
 
 **Родители:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[1](#revision-1858)</sup>
-- [Марья Кузьминична Косарева](marya-kuzminichna.md)<sup>[1](#revision-1858)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[1](#revision-1858)</sup> (р. 1829–1830)
+- [Марья Кузьминична Косарева](marya-kuzminichna.md)<sup>[1](#revision-1858)</sup> (р. 1829–1830)
 
 В апреле 1858 года — полугода.<sup>[1](#revision-1858)</sup>
 

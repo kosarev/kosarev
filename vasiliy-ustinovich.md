@@ -3,28 +3,28 @@
 **Родился:** между 1854 и 1855<sup>[1](#confession-1910)</sup> или между 1850 и 1851<sup>? [2](#ustin-sons)</sup>
 
 **Отец:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup>
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup> (р. 1807–1809)
 
 **Жена:**
-- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>[1](#confession-1910)</sup>
+- [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>[1](#confession-1910)</sup> (р. 1855–1856)
 
 **Дети:**
-- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>[1](#confession-1910)</sup>
-- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>[1](#confession-1910)</sup>
-- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>[1](#confession-1910)</sup>
-- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>[1](#confession-1910)</sup>
-- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>[1](#confession-1910)</sup>
-- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>[1](#confession-1910)</sup>
-- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>[1](#confession-1910)</sup>
+- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1874–1875)
+- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1880–1881)
+- [Михаил Васильевич Косарев](mikhail-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1887)
+- [Иван Васильевич Косарев](ivan-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1887)
+- [Матрена Васильевна Косарева](matrena-vasilevna.md)<sup>[1](#confession-1910)</sup> (р. 1892–1893)
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1893–1894)
+- [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1897–1898)
 
 **Братья и сестры:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>? [2](#ustin-sons), [3](#revision-1835), [4](#revision-1850)</sup>
-- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup>
-- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup>
-- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup>
-- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>? [2](#ustin-sons), [5](#revision-1858)</sup>
-- [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [2](#ustin-sons), [6](#akim-patronym), [5](#revision-1858)</sup>
-- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [2](#ustin-sons)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>? [2](#ustin-sons), [3](#revision-1835), [4](#revision-1850)</sup> (р. 1829–1830)
+- [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup> (р. 1841–1842)
+- [Иван Устинович Косарев](ivan-ustinovich.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup> (р. 1843–1844)
+- [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup> (р. 1850, ум. 1850–1858)
+- [Афимья Устиновна Косарева](afimya-ustinovna.md)<sup>? [2](#ustin-sons), [5](#revision-1858)</sup> (р. 1854–1855)
+- [Аким Устинович Косарев](akim-ustinovich.md)<sup>? [2](#ustin-sons), [6](#akim-patronym), [5](#revision-1858)</sup> (р. 1856–1857)
+- [Константин Устинович Косарев](konstantin-ustinovich.md)<sup>? [2](#ustin-sons)</sup> (р. 1859–1860)
 - [Акулина Устиновна Косарева](akulina-ustinovna.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup>
 
 В 1910 году жил в Бобове, двор № 37 по исповедной ведомости Николаевской церкви, с женой, сыновьями, невестками и внуками.<sup>[1](#confession-1910)</sup>

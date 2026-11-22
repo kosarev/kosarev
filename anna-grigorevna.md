@@ -3,14 +3,14 @@
 **Родилась:** между 1877 и 1878<sup>[1](#confession-1910)</sup>
 
 **Муж:**
-- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>[1](#confession-1910)</sup>
+- [Семен Васильевич Косарев](semen-vasilevich.md)<sup>[1](#confession-1910)</sup> (р. 1874–1875)
 
 **Дети:**
-- [Михаил Семенович Косарев](mikhail-semenovich.md)<sup>? [2](#children-order)</sup>
-- [Иван Семенович Косарев](ivan-semenovich.md)<sup>? [2](#children-order)</sup>
-- [Константин Семенович Косарев](konstantin-semenovich.md)<sup>? [2](#children-order)</sup>
-- [Мария Семеновна Косарева](mariya-semenovna.md)<sup>? [2](#children-order)</sup>
-- [Алексей Семенович Косарев](aleksey-semenovich.md)<sup>? [2](#children-order)</sup>
+- [Михаил Семенович Косарев](mikhail-semenovich.md)<sup>? [2](#children-order)</sup> (р. 1894–1895)
+- [Иван Семенович Косарев](ivan-semenovich.md)<sup>? [2](#children-order)</sup> (р. 1899–1900)
+- [Константин Семенович Косарев](konstantin-semenovich.md)<sup>? [2](#children-order)</sup> (р. 1900–1901)
+- [Мария Семеновна Косарева](mariya-semenovna.md)<sup>? [2](#children-order)</sup> (р. 1905–1906)
+- [Алексей Семенович Косарев](aleksey-semenovich.md)<sup>? [2](#children-order)</sup> (р. 1907)
 
 ## Источники
 

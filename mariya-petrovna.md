@@ -3,7 +3,7 @@
 **Родилась:** между 1896 и 1926<sup>? [3](#mariya-birth)</sup>
 
 **Муж:**
-- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [1](#pavel-wife-mariya-version), [2](#pavel-missing-report)</sup>
+- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [1](#pavel-wife-mariya-version), [2](#pavel-missing-report)</sup> (р. 1896, ум. 1942)
 
 Разыскивала мужа, Павла Акимовича, живя в [с. Малая Быковка](malaya-bykovka.md) Балаковского района Саратовской области.<sup>[2](#pavel-missing-report)</sup>
 

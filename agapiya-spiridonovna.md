@@ -3,12 +3,12 @@
 **Родилась:** между 1876 и 1877<sup>[1](#confession-1910)</sup>
 
 **Муж:**
-- [Федор Иванович Косарев](fedor-ivanovich.md)<sup>[1](#confession-1910)</sup>
+- [Федор Иванович Косарев](fedor-ivanovich.md)<sup>[1](#confession-1910)</sup> (р. 1874–1875)
 
 **Дети:**
-- [Агрипина Федоровна Косарева](agripina-fedorovna.md)<sup>? [2](#children-order-1910)</sup>
-- [Василий Федорович Косарев](vasiliy-fedorovich.md)<sup>? [2](#children-order-1910)</sup>
-- [Клавдия Федоровна Косарева](klavdiya-fedorovna.md)<sup>? [2](#children-order-1910)</sup>
+- [Агрипина Федоровна Косарева](agripina-fedorovna.md)<sup>? [2](#children-order-1910)</sup> (р. 1900–1901)
+- [Василий Федорович Косарев](vasiliy-fedorovich.md)<sup>? [2](#children-order-1910)</sup> (р. 1906)
+- [Клавдия Федоровна Косарева](klavdiya-fedorovna.md)<sup>? [2](#children-order-1910)</sup> (р. 1908)
 
 ## Источники
 

@@ -3,7 +3,7 @@
 **Родилась:** между 1889 и 1890<sup>[1](#confession-1910)</sup>
 
 **Муж:**
-- [Михаил Константинович Косарев](mikhail-konstantinovich.md)<sup>[1](#confession-1910)</sup>
+- [Михаил Константинович Косарев](mikhail-konstantinovich.md)<sup>[1](#confession-1910)</sup> (р. 1890–1891)
 
 ## Источники
 

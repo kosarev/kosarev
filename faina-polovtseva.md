@@ -7,11 +7,11 @@
 **Умерла:** 2007<sup>? [1](#geni-faina)</sup>
 
 **Родители:**
-- [Егор Богданов](egor-bogdanov.md)<sup>? [1](#geni-faina)</sup>
-- [Ефросинья Константиновна Богданова](efrosinya-bogdanova.md)<sup>? [1](#geni-faina)</sup>
+- [Егор Богданов](egor-bogdanov.md)<sup>? [1](#geni-faina)</sup> (р. 1873–1914)
+- [Ефросинья Константиновна Богданова](efrosinya-bogdanova.md)<sup>? [1](#geni-faina)</sup> (р. 1878–1916)
 
 **Сестра:**
-- [Нина Егоровна Косарева](nina-kosareva.md)<sup>? [1](#geni-faina), [3](#geni-nina), [4](#myheritage-nina)</sup>
+- [Нина Егоровна Косарева](nina-kosareva.md)<sup>? [1](#geni-faina), [3](#geni-nina), [4](#myheritage-nina)</sup> (р. 1923–1934, ум. 1985)
 
 ## Источники
 

@@ -5,14 +5,14 @@
 **Умер:** 2000<sup>[3](#myheritage-viktor)</sup>, Cēsis, Латвия<sup>[1](#ivan)</sup>
 
 **Родители:**
-- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#ivan)</sup>
-- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [4](#geni-viktor)</sup>
+- [Иван Акимович Косарев](ivan-akimovich.md)<sup>[1](#ivan)</sup> (р. 1873–1907)
+- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [4](#geni-viktor)</sup> (р. 1878–1909, ум. 1936)
 
 **Жена:**
-- [Нина Егоровна Косарева](nina-kosareva.md)<sup>[1](#ivan)</sup>
+- [Нина Егоровна Косарева](nina-kosareva.md)<sup>[1](#ivan)</sup> (р. 1923–1934, ум. 1985)
 
 **Сестра:**
-- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>? [1](#ivan), [5](#myheritage-ivan), [4](#geni-viktor), [6](#myheritage-praskovya)</sup>
+- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>? [1](#ivan), [5](#myheritage-ivan), [4](#geni-viktor), [6](#myheritage-praskovya)</sup> (р. 1924, ум. 2009)
 
 Вероятно, родился в [с. Малая Быковка](malaya-bykovka.md) Балаковского района, где в 1924 году родилась его сестра Антонина; запись о рождении — вероятно, в церковных книгах прихода, к которому относилось село.<sup>[7](#viktor-birthplace)</sup>
 

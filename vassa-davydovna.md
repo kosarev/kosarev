@@ -3,15 +3,15 @@
 **Родилась:** между 1826 и 1827<sup>[1](#revision-1835-davyd)</sup>
 
 **Отец:**
-- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[1](#revision-1835-davyd)</sup>
+- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[1](#revision-1835-davyd)</sup> (р. 1796–1798, ум. 1856)
 
 **Братья и сестры:**
-- [Прасковья Давыдовна](praskovya-davydovna.md)<sup>[1](#revision-1835-davyd)</sup>
-- [Степанида Давыдовна](stepanida-davydovna.md)<sup>[1](#revision-1835-davyd)</sup>
-- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>[1](#revision-1835-davyd), [2](#revision-1850-davyd)</sup>
-- [Ефрем Давыдович Косарев](efrem-davydovich.md)<sup>[1](#revision-1835-davyd), [2](#revision-1850-davyd)</sup>
-- [Иван Давыдович Косарев](ivan-davydovich.md)<sup>[1](#revision-1835-davyd), [2](#revision-1850-davyd)</sup>
-- [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>[1](#revision-1835-davyd), [2](#revision-1850-davyd)</sup>
+- [Прасковья Давыдовна](praskovya-davydovna.md)<sup>[1](#revision-1835-davyd)</sup> (р. 1816–1817)
+- [Степанида Давыдовна](stepanida-davydovna.md)<sup>[1](#revision-1835-davyd)</sup> (р. 1817–1818)
+- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>[1](#revision-1835-davyd), [2](#revision-1850-davyd)</sup> (р. 1839–1840)
+- [Ефрем Давыдович Косарев](efrem-davydovich.md)<sup>[1](#revision-1835-davyd), [2](#revision-1850-davyd)</sup> (р. 1842–1843)
+- [Иван Давыдович Косарев](ivan-davydovich.md)<sup>[1](#revision-1835-davyd), [2](#revision-1850-davyd)</sup> (р. 1845–1846)
+- [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>[1](#revision-1835-davyd), [2](#revision-1850-davyd)</sup> (р. 1847–1848, ум. 1852)
 
 В 1850 году в семье отца её уже нет — вероятно, вышла замуж.<sup>? [3](#married-out-1850)</sup>
 

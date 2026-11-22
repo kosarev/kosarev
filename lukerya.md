@@ -5,13 +5,13 @@
 **Умерла:** между 1847 и 1850<sup>? [2](#davyd-wives)</sup>
 
 **Муж:**
-- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[1](#revision-1835-davyd)</sup>
+- [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>[1](#revision-1835-davyd)</sup> (р. 1796–1798, ум. 1856)
 
 **Дети:**
-- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>? [2](#davyd-wives)</sup>
-- [Ефрем Давыдович Косарев](efrem-davydovich.md)<sup>? [2](#davyd-wives)</sup>
-- [Иван Давыдович Косарев](ivan-davydovich.md)<sup>? [2](#davyd-wives)</sup>
-- [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>? [2](#davyd-wives)</sup>
+- [Варвара Давыдовна Косарева](varvara-davydovna.md)<sup>? [2](#davyd-wives)</sup> (р. 1839–1840)
+- [Ефрем Давыдович Косарев](efrem-davydovich.md)<sup>? [2](#davyd-wives)</sup> (р. 1842–1843)
+- [Иван Давыдович Косарев](ivan-davydovich.md)<sup>? [2](#davyd-wives)</sup> (р. 1845–1846)
+- [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>? [2](#davyd-wives)</sup> (р. 1847–1848, ум. 1852)
 
 Вероятно, вторая жена Давыда Евдокимовича и мать его детей 1839–1848 годов рождения; в 1850 году в семье её уже нет.<sup>? [2](#davyd-wives)</sup>
 

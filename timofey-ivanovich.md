@@ -3,13 +3,13 @@
 **Родился:** между 1878 и 1879<sup>[1](#confession-1910)</sup>
 
 **Жена:**
-- [Параскева Прокопьевна Косарева](paraskeva-prokopevna.md)<sup>[1](#confession-1910)</sup>
+- [Параскева Прокопьевна Косарева](paraskeva-prokopevna.md)<sup>[1](#confession-1910)</sup> (р. 1879–1880)
 
 **Дети:**
-- [Василий Тимофеевич Косарев](vasiliy-timofeevich.md)<sup>[1](#confession-1910)</sup>
-- [Пелагея Тимофеевна Косарева](pelageya-timofeevna.md)<sup>[1](#confession-1910)</sup>
-- [Александр Тимофеевич Косарев](aleksandr-timofeevich.md)<sup>[1](#confession-1910)</sup>
-- [Мария Тимофеевна Косарева](mariya-timofeevna.md)<sup>[1](#confession-1910)</sup>
+- [Василий Тимофеевич Косарев](vasiliy-timofeevich.md)<sup>[1](#confession-1910)</sup> (р. 1901–1902)
+- [Пелагея Тимофеевна Косарева](pelageya-timofeevna.md)<sup>[1](#confession-1910)</sup> (р. 1903–1904)
+- [Александр Тимофеевич Косарев](aleksandr-timofeevich.md)<sup>[1](#confession-1910)</sup> (р. 1905–1906)
+- [Мария Тимофеевна Косарева](mariya-timofeevna.md)<sup>[1](#confession-1910)</sup> (р. 1909)
 
 Брат Ивана Ивановича («Тимофей, брат Ивана»); в 1910 году жил с семьёй в его дворе, № 58.<sup>[1](#confession-1910)</sup>
 

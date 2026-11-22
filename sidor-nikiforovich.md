@@ -3,12 +3,12 @@
 **Родился:** между 1857 и 1858<sup>[1](#revision-1858-ustinya)</sup>
 
 **Родители:**
-- [Никифор Акимович Гундоров](nikifor-gundorov.md)<sup>[1](#revision-1858-ustinya)</sup>
-- [Устинья Алексеевна Косарева](ustinya-alekseevna.md)<sup>? [2](#ustinya-gundorova)</sup>
+- [Никифор Акимович Гундоров](nikifor-gundorov.md)<sup>[1](#revision-1858-ustinya)</sup> (р. 1816–1817)
+- [Устинья Алексеевна Косарева](ustinya-alekseevna.md)<sup>? [2](#ustinya-gundorova)</sup> (р. 1816–1817)
 
 **Братья:**
-- [Дорофей Никифорович Гундоров](dorofey-nikiforovich.md)<sup>? [1](#revision-1858-ustinya), [3](#revision-1850-list), [2](#ustinya-gundorova)</sup>
-- [Степан Никифорович Гундоров](stepan-nikiforovich.md)<sup>? [1](#revision-1858-ustinya), [3](#revision-1850-list), [2](#ustinya-gundorova)</sup>
+- [Дорофей Никифорович Гундоров](dorofey-nikiforovich.md)<sup>? [1](#revision-1858-ustinya), [3](#revision-1850-list), [2](#ustinya-gundorova)</sup> (р. 1843–1844)
+- [Степан Никифорович Гундоров](stepan-nikiforovich.md)<sup>? [1](#revision-1858-ustinya), [3](#revision-1850-list), [2](#ustinya-gundorova)</sup> (р. 1845–1846)
 
 ## Источники
 

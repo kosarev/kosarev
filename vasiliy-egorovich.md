@@ -1,10 +1,10 @@
 # Василий Егорович Косарев<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
 
 **Отец:**
-- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
+- [Георгий Васильевич Косарев](georgiy-vasilevich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup> (р. 1893–1894)
 
 **Брат:**
-- [Петр Егорович Косарев](petr-egorovich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
+- [Петр Егорович Косарев](petr-egorovich.md)<sup>? [1](#obd-egor), [2](#egor-identity)</sup> (ум. 1996)
 
 Старший сын; участник Великой Отечественной войны; жил в Ершове.<sup>? [1](#obd-egor), [2](#egor-identity)</sup>
 

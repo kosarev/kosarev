@@ -5,11 +5,11 @@
 **Родилась:** между 1879 и 1880<sup>[1](#confession-1910)</sup> или между 1883 и 1884<sup>[2](#kuznetsov-registers)</sup>
 
 **Муж:**
-- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>[1](#confession-1910), [2](#kuznetsov-registers)</sup>
+- [Алексей Васильевич Косарев](aleksey-vasilevich.md)<sup>[1](#confession-1910), [2](#kuznetsov-registers)</sup> (р. 1880–1881)
 
 **Дети:**
-- [Елена Алексеевна Косарева](elena-alekseevna.md)<sup>? [3](#children-order)</sup>
-- [Александра Алексеевна Косарева](aleksandra-alekseevna.md)<sup>? [3](#children-order)</sup>
+- [Елена Алексеевна Косарева](elena-alekseevna.md)<sup>? [3](#children-order)</sup> (р. 1905–1906)
+- [Александра Алексеевна Косарева](aleksandra-alekseevna.md)<sup>? [3](#children-order)</sup> (р. 1907–1908)
 
 Возраст в двух документах расходится примерно на 4 года; запись о венчании 1901 года, вероятно, точнее.<sup>? [4](#anna-age)</sup>
 

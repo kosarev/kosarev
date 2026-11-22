@@ -3,18 +3,18 @@
 **Родился:** между 1873 и 1907<sup>? [3](#ivan-birth-estimate)</sup>
 
 **Отец:**
-- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#viktor-kosarev-words)</sup>
+- [Аким Устинович Косарев](akim-ustinovich.md)<sup>[2](#viktor-kosarev-words)</sup> (р. 1856–1857)
 
 **Жёны:**
-- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [4](#geni-ivan-wife)</sup>
+- [Прасковья Дмитриевна Косарева](praskovya-plakhina.md)<sup>? [4](#geni-ivan-wife)</sup> (р. 1878–1909, ум. 1936)
 - [Ксения Косарева](kseniya-kosareva.md)<sup>[5](#myheritage-ivan)</sup>
 
 **Дети:**
-- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[5](#myheritage-ivan)</sup>
-- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan)</sup>
+- [Антонина Ивановна Косарева](antonina-kosareva.md)<sup>[5](#myheritage-ivan)</sup> (р. 1924, ум. 2009)
+- [Виктор Иванович Косарев](viktor-kosarev.md)<sup>[1](#ivan)</sup> (р. 1923–1927, ум. 2000)
 
 **Брат и сестра:**
-- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#viktor-kosarev-words), [6](#pavel-brother)</sup>
+- [Павел Акимович Косарев](pavel-akimovich.md)<sup>? [2](#viktor-kosarev-words), [6](#pavel-brother)</sup> (р. 1896, ум. 1942)
 - [Прасковья Акимовна Путина](praskovya-putina.md)<sup>[2](#viktor-kosarev-words), [7](#praskovya-sister)</sup>
 
 Вероятно, был из [с. Малая Быковка](malaya-bykovka.md) Балаковского района: там в 1896 году родился его брат Павел, а в 1924 году — его дочь Антонина.<sup>[8](#malaya-bykovka-family)</sup>

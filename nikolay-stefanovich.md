@@ -3,8 +3,8 @@
 **Родился:** 18 ноября 1918<sup>[1](#kuznetsov-registers)</sup>
 
 **Родители:**
-- [Стефан Федорович Кондрашов](stefan-kondrashov.md)<sup>[1](#kuznetsov-registers)</sup>
-- [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>[1](#kuznetsov-registers)</sup>
+- [Стефан Федорович Кондрашов](stefan-kondrashov.md)<sup>[1](#kuznetsov-registers)</sup> (р. 1896)
+- [Мария Михайловна Косарева](mariya-mikhaylovna.md)<sup>[1](#kuznetsov-registers)</sup> (р. 1898–1899)
 
 Крещён 19 ноября 1918 года в Бобове. Восприемники — Николай Михайлович Косарев из [Малой Быковки](malaya-bykovka.md) и девица Александра Федоровна Никитина.<sup>[1](#kuznetsov-registers)</sup>
 
