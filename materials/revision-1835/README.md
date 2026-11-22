@@ -17,6 +17,9 @@
   https://www.familysearch.org/en/search/catalog/1328882?availability=Family%20History%20Library
   (указана Cdtnf; сама она назвала «Ф 153 оп1 д.60» — вероятно, описка).
 
+Расшифровка всего списка села, семьи № 1–178 (черновик):
+[transcription.md](transcription.md).
+
 ## Семья № 132
 
 | Пол | Запись | Лета по последней ревизии (1816) | Из того числа выбыло | Ныне на лицо (1835) |
