@@ -10,7 +10,7 @@
 - [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[3](#revision-1850)</sup>
 
 **Дети:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[2](#revision-1835)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[2](#revision-1835), [3](#revision-1850)</sup>
 - [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[3](#revision-1850)</sup>
 - [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[3](#revision-1850)</sup>
 - [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[3](#revision-1850)</sup>

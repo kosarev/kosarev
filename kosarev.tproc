@@ -710,6 +710,15 @@ https://archivesaratov.ru/archive1/unit/10000034170}
 (дочь от второй жены родилась около мая 1850 года, так что брак — не позже
 1849 года).}
 
+{unreliable_source::married-out-1850:{me}:
+Вывод: дочерей, записанных в ревизской сказке 1835 года, в сказке 1850
+года в семьях отцов уже нет — у Алексея Евдокимова нет дочери Устиньи (18
+лет в 1835 году) {cite::revision-1835} {cite::revision-1850}, у Давыда
+Евдокимова — дочерей Прасковьи, Степаниды и Вассы (18, 17 и 8 лет)
+{cite::revision-1835-davyd} {cite::revision-1850-davyd}. Ревизская сказка
+записывает женщин по двору, где они живут, так что, вероятно, они вышли
+замуж в другие семьи (или умерли).}
+
 {unreliable_source::second-marriage:{me}:
 Наблюдение: если Василий (около 1854–1855 г. р.) и Константин (около
 1859–1860 г. р.) — сыновья Устина {cite::ustin-sons}, то их мать, вероятно,
@@ -1950,6 +1959,10 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 {father::aleksey-evdokimovich}
 }
 
+{record::married-out-1850:ustinya-alekseevna:
+{fact::В 1850 году в семье отца её уже нет — вероятно, вышла замуж.}
+}
+
 {record::revision-1835:ustin-kosarev:
 {fact::В 1835 году жил одним двором (семья № 132) с отцом Алексеем, его женой
 Катериной, сестрой Устиньей, своей женой Евдокией и сыном Петром.}
@@ -2088,6 +2101,23 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 {surname::Косарев}
 {birth_date::{between::{date::1829}:{date::1830}}}
 {father::ustin-kosarev}
+}
+
+{record::revision-1850:petr-ustinovich:
+{first_name::Петр}
+{patronym::Устинович}
+{surname::Косарев}
+{birth_date::{between::{date::1829}:{date::1830}}}
+{father::ustin-kosarev}
+{partner::marya-kuzminichna}
+{fact::В 1850 году ему 20 лет, женат; живёт в семье деда Алексея, № 141.}
+}
+
+{record::revision-1850:marya-kuzminichna:
+{first_name::Марья}
+{patronym::Кузьминична}
+{surname::Косарева}
+{birth_date::{between::{date::1829}:{date::1830}}}
 }
 
 {record::confession-1910:vasiliy-ustinovich:

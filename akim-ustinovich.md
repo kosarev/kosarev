@@ -11,7 +11,7 @@
 - [Прасковья Акимовна Путина](praskovya-putina.md)<sup>[5](#praskovya-sister)</sup>
 
 **Братья и сестры:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[3](#akim-patronym), [6](#revision-1835)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>[3](#akim-patronym), [6](#revision-1835), [7](#revision-1850)</sup>
 - [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>[3](#akim-patronym), [7](#revision-1850)</sup>
 - [Иван Устинович Косарев](ivan-ustinovich.md)<sup>[3](#akim-patronym), [7](#revision-1850)</sup>
 - [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>[3](#akim-patronym), [7](#revision-1850)</sup>

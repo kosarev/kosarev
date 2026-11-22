@@ -18,7 +18,7 @@
 - [Андрей Васильевич Косарев](andrey-vasilevich.md)<sup>[1](#confession-1910)</sup>
 
 **Братья и сестры:**
-- [Петр Устинович Косарев](petr-ustinovich.md)<sup>? [2](#ustin-sons), [3](#revision-1835)</sup>
+- [Петр Устинович Косарев](petr-ustinovich.md)<sup>? [2](#ustin-sons), [3](#revision-1835), [4](#revision-1850)</sup>
 - [Авдотья Устиновна Косарева](avdotya-ustinovna.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup>
 - [Иван Устинович Косарев](ivan-ustinovich.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup>
 - [Александра Устиновна Косарева](aleksandra-ustinovna.md)<sup>? [2](#ustin-sons), [4](#revision-1850)</sup>
