@@ -3299,8 +3299,8 @@ class Person(Subject):
         super().add(field, value, source)
 
     # The fields that name other people.
-    RELATION_FIELDS = ('father', 'mother', 'adoptive_father',
-                       'adoptive_mother', 'partner')
+    RELATION_FIELDS = ('father', 'mother', 'stepfather', 'stepmother',
+                       'partner')
 
     # The parents named by the given fields, each with the value that says
     # so; the first recorded, where there are alternatives.
@@ -3321,20 +3321,20 @@ class Person(Subject):
     def parents(self):
         return self.__parents(('father', 'mother'))
 
-    # The adoptive father and mother.
+    # The stepfather and stepmother.
     @property
-    def adoptive_parents(self):
-        return self.__parents(('adoptive_father', 'adoptive_mother'))
+    def stepparents(self):
+        return self.__parents(('stepfather', 'stepmother'))
 
     # The people whose father or mother this is.
     @property
     def children(self):
         return self.__children(('father', 'mother'))
 
-    # The people whose adoptive father or mother this is.
+    # The people whose stepfather or stepmother this is.
     @property
-    def adoptive_children(self):
-        return self.__children(('adoptive_father', 'adoptive_mother'))
+    def stepchildren(self):
+        return self.__children(('stepfather', 'stepmother'))
 
     # The partners, recorded on either side, each with a value whose sources
     # are those of all the values that say so.
@@ -3576,14 +3576,14 @@ def mother(value):
     return FieldValue('mother', content(value))
 
 
-# The id of the subject's adoptive father.
-def adoptive_father(value):
-    return FieldValue('adoptive_father', content(value))
+# The id of the subject's stepfather, who raised them.
+def stepfather(value):
+    return FieldValue('stepfather', content(value))
 
 
-# The id of the subject's adoptive mother.
-def adoptive_mother(value):
-    return FieldValue('adoptive_mother', content(value))
+# The id of the subject's stepmother, who raised them.
+def stepmother(value):
+    return FieldValue('stepmother', content(value))
 
 
 # The id of one of the subject's partners; all may be true at once.
@@ -3814,9 +3814,9 @@ class MarkdownWriter(object):
                          'Отец' if 'father' in p.fields else 'Мать')
                 relation(title, parents)
 
-            if parents := p.adoptive_parents:
+            if parents := p.stepparents:
                 title = ('Приёмные родители' if len(parents) > 1 else
-                         'Приёмный отец' if 'adoptive_father' in p.fields
+                         'Приёмный отец' if 'stepfather' in p.fields
                          else 'Приёмная мать')
                 relation(title, parents)
 
@@ -3835,7 +3835,7 @@ class MarkdownWriter(object):
                     title = 'Сын' if self.__male(children[0][0]) else 'Дочь'
                 relation(title, children)
 
-            if children := self.__by_birth(p.adoptive_children):
+            if children := self.__by_birth(p.stepchildren):
                 if len(children) > 1:
                     title = 'Приёмные дети'
                 else:
@@ -3925,8 +3925,8 @@ class MarkdownWriter(object):
 
     # The index: a tree for each earliest known ancestor, bigger trees
     # first, so that each person is shown once, with most of their family;
-    # those mentioned as partners get no tree of their own. Then the
-    # places.
+    # those mentioned as partners get no tree of their own, unless they
+    # have children not shown yet. Then the places.
     def __write_index(self, f, register):
         people = [p for p in register.subjects.values()
                   if isinstance(p, Person) and not isinstance(p, PersonId)]
@@ -3942,7 +3942,10 @@ class MarkdownWriter(object):
                 'супругом предположительна.\n')
         shown, mentioned = set(), set()
         for p in roots:
-            if p not in shown | mentioned:
+            if p in shown:
+                continue
+            if p not in mentioned or any(c not in shown
+                                         for c, v in p.children):
                 f.write(f'\n## {self.__name(p)}\n\n')
                 self.__write_tree(f, p, None, 0, register, shown, mentioned)
         assert shown | mentioned == set(people), (
