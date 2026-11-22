@@ -2956,7 +2956,7 @@ calameo): «С 1 января 1958 года был открыт Мухоршиб
 }
 
 {record::cgaso-catalogue:malaya-bykovka:
-{name::Малая Быковка}
+{place_name::Малая Быковка}
 {fact::Малая Быковка (Тягуновка) уже в 1806 году — деревня Вольского уезда
 Саратовской губернии, владения пахотных солдат, однодворцев и экономических
 крестьян.}
@@ -3257,7 +3257,7 @@ class Value(object):
 
 
 # A person or a place: what the records say about it, in the register it
-# belongs to; relations not recorded on it are inferred from the register.
+# belongs to.
 class Subject(object):
     def __init__(self, register, id):
         self.register = register
@@ -3278,6 +3278,20 @@ class Subject(object):
             values.append(v)
         if source is not None and source not in v.sources:
             v.sources.append(source)
+
+
+# A place: a name and facts.
+class Place(Subject):
+    def add(self, field, value, source):
+        assert field in ('place_name', 'facts'), (self.id, field)
+        super().add(field, value, source)
+
+
+# A person; relations not recorded on them are inferred from the register.
+class Person(Subject):
+    def add(self, field, value, source):
+        assert field != 'place_name', (self.id, field)
+        super().add(field, value, source)
 
     # The father and the mother, each with the value that says so; the
     # first recorded, where there are alternatives.
@@ -3336,7 +3350,12 @@ class Register(object):
         self.subjects = {}
 
     def add_field(self, subject, field, value, source):
-        s = self.subjects.setdefault(subject, Subject(self, subject))
+        # A subject is a place if it starts with a place name, and a person
+        # otherwise.
+        if subject not in self.subjects:
+            kind = Place if field == 'place_name' else Person
+            self.subjects[subject] = kind(self, subject)
+        s = self.subjects[subject]
         s.add(field, value, source)
 
 
@@ -3449,8 +3468,8 @@ class FieldValue(object):
         self.value = value
 
 
-def name(value):
-    return FieldValue('name', content(value))
+def place_name(value):
+    return FieldValue('place_name', content(value))
 
 
 def first_name(value):
@@ -3597,7 +3616,7 @@ record = Record
 # Writes the register as Markdown: a page for each person.
 class MarkdownWriter(object):
     # A place has a name; a person's name is in parts.
-    NAME_FIELDS = ('name', 'first_name', 'patronym', 'surname')
+    NAME_FIELDS = ('place_name', 'first_name', 'patronym', 'surname')
 
     def __name(self, p):
         return ' '.join(p.fields[f][0].value for f in self.NAME_FIELDS
@@ -3732,35 +3751,38 @@ class MarkdownWriter(object):
             for q, v in people:
                 f.write(f'- [{self.__name(q)}]({q.id}.md){refs(v)}\n')
 
-        parents = p.parents
-        if parents:
-            title = ('Родители' if len(parents) > 1 else
-                     'Отец' if 'father' in p.fields else 'Мать')
-            relation(title, parents)
+        # Only people have relations.
+        if isinstance(p, Person):
+            if parents := p.parents:
+                title = ('Родители' if len(parents) > 1 else
+                         'Отец' if 'father' in p.fields else 'Мать')
+                relation(title, parents)
 
-        if partners := p.partners:
-            if len(partners) > 1:
-                title = 'Супруги'
-            else:
-                title = 'Супруг' if self.__male(partners[0][0]) else 'Супруга'
-            relation(title, partners)
+            if partners := p.partners:
+                if len(partners) > 1:
+                    title = 'Супруги'
+                else:
+                    title = ('Супруг' if self.__male(partners[0][0])
+                             else 'Супруга')
+                relation(title, partners)
 
-        if children := self.__by_birth(p.children):
-            if len(children) > 1:
-                title = 'Дети'
-            else:
-                title = 'Сын' if self.__male(children[0][0]) else 'Дочь'
-            relation(title, children)
+            if children := self.__by_birth(p.children):
+                if len(children) > 1:
+                    title = 'Дети'
+                else:
+                    title = 'Сын' if self.__male(children[0][0]) else 'Дочь'
+                relation(title, children)
 
-        if siblings := self.__by_birth(p.siblings):
-            males = sum(1 for c, v in siblings if self.__male(c))
-            females = len(siblings) - males
-            titles = [t for t in (
-                'Братья' if males > 1 else 'Брат' if males else '',
-                'Сестры' if females > 1 else 'Сестра' if females else '')
-                if t]
-            relation(' и '.join(titles[:1] + [t.lower() for t in titles[1:]]),
-                     siblings)
+            if siblings := self.__by_birth(p.siblings):
+                males = sum(1 for c, v in siblings if self.__male(c))
+                females = len(siblings) - males
+                titles = [t for t in (
+                    'Братья' if males > 1 else 'Брат' if males else '',
+                    'Сестры' if females > 1 else 'Сестра' if females else '')
+                    if t]
+                relation(' и '.join(titles[:1] +
+                                    [t.lower() for t in titles[1:]]),
+                         siblings)
 
         # Facts come last, each a paragraph of its own.
         for v in p.fields.get('facts', []):
@@ -3836,9 +3858,9 @@ class MarkdownWriter(object):
     # places.
     def __write_index(self, f, register):
         people = [p for p in register.subjects.values()
-                  if 'name' not in p.fields]
+                  if isinstance(p, Person)]
         places = [p for p in register.subjects.values()
-                  if 'name' in p.fields]
+                  if isinstance(p, Place)]
         roots = [p for p in people
                  if 'father' not in p.fields and 'mother' not in p.fields]
         roots.sort(key=lambda p: (-len(self.__descendants(p, register)),
