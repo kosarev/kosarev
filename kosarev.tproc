@@ -3680,8 +3680,8 @@ class MarkdownWriter(object):
 
     # First names to tell the sex by when there is neither a patronym nor
     # a surname.
-    MALES = ('Нил',)
-    FEMALES = ('Лукерья', 'Софья')
+    MALES = ('Нил', 'Мартиньш', 'Эдгар')
+    FEMALES = ('Лукерья', 'Софья', 'Елена')
 
     # Tells whether a person is male by the patronym, or else by the
     # surname, or else by the first name.
@@ -3692,15 +3692,15 @@ class MarkdownWriter(object):
                 return True
             assert patronym.endswith('на'), patronym
             return False
-        if 'surname' not in p.fields:
-            first_name = p.fields['first_name'][0].value
-            assert first_name in self.MALES + self.FEMALES, first_name
-            return first_name in self.MALES
-        surname = p.fields['surname'][0].value
-        if surname.endswith(('ов', 'ев', 'ин')):
-            return True
-        assert surname.endswith(('ова', 'ева', 'ина')), surname
-        return False
+        if 'surname' in p.fields:
+            surname = p.fields['surname'][0].value
+            if surname.endswith(('ов', 'ев', 'ин')):
+                return True
+            if surname.endswith(('ова', 'ева', 'ина')):
+                return False
+        first_name = p.fields['first_name'][0].value
+        assert first_name in self.MALES + self.FEMALES, first_name
+        return first_name in self.MALES
 
     # A value as text; places and facts may have links in them.
     def __shown(self, value):
