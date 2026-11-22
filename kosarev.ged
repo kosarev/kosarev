@@ -1,0 +1,3687 @@
+﻿0 HEAD
+1 SOUR kosarev.tproc
+2 NAME Косаревы
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG Russian
+1 SUBM @U1@
+0 @U1@ SUBM
+1 NAME Иван Косарев
+1 WWW https://github.com/kosarev/kosarev/blob/main/index/README.md
+0 @I1@ INDI
+1 NAME Виктор Иванович /Косарев/
+2 GIVN Виктор Иванович
+2 SURN Косарев
+2 SOUR @S1@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1923 AND 1927
+2 SOUR @S2@
+3 QUAY 1
+1 DEAT
+2 DATE 2000
+2 PLAC Cēsis, Латвия
+2 SOUR @S5@
+3 QUAY 3
+2 SOUR @S1@
+3 QUAY 3
+1 FAMC @F1@
+1 FAMS @F2@
+1 SOUR @S1@
+2 QUAY 3
+2 NOTE Отец: Иван Акимович Косарев
+1 SOUR @S6@
+2 QUAY 1
+2 NOTE Мать: Прасковья Дмитриевна Косарева
+1 NOTE Вероятно, родился в с. Малая Быковка Балаковского района, где в 1924 году родилась его сестра Антонина; запис
+2 CONC ь о рождении — вероятно, в церковных книгах прихода, к которому относилось село. [viktor-birthplace]
+1 NOTE Записи о его рождении следует искать среди документов села Малая Быковка: церковную — в метрических книгах при
+2 CONC хода, гражданскую 1920-х годов, если она есть, — в актовых книгах Мало-Быковской волости. [viktor-records]
+1 NOTE Когда началась война, был подростком. [viktor-kosarev-on-war]
+1 NOTE В Петербурге участвовал в строительных или ремонтных работах на крыше Гостиного двора. [vladimir-on-gostiny]
+1 NOTE Приехал в Латвию в подростковом возрасте с другом. [viktor-on-latvia]
+1 NOTE В Латвию попал по ошибке: с другом ехал к тётке друга на Украину, так как в Петербурге было трудно с едой, н
+2 CONC о на Балтийском вокзале в Петербурге они перепутали поезда. Ехали в ящике для инструментов под вагоном. [vladi
+2 CONC mir-on-latvia]
+1 NOTE Изначально год рождения был указан неточно — на год позже. Перед выходом на пенсию его исправили. [vladimir-on
+2 CONC -birth-year]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/viktor-kosarev.md
+0 @I2@ INDI
+1 NAME Нина Егоровна /Косарева/
+2 GIVN Нина Егоровна
+2 SURN Косарева
+2 SOUR @S1@
+3 QUAY 3
+2 SOUR @S17@
+3 QUAY 3
+2 SOUR @S18@
+3 QUAY 1
+1 NAME Нина Егоровна /Богданова/
+2 TYPE birth
+2 GIVN Нина Егоровна
+2 SURN Богданова
+2 SOUR @S17@
+3 QUAY 3
+2 SOUR @S18@
+3 QUAY 1
+2 SOUR @S1@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1923 AND 1934
+2 SOUR @S19@
+3 QUAY 1
+1 DEAT
+2 DATE 1985
+2 SOUR @S18@
+3 QUAY 1
+1 FAMS @F2@
+1 FAMC @F3@
+1 SOUR @S18@
+2 QUAY 1
+2 NOTE Отец: Егор Богданов
+1 SOUR @S17@
+2 QUAY 3
+2 NOTE Отец: Егор Богданов
+1 SOUR @S18@
+2 QUAY 1
+2 NOTE Мать: Ефросинья Константиновна Богданова
+1 SOUR @S17@
+2 QUAY 3
+2 NOTE Мать: Ефросинья Константиновна Богданова
+1 NOTE https://github.com/kosarev/kosarev/blob/main/nina-kosareva.md
+0 @I3@ INDI
+1 NAME Егор /Богданов/
+2 GIVN Егор
+2 SURN Богданов
+2 SOUR @S20@
+3 QUAY 1
+2 SOUR @S17@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1873 AND 1914
+2 SOUR @S21@
+3 QUAY 1
+1 FAMS @F3@
+1 NOTE Отец Нины Егоровны Косаревой, жены Виктора Ивановича Косарева. [? geni-nina, myheritage-nina]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/egor-bogdanov.md
+0 @I4@ INDI
+1 NAME Ефросинья Константиновна /Богданова/
+2 GIVN Ефросинья Константиновна
+2 SURN Богданова
+2 SOUR @S22@
+3 QUAY 1
+2 SOUR @S17@
+3 QUAY 3
+1 NAME Ефросинья Константиновна /Молодцова/
+2 TYPE birth
+2 GIVN Ефросинья Константиновна
+2 SURN Молодцова
+2 SOUR @S22@
+3 QUAY 1
+2 SOUR @S17@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1878 AND 1916
+2 SOUR @S23@
+3 QUAY 1
+1 FAMS @F3@
+1 FAMC @F4@
+1 SOUR @S22@
+2 QUAY 1
+2 NOTE Отец: Константин Молодцов
+1 NOTE https://github.com/kosarev/kosarev/blob/main/efrosinya-bogdanova.md
+0 @I5@ INDI
+1 NAME Михаил /Косарев/
+2 GIVN Михаил
+2 SURN Косарев
+2 SOUR @S24@
+3 QUAY 3
+1 SEX M
+1 FAMS @F5@
+1 NOTE Жил в Малой Быковке; его дети родились около 1898–1901 годов. [? mikhail-generation]
+1 NOTE Слабое совпадение: по поколению мог быть сыном Петра Устиновича или Ивана Устиновича, младшим братом Акима Уст
+2 CONC иновича, сыном Акима или сыном одного из сыновей Давыда Евдокимовича — Ефрема или Ивана. [? mikhail-generation
+2 CONC ]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mikhail-kosarev.md
+0 @I6@ INDI
+1 NAME Мария Михайловна /Косарева/
+2 GIVN Мария Михайловна
+2 SURN Косарева
+2 SOUR @S25@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1898 AND 1899
+2 SOUR @S25@
+3 QUAY 3
+1 FAMC @F5@
+1 FAMS @F6@
+1 SOUR @S24@
+2 QUAY 3
+2 NOTE Отец: Михаил Косарев
+1 NOTE 19 февраля 1918 года, 19 лет, «девица» из Малой Быковки, венчалась в Бобове со Стефаном Федоровичем Кондрашовы
+2 CONC м, 21 года. Свидетели по невесте — Николай Никитич Романов и Петр Федорович Матросов из Малой Быковки; по жени
+2 CONC ху — Иван Алексеевич Палицын и Ефимий Иванович Кондрашов. [kuznetsov-registers]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mariya-mikhaylovna.md
+0 @I7@ INDI
+1 NAME Николай Михайлович /Косарев/
+2 GIVN Николай Михайлович
+2 SURN Косарев
+2 SOUR @S25@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1901
+2 PLAC Саратовская обл., Балаковский р-н
+2 SOUR @S32@
+3 QUAY 3
+2 SOUR @S33@
+3 QUAY 1
+1 DEAT
+2 DATE 15 AUG 1944
+2 PLAC Литовская ССР, Мариямпольский уезд, д. Верши
+2 SOUR @S32@
+3 QUAY 3
+2 SOUR @S33@
+3 QUAY 1
+1 DEAT
+2 DATE 5 AUG 1944
+2 SOUR @S34@
+3 QUAY 1
+2 SOUR @S33@
+3 QUAY 1
+1 FAMC @F5@
+1 SOUR @S35@
+2 QUAY 1
+2 NOTE Отец: Михаил Косарев
+1 NOTE Из Малой Быковки; в ноябре 1918 года — восприемник Николая, сына Марии Михайловны Косаревой и Стефана Кондрашо
+2 CONC ва, в Бобове. [kuznetsov-registers]
+1 NOTE Вероятно, брат Марии Михайловны: то же отчество, то же село; восприемник её сына. [? nikolay-brother]
+1 NOTE Вероятно, это Николай Михайлович Косарев, 1901 г. р., уроженец Балаковского района, убитый в 1944 году: те ж
+2 CONC е имя, отчество и фамилия, тот же район, подходящий возраст. [? nikolay-identity]
+1 NOTE Призван Балаковским РВК; младший сержант, 338-я стрелковая дивизия. Убит; первично похоронен в братской могил
+2 CONC е № 2 в 300 м северо-западнее д. Верши, Мариямпольский уезд Литовской ССР; перезахоронен в Синтаутае. [nikolay
+2 CONC -loss-report, ? nikolay-identity]
+1 NOTE Командир минометного расчета («ком. мин. расч.»), член ВКП(б). [nikolay-loss-report, ? nikolay-identity]
+1 NOTE Дата гибели в источниках разная: 15 августа 1944 года по донесению о потерях, 5 августа — в томе 2 Книги памят
+2 CONC и; донесение, вероятно, точнее: у Ивана Афанасьевича Косарева из той же дивизии, погибшего и похороненного та
+2 CONC м же, книга даёт 15 августа. [? nikolay-identity]
+1 NOTE Слабое совпадение: в той же 338-й дивизии в тот же день погиб и там же похоронен Иван Афанасьевич Косарев, 191
+2 CONC 4 г. р., из того же района; возможно, земляк или родственник. [? ivan-afanasevich]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/nikolay-mikhaylovich.md
+0 @I8@ INDI
+1 NAME Стефан Федорович /Кондрашов/
+2 GIVN Стефан Федорович
+2 SURN Кондрашов
+2 SOUR @S25@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1896
+2 SOUR @S25@
+3 QUAY 3
+1 FAMS @F6@
+1 FAMS @F7@
+1 NOTE Из Бобова. 9 января 1915 года, 18 лет 1 месяца, венчался с Матроной Стефановной Кондрашовой, 17 лет 2 месяцев
+2 CONC , того же села; свидетели по жениху — Гавриил Никитин и Алексей Косарев. [kuznetsov-registers]
+1 NOTE 19 февраля 1918 года, 21 года, венчался с Марией Михайловной Косаревой из Малой Быковки. [kuznetsov-registers]
+1 NOTE Вероятно, к 1918 году овдовел: первая жена, Матрона Стефановна, умерла между 1915 и 1918 годами. [? stefan-wid
+2 CONC owed]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/stefan-kondrashov.md
+0 @I9@ INDI
+1 NAME Матрона Стефановна /Кондрашова/
+2 GIVN Матрона Стефановна
+2 SURN Кондрашова
+2 SOUR @S25@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 1897
+2 SOUR @S25@
+3 QUAY 3
+1 FAMS @F7@
+1 NOTE Первая жена Стефана Федоровича Кондрашова (венчались 9 января 1915 года); вероятно, умерла к 1918 году: в февр
+2 CONC але 1918 года он венчался с Марией Михайловной Косаревой из Малой Быковки, дочерью Михаила Косарева. [? stefan
+2 CONC -widowed]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/matrona-kondrashova.md
+0 @I10@ INDI
+1 NAME Николай Стефанович /Кондрашов/
+2 GIVN Николай Стефанович
+2 SURN Кондрашов
+2 SOUR @S25@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 18 NOV 1918
+2 SOUR @S25@
+3 QUAY 3
+1 FAMC @F6@
+1 SOUR @S25@
+2 QUAY 3
+2 NOTE Отец: Стефан Федорович Кондрашов
+1 SOUR @S25@
+2 QUAY 3
+2 NOTE Мать: Мария Михайловна Косарева
+1 NOTE Крещён 19 ноября 1918 года в Бобове. Восприемники — Николай Михайлович Косарев из Малой Быковки и девица Алекс
+2 CONC андра Федоровна Никитина. [kuznetsov-registers]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/nikolay-stefanovich.md
+0 @I11@ INDI
+1 NAME Давыд Евдокимович /Косарев/
+2 GIVN Давыд Евдокимович
+2 SURN Косарев
+2 SOUR @S29@
+3 QUAY 3
+2 SOUR @S39@
+3 QUAY 3
+2 SOUR @S38@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1796 AND 1798
+2 SOUR @S38@
+3 QUAY 3
+1 DEAT
+2 DATE 1856
+2 SOUR @S30@
+3 QUAY 3
+1 FAMC @F8@
+1 FAMS @F9@
+1 FAMS @F10@
+1 FAMS @F12@
+1 SOUR @S39@
+2 QUAY 3
+2 NOTE Отец: Евдоким Косарев
+1 NOTE Жил в Малой Быковке. В ревизской сказке 1835 года — семья № 133, сразу после семьи Косаревых, № 132. Фамилия т
+2 CONC ам записана неразборчиво, «Ки…аревъ», — по сказке 1850 года, которая продолжает её, это та же фамилия, «Косаре
+2 CONC в». [revision-1835-davyd]
+1 NOTE В ревизской сказке 1850 года ему 52 года; фамилия записана ясно — «Давыд Евдокимов Косарев». Семья № 142, снов
+2 CONC а сразу после семьи Алексея Евдокимовича Косарева, № 141. С ним жена Акулина Прокофьева, 20 лет, дочь от второ
+2 CONC й жены Варвара, 10, и сыновья от второй жены Ефрем, 7, Иван, 4, и Ермолай, 2. [revision-1850-davyd]
+1 NOTE Умер в 1856 году: в ревизской сказке 1858 года — «Давыд Евдокимов Косарев», 52, «умер в 1856» (семья № 135, п
+2 CONC о 9-й ревизии № 142). Его вдова Акулина Прокофьева — 28 лет, сыновья Ефрем — 14, Иван — 11; Ермолай умер в 185
+2 CONC 2 году. [revision-1858-davyd]
+1 NOTE Младший брат Алексея Евдокимовича Косарева — вероятно, единокровный: та же фамилия и отчество, семьи записан
+2 CONC ы рядом и в 1835, и в 1850 году; разница в возрасте — около 24 лет. [davyd-brother]
+1 NOTE Был женат трижды: в 1835 году его жена — Лукерья, вероятно вторая (всего на 2 года старше старшей дочери); в 1
+2 CONC 850 году дети 1839–1848 годов рождения записаны «от 2 жены», а жена — Акулина Прокофьева, 20 лет, третья. [? d
+2 CONC avyd-wives]
+1 NOTE Однодворец: среди однодворцев — совладельцев земли около 1833 года записан непосредственно перед Устином Алекс
+2 CONC еевым Косаревым. [bobovo-article]
+1 NOTE Слабое совпадение: имя его младшей дочери, Васса, есть и среди Косаревых Бобова в 1910 году — Васса Ивановна
+2 CONC , 14 лет. Имена в семьях часто повторялись, но Васса — обычное имя по святцам. [? vassa-name]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/davyd-evdokimovich.md
+0 @I12@ INDI
+1 NAME Лукерья //
+2 GIVN Лукерья
+2 SOUR @S38@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1814 AND 1815
+2 SOUR @S38@
+3 QUAY 3
+1 DEAT
+2 DATE BET 1847 AND 1850
+2 SOUR @S41@
+3 QUAY 1
+1 FAMS @F9@
+1 NOTE Вероятно, вторая жена Давыда Евдокимовича и мать его детей 1839–1848 годов рождения; в 1850 году в семье её уж
+2 CONC е нет. [? davyd-wives]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/lukerya.md
+0 @I13@ INDI
+1 NAME Акулина Прокофьевна /Косарева/
+2 GIVN Акулина Прокофьевна
+2 SURN Косарева
+2 SOUR @S29@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1829 AND 1830
+2 SOUR @S29@
+3 QUAY 3
+1 FAMS @F10@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/akulina-prokofevna.md
+0 @I14@ INDI
+1 NAME Варвара Давыдовна /Косарева/
+2 GIVN Варвара Давыдовна
+2 SURN Косарева
+2 SOUR @S29@
+3 QUAY 3
+1 NAME Варвара Давыдовна /Ковалева/
+2 GIVN Варвара Давыдовна
+2 SURN Ковалева
+2 SOUR @S45@
+3 QUAY 1
+2 SOUR @S29@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1839 AND 1840
+2 SOUR @S29@
+3 QUAY 3
+1 FAMC @F9@
+1 FAMS @F11@
+1 SOUR @S29@
+2 QUAY 3
+2 NOTE Отец: Давыд Евдокимович Косарев
+1 SOUR @S41@
+2 QUAY 1
+2 NOTE Мать: Лукерья
+1 NOTE Вероятно, это она — «Лукьяна Алексеева жена Варвара Давыдова», 20 лет, в ревизской сказке 1858 года: другой Ва
+2 CONC рвары Давыдовны такого возраста в селе нет. В 1858 году — вдова, с сыном Василием, 1 года. [? varvara-1858]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/varvara-davydovna.md
+0 @I15@ INDI
+1 NAME Лукьян Алексеевич /Ковалев/
+2 GIVN Лукьян Алексеевич
+2 SURN Ковалев
+2 SOUR @S47@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1835 AND 1836
+2 SOUR @S47@
+3 QUAY 3
+1 DEAT
+2 DATE 1858
+2 SOUR @S46@
+3 QUAY 3
+1 FAMS @F11@
+1 NOTE Умер в 1858 году, до ревизии 29 апреля. В 1858 году фамилия его брата читается «Кованев(?)», в 1850 году — «Ко
+2 CONC валев». [revision-1858-list]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/lukyan-kovalev.md
+0 @I16@ INDI
+1 NAME Василий Лукьянович //
+2 GIVN Василий Лукьянович
+2 SOUR @S46@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1856 AND 1857
+2 SOUR @S46@
+3 QUAY 3
+1 FAMC @F11@
+1 SOUR @S46@
+2 QUAY 3
+2 NOTE Отец: Лукьян Алексеевич Ковалев
+1 SOUR @S45@
+2 QUAY 1
+2 NOTE Мать: Варвара Давыдовна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/vasiliy-lukyanovich.md
+0 @I17@ INDI
+1 NAME Ефрем Давыдович /Косарев/
+2 GIVN Ефрем Давыдович
+2 SURN Косарев
+2 SOUR @S29@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1842 AND 1843
+2 SOUR @S29@
+3 QUAY 3
+1 FAMC @F9@
+1 SOUR @S29@
+2 QUAY 3
+2 NOTE Отец: Давыд Евдокимович Косарев
+1 SOUR @S41@
+2 QUAY 1
+2 NOTE Мать: Лукерья
+1 NOTE https://github.com/kosarev/kosarev/blob/main/efrem-davydovich.md
+0 @I18@ INDI
+1 NAME Иван Давыдович /Косарев/
+2 GIVN Иван Давыдович
+2 SURN Косарев
+2 SOUR @S29@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1845 AND 1846
+2 SOUR @S29@
+3 QUAY 3
+1 FAMC @F9@
+1 SOUR @S29@
+2 QUAY 3
+2 NOTE Отец: Давыд Евдокимович Косарев
+1 SOUR @S41@
+2 QUAY 1
+2 NOTE Мать: Лукерья
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ivan-davydovich.md
+0 @I19@ INDI
+1 NAME Ермолай Давыдович /Косарев/
+2 GIVN Ермолай Давыдович
+2 SURN Косарев
+2 SOUR @S29@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1847 AND 1848
+2 SOUR @S29@
+3 QUAY 3
+1 DEAT
+2 DATE 1852
+2 SOUR @S30@
+3 QUAY 3
+1 FAMC @F9@
+1 SOUR @S29@
+2 QUAY 3
+2 NOTE Отец: Давыд Евдокимович Косарев
+1 SOUR @S41@
+2 QUAY 1
+2 NOTE Мать: Лукерья
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ermolay-davydovich.md
+0 @I20@ INDI
+1 NAME Прасковья Давыдовна //
+2 GIVN Прасковья Давыдовна
+2 SOUR @S38@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1816 AND 1817
+2 SOUR @S38@
+3 QUAY 3
+1 FAMC @F12@
+1 SOUR @S38@
+2 QUAY 3
+2 NOTE Отец: Давыд Евдокимович Косарев
+1 NOTE В 1850 году в семье отца её уже нет — вероятно, вышла замуж. [? married-out-1850]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/praskovya-davydovna.md
+0 @I21@ INDI
+1 NAME Степанида Давыдовна //
+2 GIVN Степанида Давыдовна
+2 SOUR @S38@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1817 AND 1818
+2 SOUR @S38@
+3 QUAY 3
+1 FAMC @F12@
+1 SOUR @S38@
+2 QUAY 3
+2 NOTE Отец: Давыд Евдокимович Косарев
+1 NOTE В 1850 году в семье отца её уже нет — вероятно, вышла замуж. [? married-out-1850]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/stepanida-davydovna.md
+0 @I22@ INDI
+1 NAME Васса Давыдовна //
+2 GIVN Васса Давыдовна
+2 SOUR @S38@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1826 AND 1827
+2 SOUR @S38@
+3 QUAY 3
+1 FAMC @F12@
+1 SOUR @S38@
+2 QUAY 3
+2 NOTE Отец: Давыд Евдокимович Косарев
+1 NOTE В 1850 году в семье отца её уже нет — вероятно, вышла замуж. [? married-out-1850]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/vassa-davydovna.md
+0 @I23@ INDI
+1 NAME Ида Иннокентьевна /Проданова/
+2 GIVN Ида Иннокентьевна
+2 SURN Проданова
+2 SOUR @S1@
+3 QUAY 3
+1 NAME Ида Иннокентьевна /Васильева/
+2 TYPE birth
+2 GIVN Ида Иннокентьевна
+2 SURN Васильева
+2 SOUR @S1@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1919 AND 1927
+2 SOUR @S49@
+3 QUAY 1
+1 FAMC @F13@
+1 FAMS @F14@
+1 SOUR @S51@
+2 QUAY 3
+2 NOTE Отец: Иннокентий Егорович Васильев
+1 NOTE Была классной руководительницей в мухоршибирской школе — в том числе в пятом классе около 1963 года; позднее
+2 CONC , выйдя замуж, стала Мироновой. В конце 2000-х годов, почти девяностолетней, жила в Мухоршибири. [shcherbakov-
+2 CONC mama]
+1 NOTE Работала в Мухоршибирской школе учителем домоводства: преподавала девочкам шитьё, вязание, вышивание, готовку
+2 CONC . До этого была учительницей младших классов. [daughter-vera]
+1 NOTE Вела кружки «Умелые руки», «Художественная вышивка» и «Кройки и шитья» в Мухоршибирском Доме пионеров, открыто
+2 CONC м 1 января 1958 года. [pioneers-house]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ida-prodanova.md
+0 @I24@ INDI
+1 NAME Борис /Проданов/
+2 GIVN Борис
+2 SURN Проданов
+2 SOUR @S1@
+3 QUAY 3
+1 SEX M
+1 FAMS @F14@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/boris-prodanov.md
+0 @I25@ INDI
+1 NAME Иннокентий Егорович /Васильев/
+2 GIVN Иннокентий Егорович
+2 SURN Васильев
+2 SOUR @S51@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1869 AND 1907
+2 SOUR @S54@
+3 QUAY 1
+1 FAMS @F13@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/innokentiy-vasilev.md
+0 @I26@ INDI
+1 NAME Фаина Егоровна /Половцева/
+2 GIVN Фаина Егоровна
+2 SURN Половцева
+2 SOUR @S56@
+3 QUAY 1
+1 NAME Фаина Егоровна /Богданова/
+2 TYPE birth
+2 GIVN Фаина Егоровна
+2 SURN Богданова
+2 SOUR @S56@
+3 QUAY 1
+1 SEX F
+1 BIRT
+2 DATE BET 1907 AND 1961
+2 SOUR @S55@
+3 QUAY 1
+1 DEAT
+2 DATE 2007
+2 SOUR @S56@
+3 QUAY 1
+1 FAMC @F3@
+1 SOUR @S56@
+2 QUAY 1
+2 NOTE Отец: Егор Богданов
+1 SOUR @S56@
+2 QUAY 1
+2 NOTE Мать: Ефросинья Константиновна Богданова
+1 NOTE https://github.com/kosarev/kosarev/blob/main/faina-polovtseva.md
+0 @I27@ INDI
+1 NAME Константин /Молодцов/
+2 GIVN Константин
+2 SURN Молодцов
+2 SOUR @S57@
+3 QUAY 1
+1 SEX M
+1 BIRT
+2 DATE BET 1828 AND 1896
+2 SOUR @S58@
+3 QUAY 1
+1 FAMS @F4@
+1 FAMS @F15@
+1 NOTE Вероятно, дед по матери Нины Егоровны Косаревой, жены Виктора Ивановича Косарева: отец её матери, Ефросиньи Ко
+2 CONC нстантиновны. [? geni-efrosinya]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/konstantin-molodtsov.md
+0 @I28@ INDI
+1 NAME Ольга /Молодцова/
+2 GIVN Ольга
+2 SURN Молодцова
+2 SOUR @S59@
+3 QUAY 1
+1 SEX F
+1 BIRT
+2 DATE BET 1833 AND 1898
+2 SOUR @S60@
+3 QUAY 1
+1 FAMS @F15@
+1 NOTE Вероятно, мать Ефросиньи Константиновны Богдановой: она жена её отца, Константина Молодцова, но в профиле Ефро
+2 CONC синьи на geni.com указан только отец. На этом предположении основана и оценка года её рождения. [? olga-molodt
+2 CONC sova-birth]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/olga-molodtsova.md
+0 @I29@ INDI
+1 NAME Иван Акимович /Косарев/
+2 GIVN Иван Акимович
+2 SURN Косарев
+2 SOUR @S1@
+3 QUAY 3
+2 SOUR @S61@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1873 AND 1907
+2 SOUR @S63@
+3 QUAY 1
+1 FAMS @F1@
+1 FAMC @F16@
+1 FAMS @F17@
+1 SOUR @S61@
+2 QUAY 3
+2 NOTE Отец: Аким Устинович Косарев
+1 NOTE Вероятно, был из с. Малая Быковка Балаковского района: там в 1896 году родился его брат Павел, а в 1924 год
+2 CONC у — его дочь Антонина. [malaya-bykovka-family]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ivan-akimovich.md
+0 @I30@ INDI
+1 NAME Аким Устинович /Косарев/
+2 GIVN Аким Устинович
+2 SURN Косарев
+2 SOUR @S61@
+3 QUAY 3
+2 SOUR @S31@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1856 AND 1857
+2 SOUR @S31@
+3 QUAY 3
+1 FAMS @F16@
+1 FAMC @F18@
+1 SOUR @S68@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S31@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S72@
+2 QUAY 3
+2 NOTE Мать: Авдотья Федоровна Косарева
+1 NOTE Вероятно, жил в с. Малая Быковка Балаковского района: там в 1896 году родился его сын Павел, а в 1924 году — в
+2 CONC нучка Антонина. [malaya-bykovka-family]
+1 NOTE Вероятно, относился к государственным крестьянам, как и жители Малой Быковки; в 1837–1866 годах ими ведало Мин
+2 CONC истерство государственных имуществ. [state-peasants]
+1 NOTE В ревизской сказке 1858 года (29 апреля) — в семье отца, № 126 (в 1850 году — семья деда, Алексея Евдокимовича
+2 CONC , № 141): «Устиновы сыновья: Петр… Иван… Василий… Аким», 1 года; родился, значит, между маем 1856 и апрелем 18
+2 CONC 57 года. [revision-1858]
+1 NOTE Это тот Аким, что записан «Устиновым сыном» в ревизской сказке 1858 года: то же имя, отчество, фамилия и село
+2 CONC , другого Акима среди Косаревых нет, и по возрасту он мог быть отцом Павла, родившегося в 1896 году. [ustin-id
+2 CONC entity]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/akim-ustinovich.md
+0 @I31@ INDI
+1 NAME Устин Алексеевич /Косарев/
+2 GIVN Устин Алексеевич
+2 SURN Косарев
+2 SOUR @S68@
+3 QUAY 3
+2 SOUR @S27@
+3 QUAY 3
+2 SOUR @S28@
+3 QUAY 3
+2 SOUR @S74@
+3 QUAY 1
+1 SEX M
+1 BIRT
+2 DATE BET 1807 AND 1809
+2 SOUR @S27@
+3 QUAY 3
+1 FAMS @F18@
+1 FAMC @F19@
+1 FAMS @F20@
+1 FAMS @F24@
+1 SOUR @S27@
+2 QUAY 3
+2 NOTE Отец: Алексей Евдокимович Косарев
+1 SOUR @S28@
+2 QUAY 3
+2 NOTE Отец: Алексей Евдокимович Косарев
+1 NOTE В 1835 году жил одним двором (семья № 132) с отцом Алексеем, его женой Катериной, сестрой Устиньей, своей жено
+2 CONC й Евдокией и сыном Петром. [revision-1835]
+1 NOTE В 1850 году ему 42 года (по ревизской сказке — 1807–1808 года рождения); живёт одним двором, семья № 141, с от
+2 CONC цом Алексеем, 76 лет, и его женой Екатериной, 70, со своей второй женой Авдотьей Федоровой, 25, сыновьями от п
+2 CONC ервой жены Петром, 20 (с женой Марьей Кузьминой, 20), и Иваном, 6, дочерьми от первой жены Акулиной, 18(?)
+2 CONC , и Авдотьей, 8, и дочерью от второй жены Александрой, 4 месяцев. [revision-1850]
+1 NOTE В 1858 году ему 49 лет; после смерти отца (1850) — глава двора, семья № 126: с женой Авдотьей Федоровой, 32 ле
+2 CONC т, сыновьями Петром, 27 (с женой Марьей Кузьминой, 27, и дочерью Дарьей, полугода), Иваном, 13, Василием, 7
+2 CONC , и Акимом, 1, и дочерьми Авдотьей, 15, и Афимьей(?), 3. [revision-1858]
+1 NOTE Вероятно, родился ещё до переселения семьи в Малую Быковку в 1812 году и приехал туда ребёнком; где — не извес
+2 CONC тно. [? ustin-birthplace]
+1 NOTE Семья жила в селе уже к 1816 году. Записи о ней — крещение сестры Устиньи (около 1816–1817), брак Устина (окол
+2 CONC о 1828–1829), крещение сына Петра (около 1829–1830) — могут быть в метрических книгах Тягуновки (Малой Быковки
+2 CONC ) за 1817–1832 годы. [early-registers]
+1 NOTE Однодворец; вероятно, один из однодворцев Малой Быковки, совладельцев земли села, — «Устин Алексеев Косарев»
+2 CONC , единственный Косарев среди 39 названных однодворцев. [? ustin-bobovo]
+1 NOTE Семья жила в Малой Быковке, вероятно, непрерывно больше 125 лет — от 1810-х до 1940-х годов; первым известны
+2 CONC м уехавшим был Виктор Иванович. [? family-in-village]
+1 NOTE Отец Акима Устиновича: в ревизской сказке 1858 года Аким, 1 года, записан в его семье среди «Устиновых сыновей
+2 CONC »; это тот же Аким, что и дед Виктора Ивановича, — то же имя, отчество, фамилия и село, и по возрасту он мог б
+2 CONC ыть отцом Павла, родившегося в 1896 году. [ustin-identity]
+1 NOTE В Бобове, основанном однодворцами Малой Быковки, в 1901–1918 годах жили Косаревы: Алексей Васильевич (около 18
+2 CONC 80 г. р.), Семен Васильевич, Михаил Васильевич, Иван Иванович. Вероятно, это потомки Устина — например, чере
+2 CONC з сына Василия, брата Акима. В Малой Быковке в 1918 году — Мария Михайловна (около 1898–1899 г. р.) и, вероятн
+2 CONC о, её брат Николай Михайлович: ещё одна ветвь, дети Михаила. [? bobovo-kosarevs]
+1 NOTE Был женат вторично: в 1850 году его жена — Авдотья Федорова, 25 лет, а дети записаны «от 1 жены» и «от 2 жены»
+2 CONC . [revision-1850]
+1 NOTE Вероятно, Василий (около 1855 г. р.) и Константин (около 1860 г. р.), если они его сыновья, — от второго брака
+2 CONC : Евдокии, его жене по ревизской сказке 1835 года, было бы около 45 и 50 лет, а второй жене, Авдотье Федоровне
+2 CONC , — около 30 и 35. [? second-marriage]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ustin-kosarev.md
+0 @I32@ INDI
+1 NAME Алексей Евдокимович /Косарев/
+2 GIVN Алексей Евдокимович
+2 SURN Косарев
+2 SOUR @S27@
+3 QUAY 3
+2 SOUR @S28@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1772 AND 1774
+2 SOUR @S27@
+3 QUAY 3
+1 DEAT
+2 DATE 1850
+2 SOUR @S31@
+3 QUAY 3
+1 FAMC @F8@
+1 FAMS @F19@
+1 FAMS @F21@
+1 SOUR @S96@
+2 QUAY 3
+2 NOTE Отец: Евдоким Косарев
+1 NOTE В 1850 году жив: в ревизской сказке 9-й ревизии (14 сентября 1850 года) ему 76 лет (по ней — 1773–1774 года ро
+2 CONC ждения); живёт одним двором, семья № 141, с женой Екатериной Петровной, 70 лет, и семьёй сына Устина. [revisio
+2 CONC n-1850]
+1 NOTE Умер в 1850 году, после ревизии 14 сентября: в ревизской сказке 1858 года — «Алексей Евдокимов Косаров», 76, «
+2 CONC умер в 1850 г.». [revision-1858]
+1 NOTE Однодворец. [cdtnf-origin, revision-1835]
+1 NOTE Семья прибыла в Малую Быковку в 1812 году. [? cdtnf-arrival]
+1 NOTE В 1835, 1850 и 1858 годах с этой фамилией в селе записаны только его двор и двор его младшего брата Давыда, бе
+2 CONC з дворов племянников и двоюродных братьев, — как у семьи, переселившейся одним-двумя дворами, а не жившей та
+2 CONC м поколениями; у соседних однодворцев (Голобоковы, Ефановы, Желудковы) — по два двора. Но от четверти до трет
+2 CONC и глав дворов записаны без фамилии, так что других Косаревых это не исключает. [? single-household-1835]
+1 NOTE Откуда пришла семья, не известно: основное заселение села было из Тульской губернии — пахотных солдат частичн
+2 CONC о из Крапивенского и Одоевского уездов, — но откуда пришли однодворцы, не известно. [cdtnf-settlement]
+1 NOTE В ревизской сказке 1835 года о некоторых семьях записано, откуда они причислены: № 55 — в 1818 году из Рязанск
+2 CONC ой(?) губернии, № 173 и 174 — из Тульской(?) губернии; так что в селе были переселенцы из обеих губерний. О се
+2 CONC мье Алексея, № 132, такой записи нет. [revision-1835-list]
+1 NOTE Фамилия пишется по-разному: в ревизской сказке 1835 года — через «а» и неразборчиво, «Кас…ревъ» (у брата Давыд
+2 CONC а — «Ки…аревъ»: писарь написал её нечётко у обоих), в сказке 1850 года — ясно «Косарев», в сказке 1858 год
+2 CONC а — «Косаров» и «Косарев», в семье — «Косарев», в армейских документах XX века — «Косырев». Форма с «-ыр-» в д
+2 CONC окументах XIX века не видна. Одна из версий происхождения фамилии «Косырев» — рязанская, а в 1831 году в Мало
+2 CONC й Быковке водворились переселенцы из Рязанской губернии; как писали фамилию местные священники, покажут метрич
+2 CONC еские книги. [? surname-forms]
+1 NOTE В документах того времени отчества крестьян писались в краткой форме: «Алексей Евдокимов» (то есть сын Евдоким
+2 CONC а), «Устин Алексеев», «Петр Устинов», «Аким Устинов»; так же записаны и все однодворцы — совладельцы земли око
+2 CONC ло 1833 года. Полная форма на «-ович» полагалась высшим сословиям. Так и следует искать членов семьи в ревизск
+2 CONC их сказках и метрических книгах. [short-patronyms]
+1 NOTE Его младший брат — Давыд Евдокимович Косарев (около 1797 г. р.): в ревизской сказке 1850 года он записан с то
+2 CONC й же фамилией, «Давыд Евдокимов Косарев», семья № 142, сразу после семьи Алексея, № 141, — как и в 1835 году (
+2 CONC № 133 и 132) и в списке однодворцев — совладельцев земли около 1833 года. Оба — сыновья Евдокима; разница в во
+2 CONC зрасте, около 24 лет, велика — вероятно, они единокровные братья, от разных жён Евдокима. [davyd-brother]
+1 NOTE Следующая семья в ревизской сказке 1835 года, № 134, — Яков Васильев Жиганов с сыновьями Андреем и Федором; сы
+2 CONC новья тоже среди однодворцев — совладельцев земли около 1833 года. Все три соседние семьи — Косаревы, Давыд Ев
+2 CONC докимов и Жигановы — однодворцы-совладельцы; вероятно, они жили рядом, возможно, в одной части села. В 1850 го
+2 CONC ду порядок тот же: № 141 и 142 — Косаревы, № 143 — Жигановы. В 1858 году за двором Давыда (№ 135) — снова Жига
+2 CONC новы и Матросовы, а за двором Устина (№ 126) — Гундоровы, семья его сестры Устиньи. [? zhiganovy-neighbours]
+1 NOTE Слабое совпадение: в том же списке 1835 года — однодворец Дементий Евдокимов (семья № 137, около 1786 года рож
+2 CONC дения), без фамилии; возможно, ещё один сын Евдокима — брат Алексея и Давыда. В ревизской сказке 1850 года о
+2 CONC н тоже без фамилии (семья № 146), умер в 1848 году; его сын Федор, 31 год, с семьёй. В 1858 году его сын запис
+2 CONC ан с фамилией «Соломатин(?)», не Косарев. [? dementiy-evdokimov]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/aleksey-evdokimovich.md
+0 @I33@ INDI
+1 NAME Катерина Петровна /Косарева/
+2 GIVN Катерина Петровна
+2 SURN Косарева
+2 SOUR @S27@
+3 QUAY 3
+2 SOUR @S28@
+3 QUAY 3
+1 NAME Екатерина Петровна /Косарева/
+2 TYPE aka
+2 SOUR @S28@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1779 AND 1780
+2 SOUR @S27@
+3 QUAY 3
+2 SOUR @S28@
+3 QUAY 3
+1 DEAT
+2 DATE BET 1850 AND 1858
+2 SOUR @S97@
+3 QUAY 1
+1 FAMS @F21@
+1 NOTE В ревизской сказке 1858 года её уже нет; вероятно, умерла в 1850–1858 годах, после мужа. [? absent-1858]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/katerina-kosareva.md
+0 @I34@ INDI
+1 NAME Евдоким /Косарев/
+2 GIVN Евдоким
+2 SURN Косарев
+2 SOUR @S96@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1746 AND 1754
+2 SOUR @S98@
+3 QUAY 1
+1 FAMS @F8@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/evdokim-kosarev.md
+0 @I35@ INDI
+1 NAME Евдокия /Косарева/
+2 GIVN Евдокия
+2 SURN Косарева
+2 SOUR @S27@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1809 AND 1810
+2 SOUR @S27@
+3 QUAY 3
+1 DEAT
+2 DATE BET 1843 AND 1849
+2 SOUR @S73@
+3 QUAY 1
+1 FAMS @F20@
+1 NOTE Вероятно, первая жена Устина: в 1850 году его старшие дети записаны «от 1 жены», а жена — уже вторая, Авдоть
+2 CONC я Федоровна; Евдокии в семье нет. [? first-wife-1850]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/evdokiya-kosareva.md
+0 @I36@ INDI
+1 NAME Петр Устинович /Косарев/
+2 GIVN Петр Устинович
+2 SURN Косарев
+2 SOUR @S27@
+3 QUAY 3
+2 SOUR @S28@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1829 AND 1830
+2 SOUR @S27@
+3 QUAY 3
+2 SOUR @S28@
+3 QUAY 3
+1 FAMC @F20@
+1 FAMS @F22@
+1 SOUR @S27@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S28@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S73@
+2 QUAY 1
+2 NOTE Мать: Евдокия Косарева
+1 NOTE В 1850 году ему 20 лет, женат; живёт в семье деда Алексея, № 141. [revision-1850]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/petr-ustinovich.md
+0 @I37@ INDI
+1 NAME Иван Устинович /Косарев/
+2 GIVN Иван Устинович
+2 SURN Косарев
+2 SOUR @S28@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1843 AND 1844
+2 SOUR @S28@
+3 QUAY 3
+1 FAMC @F20@
+1 SOUR @S28@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S73@
+2 QUAY 1
+2 NOTE Мать: Евдокия Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ivan-ustinovich.md
+0 @I38@ INDI
+1 NAME Акулина Устиновна /Косарева/
+2 GIVN Акулина Устиновна
+2 SURN Косарева
+2 SOUR @S28@
+3 QUAY 3
+1 SEX F
+1 FAMC @F20@
+1 SOUR @S28@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S73@
+2 QUAY 1
+2 NOTE Мать: Евдокия Косарева
+1 NOTE В ревизской сказке 1850 года ей 18 лет, но цифра читается неуверенно, возможно 13; в сказке 1835 года её нет
+2 CONC , а в 18 лет ей было бы там 3 года, так что вероятнее 13 — около 1836–1837 года рождения. [revision-1850]
+1 NOTE Слабое совпадение: возможно, это она — «Лазаря Константинова жена Акулина Устинова», 25 лет, в ревизской сказк
+2 CONC е 1858 года; тогда в 1850 году ей было 18 лет, а не 13. [? akulina-1858]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/akulina-ustinovna.md
+0 @I39@ INDI
+1 NAME Авдотья Устиновна /Косарева/
+2 GIVN Авдотья Устиновна
+2 SURN Косарева
+2 SOUR @S28@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1841 AND 1842
+2 SOUR @S28@
+3 QUAY 3
+1 FAMC @F20@
+1 SOUR @S28@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S73@
+2 QUAY 1
+2 NOTE Мать: Евдокия Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/avdotya-ustinovna.md
+0 @I40@ INDI
+1 NAME Устинья Алексеевна /Косарева/
+2 GIVN Устинья Алексеевна
+2 SURN Косарева
+2 SOUR @S27@
+3 QUAY 3
+1 NAME Устинья Алексеевна /Гундорова/
+2 GIVN Устинья Алексеевна
+2 SURN Гундорова
+2 SOUR @S100@
+3 QUAY 1
+2 SOUR @S27@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1816 AND 1817
+2 SOUR @S27@
+3 QUAY 3
+1 FAMC @F19@
+1 FAMS @F23@
+1 SOUR @S27@
+2 QUAY 3
+2 NOTE Отец: Алексей Евдокимович Косарев
+1 NOTE В 1850 году в семье отца её уже нет: вероятно, это она — «Никифора Акимова жена Устинья Алексеева», 33 лет
+2 CONC , в семье Гундоровых (№ 130); в 1858 году — 40 лет, в соседнем с братом Устином дворе (№ 127). [? ustinya-gund
+2 CONC orova]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ustinya-alekseevna.md
+0 @I41@ INDI
+1 NAME Никифор Акимович /Гундоров/
+2 GIVN Никифор Акимович
+2 SURN Гундоров
+2 SOUR @S47@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1816 AND 1817
+2 SOUR @S47@
+3 QUAY 3
+1 FAMS @F23@
+1 NOTE В ревизских сказках 1850 и 1858 годов — в семье отца, Акима Матвеева Гундорова (№ 130, затем № 127), с женой У
+2 CONC стиньей Алексеевой и сыновьями. [revision-1850-list]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/nikifor-gundorov.md
+0 @I42@ INDI
+1 NAME Дорофей Никифорович /Гундоров/
+2 GIVN Дорофей Никифорович
+2 SURN Гундоров
+2 SOUR @S47@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1843 AND 1844
+2 SOUR @S47@
+3 QUAY 3
+1 FAMC @F23@
+1 SOUR @S47@
+2 QUAY 3
+2 NOTE Отец: Никифор Акимович Гундоров
+1 SOUR @S100@
+2 QUAY 1
+2 NOTE Мать: Устинья Алексеевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/dorofey-nikiforovich.md
+0 @I43@ INDI
+1 NAME Степан Никифорович /Гундоров/
+2 GIVN Степан Никифорович
+2 SURN Гундоров
+2 SOUR @S47@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1845 AND 1846
+2 SOUR @S47@
+3 QUAY 3
+1 FAMC @F23@
+1 SOUR @S47@
+2 QUAY 3
+2 NOTE Отец: Никифор Акимович Гундоров
+1 SOUR @S100@
+2 QUAY 1
+2 NOTE Мать: Устинья Алексеевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/stepan-nikiforovich.md
+0 @I44@ INDI
+1 NAME Сидор Никифорович /Гундоров/
+2 GIVN Сидор Никифорович
+2 SURN Гундоров
+2 SOUR @S101@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1857 AND 1858
+2 SOUR @S101@
+3 QUAY 3
+1 FAMC @F23@
+1 SOUR @S101@
+2 QUAY 3
+2 NOTE Отец: Никифор Акимович Гундоров
+1 SOUR @S100@
+2 QUAY 1
+2 NOTE Мать: Устинья Алексеевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/sidor-nikiforovich.md
+0 @I45@ INDI
+1 NAME Афимья Устиновна /Косарева/
+2 GIVN Афимья Устиновна
+2 SURN Косарева
+2 SOUR @S31@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1854 AND 1855
+2 SOUR @S31@
+3 QUAY 3
+1 FAMC @F18@
+1 SOUR @S31@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S72@
+2 QUAY 3
+2 NOTE Мать: Авдотья Федоровна Косарева
+1 NOTE Имя читается неуверенно: «Афимья(?)». [revision-1858]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/afimya-ustinovna.md
+0 @I46@ INDI
+1 NAME Дарья Петровна /Косарева/
+2 GIVN Дарья Петровна
+2 SURN Косарева
+2 SOUR @S31@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1857 AND 1858
+2 SOUR @S31@
+3 QUAY 3
+1 FAMC @F22@
+1 SOUR @S31@
+2 QUAY 3
+2 NOTE Отец: Петр Устинович Косарев
+1 SOUR @S31@
+2 QUAY 3
+2 NOTE Мать: Марья Кузьминична Косарева
+1 NOTE В апреле 1858 года — полугода. [revision-1858]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/darya-petrovna.md
+0 @I47@ INDI
+1 NAME Александра Устиновна /Косарева/
+2 GIVN Александра Устиновна
+2 SURN Косарева
+2 SOUR @S28@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 1850
+2 SOUR @S28@
+3 QUAY 3
+1 DEAT
+2 DATE BET 1850 AND 1858
+2 SOUR @S97@
+3 QUAY 1
+1 FAMC @F18@
+1 SOUR @S28@
+2 QUAY 3
+2 NOTE Отец: Устин Алексеевич Косарев
+1 SOUR @S28@
+2 QUAY 3
+2 NOTE Мать: Авдотья Федоровна Косарева
+1 NOTE В ревизской сказке 1858 года её уже нет; вероятно, умерла в младенчестве. [? absent-1858]
+1 NOTE В сентябре 1850 года ей 4 месяца. [revision-1850]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/aleksandra-ustinovna.md
+0 @I48@ INDI
+1 NAME Авдотья Федоровна /Косарева/
+2 GIVN Авдотья Федоровна
+2 SURN Косарева
+2 SOUR @S28@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1824 AND 1825
+2 SOUR @S28@
+3 QUAY 3
+1 FAMS @F18@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/avdotya-fedorovna.md
+0 @I49@ INDI
+1 NAME Марья Кузьминична /Косарева/
+2 GIVN Марья Кузьминична
+2 SURN Косарева
+2 SOUR @S28@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1829 AND 1830
+2 SOUR @S28@
+3 QUAY 3
+1 FAMS @F22@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/marya-kuzminichna.md
+0 @I50@ INDI
+1 NAME Василий Устинович /Косарев/
+2 GIVN Василий Устинович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1854 AND 1855
+2 SOUR @S44@
+3 QUAY 3
+1 BIRT
+2 DATE BET 1850 AND 1851
+2 SOUR @S88@
+3 QUAY 1
+1 FAMC @F24@
+1 FAMS @F25@
+1 SOUR @S88@
+2 QUAY 1
+2 NOTE Отец: Устин Алексеевич Косарев
+1 NOTE В 1910 году жил в Бобове, двор № 37 по исповедной ведомости Николаевской церкви, с женой, сыновьями, невесткам
+2 CONC и и внуками. [confession-1910]
+1 NOTE Вероятно, сын Устина Алексеевича Косарева: Бобово основали однодворцы Малой Быковки, единственным Косаревым ср
+2 CONC еди которых был Устин; по возрасту — брат Акима Устиновича. В ревизской сказке 1858 года у Устина есть сын Вас
+2 CONC илий, 7 лет, родившийся между сентябрём 1850 и апрелем 1851 года, — вероятно, это он, хотя по исповедной ведом
+2 CONC ости 1910 года он на 4 года моложе. [? ustin-sons]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/vasiliy-ustinovich.md
+0 @I51@ INDI
+1 NAME Константин Устинович /Косарев/
+2 GIVN Константин Устинович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1859 AND 1860
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F24@
+1 FAMS @F26@
+1 SOUR @S88@
+2 QUAY 1
+2 NOTE Отец: Устин Алексеевич Косарев
+1 NOTE В 1910 году жил в Бобове, двор № 57 по исповедной ведомости Николаевской церкви, с женой, детьми и невесткой
+2 CONC . [confession-1910]
+1 NOTE Вероятно, сын Устина Алексеевича Косарева: Бобово основали однодворцы Малой Быковки, единственным Косаревым ср
+2 CONC еди которых был Устин; по возрасту — брат Акима Устиновича. В ревизской сказке 1858 года (апрель) его в семь
+2 CONC е Устина ещё нет — по возрасту он родился позже. [? ustin-sons]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/konstantin-ustinovich.md
+0 @I52@ INDI
+1 NAME Анастасия Трофимовна /Косарева/
+2 GIVN Анастасия Трофимовна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1855 AND 1856
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F25@
+1 NOTE Слабое совпадение: возможно, дочь Трофима Алексеевича Желудкова, одного из однодворцев — совладельцев земли ок
+2 CONC оло 1833 года. [? anastasiya-zheludkova]
+1 NOTE Трофим Алексеев Желудков в 1835 году — однодворец Малой Быковки, 37 лет (около 1798 года рождения), брат Родио
+2 CONC на Алексеева Желудкова; если Анастасия — его дочь, она родилась, когда ему было около 57 лет. [? trofim-zhelud
+2 CONC kov-1835]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/anastasiya-trofimovna.md
+0 @I53@ INDI
+1 NAME Семен Васильевич /Косарев/
+2 GIVN Семен Васильевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1874 AND 1875
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F25@
+1 FAMS @F27@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Василий Устинович Косарев
+1 SOUR @S104@
+2 QUAY 1
+2 NOTE Мать: Анастасия Трофимовна Косарева
+1 NOTE В 1901 году — свидетель на венчании брата Алексея. [kuznetsov-registers]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/semen-vasilevich.md
+0 @I54@ INDI
+1 NAME Анна Григорьевна /Косарева/
+2 GIVN Анна Григорьевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1877 AND 1878
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F27@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/anna-grigorevna.md
+0 @I55@ INDI
+1 NAME Михаил Семенович /Косарев/
+2 GIVN Михаил Семенович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1894 AND 1895
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F27@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Семен Васильевич Косарев
+1 SOUR @S105@
+2 QUAY 1
+2 NOTE Мать: Анна Григорьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mikhail-semenovich.md
+0 @I56@ INDI
+1 NAME Иван Семенович /Косарев/
+2 GIVN Иван Семенович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1899 AND 1900
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F27@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Семен Васильевич Косарев
+1 SOUR @S105@
+2 QUAY 1
+2 NOTE Мать: Анна Григорьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ivan-semenovich.md
+0 @I57@ INDI
+1 NAME Константин Семенович /Косарев/
+2 GIVN Константин Семенович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1900 AND 1901
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F27@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Семен Васильевич Косарев
+1 SOUR @S105@
+2 QUAY 1
+2 NOTE Мать: Анна Григорьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/konstantin-semenovich.md
+0 @I58@ INDI
+1 NAME Мария Семеновна /Косарева/
+2 GIVN Мария Семеновна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1905 AND 1906
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F27@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Семен Васильевич Косарев
+1 SOUR @S105@
+2 QUAY 1
+2 NOTE Мать: Анна Григорьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mariya-semenovna.md
+0 @I59@ INDI
+1 NAME Алексей Семенович /Косарев/
+2 GIVN Алексей Семенович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1907
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F27@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Семен Васильевич Косарев
+1 SOUR @S105@
+2 QUAY 1
+2 NOTE Мать: Анна Григорьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/aleksey-semenovich.md
+0 @I60@ INDI
+1 NAME Алексей Васильевич /Косарев/
+2 GIVN Алексей Васильевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1880 AND 1881
+2 SOUR @S44@
+3 QUAY 3
+2 SOUR @S25@
+3 QUAY 3
+1 FAMC @F25@
+1 FAMS @F28@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Василий Устинович Косарев
+1 SOUR @S104@
+2 QUAY 1
+2 NOTE Мать: Анастасия Трофимовна Косарева
+1 NOTE 15 января 1901 года, 20 лет, венчался с Анной Алексеевной Кондрашевой, 17 лет, оба — из Бобова хутора (метриче
+2 CONC ские книги Казакова хутора). Свидетели по жениху — Дмитрий Степанович Борщев из Малого Кушума и Иван Иванови
+2 CONC ч Косарев из Бобова хутора; по невесте — Тимофей Евдокимович Гуров из Казакова хутора и Семен Васильевич Косар
+2 CONC ев. [kuznetsov-registers]
+1 NOTE В 1902 году дважды был восприемником: в январе — у Татьяны, дочери Ивана Алексеевича Кондрашева (Бобов хутор)
+2 CONC , в ноябре — у Петра, сына Гавриила Алексеевича Кондрашева; во второй записи он — из Казакова хутора. [kuznets
+2 CONC ov-registers]
+1 NOTE Слабое совпадение: вероятно, это он — «Алексей Косарев», свидетель на венчании в Бобове 9 января 1915 года. [
+2 CONC ? aleksey-witness-1915]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/aleksey-vasilevich.md
+0 @I61@ INDI
+1 NAME Анна Алексеевна /Косарева/
+2 GIVN Анна Алексеевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 NAME Анна Алексеевна /Кондрашева/
+2 TYPE birth
+2 GIVN Анна Алексеевна
+2 SURN Кондрашева
+2 SOUR @S25@
+3 QUAY 3
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1879 AND 1880
+2 SOUR @S44@
+3 QUAY 3
+1 BIRT
+2 DATE BET 1883 AND 1884
+2 SOUR @S25@
+3 QUAY 3
+1 FAMS @F28@
+1 NOTE Возраст в двух документах расходится примерно на 4 года; запись о венчании 1901 года, вероятно, точнее. [? ann
+2 CONC a-age]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/anna-kondrasheva.md
+0 @I62@ INDI
+1 NAME Елена Алексеевна /Косарева/
+2 GIVN Елена Алексеевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1905 AND 1906
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F28@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Алексей Васильевич Косарев
+1 SOUR @S105@
+2 QUAY 1
+2 NOTE Мать: Анна Алексеевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/elena-alekseevna.md
+0 @I63@ INDI
+1 NAME Александра Алексеевна /Косарева/
+2 GIVN Александра Алексеевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1907 AND 1908
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F28@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Алексей Васильевич Косарев
+1 SOUR @S105@
+2 QUAY 1
+2 NOTE Мать: Анна Алексеевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/aleksandra-alekseevna.md
+0 @I64@ INDI
+1 NAME Михаил Васильевич /Косарев/
+2 GIVN Михаил Васильевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1887
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F25@
+1 FAMS @F29@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Василий Устинович Косарев
+1 SOUR @S104@
+2 QUAY 1
+2 NOTE Мать: Анастасия Трофимовна Косарева
+1 NOTE В 1910 году ему и брату Ивану — по 22 года 8 месяцев: вероятно, близнецы. [confession-1910]
+1 NOTE 28 октября 1918 года — свидетель по жениху на венчании Никифора Филипповича Жиганова из Бобова, вместе с Серге
+2 CONC ем Филипповичем Жигановым. [kuznetsov-registers]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mikhail-vasilevich.md
+0 @I65@ INDI
+1 NAME Наталья Филипповна /Косарева/
+2 GIVN Наталья Филипповна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1887 AND 1888
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F29@
+1 NOTE Слабое совпадение: возможно, урождённая Жиганова, сестра Никифора и Сергея Филипповичей Жигановых: её муж Миха
+2 CONC ил был свидетелем вместе с Сергеем на венчании Никифора в 1918 году. [? natalya-zhiganova]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/natalya-filippovna.md
+0 @I66@ INDI
+1 NAME Иван Васильевич /Косарев/
+2 GIVN Иван Васильевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1887
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F25@
+1 FAMS @F30@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Василий Устинович Косарев
+1 SOUR @S104@
+2 QUAY 1
+2 NOTE Мать: Анастасия Трофимовна Косарева
+1 NOTE В 1910 году ему и брату Михаилу — по 22 года 8 месяцев: вероятно, близнецы. [confession-1910]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ivan-vasilevich.md
+0 @I67@ INDI
+1 NAME Екатерина Петровна /Косарева/
+2 GIVN Екатерина Петровна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1887 AND 1888
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F30@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ekaterina-petrovna.md
+0 @I68@ INDI
+1 NAME Матрена Васильевна /Косарева/
+2 GIVN Матрена Васильевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1892 AND 1893
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F25@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Василий Устинович Косарев
+1 SOUR @S104@
+2 QUAY 1
+2 NOTE Мать: Анастасия Трофимовна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/matrena-vasilevna.md
+0 @I69@ INDI
+1 NAME Георгий Васильевич /Косарев/
+2 GIVN Георгий Васильевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 NAME Егор Васильевич /Косарев/
+2 TYPE aka
+2 SOUR @S109@
+3 QUAY 3
+2 SOUR @S110@
+3 QUAY 1
+1 SEX M
+1 BIRT
+2 DATE BET 1893 AND 1894
+2 PLAC с. Бобово
+2 SOUR @S44@
+3 QUAY 3
+2 SOUR @S109@
+3 QUAY 3
+2 SOUR @S110@
+3 QUAY 1
+1 BIRT
+2 DATE 23 APR 1892
+2 SOUR @S109@
+3 QUAY 3
+2 SOUR @S110@
+3 QUAY 1
+1 FAMC @F25@
+1 FAMS @F31@
+1 FAMS @F32@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Василий Устинович Косарев
+1 SOUR @S104@
+2 QUAY 1
+2 NOTE Мать: Анастасия Трофимовна Косарева
+1 NOTE Вероятно, это Егор Васильевич Косарев, родившийся 23 апреля 1892 года в Бобове: Егор — народная форма имени Ге
+2 CONC оргий; то же отчество, то же село; возраст расходится на 1–2 года. [? egor-identity]
+1 NOTE В апреле 1942 года — рядовой 321-го стрелкового полка, Волховский фронт. 1 мая 1942 года в бою у реки Волхов в
+2 CONC зят в плен. [obd-egor, ? egor-identity]
+1 NOTE Содержался в лагере военнопленных № 344 в Ламсдорфе (Восточная Силезия, ныне Польша); 19 февраля 1944 года пер
+2 CONC еведён в лагерь № II B (315) в Хаммерштейне, 3 марта 1944 года — в лагерь № IX A в Цигенхайне. Личный номер во
+2 CONC еннопленного — 340/36994. [obd-egor, ? egor-identity]
+1 NOTE 5 января 1945 года направлен в лазарет для военнопленных с заболеванием лёгких; домой не вернулся, числился пр
+2 CONC опавшим без вести; скорее всего, умер в этом лазарете. [obd-egor, ? egor-identity]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/georgiy-vasilevich.md
+0 @I70@ INDI
+1 NAME Варвара /Косарева/
+2 GIVN Варвара
+2 SURN Косарева
+2 SOUR @S109@
+3 QUAY 3
+2 SOUR @S110@
+3 QUAY 1
+1 SEX F
+1 FAMS @F31@
+1 NOTE В годы войны жила на станции Ершов Рязано-Уральской железной дороги, Саратовская область. [obd-egor, ? egor-id
+2 CONC entity]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/varvara-kosareva.md
+0 @I71@ INDI
+1 NAME Василий Егорович /Косарев/
+2 GIVN Василий Егорович
+2 SURN Косарев
+2 SOUR @S109@
+3 QUAY 3
+2 SOUR @S110@
+3 QUAY 1
+1 SEX M
+1 FAMC @F32@
+1 SOUR @S109@
+2 QUAY 3
+2 NOTE Отец: Георгий Васильевич Косарев
+1 SOUR @S110@
+2 QUAY 1
+2 NOTE Отец: Георгий Васильевич Косарев
+1 NOTE Старший сын; участник Великой Отечественной войны; жил в Ершове. [obd-egor, ? egor-identity]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/vasiliy-egorovich.md
+0 @I72@ INDI
+1 NAME Петр Егорович /Косарев/
+2 GIVN Петр Егорович
+2 SURN Косарев
+2 SOUR @S109@
+3 QUAY 3
+2 SOUR @S110@
+3 QUAY 1
+1 SEX M
+1 DEAT
+2 DATE 1996
+2 SOUR @S109@
+3 QUAY 3
+2 SOUR @S110@
+3 QUAY 1
+1 FAMC @F32@
+1 SOUR @S109@
+2 QUAY 3
+2 NOTE Отец: Георгий Васильевич Косарев
+1 SOUR @S110@
+2 QUAY 1
+2 NOTE Отец: Георгий Васильевич Косарев
+1 NOTE https://github.com/kosarev/kosarev/blob/main/petr-egorovich.md
+0 @I73@ INDI
+1 NAME Андрей Васильевич /Косарев/
+2 GIVN Андрей Васильевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1897 AND 1898
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F25@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Василий Устинович Косарев
+1 SOUR @S104@
+2 QUAY 1
+2 NOTE Мать: Анастасия Трофимовна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/andrey-vasilevich.md
+0 @I74@ INDI
+1 NAME Ефросинья Кондратьевна /Косарева/
+2 GIVN Ефросинья Кондратьевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1859 AND 1860
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F26@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/efrosinya-kondratevna.md
+0 @I75@ INDI
+1 NAME Михаил Константинович /Косарев/
+2 GIVN Михаил Константинович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1890 AND 1891
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F26@
+1 FAMS @F33@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Константин Устинович Косарев
+1 SOUR @S111@
+2 QUAY 1
+2 NOTE Мать: Ефросинья Кондратьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mikhail-konstantinovich.md
+0 @I76@ INDI
+1 NAME Татьяна Константиновна /Косарева/
+2 GIVN Татьяна Константиновна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1892 AND 1893
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F26@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Константин Устинович Косарев
+1 SOUR @S111@
+2 QUAY 1
+2 NOTE Мать: Ефросинья Кондратьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/tatyana-konstantinovna.md
+0 @I77@ INDI
+1 NAME Матрона Константиновна /Косарева/
+2 GIVN Матрона Константиновна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1900 AND 1901
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F26@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Константин Устинович Косарев
+1 SOUR @S111@
+2 QUAY 1
+2 NOTE Мать: Ефросинья Кондратьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/matrona-konstantinovna.md
+0 @I78@ INDI
+1 NAME Наталья Романовна /Косарева/
+2 GIVN Наталья Романовна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1889 AND 1890
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F33@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/natalya-romanovna.md
+0 @I79@ INDI
+1 NAME Григорий Васильевич /Косарев/
+2 GIVN Григорий Васильевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1878 AND 1879
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F34@
+1 NOTE В 1910 году жил в Бобове, двор № 4 по исповедной ведомости. [confession-1910]
+1 NOTE Слабое совпадение: возможно, сын Василия Устиновича, отделившийся от отца: то же отчество, то же село, а по во
+2 CONC зрасту — между его сыновьями Семеном и Алексеем. [? grigoriy-son]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/grigoriy-vasilevich.md
+0 @I80@ INDI
+1 NAME Клавдия Васильевна /Косарева/
+2 GIVN Клавдия Васильевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1879 AND 1880
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F34@
+1 NOTE Записана в дворе № 4 сразу после Григория Васильевича, без пометки «жена»; вероятно, его жена, но отчество у н
+2 CONC её то же, что у него, так что она может быть и его сестрой. [? children-order-1910]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/klavdiya-vasilevna.md
+0 @I81@ INDI
+1 NAME Феврония Григорьевна /Косарева/
+2 GIVN Феврония Григорьевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1900 AND 1901
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F34@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Григорий Васильевич Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Клавдия Васильевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/fevroniya-grigorevna.md
+0 @I82@ INDI
+1 NAME Петр Григорьевич /Косарев/
+2 GIVN Петр Григорьевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1906
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F34@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Григорий Васильевич Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Клавдия Васильевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/petr-grigorevich.md
+0 @I83@ INDI
+1 NAME Александр Григорьевич /Косарев/
+2 GIVN Александр Григорьевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1907
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F34@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Григорий Васильевич Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Клавдия Васильевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/aleksandr-grigorevich.md
+0 @I84@ INDI
+1 NAME Михаил Григорьевич /Косарев/
+2 GIVN Михаил Григорьевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1908
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F34@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Григорий Васильевич Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Клавдия Васильевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mikhail-grigorevich.md
+0 @I85@ INDI
+1 NAME Федор Иванович /Косарев/
+2 GIVN Федор Иванович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1874 AND 1875
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F35@
+1 NOTE В 1910 году жил в Бобове, двор № 11 по исповедной ведомости. [confession-1910]
+1 NOTE Слабое совпадение: возможно, брат Ивана и Тимофея Ивановичей (двор № 58): то же отчество, то же поколение. [
+2 CONC ? fedor-brothers]
+1 NOTE Слабое совпадение: вероятно, это он — «Федор Косарев» из прихода Бобова, женатый рядовой, раненый 26 августа 1
+2 CONC 914 года. [? fedor-wounded]
+1 NOTE Слабое совпадение: его отец Иван — возможно, Иван Устинович (около 1843–1844 г. р.) или, менее вероятно, Ива
+2 CONC н Давыдович (около 1845–1846) из ревизской сказки 1850 года; тогда он внук Устина или Давыда Евдокимовича Коса
+2 CONC ревых. [? ivanovichi-father]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/fedor-ivanovich.md
+0 @I86@ INDI
+1 NAME Агапия Спиридоновна /Косарева/
+2 GIVN Агапия Спиридоновна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1876 AND 1877
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F35@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/agapiya-spiridonovna.md
+0 @I87@ INDI
+1 NAME Агрипина Федоровна /Косарева/
+2 GIVN Агрипина Федоровна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1900 AND 1901
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F35@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Федор Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агапия Спиридоновна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/agripina-fedorovna.md
+0 @I88@ INDI
+1 NAME Василий Федорович /Косарев/
+2 GIVN Василий Федорович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1906
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F35@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Федор Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агапия Спиридоновна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/vasiliy-fedorovich.md
+0 @I89@ INDI
+1 NAME Клавдия Федоровна /Косарева/
+2 GIVN Клавдия Федоровна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 1908
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F35@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Федор Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агапия Спиридоновна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/klavdiya-fedorovna.md
+0 @I90@ INDI
+1 NAME Иван Иванович /Косарев/
+2 GIVN Иван Иванович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1862 AND 1863
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F36@
+1 NOTE В 1910 году жил в Бобове, двор № 58 по исповедной ведомости, вместе с семьёй брата Тимофея. [confession-1910]
+1 NOTE Брат Тимофея Ивановича, жившего с семьёй в том же дворе. [confession-1910]
+1 NOTE Слабое совпадение: его двор, № 58, — следующий за двором № 57 Константина Устиновича; вероятно, соседи, возмож
+2 CONC но, родственники. [? yard-58]
+1 NOTE Слабое совпадение: вероятно, это он — «Иван Иванов Косарев», свидетель по жениху на венчании Алексея Васильеви
+2 CONC ча в 1901 году; свидетелями часто бывали родственники. [? ivan-witness-1901]
+1 NOTE Слабое совпадение: его отец Иван — возможно, Иван Устинович (около 1843–1844 г. р.) или, менее вероятно, Ива
+2 CONC н Давыдович (около 1845–1846) из ревизской сказки 1850 года; тогда он внук Устина или Давыда Евдокимовича Коса
+2 CONC ревых. [? ivanovichi-father]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ivan-ivanovich.md
+0 @I91@ INDI
+1 NAME Агриппина Михайловна /Косарева/
+2 GIVN Агриппина Михайловна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1874 AND 1875
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F36@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/agrippina-mikhaylovna.md
+0 @I92@ INDI
+1 NAME Васса Ивановна /Косарева/
+2 GIVN Васса Ивановна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1895 AND 1896
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F36@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Иван Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агриппина Михайловна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/vassa-ivanovna.md
+0 @I93@ INDI
+1 NAME Екатерина Ивановна /Косарева/
+2 GIVN Екатерина Ивановна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1897 AND 1898
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F36@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Иван Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агриппина Михайловна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ekaterina-ivanovna.md
+0 @I94@ INDI
+1 NAME Гавриил Иванович /Косарев/
+2 GIVN Гавриил Иванович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1899 AND 1900
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F36@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Иван Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агриппина Михайловна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/gavriil-ivanovich.md
+0 @I95@ INDI
+1 NAME Иван Иванович /Косарев/
+2 GIVN Иван Иванович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1902 AND 1903
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F36@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Иван Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агриппина Михайловна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/ivan-ivanovich-1902.md
+0 @I96@ INDI
+1 NAME Михаил Иванович /Косарев/
+2 GIVN Михаил Иванович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE 1906
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F36@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Иван Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агриппина Михайловна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mikhail-ivanovich.md
+0 @I97@ INDI
+1 NAME Мария Ивановна /Косарева/
+2 GIVN Мария Ивановна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 1909
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F36@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Иван Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Агриппина Михайловна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mariya-ivanovna.md
+0 @I98@ INDI
+1 NAME Тимофей Иванович /Косарев/
+2 GIVN Тимофей Иванович
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1878 AND 1879
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F37@
+1 NOTE Брат Ивана Ивановича («Тимофей, брат Ивана»); в 1910 году жил с семьёй в его дворе, № 58. [confession-1910]
+1 NOTE Слабое совпадение: его отец Иван — возможно, Иван Устинович (около 1843–1844 г. р.) или, менее вероятно, Ива
+2 CONC н Давыдович (около 1845–1846) из ревизской сказки 1850 года; тогда он внук Устина или Давыда Евдокимовича Коса
+2 CONC ревых. [? ivanovichi-father]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/timofey-ivanovich.md
+0 @I99@ INDI
+1 NAME Параскева Прокопьевна /Косарева/
+2 GIVN Параскева Прокопьевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1879 AND 1880
+2 SOUR @S44@
+3 QUAY 3
+1 FAMS @F37@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/paraskeva-prokopevna.md
+0 @I100@ INDI
+1 NAME Василий Тимофеевич /Косарев/
+2 GIVN Василий Тимофеевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1901 AND 1902
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F37@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Тимофей Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Параскева Прокопьевна Косарева
+1 NOTE Слабое совпадение: возможно, это он — Василий Тимофеевич Косарев из Балаковского района, красноармеец, погибши
+2 CONC й в бою 5 января 1942 года и похороненный в Колпино. [? vasiliy-timofeevich-killed]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/vasiliy-timofeevich.md
+0 @I101@ INDI
+1 NAME Пелагея Тимофеевна /Косарева/
+2 GIVN Пелагея Тимофеевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1903 AND 1904
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F37@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Тимофей Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Параскева Прокопьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/pelageya-timofeevna.md
+0 @I102@ INDI
+1 NAME Александр Тимофеевич /Косарев/
+2 GIVN Александр Тимофеевич
+2 SURN Косарев
+2 SOUR @S44@
+3 QUAY 3
+1 SEX M
+1 BIRT
+2 DATE BET 1905 AND 1906
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F37@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Тимофей Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Параскева Прокопьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/aleksandr-timofeevich.md
+0 @I103@ INDI
+1 NAME Мария Тимофеевна /Косарева/
+2 GIVN Мария Тимофеевна
+2 SURN Косарева
+2 SOUR @S44@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 1909
+2 SOUR @S44@
+3 QUAY 3
+1 FAMC @F37@
+1 SOUR @S44@
+2 QUAY 3
+2 NOTE Отец: Тимофей Иванович Косарев
+1 SOUR @S112@
+2 QUAY 1
+2 NOTE Мать: Параскева Прокопьевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mariya-timofeevna.md
+0 @I104@ INDI
+1 NAME Прасковья Дмитриевна /Косарева/
+2 GIVN Прасковья Дмитриевна
+2 SURN Косарева
+2 SOUR @S6@
+3 QUAY 1
+2 SOUR @S9@
+3 QUAY 3
+1 NAME Прасковья Дмитриевна /Плахина/
+2 TYPE birth
+2 GIVN Прасковья Дмитриевна
+2 SURN Плахина
+2 SOUR @S9@
+3 QUAY 3
+2 SOUR @S120@
+3 QUAY 3
+2 SOUR @S6@
+3 QUAY 1
+1 SEX F
+1 BIRT
+2 DATE BET 1878 AND 1909
+2 SOUR @S121@
+3 QUAY 1
+1 DEAT
+2 DATE 6 NOV 1936
+2 SOUR @S120@
+3 QUAY 3
+2 SOUR @S9@
+3 QUAY 3
+1 FAMS @F1@
+1 FAMS @F38@
+1 NOTE Вероятно, в 1924 году жила в с. Малая Быковка Балаковского района: там родилась её дочь Антонина. [malaya-byko
+2 CONC vka-family]
+1 NOTE Слабое совпадение: Плахины жили в Малой Быковке уже в 1835 году — семья № 51, Михаил Никитин Плахин (умер в 18
+2 CONC 19 году) с сыновьями Ивлеем, Абрамом и Афанасием. В 1850 году — три двора его потомков: сыновей Абрама (уме
+2 CONC р в 1848) и Афанасия и внука Петра Ивлиева, с внуками и правнуками; Дмитрия среди них нет ни в 1850, ни в 185
+2 CONC 8 году — если её отец из этой семьи, он родился после 1858 года. [? plakhiny-1835]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/praskovya-plakhina.md
+0 @I105@ INDI
+1 NAME Павел Акимович /Косарев/
+2 GIVN Павел Акимович
+2 SURN Косарев
+2 SOUR @S123@
+3 QUAY 1
+2 SOUR @S124@
+3 QUAY 1
+2 SOUR @S93@
+3 QUAY 3
+2 SOUR @S65@
+3 QUAY 3
+2 SOUR @S66@
+3 QUAY 3
+2 SOUR @S125@
+3 QUAY 1
+1 SEX M
+1 BIRT
+2 DATE 1896
+2 PLAC с. Малая Быковка, Балаковский район, Саратовская область
+2 SOUR @S93@
+3 QUAY 3
+2 SOUR @S65@
+3 QUAY 3
+2 SOUR @S66@
+3 QUAY 3
+2 SOUR @S125@
+3 QUAY 1
+1 DEAT
+2 DATE 1942
+2 PLAC под Сталинградом
+2 SOUR @S126@
+3 QUAY 1
+2 SOUR @S127@
+3 QUAY 1
+1 FAMC @F16@
+1 FAMS @F38@
+1 FAMS @F39@
+1 SOUR @S67@
+2 QUAY 1
+2 NOTE Отец: Аким Устинович Косарев
+1 NOTE Призван Балаковским РВК (Саратовская обл., Балаковский р-н) 18 февраля 1942 года. Рядовой. [pamyat-naroda-pave
+2 CONC l, pavel-missing-report]
+1 NOTE Связь с семьёй прекратилась в августе 1942 года. Считается пропавшим без вести в 1942 году. [pavel-missing-rep
+2 CONC ort]
+1 NOTE Погиб в ВОВ. [? paper-tree]
+1 NOTE Армейские документы подтверждают семейные сведения: имя и отчество, год рождения и то, что его женой была Мари
+2 CONC я. Книга памяти Саратовской области повторяет те же сведения, но она составлена по документам военкоматов и не
+2 CONC зависимым подтверждением не является. [pavel-comparison]
+1 NOTE В армейских документах и в Книге памяти фамилия записана как «Косырев» — вероятно, не ошибка писаря, а та форм
+2 CONC а, в которой фамилия звучала в селе. [pavel-comparison]
+1 NOTE Версия, что его женой была Прасковья Дмитриевна, документами не подтверждается: по другим источникам, она жен
+2 CONC а его брата Ивана Акимовича и умерла в 1936 году. Если она и была женой Павла, то раньше. [pavel-comparison]
+1 NOTE В документах числится пропавшим без вести; по семейному преданию, погиб под Сталинградом. Это не противоречи
+2 CONC т одно другому: связь прекратилась в августе 1942 года, во время Сталинградской битвы. Место службы в документ
+2 CONC ах не указано. [pavel-comparison]
+1 NOTE Месяц исчезновения в источниках разный: по донесению военкомата, связь прекратилась в августе 1942 года; на са
+2 CONC йте «Память народа» дата выбытия — ноябрь 1942 года, вероятно, дата обработки списка: рядом с записью пометк
+2 CONC а «XI.42»; в томе 10 Книги памяти Саратовской области — «пропал без вести дек. 1942», вероятно, по более поздн
+2 CONC ей обработке тех же сведений. [pavel-comparison]
+1 NOTE В томе 2 Книги памяти он записан призванным в 1941 году и пропавшим без вести в ноябре 1941 года. Это противор
+2 CONC ечит донесению военкомата, подтверждающему призыв в феврале 1942 года; вероятно, это повторная запись с ошибоч
+2 CONC ными датами. [pavel-comparison]
+1 NOTE Вероятно, погиб под Сталинградом в 1942 году. [pavel-comparison]
+1 NOTE Брат Ивана Акимовича и сын Акима Устиновича: оба брата — Акимовичи, Павел родился в Малой Быковке, где в 192
+2 CONC 4 году родилась дочь Ивана, Антонина. [? pavel-brother]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/pavel-akimovich.md
+0 @I106@ INDI
+1 NAME Ксения /Косарева/
+2 GIVN Ксения
+2 SURN Косарева
+2 SOUR @S11@
+3 QUAY 3
+1 SEX F
+1 FAMS @F17@
+1 NOTE https://github.com/kosarev/kosarev/blob/main/kseniya-kosareva.md
+0 @I107@ INDI
+1 NAME Антонина Ивановна /Косарева/
+2 GIVN Антонина Ивановна
+2 SURN Косарева
+2 SOUR @S11@
+3 QUAY 3
+2 SOUR @S9@
+3 QUAY 3
+2 SOUR @S10@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE 4 MAR 1924
+2 PLAC с. Малая Быковка, Балаковский район
+2 SOUR @S9@
+3 QUAY 3
+2 SOUR @S10@
+3 QUAY 3
+2 SOUR @S11@
+3 QUAY 3
+1 DEAT
+2 DATE NOV 2009
+2 SOUR @S10@
+3 QUAY 3
+1 FAMC @F1@
+1 SOUR @S11@
+2 QUAY 3
+2 NOTE Отец: Иван Акимович Косарев
+1 SOUR @S9@
+2 QUAY 3
+2 NOTE Мать: Прасковья Дмитриевна Косарева
+1 NOTE https://github.com/kosarev/kosarev/blob/main/antonina-kosareva.md
+0 @I108@ INDI
+1 NAME Прасковья Акимовна /Путина/
+2 GIVN Прасковья Акимовна
+2 SURN Путина
+2 SOUR @S129@
+3 QUAY 1
+1 NAME Прасковья Акимовна /Косарева/
+2 TYPE birth
+2 GIVN Прасковья Акимовна
+2 SURN Косарева
+2 SOUR @S130@
+3 QUAY 3
+2 SOUR @S129@
+3 QUAY 1
+1 SEX F
+1 FAMC @F16@
+1 SOUR @S130@
+2 QUAY 3
+2 NOTE Отец: Аким Устинович Косарев
+1 NOTE Муж — Михаил Тимофеевич Путин. [myheritage-putin]
+1 NOTE Вероятно, вышла замуж в том же селе: Путины были среди государственных крестьян Малой Быковки. [putina-marriag
+2 CONC e]
+1 NOTE Слабое совпадение: в 1910 году псаломщиком церкви в Бобове был Александр Яковлевич Путин (около 1869 г. р.); р
+2 CONC одство с её мужем не известно. [? putin-psalmist]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/praskovya-putina.md
+0 @I109@ INDI
+1 NAME Мария Петровна /Косарева/
+2 GIVN Мария Петровна
+2 SURN Косарева
+2 SOUR @S124@
+3 QUAY 1
+2 SOUR @S65@
+3 QUAY 3
+1 SEX F
+1 BIRT
+2 DATE BET 1896 AND 1926
+2 SOUR @S135@
+3 QUAY 1
+1 FAMS @F39@
+1 NOTE Разыскивала мужа, Павла Акимовича, живя в с. Малая Быковка Балаковского района Саратовской области. [pavel-mis
+2 CONC sing-report]
+1 NOTE https://github.com/kosarev/kosarev/blob/main/mariya-petrovna.md
+0 @F1@ FAM
+1 HUSB @I29@
+1 WIFE @I104@
+1 CHIL @I1@
+1 CHIL @I107@
+1 SOUR @S62@
+2 QUAY 1
+0 @F2@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 SOUR @S1@
+2 QUAY 3
+0 @F3@ FAM
+1 HUSB @I3@
+1 WIFE @I4@
+1 CHIL @I2@
+1 CHIL @I26@
+0 @F4@ FAM
+1 HUSB @I27@
+1 CHIL @I4@
+0 @F5@ FAM
+1 HUSB @I5@
+1 CHIL @I6@
+1 CHIL @I7@
+0 @F6@ FAM
+1 HUSB @I8@
+1 WIFE @I6@
+1 CHIL @I10@
+1 SOUR @S25@
+2 QUAY 3
+0 @F7@ FAM
+1 HUSB @I8@
+1 WIFE @I9@
+1 SOUR @S25@
+2 QUAY 3
+0 @F8@ FAM
+1 HUSB @I34@
+1 CHIL @I11@
+1 CHIL @I32@
+0 @F9@ FAM
+1 HUSB @I11@
+1 WIFE @I12@
+1 CHIL @I14@
+1 CHIL @I17@
+1 CHIL @I18@
+1 CHIL @I19@
+1 SOUR @S38@
+2 QUAY 3
+0 @F10@ FAM
+1 HUSB @I11@
+1 WIFE @I13@
+1 SOUR @S29@
+2 QUAY 3
+0 @F11@ FAM
+1 HUSB @I15@
+1 WIFE @I14@
+1 CHIL @I16@
+1 SOUR @S45@
+2 QUAY 1
+0 @F12@ FAM
+1 HUSB @I11@
+1 CHIL @I20@
+1 CHIL @I21@
+1 CHIL @I22@
+0 @F13@ FAM
+1 HUSB @I25@
+1 CHIL @I23@
+0 @F14@ FAM
+1 HUSB @I24@
+1 WIFE @I23@
+1 SOUR @S1@
+2 QUAY 3
+0 @F15@ FAM
+1 HUSB @I27@
+1 WIFE @I28@
+1 SOUR @S57@
+2 QUAY 1
+0 @F16@ FAM
+1 HUSB @I30@
+1 CHIL @I29@
+1 CHIL @I105@
+1 CHIL @I108@
+0 @F17@ FAM
+1 HUSB @I29@
+1 WIFE @I106@
+1 SOUR @S11@
+2 QUAY 3
+0 @F18@ FAM
+1 HUSB @I31@
+1 WIFE @I48@
+1 CHIL @I30@
+1 CHIL @I45@
+1 CHIL @I47@
+1 SOUR @S28@
+2 QUAY 3
+0 @F19@ FAM
+1 HUSB @I32@
+1 CHIL @I31@
+1 CHIL @I40@
+0 @F20@ FAM
+1 HUSB @I31@
+1 WIFE @I35@
+1 CHIL @I36@
+1 CHIL @I37@
+1 CHIL @I38@
+1 CHIL @I39@
+1 SOUR @S27@
+2 QUAY 3
+0 @F21@ FAM
+1 HUSB @I32@
+1 WIFE @I33@
+1 SOUR @S27@
+2 QUAY 3
+1 SOUR @S28@
+2 QUAY 3
+0 @F22@ FAM
+1 HUSB @I36@
+1 WIFE @I49@
+1 CHIL @I46@
+1 SOUR @S28@
+2 QUAY 3
+0 @F23@ FAM
+1 HUSB @I41@
+1 WIFE @I40@
+1 CHIL @I42@
+1 CHIL @I43@
+1 CHIL @I44@
+1 SOUR @S100@
+2 QUAY 1
+0 @F24@ FAM
+1 HUSB @I31@
+1 CHIL @I50@
+1 CHIL @I51@
+0 @F25@ FAM
+1 HUSB @I50@
+1 WIFE @I52@
+1 CHIL @I53@
+1 CHIL @I60@
+1 CHIL @I64@
+1 CHIL @I66@
+1 CHIL @I68@
+1 CHIL @I69@
+1 CHIL @I73@
+1 SOUR @S44@
+2 QUAY 3
+0 @F26@ FAM
+1 HUSB @I51@
+1 WIFE @I74@
+1 CHIL @I75@
+1 CHIL @I76@
+1 CHIL @I77@
+1 SOUR @S44@
+2 QUAY 3
+0 @F27@ FAM
+1 HUSB @I53@
+1 WIFE @I54@
+1 CHIL @I55@
+1 CHIL @I56@
+1 CHIL @I57@
+1 CHIL @I58@
+1 CHIL @I59@
+1 SOUR @S44@
+2 QUAY 3
+0 @F28@ FAM
+1 HUSB @I60@
+1 WIFE @I61@
+1 CHIL @I62@
+1 CHIL @I63@
+1 SOUR @S25@
+2 QUAY 3
+1 SOUR @S44@
+2 QUAY 3
+0 @F29@ FAM
+1 HUSB @I64@
+1 WIFE @I65@
+1 SOUR @S44@
+2 QUAY 3
+0 @F30@ FAM
+1 HUSB @I66@
+1 WIFE @I67@
+1 SOUR @S44@
+2 QUAY 3
+0 @F31@ FAM
+1 HUSB @I69@
+1 WIFE @I70@
+1 SOUR @S109@
+2 QUAY 3
+1 SOUR @S110@
+2 QUAY 1
+0 @F32@ FAM
+1 HUSB @I69@
+1 CHIL @I71@
+1 CHIL @I72@
+0 @F33@ FAM
+1 HUSB @I75@
+1 WIFE @I78@
+1 SOUR @S44@
+2 QUAY 3
+0 @F34@ FAM
+1 HUSB @I79@
+1 WIFE @I80@
+1 CHIL @I81@
+1 CHIL @I82@
+1 CHIL @I83@
+1 CHIL @I84@
+1 SOUR @S112@
+2 QUAY 1
+0 @F35@ FAM
+1 HUSB @I85@
+1 WIFE @I86@
+1 CHIL @I87@
+1 CHIL @I88@
+1 CHIL @I89@
+1 SOUR @S44@
+2 QUAY 3
+0 @F36@ FAM
+1 HUSB @I90@
+1 WIFE @I91@
+1 CHIL @I92@
+1 CHIL @I93@
+1 CHIL @I94@
+1 CHIL @I95@
+1 CHIL @I96@
+1 CHIL @I97@
+1 SOUR @S44@
+2 QUAY 3
+0 @F37@ FAM
+1 HUSB @I98@
+1 WIFE @I99@
+1 CHIL @I100@
+1 CHIL @I101@
+1 CHIL @I102@
+1 CHIL @I103@
+1 SOUR @S44@
+2 QUAY 3
+0 @F38@ FAM
+1 HUSB @I105@
+1 WIFE @I104@
+1 SOUR @S123@
+2 QUAY 1
+0 @F39@ FAM
+1 HUSB @I105@
+1 WIFE @I109@
+1 SOUR @S124@
+2 QUAY 1
+1 SOUR @S65@
+2 QUAY 3
+0 @S1@ SOUR
+1 TITL ivan
+1 PUBL Иван
+0 @S2@ SOUR
+1 TITL ? viktor-birth-estimate
+1 PUBL Иван
+1 TEXT Предположение по свидетельству [viktor-kosarev-on-war]. Подростком (12–17 лет) в июне 1941 года мог быть родив
+2 CONC шийся в 1923–1929 годах. Согласуется со словами сына Владимира [vladimir-on-birth-year], что изначально год ро
+2 CONC ждения был указан на год позже, то есть по документам Виктор был на год моложе.
+0 @S3@ SOUR
+1 TITL viktor-kosarev-on-war
+1 PUBL Иван
+1 TEXT Со слов Виктора Ивановича Косарева.
+0 @S4@ SOUR
+1 TITL vladimir-on-birth-year
+1 PUBL Иван
+1 TEXT Со слов сына Владимира.
+0 @S5@ SOUR
+1 TITL myheritage-viktor
+1 PUBL https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000037/виктор-косарев
+0 @S6@ SOUR
+1 TITL ? geni-viktor
+1 PUBL https://www.geni.com/people/Виктор-Косарев/6000000058692404845
+1 TEXT Добавлено Евгением Терещенко [tereshchenko].
+0 @S7@ SOUR
+1 TITL tereshchenko
+1 PUBL Иван
+1 TEXT Информация на geni.com добавлена Евгением Владимировичем Терещенко из Омска в 2017 году. На мой вопрос об исто
+2 CONC чниках Евгений сообщил, что информация, вероятно, им была взята из MyHeritage.
+0 @S8@ SOUR
+1 TITL viktor-birthplace
+1 PUBL Иван
+1 TEXT Наблюдение: рождение Виктора Ивановича Косарева было записано в церковных книгах [vladimir-on-birth-year], а е
+2 CONC го сестра Антонина родилась в 1924 году в с. Малая Быковка [myheritage-praskovya] [myheritage-antonina] [myher
+2 CONC itage-ivan], вероятно, в пределах нескольких лет от него [? viktor-birth-estimate]. Поэтому вероятно, что он р
+2 CONC одился там же, а запись о его рождении — в книгах прихода, к которому относилось село.
+0 @S9@ SOUR
+1 TITL myheritage-praskovya
+1 PUBL https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000086/прасковья-плахина
+0 @S10@ SOUR
+1 TITL myheritage-antonina
+1 PUBL https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000104/антонина-косарева
+0 @S11@ SOUR
+1 TITL myheritage-ivan
+1 PUBL https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500005/иван-акимович-косарев
+0 @S12@ SOUR
+1 TITL viktor-records
+1 PUBL Иван
+1 TEXT Наблюдение: в 1920-х годах рождения и браки в сёлах регистрировались волостными органами ЗАГС, а Малая Быковк
+2 CONC а была центром своей волости [rgia-volost]. Поэтому гражданские записи о рождении Виктора и Антонины, если он
+2 CONC и есть, — в актовых книгах Мало-Быковской волости, а церковные — в метрических книгах прихода села.
+0 @S13@ SOUR
+1 TITL rgia-volost
+1 PUBL Каталог РГИА
+1 TEXT Ф. 273 Оп. 3 Д. 10285, 1909 г.: «Управление железных дорог Министерства путей сообщения. Юридическая часть. Де
+2 CONC ла по иску за увечье, повреждение здоровья, за смерть отца, мужа, детей. По претензии поденного кровельщика ст
+2 CONC анции Курган Сибирской железной дороги крестьянина села и волости Малой Быковки Николаевского уезда Самарско
+2 CONC й губернии Михаила Алексеевича Сивакова к Управлению железных дорог о вознаграждении за причиненное увечье пр
+2 CONC и исполнении служебных обязанностей.»
+0 @S14@ SOUR
+1 TITL vladimir-on-gostiny
+1 PUBL Иван
+1 TEXT Со слов сына Владимира.
+0 @S15@ SOUR
+1 TITL viktor-on-latvia
+1 PUBL Иван
+1 TEXT Со слов Виктора Ивановича Косарева.
+0 @S16@ SOUR
+1 TITL vladimir-on-latvia
+1 PUBL Иван
+1 TEXT Со слов сына Владимира.
+0 @S17@ SOUR
+1 TITL myheritage-nina
+1 PUBL https://www.myheritage.com/profile-OYYV7B25UZMYUWNJGJLHBUCMELGE2YA-1000036/нина-богданова
+0 @S18@ SOUR
+1 TITL ? geni-nina
+1 PUBL https://www.geni.com/people/Нина-Косарева/6000000058692694826
+1 TEXT Добавлено Евгением Терещенко [tereshchenko].
+0 @S19@ SOUR
+1 TITL ? nina-birth
+1 PUBL Иван
+1 TEXT Предположение по датам рождения сыновей и мужа.
+0 @S20@ SOUR
+1 TITL ? geni-egor
+1 PUBL https://www.geni.com/people/Егор-Богданов/6000000058689841298
+1 TEXT Добавлено Евгением Терещенко [tereshchenko].
+0 @S21@ SOUR
+1 TITL ? egor-birth
+1 PUBL Иван
+1 TEXT Предположение по дате рождения дочери. Дочь, Нина Егоровна Косарева, родилась в 1923–1934 годах [? nina-birth]
+2 CONC . Если отцу при её рождении было от 20 до 50 лет, он родился в 1873–1914 годах.
+0 @S22@ SOUR
+1 TITL ? geni-efrosinya
+1 PUBL https://www.geni.com/people/Ефросинья-Богданова/6000000058692793834
+1 TEXT Добавлено Евгением Терещенко [tereshchenko].
+0 @S23@ SOUR
+1 TITL ? efrosinya-birth
+1 PUBL Иван
+1 TEXT Предположение по дате рождения дочери. Дочь, Нина Егоровна Косарева, родилась в 1923–1934 годах [? nina-birth]
+2 CONC . Если матери при её рождении было от 18 до 45 лет, она родилась в 1878–1916 годах.
+0 @S24@ SOUR
+1 TITL mariya-mikhaylovna-father
+1 PUBL Иван
+1 TEXT Вывод из отчества «Мария Михайлова Косарева» [kuznetsov-registers]: её отца звали Михаил. Фамилия — по фамили
+2 CONC и дочери.
+0 @S25@ SOUR
+1 TITL kuznetsov-registers
+1 PUBL genkuzn, https://forum.vgd.ru
+1 TEXT Выписки из метрических книг: «ГАСО 637-2-2075 МК с.Казаков хутор 1901-1904 … БХ – Бобов хутор. №1 15 янв 190
+2 CONC 1 сочетались браком БХ Алексей Васильев Косарев, 20 лет; БХ Анна Алексеева Кондрашева, 17. Свидетели по жениху
+2 CONC : с.М.Кушума Дмитрий Степанов Борщев, БХ Иван Иванов Косарев. Свидетели по невесте: КХ Тимофей Евдокимов Гуров
+2 CONC , Семен Васильев Косарев.» В 1902 году Алексей Васильев Косарев (БХ, затем КХ) — дважды восприемник. «ГАСО 637
+2 CONC -22-5 МК Бобово 1915-1918. №2 9 янв 1915 сочетались браком … Свидетели по жениху: с.Бобово Гавриил Никитин, Ал
+2 CONC ексей Косарев.» «№14 19 фев 1918 сочетались браком с.Бобового Стефан Федоров Кондрашов 21 год, с.Малой Быковк
+2 CONC и девица Мария Михайлова Косарева 19 лет. Свидетели по жениху: с.Бобового Иван Алексеев Палицын, Ефимий Ивано
+2 CONC в Кондрашов. Свидетели по невесте: с Малой Быковки Николай Никитин Романов, Петр Федоров Матросов.» «№22 28 ок
+2 CONC т 1918 сочетались браком с.Бобового Никифор Филиппов Жиганов, 18л 7мес … Свидетели по жениху: с.Бобового Михаи
+2 CONC л Васильев Косарев, Сергей Филиппов Жиганов.» «№36 18 ноя 1918 родился, 19 ноя 1918 крещен Николай. Стефан Фед
+2 CONC оров Кондрашов, Мария Михайлова. Восприемники: с.Малой Быковки Николай Михайлов Косарев, девица Александра Фед
+2 CONC орова Никитина.» Также о плане ГИАНП ф. 371, оп. 2, д. 131: «В описи архива это дело датировано 1932 годом» (в
+2 CONC ероятно, опечатка описи или сообщения: 1832); ведомость исповедующихся Николаевской церкви села Бобового за 19
+2 CONC 10 год (ГИАНП 287-1-6) с Косаревыми.
+0 @S26@ SOUR
+1 TITL ? mikhail-generation
+1 PUBL Иван
+1 TEXT Слабое совпадение: Михаил Косарев, отец Марии, жил в Малой Быковке; его дети родились около 1898–1901 годов [k
+2 CONC uznetsov-registers], так что сам он родился, вероятно, около 1850–1875 годов. Это поколение Акима Устинович
+2 CONC а и его братьев или их детей: он мог быть сыном Петра Устиновича (1829–1830 г. р.) [revision-1835], младшим бр
+2 CONC атом Акима или сыном Акима. По ревизской сказке 1850 года отцом мог быть и Иван Устинович (1843–1844 г. р.) [r
+2 CONC evision-1850] или один из сыновей Давыда Евдокимовича — Ефрем (1842–1843) или Иван (1845–1846) [revision-1850-
+2 CONC davyd]: все Косаревы этого поколения в селе (третий сын Давыда, Ермолай, умер в 1852 году [revision-1858-davyd
+2 CONC ]).
+0 @S27@ SOUR
+1 TITL revision-1835
+1 PUBL Cdtnf, https://forum.vgd.ru
+1 TEXT Ревизская сказка 1835 года (8-я ревизия), «1835 года Апреля 15 дня, Саратовской губернии Вольского уезда сел
+2 CONC о Малая Быковка», л. 377 об. – 378, кадр 402 (номер на образе; в DGS 7821386 — образ 406); семья № 132. ЦГАС
+2 CONC О (Самара), ф. 150, оп. 1, д. 60 — по записи каталога FamilySearch «Ревизские сказки, Волгск (уезд) 1835» (Сар
+2 CONC атовская губернская казённая палата; микрофильм рукописей Государственного архива Самарской области), плёнка 2
+2 CONC 360931, item 1, DGS 7821386: https://www.familysearch.org/en/search/catalog/1328882?availability=Family%20Hist
+2 CONC ory%20Library. На эту запись указала Cdtnf; сама она назвала шифр «Ф 153 оп1 д.60» — вероятно, описка: в запис
+2 CONC и каталога только фонд 150. Расшифровка (лета по последней ревизии — ныне): «Алексей Евдокимов Кас…ревъ» — 42
+2 CONC , 62 (фамилия написана неразборчиво: «Ка», затем буква, которую писарь пишет так же, как «с» в «сынъ», затем н
+2 CONC еясная — «а» или «ы» — и «ревъ»; ревизская сказка 1850 года, которая продолжает эту, пишет ясно — «Косарев» [r
+2 CONC evision-1850]); «Алексеев сын Устин» — 7, 27; «Устинов сын Петр» — новорожденный, 5. «Алексея Евдокимова жен
+2 CONC а Катерина» — 55; «его же дочь Устинья» — 18; «Устинова жена Евдокия» — 25. На поле у семьи другой рукой помет
+2 CONC ка «однод.». Копия: materials/revision-1835 (https://github.com/kosarev/kosarev/tree/main/materials/revision-1
+2 CONC 835).
+0 @S28@ SOUR
+1 TITL revision-1850
+1 PUBL https://www.familysearch.org/en/search/catalog/koha:1329593
+1 TEXT Ревизская сказка 1850 года (9-я ревизия), № 55, «1850 года Сентября 14 дня, Саратовской губернии Николаевског
+2 CONC о уезда Малоперекопновской волости Села Малой Быковки, Тигуновка тож», л. 446 об. – 447, кадр 417 (номер на об
+2 CONC разе; в DGS 7821897 — образ 419); семья № 141. ЦГАСО (Самара), ф. 150, оп. 1, д. 96 (продолжение) — по запис
+2 CONC и каталога FamilySearch «Ревизские сказки, Николаевск (уезд) 1850-1858», плёнка 2362209, item 1, DGS 7821897
+2 CONC . Расшифровка (лета по последней ревизии — ныне): «Алексей Евдокимов Косарев» — 61, 76; «Алексея Евдокимова сы
+2 CONC н Устин» — 27, 42; «Устиновы от 1 жены сыновья: Петр» — 5, 20; «Иван» — новорожденный, 6. «Алексея Евдокимов
+2 CONC а жена Екатерина Петрова» — 70; «Устина Алексеева жена Авдотья Федорова» — 25; «Его дочери от 1 жены: Акулина
+2 CONC » — 18(?); «Авдотья» — 8; «Его же от 2 жены дочь Александра» — 4 месяцев; «Петра Устинова жена Марья Кузьмина
+2 CONC » — 20. Копия: materials/revision-1850 (https://github.com/kosarev/kosarev/tree/main/materials/revision-1850).
+0 @S29@ SOUR
+1 TITL revision-1850-davyd
+1 PUBL Иван
+1 TEXT Ревизская сказка 1850 года, тот же лист, что и для семьи № 141 [revision-1850], и следующий (л. 446 об. – 448
+2 CONC , образы 419–420 в DGS 7821897); семья № 142. Расшифровка (лета по последней ревизии — ныне): «Давыд Евдокимо
+2 CONC в Косарев» — 37, 52; «Его сыновья от 2 жены: Ефрем» — новорожденный, 7; «Иван» — новорожденный, 4; «Ермолай
+2 CONC » — новорожденный, 2. «Давыда Евдокимова жена Акулина Прокофьева» — 20; «Его же от 2 жены дочь Варвара» — 10
+2 CONC . Копия: materials/revision-1850 (https://github.com/kosarev/kosarev/tree/main/materials/revision-1850).
+0 @S30@ SOUR
+1 TITL revision-1858-davyd
+1 PUBL Иван
+1 TEXT Ревизская сказка 1858 года, как и для семьи № 126 [revision-1858]; семья № 135, по 9-й ревизии — № 142, л. 44
+2 CONC 0 об. – 441 (образ 436 в DGS 7820668). Расшифровка (лета по последней ревизии — ныне): «Давыд Евдокимов Косаре
+2 CONC в» — 52, «умер в 1856»; «Его от 1 жены сыновья: Ефрем» — 7, 14; «Иван» — 4, 11; «Ермолай» — 2, «умер в 1852 го
+2 CONC ду». «Давыда Евдокимова жена Акулина Прокофьева» — 28. Копия: materials/revision-1858 (https://github.com/kosa
+2 CONC rev/kosarev/tree/main/materials/revision-1858).
+0 @S31@ SOUR
+1 TITL revision-1858
+1 PUBL https://www.familysearch.org/en/search/catalog/koha:1329593
+1 TEXT Ревизская сказка 1858 года (10-я ревизия), «1858 года Апреля 29 дня, Самарской Губернии Николаевского Уезда Ма
+2 CONC лоперекопновской Волости Малобыковского Сельского общества Села Малой быковки Тегуновка тож», л. 432 об. – 43
+2 CONC 4 (в DGS 7820668 — образы 428–429); семья № 126, по 9-й ревизии — № 141. ЦГАСО (Самара), ф. 150, оп. 1, д. 15
+2 CONC 7 (продолжение) — по записи каталога FamilySearch «Ревизские сказки, Николаевск (уезд) 1850-1858», плёнка 2373
+2 CONC 704, DGS 7820668. Расшифровка (лета по последней ревизии — ныне): «Алексей Евдокимов Косаров» — 76, «умер в 18
+2 CONC 50 г.»; «Алексеев сын Устин» — 42, 49; «Устиновы сыновья: Петр» — 20, 27; «Иван» — 6, 13; «Василий» — новорожд
+2 CONC енный, 7; «Аким» — новорожденный, 1. «Устина Алексеева жена Авдотья Федорова» — 32; «Петра Устинова жена Марь
+2 CONC я Кузьмина» — 27; «Его дочь Дарья» — ½ года; «Устина Алексеева дочери: Авдотья» — 15; «Афимья(?)» — 3. Копия
+2 CONC : materials/revision-1858 (https://github.com/kosarev/kosarev/tree/main/materials/revision-1858).
+0 @S32@ SOUR
+1 TITL nikolay-loss-report
+1 PUBL https://obd-memorial.ru/html/info.htm?id=54244470
+1 TEXT ОБД «Мемориал», информация из донесения о безвозвратных потерях: Косарев Николай Михайлович; дата рождения: __
+2 CONC .__.1901; место рождения: Саратовская обл., Балаковский р-н; дата и место призыва: Балаковский РВК, Саратовска
+2 CONC я обл., Балаковский р-н; последнее место службы: 338 сд; воинское звание: мл. сержант; причина выбытия: убит
+2 CONC ; дата выбытия: 15.08.1944; первичное место захоронения: Литовская ССР, Мариямпольский уезд, д. Верши, северо-
+2 CONC западнее, 300 м, братская могила № 2; ЦАМО, ф. 58, оп. 18002, д. 813. На образе страницы донесения, в его стро
+2 CONC ке: должность «ком. мин. расч.», партийность «член ВКП(б)». Фонд ветеранов дипломатической службы, «Книга памя
+2 CONC ти. Литва»: место захоронения — Верше; место захоронения, перезахоронения, увековечения — Синтаутай. Копии: ma
+2 CONC terials/nikolay-mikhaylovich/obd-memorial-54244470 (https://github.com/kosarev/kosarev/tree/main/materials/nik
+2 CONC olay-mikhaylovich/obd-memorial-54244470), materials/nikolay-mikhaylovich/fond-veteranov-dipsluzhby (https://gi
+2 CONC thub.com/kosarev/kosarev/tree/main/materials/nikolay-mikhaylovich/fond-veteranov-dipsluzhby).
+0 @S33@ SOUR
+1 TITL ? nikolay-identity
+1 PUBL Иван
+1 TEXT Отождествление: Николай Михайлович Косарев из Малой Быковки, восприемник в 1918 году [kuznetsov-registers]
+2 CONC , — вероятно, Косарев Николай Михайлович, 1901 г. р., уроженец Балаковского района, убитый в 1944 году [nikola
+2 CONC y-loss-report] [? book-of-memory-nikolay]: те же имя, отчество и фамилия, тот же район; в 1918 году ему было б
+2 CONC ы около 17 лет — возраст восприемника. Других Николаев Михайловичей Косаревых из района в Книге памяти нет.
+0 @S34@ SOUR
+1 TITL ? book-of-memory-nikolay
+1 PUBL Иван
+1 TEXT Книга памяти. Саратовская область. Том 2, с. 546, раздел «Балаковский район», записи Косаревых и Косыревых: «К
+2 CONC ОСАРЕВ Василий Тимофеевич. Красноармеец. Погиб в бою 05 янв. 1942. Похоронен г. Колпино, Ленинград. обл.» «КОС
+2 CONC АРЕВ Иван Афанасьевич, род. 1914. Призван в Сов. Арм. 1941. Мл. сержант, 338-я сд. Погиб в бою 15 авг. 1944. П
+2 CONC охоронен д. Верши, Литва.» «КОСАРЕВ Иван Петрович, род. 1897. Призван в Сов. Арм. 1941. Красноармеец. Пропал б
+2 CONC ез вести март 1942.» «КОСАРЕВ Михаил Дмитриевич, род. 1915. Призван в Сов. Арм. 1941. Крсноармеец. Умер в плен
+2 CONC у 02 февр. 1942.» «КОСАРЕВ Михаил Иванович, род. 1919, с. Алексеевка. Призван в Сов. Арм. 1941. Красноармеец
+2 CONC . Погиб в бою 19 июля 1943.» «КОСАРЕВ Николай Михайлович, род. 1901. Призван в Сов. Арм. 1941. Мл. сержант, 33
+2 CONC 8-я сд. Погиб в бою 05 авг. 1944. Похоронен д. Верши, Литва.» «КОСАРЕВ Петр Никитович, род. 1918. Призван в Со
+2 CONC в. Арм. 1941. Лейтенант, 524-й сп, 112-я сд. Погиб в бою 27 янв. 1945. Похоронен м. Лансдорф, р-н г. Вроцлав
+2 CONC , Польша.» «КОСЫРЕВ Николай Максимович, род. 1901. Призван в Сов. Арм. 1941. Красноармеец, 1164-й сп, 346-я сд
+2 CONC . Погиб в бою 29 дек. 1941.» «КОСЫРЕВ Павел Акимович, род. 1896. …» «КОСЫРЕВ Григорий Иванович, род. 1923. с
+2 CONC . Алексеевка. Призван в Сов. Арм. 1943. Красноармеец. Пропал без вести дек. 1941.» «КОСЫРЕВ Иван Петрович, род
+2 CONC . 1923, с. Алексеевка. Призван в Сов. Арм. 1941. Красноармеец. Пропал без вести дек. 1941.»
+0 @S35@ SOUR
+1 TITL ? nikolay-brother
+1 PUBL Иван
+1 TEXT Вывод: Николай Михайлович Косарев из Малой Быковки, восприемник сына Марии Михайловны в ноябре 1918 года [kuzn
+2 CONC etsov-registers], — вероятно, её брат: то же отчество и то же село, а восприемниками часто бывали родственники
+2 CONC .
+0 @S36@ SOUR
+1 TITL ? ivan-afanasevich
+1 PUBL Иван
+1 TEXT Слабое совпадение: в Книге памяти рядом с Николаем Михайловичем — «КОСАРЕВ Иван Афанасьевич, род. 1914», младш
+2 CONC ий сержант той же 338-й сд, погибший 15 августа 1944 года и похороненный там же, в д. Верши [? book-of-memory-
+2 CONC nikolay]. Земляков часто призывали и отправляли вместе, так что они могли быть из одного села, возможно, родст
+2 CONC венниками.
+0 @S37@ SOUR
+1 TITL ? stefan-widowed
+1 PUBL Иван
+1 TEXT Наблюдение: «Стефан Федоров Кондрашов» из Бобова венчался 9 января 1915 года, 18 лет 1 месяца, и 19 февраля 19
+2 CONC 18 года, 21 года [kuznetsov-registers]; возраст сходится, так что это, вероятно, один человек, и в 1918 году о
+2 CONC н вдовец: его первая жена, Матрона Стефановна, вероятно, умерла между 1915 и 1918 годами.
+0 @S38@ SOUR
+1 TITL revision-1835-davyd
+1 PUBL Иван
+1 TEXT Ревизская сказка 1835 года, тот же лист, что и для семьи № 132 [revision-1835]; семья № 133. Расшифровка (лет
+2 CONC а по последней ревизии — ныне): «Давыд Евдокимов Ки…аревъ» (фамилия читается неуверенно, возможно «Киларевъ»
+2 CONC ; в ревизской сказке 1850 года она написана ясно — «Косарев» [revision-1850-davyd]) — 18, 38. «Давыда Евдокимо
+2 CONC ва жена Лукерья» — 20; «его же дочери Прасковья» — 18, «Степанида» — 17, «Васса» — 8. Копия: materials/revisio
+2 CONC n-1835 (https://github.com/kosarev/kosarev/tree/main/materials/revision-1835).
+0 @S39@ SOUR
+1 TITL davyd-brother
+1 PUBL Иван
+1 TEXT Вывод: в ревизской сказке 1850 года Давыд Евдокимов записан с фамилией «Косарев» — той же, что у Алексея Евдок
+2 CONC имова [revision-1850] [revision-1850-davyd]. И в 1850, и в 1835 году его семья записана сразу после семьи Алек
+2 CONC сея [revision-1835-davyd], а в списке однодворцев — совладельцев земли около 1833 года он стоит непосредственн
+2 CONC о перед Устином Алексеевым Косаревым [plan-1832]. Оба — сыновья Евдокима. Иное объяснение — неродственные одно
+2 CONC фамильцы с отцами-тёзками, соседи в двух ревизиях подряд, в селе, где Косаревых всего два двора, — не правдопо
+2 CONC добно; а двоюродный брат или племянник был бы с другим отчеством. Значит, Давыд — младший брат Алексея. Разниц
+2 CONC а в возрасте велика, около 24 лет (Алексей — около 1773 года рождения, Давыд — около 1797-го): вероятно, они е
+2 CONC динокровные братья, от разных жён Евдокима. Ревизская сказка родства между дворами не указывает, так что это в
+2 CONC ывод — из согласных между собой косвенных свидетельств, без противоречащих. В 1835 году фамилия Давыда записан
+2 CONC а неразборчиво, «Ки…аревъ»; но сказка 1850 года продолжает сказку 1835-го — его лета «по последней ревизии
+2 CONC » в ней, 37, взяты оттуда, — так что это тот же человек и та же фамилия.
+0 @S40@ SOUR
+1 TITL plan-1832
+1 PUBL genkuzn, https://forum.vgd.ru
+1 TEXT ГИАНП, ф. 371, оп. 2, д. 131, Б-11: «Геометрический специальный план Самарской губернии Новоузенского уезда Вс
+2 CONC емилостивейше пожалованной земли генералу артиллерии Игнатьеву, образовавшейся по специальному межеванию под н
+2 CONC азванием первой части участка Бахметьевского, общего владения однодворцев села Малой Быковки Сафона Евсеева Ру
+2 CONC довицина, Марка Кузьмина и Лукьяна Иванова Голобоковых, Александра Никифорова Ефанова, Дениса Федорова Бычкова
+2 CONC , Егора Никитина Даева, Андрея Яковлева Жиганова, Федора Яковлева Жиганова, Филиппа Иванова Палицина, Поликарп
+2 CONC а Наумова, Ивана Никифорова Ефанова, Якова Афанасьева Огурцова, Григория Мартынова Раевского, Порфирия Исаев
+2 CONC а Туручманова, Нестора Ефимова Ченцова, Агафона Евдокимова Ефанова, Трофима Алексеева Желудкова, Федора Яковле
+2 CONC ва Жегалова, Давыда Евдокимова, Устина Алексеева Косарева, Дмитрия Тимофеева, Поликарпа Еремеева Радичева, каз
+2 CONC енного крестьянина Ивана Андреева Кошкова, Дементия Никитина Короткова, Тихона Филатова, Назара Епифанова, Анд
+2 CONC рея Ларионова Трушина, Кузьмы Федотова Быкова, Федора Зотова, Корнея Захарова Горбатова, Николая Тимофеева Сем
+2 CONC енова, Федор Васильев Сошнев, Федора Иванова Реченского, Никиты Иванова Реченского, Осипа Спиридонова, Алексан
+2 CONC дра Спиридонова, Игнатия Тимофеева Городничева, Артамона Яковлева Короткова и Якова Шебаева». Обмежеван при ге
+2 CONC неральном межевании 30 октября 1832 года; межа утверждена 12 октября 1854 года; план составлен 14 октября 187
+2 CONC 4 года. Всего земли 1551 десятина 376 саженей. Выписка: materials/plan-1832 (https://github.com/kosarev/kosare
+2 CONC v/tree/main/materials/plan-1832).
+0 @S41@ SOUR
+1 TITL ? davyd-wives
+1 PUBL Иван
+1 TEXT Вывод: в ревизской сказке 1850 года дети Давыда — Варвара, 10 лет, Ефрем, 7, Иван, 4, и Ермолай, 2, — записан
+2 CONC ы «от 2 жены», а его жена — Акулина Прокофьева, 20 лет [revision-1850-davyd]. Сказка не говорит, кто вторая же
+2 CONC на; это видно по возрастам. Акулине Прокофьевне при рождении Варвары было бы 9–10 лет, Ефрема — 12–13, так чт
+2 CONC о их мать — не она. В 1835 году жена Давыда — Лукерья, 20 лет [revision-1835-davyd]; при рождении Вассы, младш
+2 CONC ей из тогдашних дочерей (8 лет), ей было бы 11–12, так что дочери 1835 года — от первой жены, а Лукерья уже то
+2 CONC гда — вторая. Детям 1839–1848 годов рождения она подходит: ей тогда было бы 24–34 года. Значит, вторая жен
+2 CONC а — вероятно, Лукерья, и эти дети — её, а Акулина Прокофьевна — третья жена. Возрасты в ревизских сказках част
+2 CONC о неточны на несколько лет, но не на десять с лишним, которые изменили бы вывод. В 1850 году Лукерьи в семье н
+2 CONC ет: вероятно, она умерла после рождения Ермолая (1847–1848). В сказке 1858 года те же сыновья записаны уже «о
+2 CONC т 1 жены» [revision-1858-davyd]: нумерацию жён писари вели каждый по-своему (в 1858 году — видимо, считая вдов
+2 CONC у Акулину «женой», а прежнюю — первой), так что вывод держится на возрастах, а не на номерах.
+0 @S42@ SOUR
+1 TITL bobovo-article
+1 PUBL https://proza.ru/2018/11/02/1577
+1 TEXT Геннадий Григорьевич Кузнецов, «История сел Бобово и Еланки», Проза.ру, июнь 2018 (опубликована 2 ноября 2018)
+2 CONC : «Бобово за свою историю имело много названий: хутор Тягуновский, хутор Бобовый, хутор Бобовый враг, деревн
+2 CONC я Бобова, Бобовое, Бобовка. Селение было основано жителями села Малой Быковки (она же Тягуновка), что на Больш
+2 CONC ом Иргизе (ныне Балаковский район). … Это были государственные крестьяне, то есть лично свободные люди.» «Земл
+2 CONC я была общего владения однодворцев села Малой Быковки: Сафона Евсеева Рудовицина, Марка Кузьмина и Лукьяна Ива
+2 CONC нова Голобоковых, Александра Никифорова Ефанова, Дениса Федорова Бычкова, Егора Никитина Даева, Андрея Яковлев
+2 CONC а Жиганова, Федора Яковлева Жиганова, Филиппа Иванова Палицина, Поликарпа Наумова, Ивана Никифорова Ефанова, Я
+2 CONC кова Афанасьева Огурцова, Григория Мартынова Раевского, Порфирия Исаева Туручманова, Нестора Ефимова Ченцова
+2 CONC , Агафона Евдокимова Ефанова, Трофима Алексеева Желудкова, Федора Яковлева Жегалова, Давыда Евдокимова, Устин
+2 CONC а Алексеева Косарева, Дмитрия Тимофеева, Поликарпа Еремеева Радичева, казенного крестьянина Ивана Андреева Кош
+2 CONC кова, Дементия Никитина Короткова, Тихона Филатова, Назара Епифанова, Андрея Ларионова Трушина, Кузьмы Федотов
+2 CONC а Быкова, Федора Зотова, Корнея Захарова Горбатова, Николая Тимофеева Семенова, Федора Васильева Сошнева, Федо
+2 CONC ра Иванова Реченского, Никиты Иванова Реченского, Осипа Спиридонова, Александра Спиридонова, Игнатия Тимофеев
+2 CONC а Городничева, Артамона Яковлева Короткова и Якова Шебаева[5].» «Дело о земле, пожалованной полковнику Щербатс
+2 CONC кому, а от него доставшейся после покупки «однодворцам Родиону Желудкову и Нестору Ченцову из сельца Малой Бык
+2 CONC овки Вольского уезда, с товарищами 39 человеками», датируется 10 июня 1833 года». Сноска 5: «ГИАНП ф.371 оп.
+2 CONC 2 д.131 Геометрический специальный план Самарской губернии Новоузенского уезда Всемилостивейше пожалованной зе
+2 CONC мли генералу артиллерии Игнатьеву, образовавшейся по специальному межеванию под названием первой части участк
+2 CONC а Бахметьевского (Б-11)». Сноска 2: «ЦГАСО ф.150 оп.1 д.96 Ревизские сказки 1850 г. Список удельных крестьян М
+2 CONC алоперекопнинской волости. Малая Быковка, Тигуновка тож».
+0 @S43@ SOUR
+1 TITL ? vassa-name
+1 PUBL Иван
+1 TEXT Слабое совпадение: младшую дочь Давыда Евдокимовича в 1835 году звали Васса [revision-1835]; Васса, 14 лет
+2 CONC , — и среди Косаревых Бобова в 1910 году, дочь Ивана Иванова Косарева [confession-1910]. Имя не частое, а в кр
+2 CONC естьянских семьях имена нередко повторялись из поколения в поколение; но Васса — обычное имя по святцам, так ч
+2 CONC то совпадение само по себе мало что значит.
+0 @S44@ SOUR
+1 TITL confession-1910
+1 PUBL genkuzn, https://forum.vgd.ru
+1 TEXT Выписка из исповедной ведомости, ГИАНП 287-1-6: «Ведомость Николаевской церкви села Бобового III благочинничес
+2 CONC кого округа Новоузенского уезда Самарской епархии за 1910 год»; № двора, фамилия, лица и лета: 1. Ильинский: Г
+2 CONC еннадий Семенов, священник, 41; Мария Федорова, жена его, 38; Виктор, 18; Ксения, 13; Зоя, 9; Екатерина, 7; Ве
+2 CONC ра, 6; Нина, 4,5. 2. Путин: Александр Яковлев, псаломщик, 41; Мария Петрова, жена его, 22; Екатерина, 3,75. 4
+2 CONC . Косарев: Григорий Васильев, 31; Клавдия Васильева, 30; Феврония, 9; Петр, 3г10мес; Александр, 2г10мес; Михаи
+2 CONC л, 1г4мес. 11. Косарев: Федор Иванов, 35; Агапия Спиридонова, 33; Агрипина, 9; Василий, 3г7мес; Клавдия, 1г5ме
+2 CONC с. 37. Косарев: Василий Устинов, 55; Анастасия Трофимова, жена, 54; Семен, 35; Алексей, 29; Михаил, 22г8мес; И
+2 CONC ван, 22г8мес; Матрена, 17; Георгий, 16; Андрей, 12; Анна Григорьева, жена Семена, 32; Михаил, 15; Иван, 10; Ко
+2 CONC нстантин, 9; Мария, 4; Алексей, 2г4мес; Анна Алексеева, жена Алексея, 30; Елена, 4г1мес; Александра, 2г3мес; Н
+2 CONC аталья Филиппова, жена Михаила, 22; Екатерина Петрова, жена Ивана, 22. 57. Косарев: Константин Устинов, 50; Еф
+2 CONC росинья Кондратьева, 50; Михаил, 19; Татьяна, 17; Матрона, 9; Наталья Романова, жена Михаила, 20. 58. Косарев
+2 CONC : Иван Иванов, 47; Агриппина Михайлова, 35; Васса, 14; Екатерина, 12; Гавриил, 10; Иван, 7; Михаил, 3г9мес; Ма
+2 CONC рия, 5мес; Тимофей, брат Ивана, 31; Параскева Прокопьева, жена Тимофея, 30; Василий, 8; Пелагея, 6; Александр
+2 CONC , 4; Мария, 7мес. Копия: materials/confession-1910 (https://github.com/kosarev/kosarev/tree/main/materials/con
+2 CONC fession-1910).
+0 @S45@ SOUR
+1 TITL ? varvara-1858
+1 PUBL Иван
+1 TEXT Вывод: в ревизской сказке 1858 года — «Лукьяна Алексеева жена Варвара Давыдова», 20 лет, вдова (Лукьян Алексее
+2 CONC в умер в 1858 году), с сыном Василием, 1 года (семья № 158, по 9-й ревизии № 174; глава — брат Лукьяна, Кондра
+2 CONC тий Алексеев, фамилия читается «Кованев(?)», в 1850 году — «Алексей Владимиров Ковалев» с сыновьями Кондратие
+2 CONC м и Лукьяном, 14 лет) [revision-1858-list] [revision-1850-list]. Варваре Давыдовне Косаревой в 1850 году — 1
+2 CONC 0 [revision-1850-davyd], в 1858-м было бы 18; в семье отца её в 1858 году нет [revision-1858-davyd]. Другой Ва
+2 CONC рвары Давыдовны такого возраста в селе в 1850 году нет: у Давыда Антипова дочери Аксинья и Татьяна, у Давыда Е
+2 CONC горова дочерей нет [revision-1850-list]. Разница в возрасте, 2 года, обычна для ревизских сказок. Значит, веро
+2 CONC ятно, это она. Иное объяснение — невеста из другого села: сказка пишет только отчество жены, а не откуда она.
+0 @S46@ SOUR
+1 TITL revision-1858-list
+1 PUBL https://www.familysearch.org/en/search/catalog/koha:1329593
+1 TEXT Ревизская сказка 1858 года (10-я ревизия), «№ 133 / № 20»: «…Малоперекопновской волости Малобыковского сельско
+2 CONC го общества села Малой Быковки (Тегуновка тож) о состоящих мужеского и женского пола государственных крестьяна
+2 CONC х», 29 апреля 1858 года: основная сказка, семьи № 1–170, с номерами семей и по 9-й ревизии, л. 348–465; образ
+2 CONC ы 342–460 в DGS 7820668; затем «Особая сказка» о семействах отставных солдат и кантонистов (образы 461–470
+2 CONC ) и «Дополнительная ревизская сказка» 13–14 июня 1858 года (образы 471–472). ЦГАСО (Самара), ф. 150, оп. 1, д
+2 CONC . 157. Расшифровка (черновик): materials/revision-1858/transcription.md (https://github.com/kosarev/kosarev/tr
+2 CONC ee/main/materials/revision-1858/transcription.md).
+0 @S47@ SOUR
+1 TITL revision-1850-list
+1 PUBL https://www.familysearch.org/en/search/catalog/koha:1329593
+1 TEXT Ревизская сказка 1850 года (9-я ревизия), № 55, «…Малоперекопновской волости Малобыковского сельского обществ
+2 CONC а Села Малой Быковки, Тигуновка тож, о состоящих мужеска и женска пола государственных крестьянах», 14 сентябр
+2 CONC я 1850 года: весь список села, семьи № 1–181, л. 378–467; образы 350–441 в DGS 7821897. ЦГАСО (Самара), ф. 150
+2 CONC , оп. 1, д. 96. Расшифровка (черновик): materials/revision-1850/transcription.md (https://github.com/kosarev/k
+2 CONC osarev/tree/main/materials/revision-1850/transcription.md).
+0 @S48@ SOUR
+1 TITL ? married-out-1850
+1 PUBL Иван
+1 TEXT Вывод: дочерей, записанных в ревизской сказке 1835 года, в сказке 1850 года в семьях отцов уже нет — у Алексе
+2 CONC я Евдокимова нет дочери Устиньи (18 лет в 1835 году) [revision-1835] [revision-1850], у Давыда Евдокимова — до
+2 CONC черей Прасковьи, Степаниды и Вассы (18, 17 и 8 лет) [revision-1835-davyd] [revision-1850-davyd]. Ревизская ска
+2 CONC зка записывает женщин по двору, где они живут, так что, вероятно, они вышли замуж в другие семьи (или умерли).
+0 @S49@ SOUR
+1 TITL ? ida-birth
+1 PUBL Иван
+1 TEXT Предположение по воспоминаниям ученика. Её ученик застал её «почти девяностолетней» во время приезда в Мухорши
+2 CONC бирь после 29 октября 2007 года; повесть написана в 2009–2012 годах [shcherbakov-mama]. Если ей тогда было 85–
+2 CONC 89 лет, а приезд был в 2008–2012 годах, она родилась в 1919–1927 годах.
+0 @S50@ SOUR
+1 TITL shcherbakov-mama
+1 PUBL https://www.naslednick.ru/articles/culture/culture_4098.html
+1 TEXT Сергей Антонович Щербаков (род. 1951), «Мама. Повесть», журнал «Наследник», 2009–2012 гг. Автор, уроженец Мухо
+2 CONC ршибири, после смерти матери 29 октября 2007 года приезжает на родину, зимой: «Мимо дома Иды Иннокентьевны Про
+2 CONC дановой, позднее она вышла замуж и стала Мироновой, моей классной руководительницы в пятом классе, я ни в оди
+2 CONC н приезд не прошел. Открыл дверь, а она сидит на лавке у окна. Седая маленькая старушечка, почти девяностолетн
+2 CONC яя. … Всегда разговаривала со мной, двенадцатилетним парнишкой, на равных.»
+0 @S51@ SOUR
+1 TITL myheritage-innokentiy
+1 PUBL https://www.myheritage.com/profile-OYYV7HXS3FWLLN24LWL7VEYY6AOAAGQ-1500082/иннокентий-егорович-васильев
+0 @S52@ SOUR
+1 TITL daughter-vera
+1 PUBL Иван
+1 TEXT Со слов дочери Веры.
+0 @S53@ SOUR
+1 TITL pioneers-house
+1 PUBL https://www.calameo.com/read/003306597ae42ca53f072
+1 TEXT История дополнительного образования Мухоршибирского района (публикация на calameo): «С 1 января 1958 года бы
+2 CONC л открыт Мухоршибирский Дом пионеров … Руководителями кружков стали учителя, люди увлеченные, талантливые. … П
+2 CONC роданова Ида Иннокентьевна вела кружки «Умелые руки», «Художественная вышивка», кружок «Кройки и шитья».»
+0 @S54@ SOUR
+1 TITL ? innokentiy-birth
+1 PUBL Иван
+1 TEXT Предположение по дате рождения дочери. Дочь, Ида Иннокентьевна Проданова, родилась в 1919–1927 годах [? ida-bi
+2 CONC rth]. Если отцу при её рождении было от 20 до 50 лет, он родился в 1869–1907 годах.
+0 @S55@ SOUR
+1 TITL ? faina-birth
+1 PUBL Иван
+1 TEXT Предположение по дате рождения матери и дате смерти. Мать, Ефросинья Константиновна Богданова, родилась в 1878
+2 CONC –1916 годах [? efrosinya-birth]. Если матери при её рождении было от 18 до 45 лет, она родилась в 1896–1961 го
+2 CONC дах. Умерла в 2007 году; если ей тогда было меньше 100 лет, она родилась не раньше 1907 года.
+0 @S56@ SOUR
+1 TITL ? geni-faina
+1 PUBL https://www.geni.com/people/Фаина-Половцева/6000000078875223856
+1 TEXT Добавлено Евгением Терещенко [tereshchenko].
+0 @S57@ SOUR
+1 TITL ? geni-konstantin-molodtsov
+1 PUBL https://www.geni.com/people/Константин-Молодцов/6000000058693003821
+1 TEXT Добавлено Евгением Терещенко [tereshchenko].
+0 @S58@ SOUR
+1 TITL ? konstantin-molodtsov-birth
+1 PUBL Иван
+1 TEXT Предположение по дате рождения дочери. Дочь, Ефросинья Константиновна Богданова, родилась в 1878–1916 годах [
+2 CONC ? efrosinya-birth]. Если отцу при её рождении было от 20 до 50 лет, он родился в 1828–1896 годах.
+0 @S59@ SOUR
+1 TITL ? geni-olga-molodtsova
+1 PUBL https://www.geni.com/people/Ольга-Молодцова/6000000058691944054
+1 TEXT Добавлено Евгением Терещенко [tereshchenko].
+0 @S60@ SOUR
+1 TITL ? olga-molodtsova-birth
+1 PUBL Иван
+1 TEXT Предположение, что Ольга Молодцова — мать Ефросиньи Константиновны Богдановой: она жена её отца, хотя профил
+2 CONC ь Ефросиньи указывает только отца. Ефросинья родилась в 1878–1916 годах [? efrosinya-birth]. Если матери при е
+2 CONC ё рождении было от 18 до 45 лет, она родилась в 1833–1898 годах.
+0 @S61@ SOUR
+1 TITL viktor-kosarev-words
+1 PUBL Иван
+1 TEXT Со слов Виктора Ивановича Косарева.
+0 @S62@ SOUR
+1 TITL ? geni-ivan-wife
+1 PUBL geni.com
+0 @S63@ SOUR
+1 TITL ? ivan-birth-estimate
+1 PUBL Иван
+1 TEXT Предположение по дате рождения сына. Сын, Виктор Иванович Косарев, родился в 1923–1927 годах [? viktor-birth-e
+2 CONC stimate]. Если отцу при его рождении было от 20 до 50 лет, он родился в 1873–1907 годах.
+0 @S64@ SOUR
+1 TITL malaya-bykovka-family
+1 PUBL Иван
+1 TEXT Наблюдение: в с. Малая Быковка в 1896 году родился Павел Акимович Косарев [pavel-missing-report] [book-of-memo
+2 CONC ry-pavel], брат Ивана Акимовича [? pavel-brother], а в 1924 году — дочь Ивана Акимовича и Прасковьи Дмитриевны
+2 CONC , Антонина [myheritage-praskovya] [myheritage-antonina] [myheritage-ivan]. Поэтому вероятно, что Иван Акимови
+2 CONC ч был из этого села, Прасковья Дмитриевна жила там в 1924 году, а Аким Устинович, отец обоих братьев, тоже жи
+2 CONC л там.
+0 @S65@ SOUR
+1 TITL pavel-missing-report
+1 PUBL https://pamyat-naroda.ru/heroes/memorial-chelovek_dopolnitelnoe_donesenie70285898/
+1 TEXT Косырев Павел Акимович Документ, уточняющий потери Дата рождения: __.__.1896 Наименование военкомата: Балаковс
+2 CONC кий РВК, Саратовская обл., Балаковский р-н Дата и место призыва: Балаковский РВК, Саратовская обл., Балаковски
+2 CONC й р-н Дата призыва: 18.02.1942 Воинское звание: рядовой Дата выбытия: __.11.1942 Причина выбытия: пропал без в
+2 CONC ести Место призыва: Балаковский РВК, Саратовская обл., Балаковский р-н Источник информации: ЦАМО Фонд ист. инф
+2 CONC ормации: 58 Опись ист. информации: 977525 Дело ист. информации: 124 В документе: «Место рождения: с.Малая Быко
+2 CONC вка, Балаковского района, Саратов. области». «Когда прекращена письменная связь и последний адрес: В августе м
+2 CONC -це 1942г. Адреса в/части не сохранилось». «Кто разыскивает и его адрес: Жена КОСЫРЕВА Мария Петров. с.М.Быков
+2 CONC ка Балаковского р-на, Сар.об.». «Заключение райвоенкома: Призыв в Сов.Армию подтверждается книгой призыв.Балак
+2 CONC овского РВК. Связь прекратилась в августе 1942г.Сведен. о прох. службы РВК не располагает. Писем, присл. семье
+2 CONC , не сохранилось. Считать пропавшим б/вести в 1942г.» Копия: materials/pavel-akimovich/00000420 (https://githu
+2 CONC b.com/kosarev/kosarev/tree/main/materials/pavel-akimovich/00000420).
+0 @S66@ SOUR
+1 TITL book-of-memory-pavel
+1 PUBL https://pamyat-naroda.ru/heroes/memorial-chelovek_pechatnoi_knigi_pamyati406835906
+1 TEXT КОСЫРЕВ Павел Акимович Печатная Книга Памяти Дата рождения: __.__.1896 Место рождения: с. Малая Выковка Дат
+2 CONC а и место призыва: Балаков. РВК Дата выбытия: __.12.1942 Источник информации: Книга памяти. Саратовская област
+2 CONC ь. Том 10 В книге, с. 56, раздел «Балаковский район»: «КОСЫРЕВ Павел Акимович, род. 1896, с. Малая Быковка. Пр
+2 CONC изван в Сов. Арм. 1942, Балаков. РВК. Рядовой. Пропал без вести дек. 1942.» Копия: materials/pavel-akimovich/0
+2 CONC 0000058 (https://github.com/kosarev/kosarev/tree/main/materials/pavel-akimovich/00000058).
+0 @S67@ SOUR
+1 TITL ? pavel-brother
+1 PUBL Иван
+1 TEXT Вывод: Павел Акимович Косарев — брат Ивана Акимовича Косарева, сын Акима Устиновича Косарева. Оба — Акимовичи
+2 CONC . Павел родился в 1896 году в с. Малая Быковка [pavel-missing-report], где в 1924 году родилась дочь Ивана Аки
+2 CONC мовича, Антонина [myheritage-antonina]. Год рождения Павла соответствует оценке года рождения Ивана, 1873–190
+2 CONC 7 [? ivan-birth-estimate].
+0 @S68@ SOUR
+1 TITL akim-patronym
+1 PUBL Иван
+1 TEXT Вывод из отчества Акима Устиновича Косарева [viktor-kosarev-words]: его отца звали Устин. Фамилия — по фамили
+2 CONC и сына.
+0 @S69@ SOUR
+1 TITL state-peasants
+1 PUBL Иван
+1 TEXT Наблюдение: жители Малой Быковки [cgaso-catalogue] — пахотные солдаты, однодворцы и экономические крестьян
+2 CONC е — относились к государственным крестьянам. Если Косаревы жили там с этого времени, они, вероятно, тоже был
+2 CONC и государственными крестьянами. Государственными крестьянами в 1837–1866 годах ведало Министерство государстве
+2 CONC нных имуществ, так что его документы о Малой Быковке могут упоминать семью.
+0 @S70@ SOUR
+1 TITL cgaso-catalogue
+1 PUBL Каталог ЦГАСО (Самара)
+1 TEXT Ф. 388, Оп. 43, Д. 126, 1806 г.: «Геометрический специальный план д. Малая Быковка Вольского у. Саратовской гу
+2 CONC б.; владения пахотных солдат, однодворцев и экономических крестьян». Ф. 388, Оп. 3, Д. 447, 1813 г.: «Полева
+2 CONC я записка по отмежеванию участка в даче дер. Малая Быковка Вольского у. (Николаевского у.) Саратовская губ.»
+2 CONC . Ф. 388, Оп. 44, Д. 408, 1875 г.: «Геометрический специальный план 2 части земли, пожалованной генерал-лейтен
+2 CONC анту Языкову. На границе смежных земель: …, казенная земля назначенная к с. Малая Быковка (ТЯГУНОВКА), …, земл
+2 CONC и намежеванные разным колониям Екатеринештадского и Панинского округов колонистов; владения поселянина колони
+2 CONC и Цюрих Каспера Кунц». Ф. 174, Оп. 1 книга 5, Д. 2688, 1874–1899 гг.: «Материалы (указы, владенные записи, спи
+2 CONC ски, акты и др.) на владение крестьянами землей с. Малая Быковка Николаевского у.». Ф. Р644, Оп. 1, Д. 5035, 1
+2 CONC 927 г.: «Протокол организационного собрания об организации овцеводного товарищества "Стремление" в селе Малая-
+2 CONC Быковка, Мало-Быковской волости, Пугачевского уезда». Ф. Р644, Оп. 1, Д. 5036, 1927 г.: «Протокол организацион
+2 CONC ного собрания об организации машинного товарищества Мало-Быковской в селе Малая-Быковка, Мало-Быковской волост
+2 CONC и, Пугачевского уезда». Ф. 5, Оп. 19, Д. 1263 и Д. 1273, 1898 г.: «Посельный бланк описания с. Малая Быковка»
+2 CONC , «Пообщинный бланк описания с. Малая Быковка».
+0 @S71@ SOUR
+1 TITL ustin-identity
+1 PUBL Иван
+1 TEXT Отождествление: Аким Устинович Косарев, известный со слов Виктора Ивановича [viktor-kosarev-words], отец Павл
+2 CONC а (родился в 1896 году в Малой Быковке [pavel-missing-report]), — это Аким из ревизской сказки 1858 года, запи
+2 CONC санный в семье Устина Алексеева Косарева «Устиновым сыном», 1 года [revision-1858]. То же имя, отчество и фами
+2 CONC лия, то же село; другого Акима среди Косаревых села нет ни в 1858 году, ни раньше [revision-1858-list]; по воз
+2 CONC расту (1856–1857 года рождения) он мог быть отцом Павла — в 39–40 лет. В ревизской сказке 1850 года его ещё не
+2 CONC т [revision-1850]: родился позже. Так что его отец — Устин Алексеевич, дед — Алексей Евдокимович, а Петр, Ива
+2 CONC н и Василий Устиновичи — его братья.
+0 @S72@ SOUR
+1 TITL second-wife-children
+1 PUBL Иван
+1 TEXT Вывод: в ревизских сказках 1850 и 1858 годов жена Устина — одна и та же Авдотья Федорова, 25 и 32 лет [revisio
+2 CONC n-1850] [revision-1858]; второй брак — не позже 1849 года [? first-wife-1850]. Василий (родился между сентябрё
+2 CONC м 1850 и апрелем 1851 года), Аким (1856–1857) и Афимья (1854–1855) родились при ней, так что их мать — она.
+0 @S73@ SOUR
+1 TITL ? first-wife-1850
+1 PUBL Иван
+1 TEXT Вывод: в ревизской сказке 1850 года жена Устина — Авдотья Федорова, 25 лет, а его сыновья Петр и Иван и дочер
+2 CONC и Акулина и Авдотья записаны «от 1 жены», дочь Александра, 4 месяцев, — «от 2 жены» [revision-1850]. В сказк
+2 CONC е 1835 года жена Устина — Евдокия, 25 лет, и с ними сын Петр, 5 лет [revision-1835]. Значит, первая жена — вер
+2 CONC оятно, Евдокия, и Петр, Иван, Акулина и Авдотья — её дети. Евдокия и Авдотья — две формы одного имени, но Авдо
+2 CONC тья Федоровна на 15 лет моложе и названа второй женой, так что это разные женщины. В 1850 году Евдокии в семь
+2 CONC е нет: вероятно, она умерла после рождения младшего сына Ивана (1843–1844) и до второго брака Устина (дочь о
+2 CONC т второй жены родилась около мая 1850 года, так что брак — не позже 1849 года).
+0 @S74@ SOUR
+1 TITL ? ustin-bobovo
+1 PUBL Иван
+1 TEXT Вывод: «Устин Алексеев Косарев», однодворец, один из совладельцев земли однодворцев Малой Быковки, купленной и
+2 CONC ми около 1833 года [bobovo-article] [cgaso-catalogue-2], — вероятно, Устин Косарев, отец Акима Устиновича: т
+2 CONC о же имя и фамилия, и по ревизской сказке 1835 года он жил в том же селе, ему 27 лет, он сын Алексея [revision
+2 CONC -1835]. Других Косаревых в списке нет: из 39 названных однодворцев Косарев один, и его имя — Устин, гораздо бо
+2 CONC лее редкое, чем Иван или Василий. Чтобы это был другой человек, в селе должны были жить два Устина Косарева од
+2 CONC ного поколения. Оговорки: список включает только однодворцев-совладельцев этой земли, а не всех жителей села
+2 CONC ; и он может быть неполным: из двух покупателей, названных в каталоге, — «Радиону Желудкову и Нестеру Ченцову
+2 CONC » [cgaso-catalogue-2] — в списке есть Нестор Ефимов Ченцов, но из Желудковых только Трофим Алексеев.
+0 @S75@ SOUR
+1 TITL cgaso-catalogue-2
+1 PUBL Каталог ЦГАСО (Самара)
+1 TEXT Ф. 388, Оп. 51, Д. 653, 654, 655, 1833 г.: «Межевая книга Саратовской губ. Саратовского уезда, пожалованной зе
+2 CONC мли г. полковнику Щербатскому, а от него доставшейся по покупке Вольского уезда сельца малой Быковки, однодвор
+2 CONC цам Радиону Желудкову и Нестеру Ченцову с товарищами 39 человеками». Ф. 388, Оп. 3, Д. 998, 1804–1833 гг.: «По
+2 CONC левые записки по отмежеванию пожалованной земли полковнику Щербатскому, ныне владения крестьян с. Малой Быковк
+2 CONC и». Ф. 356, Оп. 2, Д. 1, 1867–1883 гг.: «Церковная летопись села Малой Быковки, Николаевского уезда, Самарско
+2 CONC й губернии с 1867-1883 гг.». Ф. 32, Оп. 23, Д. 17, 1836 г.: «Клировые ведомости о церкви села Малой Быковки Ни
+2 CONC колаевского уезда за 1836 г.»; также за 1838, 1839, 1840 и 1852 гг. (Д. 81, 182, 236, 331). Ф. 32, Оп. 8 кн. 7
+2 CONC , Д. 7034, 1861 г.: «Документы разного характера по вопросу о позволении жителям села Малой Быковки Николаевск
+2 CONC ого уезда, в своей приходской церкви сделать пристрой во имя св. Арх. Михаила». Ф. 32, Оп. 2, Д. 56, 1858 г.
+2 CONC : «Указ Самарской духовной консистории, об отстранении от должности наставников сельских училищ, священников с
+2 CONC . Малого Перекопного и с. Малой Быковки Николаевского у.».
+0 @S76@ SOUR
+1 TITL ? ustin-birthplace
+1 PUBL Иван
+1 TEXT Наблюдение: Устин родился в 1807–1809 годах, а семья жила в селе уже ко времени 7-й ревизии (1815–1816) [revis
+2 CONC ion-1835]; по сведениям Cdtnf, она прибыла туда в 1812 году [? cdtnf-arrival]. Если так, он родился ещё до пер
+2 CONC еселения и приехал в Малую Быковку ребёнком. Откуда пришли однодворцы села, не известно [cdtnf-settlement]
+2 CONC ; в 1831 году в селе водворились и переселенцы из Рязанской губернии [rgia-ryazan]. В ревизской сказке 1835 го
+2 CONC да о некоторых семьях записано, что они причислены из Рязанской(?) и из Тульской(?) губерний, о семье Косаревы
+2 CONC х — нет [revision-1835-list]. Форма фамилии «Косырев» может указывать на рязанское происхождение [surname-over
+2 CONC view].
+0 @S77@ SOUR
+1 TITL ? cdtnf-arrival
+1 PUBL Cdtnf, https://forum.vgd.ru
+1 TEXT О Косаревых Малой Быковки: «Прибыли не около 1812г а в 1812году.»
+0 @S78@ SOUR
+1 TITL cdtnf-settlement
+1 PUBL Cdtnf, https://forum.vgd.ru
+1 TEXT «Я 20 лет исследую МБ и знаю, что основное заселение МБ было из Тульской пахатными солдатами. однодворцами и э
+2 CONC кономическими. Пахатные пришли частично из Крапивницкого уезда, Одоевского, Однодворцы я не знаю откуда пришли
+2 CONC » … «РС за 1811 и 1816гг малой Быковки не существует в архивах. Возможно утеряны или в россыпи в других РС ил
+2 CONC и в ПФС».
+0 @S79@ SOUR
+1 TITL rgia-ryazan
+1 PUBL Каталог РГИА
+1 TEXT Ф. 1350 Оп. 58 Д. 310, 4 августа 1831 г.: «Межевой департамент Сената. Об утверждении земли переселенцам Рязан
+2 CONC ской губернии, водворившимся в деревне Малой Быковке по Саратовской губернии.» Ф. 1350 Оп. 59 Д. 565, октябр
+2 CONC ь 1836 г.: «Межевой департамент Сената. По рапорту Астраханской казенной палаты, коим просит разрешения о зачи
+2 CONC слении дела решенным о пожаловании князю Щербатскому земель [села Малая Быковка Саратовского уезда].»
+0 @S80@ SOUR
+1 TITL revision-1835-list
+1 PUBL https://www.familysearch.org/en/search/catalog/1328882?availability=Family%20History%20Library
+1 TEXT Ревизская сказка 1835 года (8-я ревизия), «№ 12», «сельца Малой Быковки о состоящих мужеска и женска пола казе
+2 CONC нных крестьянах»: весь список села, семьи № 1–178, л. 340–390; образы 364–418 в DGS 7821386. ЦГАСО (Самара), ф
+2 CONC . 150, оп. 1, д. 60. Расшифровка (черновик): materials/revision-1835 (https://github.com/kosarev/kosarev/tree/
+2 CONC main/materials/revision-1835).
+0 @S81@ SOUR
+1 TITL surname-overview
+1 PUBL Форум ВГД
+1 TEXT Обзор фамилии: «2. Восточная ветвь (Поволжская). Движение и распространение фамилии шло с Северо-Запада на Юго
+2 CONC -Восток, синхронно со строительством оборонительных укреплений от Козлова до Симбирска и далее на Закамских ру
+2 CONC бежах. Фамилия в данном случае имеет два варианта написания: Косырев, Касырев и Косарев ("Косырев" распростран
+2 CONC ено шире и устойчивей, старое звучание с ударением на последний слог - Косырёв). Версии географического происх
+2 CONC ождения: - Подмосковье-Рязань - ответвление Южной ветви - Новгородская Земля. … В настоящее время фамилия наиб
+2 CONC олее распространена на территории Поволжья (Мордовия, Самарская, Ульяновская, Саратовская области), а такж
+2 CONC е в Рязанской, Воронежской, Липецкой, Тамбовской, Пензенской областях.»
+0 @S82@ SOUR
+1 TITL early-registers
+1 PUBL Иван
+1 TEXT Наблюдение: семья Алексея Евдокимова Косарева жила в селе уже ко времени 7-й ревизии (1815–1816) [revision-183
+2 CONC 5], а метрические книги села за 1817–1832 годы сохранились [catalogues-search] [registers-1827-1832-post]. В н
+2 CONC их могут быть записи о семье — например, о рождении дочери Устиньи (около 1816–1817) и о браке Устина (около 1
+2 CONC 828–1829).
+0 @S83@ SOUR
+1 TITL catalogues-search
+1 PUBL Иван
+1 TEXT Поиск по каталогам архивов (ГАСО, ЦГАСО, РГИА), Малая Быковка: В метрических книгах 1817 и 1819 годов записан
+2 CONC о как «Тягуновка», в 1824 году — «Сельцо Малая Быковка», среди церквей Вольской и Хвалынской округ Саратовско
+2 CONC й губернии (ГАСО, ф. 637, оп. 1, д. 1022: 1817 — л. 294, кадр 295; 1819 — л. 226, кадр 227; 1824, с декабрём 1
+2 CONC 823 — л. 957, кадр 957; вероятно 1825 — л. 1434, кадр 1435; возможно, также «Быковка» 1819 года, с декабрём 18
+2 CONC 18 — л. 211, кадр 212). Документы о землевладении крестьян села, возможно со списками, — ЦГАСО, ф. 174, оп. 1
+2 CONC , кн. 5, д. 2688 (1874–1899 гг.); протоколы учреждения товариществ в 1927 году — ЦГАСО, ф. Р644, оп. 1, д. 503
+2 CONC 5 и 5036. Не путать с деревней Малая Быковка Петропавловской волости Самарского уезда (каталог РГИА: Ф. 385 Оп
+2 CONC . 5 Д. 3882), с «Правой Малой Быковкой» Самарского уезда, с Нижней, Средней, Старой и Новой Быковкой Самарског
+2 CONC о и Ставропольского уездов и с соседним селом Быковка (Отрог) Перекопской волости Николаевского уезда (катало
+2 CONC г ЦГАСО). ГАСО, ф. 637, оп. 7 — метрические книги церквей Николаевского уезда за 1856–1920 годы, в том числе «
+2 CONC Метрические книги церкви с. Малая Быковка за 1901–1904 гг.»: https://archivesaratov.ru/archive1/inventory/1000
+2 CONC 0004182 https://archivesaratov.ru/archive1/unit/10000034170
+0 @S84@ SOUR
+1 TITL registers-1827-1832-post
+1 PUBL Форум ВГД
+1 TEXT «ГАСО. Ф. 637. Оп. 1. Д. 1025. МК церквей Николаевского уезда за 1827-1830 г. (ЭФП) (Вольской и Хвалынской окр
+2 CONC уги) … 1828 Сельцо МАЛАЯ БЫКОВКА 20 21 … 1827 МАЛАЯ БЫКОВКА 296 296» «ГАСО. Ф. 637. Оп. 1. Д. 1026. МК церкве
+2 CONC й Николаевского уезда за 1829 г. (ЭФП) … Село МАЛАЯ БЫКОВКА 242 245» «ГАСО. Ф. 637. Оп. 1. Д. 1027. МК церкве
+2 CONC й Николаевского уезда за 1830 г. (ЭФП) … Село МАЛАЯ БЫКОВКА 249 251» «ГАСО. Ф. 637. Оп. 1. Д. 1028. МК церкве
+2 CONC й Николаевского уезда за 1831 г. (ЭФП) … Вольская округа … Село МАЛАЯ БЫКОВКА Николаевская 330 333» «ГАСО. Ф
+2 CONC . 637. Оп. 1. Д. 1029. МК церквей Николаевского уезда за 1832 г. (ЭФП) (Саратовской, Вольской и Хвалынской окр
+2 CONC уги) … Село МАЛАЯ БЫКОВКА 107 110 Вольский»
+0 @S85@ SOUR
+1 TITL ? family-in-village
+1 PUBL Иван
+1 TEXT Наблюдение: Алексей и Устин — в Малой Быковке уже к 1816 году [revision-1835]; Устин — и около 1833 года [? us
+2 CONC tin-bobovo]; его внук Павел родился там в 1896 году [pavel-missing-report]; правнучка Антонина — в 1924 году [
+2 CONC myheritage-antonina]; Мария Петровна жила там в 1942 году [pavel-missing-report]. Значит, семья, вероятно, жил
+2 CONC а там непрерывно больше 125 лет; первым известным уехавшим был Виктор.
+0 @S86@ SOUR
+1 TITL ? bobovo-kosarevs
+1 PUBL Иван
+1 TEXT Наблюдение: в Бобове, основанном однодворцами Малой Быковки, единственным Косаревым среди которых был Устин [
+2 CONC ? ustin-bobovo], в 1901–1918 годах жили Алексей Васильев Косарев (около 1880 г. р.), его брат, по-видимому, Се
+2 CONC мен Васильев, Михаил Васильев и Иван Иванов Косаревы [kuznetsov-registers]. Значит, вероятно, это потомки Усти
+2 CONC на, например через сына Василия (около 1840–1860 г. р.), брата Акима; так думает и Кузнецов. В Малой Быковк
+2 CONC е в 1918 году жили Мария Михайловна Косарева (около 1898–1899 г. р.) и, вероятно, её брат Николай Михайлович [
+2 CONC kuznetsov-registers] — ещё одна ветвь, дети Михаила, возможно сына Акима или Петра Устиновича.
+0 @S87@ SOUR
+1 TITL ? second-marriage
+1 PUBL Иван
+1 TEXT Наблюдение: если Василий (около 1854–1855 г. р.) и Константин (около 1859–1860 г. р.) — сыновья Устина [? usti
+2 CONC n-sons], то их мать, вероятно, не Евдокия, жена Устина по ревизской сказке 1835 года: она родилась в 1809–181
+2 CONC 0 годах [revision-1835], и ей было бы около 45 и 50 лет. Значит, Устин, вероятно, был женат вторично, и младши
+2 CONC е сыновья — от второго брака. Второй брак подтверждает ревизская сказка 1850 года: жена Устина — Авдотья Федор
+2 CONC ова, 25 лет, а его дети записаны «от 1 жены» и «от 2 жены» [revision-1850]; Авдотье Федоровне было бы около 3
+2 CONC 0 и 35 лет.
+0 @S88@ SOUR
+1 TITL ? ustin-sons
+1 PUBL Иван
+1 TEXT Вывод: «Василий Устинов», 55 лет, и «Константин Устинов», 50 лет, Косаревы Бобова в 1910 году [confession-1910
+2 CONC ], — вероятно, сыновья Устина Алексеевича Косарева. Бобово основали однодворцы Малой Быковки, и Косарев сред
+2 CONC и них был один — Устин [? ustin-bobovo]; имя Устин редкое. По возрасту они могли быть его сыновьями: они родил
+2 CONC ись около 1855 и 1860 годов, когда Устину было около 46–53 лет [revision-1835], — и ровесники Акима Устиновича
+2 CONC , родившегося в 1856–1857 годах [revision-1858], так что, вероятно, его братья. В ревизской сказке 1858 год
+2 CONC а у Устина есть сын Василий, 7 лет, то есть родившийся между сентябрём 1850 и апрелем 1851 года [revision-1858
+2 CONC ]: вероятно, это и есть Василий Устинов Бобова, хотя по исповедной ведомости он на 4 года моложе. Константин
+2 CONC а в 1858 году ещё нет — по возрасту (около 1860 года) он родился позже. Оговорки: исповедные ведомости часто о
+2 CONC кругляют возраст; документа, где бобовские Василий и Константин записаны сыновьями Устина, пока нет.
+0 @S89@ SOUR
+1 TITL cdtnf-origin
+1 PUBL Cdtnf, https://forum.vgd.ru
+1 TEXT «Косаревы из М.Б однодворцы. Прибыли скорее всего в 1812г из Тульской губернии из однодворческих селений.»
+0 @S90@ SOUR
+1 TITL ? single-household-1835
+1 PUBL Иван
+1 TEXT Наблюдение: в ревизской сказке 1835 года по всему селу с этой фамилией записаны два двора. № 132 — Алексей, ег
+2 CONC о единственный сын Устин и внук Петр [revision-1835] [revision-1835-list]. № 133 — Давыда Евдокимова, младшег
+2 CONC о брата Алексея: его фамилия в 1835 году записана неразборчиво, «Ки…аревъ», а в 1850 году ясно — «Косарев» [re
+2 CONC vision-1835-davyd] [revision-1850-davyd] [davyd-brother]. Итак, в 1835 году — два двора двух братьев, без двор
+2 CONC ов племянников и двоюродных братьев. В 1850 году то же: с фамилией Косарев записаны только дворы Алексея (№ 14
+2 CONC 1) и Давыда (№ 142) [revision-1850] [revision-1850-davyd] [revision-1850-list], в 1858 году — тоже только эт
+2 CONC и два двора (№ 126 и 135) [revision-1858] [revision-1858-davyd] [revision-1858-list]. Семья, жившая в селе пок
+2 CONC олениями, обычно разветвляется на дворы братьев и двоюродных братьев с той же фамилией; у соседних однодворце
+2 CONC в так и есть — по два двора у Голобоковых (№ 117 и 118), Ефановых (№ 104 и 107) и Желудковых (№ 101 и 115) [re
+2 CONC vision-1835-list]. Семья без дальних боковых ветвей скорее похожа на переселившуюся одним-двумя дворами; это с
+2 CONC огласуется с переселением около 1812 года [? cdtnf-arrival]. Семья была в селе уже к ревизии 1816 года [revisi
+2 CONC on-1835]. Оговорки: около трети глав дворов записаны вовсе без фамилии — 64 из 178 в 1835 году, 62 из 181 в 18
+2 CONC 50-м и 44 из 169 в 1858-м, — так что среди них могли быть и родственники, как, возможно, Дементий Евдокимов [
+2 CONC ? dementiy-evdokimov], и неродственные однофамильцы; ветви могли и прерваться (смерти, рекрутство); расшифровк
+2 CONC а всего списка — черновик, другое написание фамилии могло быть пропущено.
+0 @S91@ SOUR
+1 TITL ? dementiy-evdokimov
+1 PUBL Иван
+1 TEXT Слабое совпадение: в том же списке 1835 года — семья № 137, «Дементий Евдокимов», без фамилии, 30 лет в 1816 г
+2 CONC оду и 49 — в 1835, с пометкой «однод.»; с ним сын Федор, 16, жена Анна, 50, и дочери Катерина, 19, и Васса, 1
+2 CONC 3 [revision-1835-list]. Алексей Евдокимов родился около 1773 года [revision-1835], Давыд Евдокимов — около 179
+2 CONC 7 [revision-1835-davyd]; Дементий, около 1786 года рождения, мог быть их братом, сыном того же Евдокима. Имен
+2 CONC а его дочерей — те же, что у жены Алексея и дочери Давыда; но и имя Евдоким, и эти имена нередки. В ревизско
+2 CONC й сказке 1850 года — семья № 146, «Дементий Евдокимов», снова без фамилии, «умер в 1848 году»; с ним жена Анн
+2 CONC а Петрова, 65 лет, сын Федор, 31, с женой Федосьей Ивановой и сыновьями Яковом, 5, Ефимом, 3, и Трофимом, 4 ме
+2 CONC сяцев(?) [revision-1850-list]. Записан не рядом с Алексеем и Давыдом (№ 141 и 142), а через три двора; фамили
+2 CONC и Косарев нет и в 1850 году, так что родство остаётся только возможным. В сказке 1858 года (семья № 140, по 9-
+2 CONC й ревизии № 146) его сын записан с фамилией — «Федор Дементьев Соломатин(?)», 38, с матерью Анной Петровой, 73
+2 CONC , и пятью сыновьями [revision-1858-list]: фамилия, по-видимому, другая, что делает родство ещё менее вероятным
+2 CONC .
+0 @S92@ SOUR
+1 TITL ? surname-forms
+1 PUBL Иван
+1 TEXT Наблюдение о фамилии: в ревизской сказке 1835 года фамилия написана через «а» и неразборчиво — у Алексея «Кас…
+2 CONC ревъ», у Давыда «Ки…аревъ» [revision-1835] [revision-1835-davyd]; в сказке 1850 года, которая продолжает ту
+2 CONC , — ясно «Косарев», у обоих [revision-1850] [revision-1850-davyd]. Значит, в 1835 году это та же фамилия, а не
+2 CONC разборчивость — особенность руки писаря: у обоих братьев он написал её одинаково нечётко. В сказке 1858 год
+2 CONC а — «Косаров» у Алексея и «Косарев» у Давыда [revision-1858] [revision-1858-davyd]. В семье — «Косарев», в арм
+2 CONC ейских документах XX века — «Косырев» [pamyat-naroda-pavel] [pavel-missing-report]. По обзору фамилии, это вар
+2 CONC ианты одной фамилии, причём «Косырев» распространён шире и устойчивей, со старым звучанием «Косырёв», а одна и
+2 CONC з версий её происхождения — «Подмосковье-Рязань» [surname-overview]. В 1831 году в Малой Быковке водворились п
+2 CONC ереселенцы из Рязанской губернии [rgia-ryazan]. Но в ревизских сказках XIX века форма с «-ыр-» не видна: «Кас…
+2 CONC ревъ» в 1835 году, «Косарев» в 1850-м, «Косаров» и «Косарев» в 1858-м; «Косырев» известен только по армейски
+2 CONC м документам XX века. Так что нет оснований считать «Косырев» формой, в которой фамилия звучала в селе; рязанс
+2 CONC кое происхождение остаётся лишь одной из версий происхождения фамилии. Как фамилию писали местные священники
+2 CONC , знавшие семью, покажут метрические книги.
+0 @S93@ SOUR
+1 TITL pamyat-naroda-pavel
+1 PUBL https://pamyat-naroda.ru/heroes/person-hero123449387/
+1 TEXT Косырев Павел Акимович Дата рождения: __.__.1896 Место призыва: Балаковский РВК, Саратовская обл., Балаковски
+2 CONC й р-н Дата призыва: 18.02.1942 Воинское звание: рядовой
+0 @S94@ SOUR
+1 TITL short-patronyms
+1 PUBL Иван
+1 TEXT Наблюдение: в ревизских сказках и метрических книгах того времени отчества крестьян писались в краткой форм
+2 CONC е — «Алексей Евдокимов», «Устин Алексеев», «Петр Устинов» [revision-1835]; так же записаны все однодворцы — со
+2 CONC владельцы земли около 1833 года: «Сафона Евсеева Рудовицина», «Устина Алексеева Косарева» [bobovo-article]. По
+2 CONC лная форма на «-ович» полагалась высшим сословиям.
+0 @S95@ SOUR
+1 TITL ? zhiganovy-neighbours
+1 PUBL Иван
+1 TEXT Наблюдение: в ревизской сказке 1835 года за семьями № 132 (Косаревы) и № 133 (Давыд Евдокимов) следует семь
+2 CONC я № 134 — «Яков Васильев Жиганов», 63 года, с сыновьями Андреем, 42, и Федором, 24 [revision-1835]. В списке о
+2 CONC днодворцев — совладельцев земли около 1833 года есть и они: «Андрея Яковлева Жиганова, Федора Яковлева Жиганов
+2 CONC а» [bobovo-article]. Значит, все три соседние семьи этой страницы — однодворцы-совладельцы. Ревизские сказки ч
+2 CONC асто составлялись по дворам вдоль улицы, так что это подтверждает, что семьи, вероятно, жили рядом; возможно
+2 CONC , однодворцы селились в одной части села. В ревизской сказке 1850 года порядок тот же: № 141 — Алексей Евдоким
+2 CONC ов Косарев, № 142 — Давыд Евдокимов Косарев, № 143 — «Яков Васильев Жиганов» (умер в 1841 году) с сыном Андрее
+2 CONC м, 56 лет [revision-1850-list]. В сказке 1858 года порядок другой: за двором Устина (№ 126) — Гундоровы (№ 127
+2 CONC ), семья его сестры Устиньи, а за двором Давыда (№ 135) — снова Жигановы (№ 136) и Матросовы (№ 137) [revision
+2 CONC -1858-list].
+0 @S96@ SOUR
+1 TITL evdokim-patronym
+1 PUBL Иван
+1 TEXT Вывод из отчества «Алексей Евдокимов Косарев» [revision-1835]: его отца звали Евдоким. Фамилия — по фамилии сы
+2 CONC на.
+0 @S97@ SOUR
+1 TITL ? absent-1858
+1 PUBL Иван
+1 TEXT Вывод: в ревизской сказке 1858 года в семье Устина (№ 126, по 9-й ревизии № 141) уже нет трёх женщин, записанн
+2 CONC ых в 1850 году [revision-1850] [revision-1858]: Екатерины Петровны, вдовы Алексея Евдокимовича (70 лет в 185
+2 CONC 0 году), Акулины Устиновны (18(?)) и Александры Устиновны (4 месяцев). Женщин сказка записывает по двору, гд
+2 CONC е они живут, а о выбывших женщинах не пишет. Екатерина Петровна в её годы, вероятно, умерла; Александра, вероя
+2 CONC тно, умерла в младенчестве; Акулина в 26 лет могла и выйти замуж.
+0 @S98@ SOUR
+1 TITL ? evdokim-birth
+1 PUBL Иван
+1 TEXT Предположение по году рождения сына: Алексей родился в 1772–1774 годах [revision-1835]. Если отцу при его рожд
+2 CONC ении было от 20 до 50 лет, он родился в 1722–1754 годах. Давыд, родившийся в 1796–1798 годах [revision-1835-da
+2 CONC vyd], — тоже его сын [davyd-brother]; по нему — в 1746–1778 годах, а вместе — в 1746–1754 годах: при рождени
+2 CONC и Алексея ему было бы около 20–27 лет, при рождении Давыда — около 43–52.
+0 @S99@ SOUR
+1 TITL ? akulina-1858
+1 PUBL Иван
+1 TEXT Слабое совпадение: в ревизской сказке 1858 года — «Лазаря Константинова жена Акулина Устинова», 25 лет, втора
+2 CONC я жена Лазаря Константинова (семья № 64, по 9-й ревизии № 80; их сын Степан, «от 2 жены», — 1 года) [revision-
+2 CONC 1858-list]. Акулине Устиновне Косаревой в 1850 году — 18(?) [revision-1850], в 1858-м было бы 26; в семье отц
+2 CONC а её в 1858 году нет [? absent-1858]. Если это она, то прочтение «18» в 1850 году верно. Но отчество Устино
+2 CONC в в селе носили и другие (например, Тарунтаевы), а фамилия не указана.
+0 @S100@ SOUR
+1 TITL ? ustinya-gundorova
+1 PUBL Иван
+1 TEXT Вывод: в ревизских сказках 1850 и 1858 годов в семье Гундоровых — «Никифора Акимова жена Устинья Алексеева», 3
+2 CONC 3 и 40 лет (в 1850 году — семья № 130 [revision-1850-list], в 1858-м — № 127, сразу после двора Косаревых [rev
+2 CONC ision-1858-ustinya]). Дочь Алексея Евдокимова Косарева, Устинья, в 1835 году — 18 лет, то есть 1816–1817 год
+2 CONC а рождения [revision-1835], а в 1850 году в семье отца её уже нет [revision-1850]; Устинье Алексеевне Гундоров
+2 CONC ой в 1850 году — 33, то есть тот же 1816–1817 год. Имя не частое, отчество и возраст совпадают; вероятно, эт
+2 CONC о она, вышедшая за Никифора Акимовича Гундорова (их сыновья родились с 1843–1844 года). Документа, где она наз
+2 CONC вана урождённой Косаревой, нет.
+0 @S101@ SOUR
+1 TITL revision-1858-ustinya
+1 PUBL Иван
+1 TEXT Ревизская сказка 1858 года, тот же лист, что и для семьи № 126 [revision-1858] (л. 433 об. – 434, образ 42
+2 CONC 9 в DGS 7820668); следующая семья, № 127, по 9-й ревизии — № 130: «Аким Матвеев Гундоров» — 71, 78; «Акима Мат
+2 CONC веева от 1 жены сын: Никифор» — 33, 40, с сыновьями Дорофеем, Степаном и Сидором; «Никифора Акимова жена Устин
+2 CONC ья Алексеева» — 40. Копия: materials/revision-1858 (https://github.com/kosarev/kosarev/tree/main/materials/rev
+2 CONC ision-1858).
+0 @S102@ SOUR
+1 TITL ? anastasiya-zheludkova
+1 PUBL Иван
+1 TEXT Слабое совпадение: жена Василия Устиновича — Анастасия Трофимовна, около 1855–1856 г. р. [confession-1910]; ср
+2 CONC еди однодворцев — совладельцев земли около 1833 года — «Трофим Алексеев Желудков» [bobovo-article]. По возраст
+2 CONC у он мог быть её отцом, если родился около 1800–1815 годов; но Трофим — не редкое имя.
+0 @S103@ SOUR
+1 TITL ? trofim-zheludkov-1835
+1 PUBL Иван
+1 TEXT Наблюдение: в ревизской сказке 1835 года — однодворец «Родион Алексеев Желудков», 61 год, и его брат Трофим, 3
+2 CONC 7 лет, то есть около 1798 года рождения, с женой и тремя дочерьми [revision-1835-list]; вероятно, это Трофим А
+2 CONC лексеев Желудков из списка однодворцев — совладельцев земли около 1833 года [bobovo-article]. Анастасия Трофим
+2 CONC овна родилась около 1855–1856 годов [confession-1910]; если она его дочь, ему тогда было около 57 лет.
+0 @S104@ SOUR
+1 TITL ? vasiliy-children-order
+1 PUBL Иван
+1 TEXT Вывод по порядку записи: в исповедной ведомости 1910 года дети Василия Устиновича записаны после его жены, Ана
+2 CONC стасии Трофимовны, ровесницы мужа [confession-1910]; старшему, Семену, — 35, ей — 54. Значит, вероятно, она и
+2 CONC х мать; но ведомость этого прямо не говорит.
+0 @S105@ SOUR
+1 TITL ? children-order
+1 PUBL Иван
+1 TEXT Вывод по порядку записи: в исповедной ведомости 1910 года дети Семена и Алексея Васильевичей записаны сразу по
+2 CONC сле их жён — Анны Григорьевны и Анны Алексеевны [confession-1910]. Значит, вероятно, это их матери; но ведомос
+2 CONC ть этого прямо не говорит, и старшие дети могли быть и от прежних браков.
+0 @S106@ SOUR
+1 TITL ? aleksey-witness-1915
+1 PUBL Иван
+1 TEXT Слабое совпадение: «Алексей Косарев» — свидетель по жениху на венчании в Бобове 9 января 1915 года [kuznetsov-
+2 CONC registers] — вероятно, Алексей Васильевич: других Алексеев среди взрослых Косаревых Бобова в 1910 году нет, кр
+2 CONC оме его двухлетнего племянника [confession-1910].
+0 @S107@ SOUR
+1 TITL ? anna-age
+1 PUBL Иван
+1 TEXT Наблюдение: при венчании в январе 1901 года Анне 17 лет [kuznetsov-registers], в исповедной ведомости 1910 год
+2 CONC а — 30 [confession-1910]; расхождение около 4 лет. Возраст невесты в метрической книге записывали со слов семь
+2 CONC и ко дню венчания, а исповедные ведомости часто переписывали возраст из года в год и округляли; поэтому 1883–1
+2 CONC 884, вероятно, точнее.
+0 @S108@ SOUR
+1 TITL ? natalya-zhiganova
+1 PUBL Иван
+1 TEXT Слабое совпадение: жена Михаила Васильевича — Наталья Филипповна [confession-1910]; в 1918 году Михаил — свиде
+2 CONC тель по жениху на венчании Никифора Филипповича Жиганова, вместе с Сергеем Филипповичем Жигановым [kuznetsov-r
+2 CONC egisters]. Свидетелями по жениху часто бывали родственники, так что Наталья, возможно, сестра Никифора и Серге
+2 CONC я — урождённая Жиганова; Жигановы — соседи Косаревых по ревизской сказке 1835 года [revision-1835]. Но Филип
+2 CONC п — частое имя. В ревизской сказке 1850 года у Жигановых (семья № 143, снова соседи Косаревых) Филиппа нет: сы
+2 CONC новья Андрея Яковлева — Василий, Фирс и Прокофий, сыновья Федора Яковлева — Михаил, Сергей, Яков и Максим [rev
+2 CONC ision-1850-list]. Значит, если Филипп — из этой семьи, он родился после сентября 1850 года, вероятно внук Андр
+2 CONC ея или Федора; Наталье, родившейся в 1887–1888 годах, он по возрасту мог быть отцом. В сказке 1858 года у Жига
+2 CONC новых (№ 136) Филиппа тоже нет — единственный внук Федора Яковлева, сын Михаила, записан с именем, читающимс
+2 CONC я как «Фимит» [revision-1858-list]; значит, Филипп из этой семьи родился бы после апреля 1858 года, что по воз
+2 CONC расту тоже возможно.
+0 @S109@ SOUR
+1 TITL obd-egor
+1 PUBL Форум ВГД
+1 TEXT Ю. Б. Щеглов, «Трофейные немецкие документы по учету военнопленных и работа с ними в Государственном архиве но
+2 CONC вейшей истории Саратовской области», цитата на форуме ВГД: «Вот, например, один из участников этих боев – Коса
+2 CONC рев Егор Васильевич, родившийся 23 апреля 1892 г. в селе Бобово Саратовской области. В апреле 1942 г. он служи
+2 CONC л в 321 стрелковом полку Красной Армии, воинское звание – рядовой. В составе Волховского фронта участвовал в б
+2 CONC оях с немецкими войсками. К сожалению, в ходе боя у реки Волхов 1 мая 1942 г. Косарев Е. В. был взят в плен не
+2 CONC мецкими войсками. … он содержался в лагере военнопленных № 344 в населенном пункте Ламсдорф (Германия, VIII во
+2 CONC енный округ, Бреслау, Восточная Силезия, в настоящее время – территория Польши). 19 февраля 1944 г. переведе
+2 CONC н в лагерь военнопленных № II В (315) в населенный пункт Хаммерштейн (II военный округ Германии, Штеттин)
+2 CONC ; а 3 марта 1944 г. – в лагерь военнопленных № IХ А в населенный пункт Цигенхайн (IХ военный округ Германии, К
+2 CONC ассель). Личный номер военнопленного – 340/36994. Из близких родственников Косарева Е. В. в немецкой карточк
+2 CONC е указана его жена – Косарева Варвара, проживавшая по адресу: Саратовская область, станция Ершов Рязано-Уральс
+2 CONC кой железной дороги. 5 января 1945 г. Косарев Е. В. был направлен в лазарет для военнопленных с заболеванием л
+2 CONC егких. Сведений о его дальнейшей судьбе не имеется. Известно, что после войны Косарев Е. В. в родной дом не ве
+2 CONC рнулся и числился пропавшим без вести. Скорее всего, он умер в указанном лазарете военнопленных. У Егора Васил
+2 CONC ьевича Косарева было два сына: Василий Егорович (это старший сын, он является участником Великой Отечественно
+2 CONC й войны, ныне проживает в г. Ершове Саратовской области) и Петр Егорович (умер в 1996 г.).» Немецкие учётные к
+2 CONC арточки — ГАНИСО, ф. Р-6210, оп. 1 «Т», д. 46/56.
+0 @S110@ SOUR
+1 TITL ? egor-identity
+1 PUBL Иван
+1 TEXT Отождествление: Георгий Васильевич Косарев, 16 лет, в 1910 году — в Бобове, в семье Василия Устиновича [confes
+2 CONC sion-1910], — вероятно, Егор Васильевич Косарев, родившийся 23 апреля 1892 года в Бобове [obd-egor]. Егор — на
+2 CONC родная форма имени Георгий; то же отчество и то же небольшое село; возраст расходится на 1–2 года, что обычн
+2 CONC о для исповедных ведомостей. Других Георгиев и Егоров среди Косаревых Бобова в 1910 году нет.
+0 @S111@ SOUR
+1 TITL ? konstantin-children-order
+1 PUBL Иван
+1 TEXT Вывод по порядку записи: в исповедной ведомости 1910 года дети Константина Устиновича записаны после его жены
+2 CONC , Ефросиньи Кондратьевны, ровесницы мужа [confession-1910]. Значит, вероятно, она их мать; но ведомость этог
+2 CONC о прямо не говорит.
+0 @S112@ SOUR
+1 TITL ? children-order-1910
+1 PUBL Иван
+1 TEXT Вывод по порядку записи: в исповедной ведомости 1910 года в дворах № 4, 11 и 58 дети записаны после жён Григор
+2 CONC ия, Федора, Ивана и Тимофея [confession-1910]; жена Тимофея прямо названа «жена Тимофея», остальные — без поме
+2 CONC тки. Значит, вероятно, это их матери; но ведомость этого прямо не говорит. Клавдия Васильевна записана без пом
+2 CONC етки «жена», а отчество у неё то же, что у Григория, так что она может быть и его сестрой.
+0 @S113@ SOUR
+1 TITL ? grigoriy-son
+1 PUBL Иван
+1 TEXT Слабое совпадение: Григорий Васильевич, около 1879 г. р. [confession-1910], мог быть сыном Василия Устиновича
+2 CONC : то же отчество и село, а по возрасту он приходится между Семеном (около 1875) и Алексеем (около 1881). Жил о
+2 CONC тдельным двором, № 4, как жили бы женатые сыновья, отделившиеся от отца.
+0 @S114@ SOUR
+1 TITL ? fedor-brothers
+1 PUBL Иван
+1 TEXT Слабое совпадение: Иван Иванович (двор № 58) и Тимофей Иванович — братья [confession-1910]; Федор Иванович (дв
+2 CONC ор № 11) — тоже Иванович, того же поколения: родился около 1875 года, между ними. Возможно, он их брат.
+0 @S115@ SOUR
+1 TITL ? fedor-wounded
+1 PUBL Иван
+1 TEXT Слабое совпадение: «Федор Косарев» из прихода Бобова, женатый, рядовой, ранен 26 августа 1914 года (именной сп
+2 CONC исок № 885 убитым, раненым и без вести пропавшим нижним чинам, с. 14149, по MyHeritage) — вероятно, Федор Иван
+2 CONC ович, единственный Федор среди Косаревых Бобова в 1910 году, женатый, около 1875 г. р. [confession-1910]. В 19
+2 CONC 14 году ему было бы около 39 лет — возраст ополченца или запасного.
+0 @S116@ SOUR
+1 TITL ? ivanovichi-father
+1 PUBL Иван
+1 TEXT Слабое совпадение: отец Ивана (около 1862–1863 г. р.), Федора (около 1874–1875) и Тимофея (около 1878–1879) Ив
+2 CONC ановичей Косаревых Бобова [confession-1910] — Иван, вероятно, тоже Косарев, из Малой Быковки или Бобова. В рев
+2 CONC изской сказке 1850 года Иванов среди Косаревых двое: Иван Устинович, 6 лет, то есть 1843–1844 года рождения [r
+2 CONC evision-1850], и Иван Давыдович, 4 года, 1845–1846 года рождения [revision-1850-davyd]. При рождении старшего
+2 CONC , Ивана Ивановича, первому было бы около 18–20 лет, второму — 16–18; для крестьян того времени ранний брак воз
+2 CONC можен, но второй вариант менее вероятен. Других Иванов среди записанных с фамилией Косаревых нет, но около тре
+2 CONC ти дворов записаны без фамилии [revision-1850-list]. В 1910 году двор Ивана Ивановича — по соседству с дворо
+2 CONC м Константина Устиновича [? yard-58]. Если отец — Иван Устинович, то Ивановичи — внуки Устина, двоюродные брат
+2 CONC ья детей Акима; если Иван Давыдович — внуки Давыда, троюродные.
+0 @S117@ SOUR
+1 TITL ? yard-58
+1 PUBL Иван
+1 TEXT Слабое совпадение: двор № 58, Ивана Ивановича, записан в исповедной ведомости 1910 года сразу после двора № 57
+2 CONC , Константина Устиновича [confession-1910]. Нумерация дворов, вероятно, следует их расположению, так что семьи
+2 CONC , вероятно, жили рядом — возможно, как родственники.
+0 @S118@ SOUR
+1 TITL ? ivan-witness-1901
+1 PUBL Иван
+1 TEXT Слабое совпадение: «БХ Иван Иванов Косарев» — свидетель по жениху на венчании Алексея Васильевича Косарева в 1
+2 CONC 901 году [kuznetsov-registers]; свидетелями по жениху часто бывали родственники. Вероятно, это Иван Иванович и
+2 CONC з двора № 58, около 1863 г. р. [confession-1910]: его сын Иван в 1901 году ещё не родился.
+0 @S119@ SOUR
+1 TITL ? vasiliy-timofeevich-killed
+1 PUBL Иван
+1 TEXT Слабое совпадение: «КОСАРЕВ Василий Тимофеевич. Красноармеец. Погиб в бою 05 янв. 1942. Похоронен г. Колпино
+2 CONC » — в Книге памяти по Балаковскому району [? book-of-memory-nikolay]; в Бобове в 1910 году — Василий, 8 лет, с
+2 CONC ын Тимофея Ивановича Косарева [confession-1910]. Год рождения в книге не указан.
+0 @S120@ SOUR
+1 TITL myheritage-match-viktor
+1 PUBL MyHeritage
+1 TEXT Совпадение при сопоставлении Виктора Косарева.
+0 @S121@ SOUR
+1 TITL ? praskovya-birth
+1 PUBL Иван
+1 TEXT Предположение по дате рождения сына. Сын, Виктор Иванович Косарев, родился в 1923–1927 годах [? viktor-birth-e
+2 CONC stimate]. Если матери при его рождении было от 18 до 45 лет, она родилась в 1878–1909 годах.
+0 @S122@ SOUR
+1 TITL ? plakhiny-1835
+1 PUBL Иван
+1 TEXT Слабое совпадение: Прасковья Дмитриевна — урождённая Плахина [myheritage-praskovya] [myheritage-match-viktor
+2 CONC ] и, вероятно, жила в Малой Быковке в 1924 году [malaya-bykovka-family]. Плахины жили в селе уже в 1835 году
+2 CONC : семья № 51, «Михайла Никитин Плахин» (умер в 1819 году) с сыновьями Ивлеем (рекрут в 1819 году), Абрамом и А
+2 CONC фанасием, 33 лет, и внуками [revision-1835-list]. В 1850 году — три двора [revision-1850-list]: № 62, Абрам Ми
+2 CONC хайлов Плахин (умер в 1848 году), его сын Борис, 25, с женой Настасьей Дмитриевой и сыном Сергеем, двух недель
+2 CONC , сыновья Яков (умер в 1848) и Иван (умер в 1847), дочери Федосья, 18, и Елена, 9; № 63, Афанасий Михайлов Пла
+2 CONC хин, 48, с женой Екатериной Яковлевой, сыновьями Никандром, 22 (с женой Анной Акимовой), и Кузьмой, 15, дочерь
+2 CONC ми Маврой(?), 19, и Зиновьей, 12; № 64, Петр Ивлиев Плахин, 31 (в 1835 году — сын Ивлея, 16 лет), с женой Степ
+2 CONC анидой Григорьевой и сыновьями Яковом, 9, Степаном, 5, и Тимофеем, 3. Дмитрия среди них нет: если отец Прасков
+2 CONC ьи Дмитриевны — из этой семьи, он родился после сентября 1850 года. В 1858 году — те же три двора [revision-18
+2 CONC 58-list]: № 3 (по 9-й ревизии № 63) — Афанасий, 55, с сыновьями Никандром (дети Федор, Василий, Прасковья, Ива
+2 CONC н) и Кузьмой (дочь Авдотья); № 28 (№ 64) — Петр Ивлиев, 38, с сыновьями Яковом, Степаном, Тимофеем и Киреем
+2 CONC ; № 65 (№ 62) — Борис Абрамов, 32 (сын Сергей умер в 1853 году, родились Григорий и Иван). Дмитрия нет и в 185
+2 CONC 8 году: отец Прасковьи, если он из этой семьи, родился после апреля 1858 года. Родство с ними не известно.
+0 @S123@ SOUR
+1 TITL ? pavel-wife-praskovya-version
+1 TEXT Источник? Версия: жена Павла Акимовича Косарева — Прасковья Дмитриевна Косарева.
+0 @S124@ SOUR
+1 TITL ? pavel-wife-mariya-version
+1 TEXT Источник? Версия: жена Павла Акимовича Косарева — Мария Косарева.
+0 @S125@ SOUR
+1 TITL ? book-of-memory-2-pavel
+1 PUBL https://pamyat-naroda.ru/heroes/memorial-chelovek_pechatnoi_knigi_pamyati406239842
+1 TEXT «Память народа»: КОСЫРЕВ Павел Акимович Печатная Книга Памяти Дата рождения: __.__.1896 Дата выбытия: __.11.19
+2 CONC 41 Источник информации: Книга памяти. Саратовская область. Том 2 В книге, с. 546, раздел «Балаковский район»
+2 CONC : «КОСЫРЕВ Павел Акимович, род. 1896. Призван в Сов. Арм. 1941. Красноармеец. Пропал без вести нояб. 1941.» Ко
+2 CONC пия: materials/pavel-akimovich/00000563 (https://github.com/kosarev/kosarev/tree/main/materials/pavel-akimovic
+2 CONC h/00000563).
+0 @S126@ SOUR
+1 TITL ? pavel-death-estimate
+1 PUBL Иван
+1 TEXT Предположение о годе гибели. Связь с семьёй прекратилась в августе 1942 года [pavel-missing-report]; пропал бе
+2 CONC з вести в 1942 году [pavel-missing-report], в декабре 1942 года по Книге памяти [book-of-memory-pavel]. По сем
+2 CONC ейному преданию, погиб под Сталинградом [? paper-tree]; Сталинградская битва шла с июля 1942 по февраль 1943 г
+2 CONC ода. Если он погиб вскоре после того, как прекратилась связь, то в 1942 году.
+0 @S127@ SOUR
+1 TITL ? paper-tree
+1 PUBL Иван
+1 TEXT Бумажная версия генеалогического древа, предоставленная Мариной Косаревой.
+0 @S128@ SOUR
+1 TITL pavel-comparison
+1 PUBL Иван
+1 TEXT Сопоставление семейных сведений с армейскими документами [pamyat-naroda-pavel] [pavel-missing-report] и Книго
+2 CONC й памяти [book-of-memory-pavel] [? book-of-memory-2-pavel]. Совпадает: имя и отчество; год рождения, 1896 [pam
+2 CONC yat-naroda-pavel] [pavel-missing-report] [book-of-memory-pavel]; призыв Балаковским РВК в 1942 году [book-of-m
+2 CONC emory-pavel], 18 февраля [pamyat-naroda-pavel] [pavel-missing-report]; жена Мария [? pavel-wife-mariya-version
+2 CONC ] [pavel-missing-report]. Фамилия в обоих документах и в Книге памяти — «Косырев» [pamyat-naroda-pavel] [pavel
+2 CONC -missing-report] [book-of-memory-pavel], в семейных источниках — «Косарев». Это, вероятно, не ошибка писаря: «
+2 CONC Косырев» — более распространённая и устойчивая форма той же фамилии [surname-overview], возможно, та, в которо
+2 CONC й она звучала в селе. Версия, что его женой была Прасковья Дмитриевна [? pavel-wife-praskovya-version], докуме
+2 CONC нтами не подтверждается: в 1942 году его разыскивала жена Мария Петровна [pavel-missing-report]. Прасковья Дми
+2 CONC триевна указана женой Ивана Акимовича [? geni-ivan-wife] и умерла в 1936 году [myheritage-praskovya]. «Пропа
+2 CONC л без вести» [pavel-missing-report] и «погиб в ВОВ под Сталинградом» [? paper-tree] не противоречат друг другу
+2 CONC : связь прекратилась в августе 1942 года, во время Сталинградской битвы. Место службы в документах не указано
+2 CONC . Месяц исчезновения указан по-разному: связь прекратилась в августе 1942 года [pavel-missing-report]; «Дата в
+2 CONC ыбытия: __.11.1942» на сайте «Память народа» [pavel-missing-report] — вероятно, дата обработки списка: в докум
+2 CONC енте рядом с записью есть пометка «XI.42»; в Книге памяти — «Пропал без вести дек. 1942» [book-of-memory-pavel
+2 CONC ], вероятно, по более поздней обработке тех же сведений. Книга памяти составлена по документам военкоматов и н
+2 CONC е является независимым подтверждением. В томе 2 Книги памяти — «Призван в Сов. Арм. 1941» и «Пропал без вест
+2 CONC и нояб. 1941» [? book-of-memory-2-pavel], что противоречит списку военкомата, где призыв 18 февраля 1942 год
+2 CONC а «подтверждается книгой призыв. Балаковского РВК», а связь прекратилась в августе 1942 года [pavel-missing-re
+2 CONC port]. Вероятно, это повторная запись о том же человеке с ошибочными датами: имя, отчество, год рождения и рай
+2 CONC он совпадают. В тексте записи Книги памяти на сайте «Малая Выковка» [book-of-memory-pavel] — ошибка распознава
+2 CONC ния: в книге напечатано «Малая Быковка».
+0 @S129@ SOUR
+1 TITL ? tereshchenko-answer
+1 PUBL Иван
+1 TEXT Ответ Евгения Терещенко [tereshchenko]: «У Ивана Акимовича Косарева сестра Прасковья Акимовна Путина. Думаю, э
+2 CONC то часть дерева из MyHeritage.»
+0 @S130@ SOUR
+1 TITL praskovya-sister
+1 PUBL Иван
+1 TEXT Вывод: как сестра Ивана Акимовича Косарева [? tereshchenko-answer], Прасковья Акимовна — дочь Акима Устинович
+2 CONC а Косарева, урождённая Косарева.
+0 @S131@ SOUR
+1 TITL myheritage-putin
+1 TEXT MyHeritage: муж Прасковьи Акимовны Путиной — Михаил Тимофеевич Путин.
+0 @S132@ SOUR
+1 TITL putina-marriage
+1 PUBL Иван
+1 TEXT Наблюдение: Путины были среди государственных крестьян Малой Быковки [putins-post], а Косаревы, вероятно, жил
+2 CONC и там же [pavel-missing-report] [myheritage-antonina]. Поэтому вероятно, что муж Прасковьи Акимовны был из тог
+2 CONC о же села.
+0 @S133@ SOUR
+1 TITL putins-post
+1 PUBL Форум ВГД
+1 TEXT «это село МАЛАЯ БЫКОВКА Николаевского уезда Саратовской губернии -- в ней указаны государственные крестьян
+2 CONC е в том числе и ПУТИНЫ -- значительная часть этих крестьян выходцы выходцы из Тульской губернии --- еще один г
+2 CONC осударственный крестьянин АЛЕКСЕЙ АКИМОВ (ич) ПУТИН - так же по этому селу»
+0 @S134@ SOUR
+1 TITL ? putin-psalmist
+1 PUBL Иван
+1 TEXT Слабое совпадение: в 1910 году псаломщиком Николаевской церкви Бобова был Александр Яковлевич Путин, 41 года [
+2 CONC confession-1910], а Прасковья Акимовна вышла замуж за Михаила Тимофеевича Путина [myheritage-putin]. Путины жи
+2 CONC ли в Малой Быковке [putins-post]; родство псаломщика с её мужем не известно.
+0 @S135@ SOUR
+1 TITL ? mariya-birth
+1 PUBL Иван
+1 TEXT Предположение по дате рождения и судьбе мужа. Была женой Павла Акимовича Косарева в 1942 году [pavel-missing-r
+2 CONC eport]. Если ей тогда было не меньше 16 лет, она родилась не позже 1926 года. Супруги обычно младше мужей. Пав
+2 CONC ел родился в 1896 году [pavel-missing-report], так что она, вероятно, родилась не раньше 1896 года.
+0 TRLR

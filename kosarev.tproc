@@ -4442,7 +4442,7 @@ class MarkdownWriter(object):
 
     # Tells whether a person is male by the patronym, or else by the
     # surname, or else by the first name.
-    def __male(self, p):
+    def male(self, p):
         if 'patronym' in p.fields:
             patronym = p.fields['patronym'][0].value
             if patronym.endswith('ич'):
@@ -4462,7 +4462,7 @@ class MarkdownWriter(object):
     # The title of a person's partners: «Муж» and «Жена» say nothing of
     # whether the marriage was registered.
     def __partners_title(self, partners):
-        males = sum(1 for q, v in partners if self.__male(q))
+        males = sum(1 for q, v in partners if self.male(q))
         if len(partners) == 1:
             return 'Муж' if males else 'Жена'
         return ('Мужья' if males == len(partners) else
@@ -4566,12 +4566,12 @@ class MarkdownWriter(object):
             return shown(names, ', ')
 
         if 'birth_date' in p.fields or 'birth_place' in p.fields:
-            f.write(f'\n**{"Родился" if self.__male(p) else "Родилась"}:** '
+            f.write(f'\n**{"Родился" if self.male(p) else "Родилась"}:** '
                     f'{event(("birth_date", "birth_place"))}\n')
 
         if 'death_date' in p.fields or 'death_place' in p.fields:
             age = self.__age(p)
-            f.write(f'\n**{"Умер" if self.__male(p) else "Умерла"}:** '
+            f.write(f'\n**{"Умер" if self.male(p) else "Умерла"}:** '
                     f'{event(("death_date", "death_place"))}'
                     f'{f" ({age})" if age else ""}\n')
 
@@ -4602,19 +4602,19 @@ class MarkdownWriter(object):
                 if len(children) > 1:
                     title = 'Дети'
                 else:
-                    title = 'Сын' if self.__male(children[0][0]) else 'Дочь'
+                    title = 'Сын' if self.male(children[0][0]) else 'Дочь'
                 relation(title, children)
 
             if children := self.__by_birth(p.stepchildren):
                 if len(children) > 1:
                     title = 'Приёмные дети'
                 else:
-                    title = ('Приёмный сын' if self.__male(children[0][0])
+                    title = ('Приёмный сын' if self.male(children[0][0])
                              else 'Приёмная дочь')
                 relation(title, children)
 
             if siblings := self.__by_birth(p.siblings):
-                males = sum(1 for c, v in siblings if self.__male(c))
+                males = sum(1 for c, v in siblings if self.male(c))
                 females = len(siblings) - males
                 titles = [t for t in (
                     'Братья' if males > 1 else 'Брат' if males else '',
@@ -4707,7 +4707,7 @@ class MarkdownWriter(object):
         roots = [p for p in people
                  if all(isinstance(q, PersonId) for q, v in p.parents)]
         roots.sort(key=lambda p: (-len(self.__descendants(p, register)),
-                                  not self.__male(p), self.__birth(p)))
+                                  not self.male(p), self.__birth(p)))
         f.write('# Косаревы\n\n'
                 'Деревья — по самым ранним известным предкам; дети — под '
                 'родителями, по году рождения. «?» — связь с родителем, мужем '
@@ -4761,6 +4761,233 @@ class MarkdownWriter(object):
             self.__write_index(f, register)
 
 
+# Writes the register as GEDCOM 5.5.1, for genealogy sites: the people,
+# their families and the sources. Facts become notes ending with the ids
+# of their sources, «?» before an unreliable one; places have no records
+# of their own in GEDCOM, so only places of birth and death are kept.
+class GedcomWriter(object):
+    PAGES = 'https://github.com/kosarev/kosarev/blob/main/'
+    MONTHS = ('JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP',
+              'OCT', 'NOV', 'DEC')
+
+    # The sex is told as on the pages, by the given function.
+    def __init__(self, male):
+        self.male = male
+
+    # A value as plain text: links and copies of documents by their text.
+    def __text(self, value):
+        if isinstance(value, tuple):
+            return ' '.join(''.join(x.text if isinstance(x, (Link, Material))
+                                    else str(x) for x in value).split())
+        return str(value)
+
+    def __date(self, d):
+        if isinstance(d, Between):
+            return f'BET {self.__date(d.first)} AND {self.__date(d.last)}'
+        return ' '.join(str(x) for x in (
+            d.day, d.month and self.MONTHS[d.month - 1], d.year) if x)
+
+    # A line, its text split into CONT lines at line breaks and CONC lines
+    # where too long: lines are limited to 255, and some programs count
+    # bytes, two for a Cyrillic letter. A split never leaves a space at
+    # either side, which some programs drop.
+    def __line(self, out, level, tag, text=''):
+        for i, part in enumerate(str(text).split('\n')):
+            first = True
+            while True:
+                cut = len(part)
+                if cut > 110:
+                    cut = 110
+                    while part[cut - 1] == ' ' or part[cut] == ' ':
+                        cut -= 1
+                head, part = part[:cut], part[cut:]
+                if i == 0 and first:
+                    out.append(f'{level} {tag} {head}'.rstrip())
+                else:
+                    out.append(f'{level + 1} {"CONT" if first else "CONC"} '
+                               f'{head}'.rstrip())
+                first = False
+                if not part:
+                    break
+
+    # Citations of the sources of a value; quality 3 for reliable evidence,
+    # 1 for an unreliable source.
+    def __cite(self, out, level, sources, note=None):
+        for s in sources:
+            out.append(f'{level} SOUR @{self.sources[s]}@')
+            out.append(f'{level + 1} QUAY {3 if s.reliable else 1}')
+            if note:
+                self.__line(out, level + 1, 'NOTE', note)
+
+    def __ids(self, sources):
+        return ', '.join(('' if s.reliable else '? ') + s.id for s in sources)
+
+    def __name(self, out, p):
+        first = p.fields['first_name'][0].value
+        given = ' '.join(p.fields[f][0].value
+                         for f in ('first_name', 'patronym') if f in p.fields)
+        for field, kind in (('surname', None), ('birth_surname', 'birth')):
+            for v in p.fields.get(field, [None] if field == 'surname' else []):
+                surname = v.value if v else ''
+                self.__line(out, 1, 'NAME', f'{given} /{surname}/')
+                if kind:
+                    out.append(f'2 TYPE {kind}')
+                out.append(f'2 GIVN {given}')
+                if surname:
+                    out.append(f'2 SURN {surname}')
+                values = [v] if v else []
+                values += [w for f in ('first_name', 'patronym')
+                           for w in p.fields.get(f, [])[:1]]
+                self.__cite(out, 2, list(dict.fromkeys(
+                    s for w in values for s in w.sources)))
+        # Other first names and patronyms as names of their own.
+        for f in ('first_name', 'patronym'):
+            for v in p.fields.get(f, [])[1:]:
+                other = (v.value if f == 'first_name' else first)
+                if f == 'patronym':
+                    other += ' ' + v.value
+                elif 'patronym' in p.fields:
+                    other += ' ' + p.fields['patronym'][0].value
+                surname = (p.fields['surname'][0].value
+                           if 'surname' in p.fields else '')
+                self.__line(out, 1, 'NAME', f'{other} /{surname}/')
+                out.append('2 TYPE aka')
+                self.__cite(out, 2, v.sources)
+
+    # An event for each alternative date and place; the first date and
+    # place make one event.
+    def __event(self, out, p, tag, date, place):
+        dates = p.fields.get(date, [])
+        places = p.fields.get(place, [])
+        events = []
+        if dates or places:
+            events.append((dates[:1], places[:1]))
+        events += [([d], []) for d in dates[1:]]
+        events += [([], [q]) for q in places[1:]]
+        for ds, qs in events:
+            out.append(f'1 {tag}')
+            for d in ds:
+                out.append(f'2 DATE {self.__date(d.value)}')
+            for q in qs:
+                self.__line(out, 2, 'PLAC', self.__text(q.value))
+            self.__cite(out, 2, list(dict.fromkeys(
+                s for v in ds + qs for s in v.sources)))
+
+    def __plain_name(self, p):
+        return ' '.join(p.fields[f][0].value
+                        for f in ('first_name', 'patronym', 'surname')
+                        if f in p.fields)
+
+    def __person(self, out, p):
+        assert not p.stepparents and not p.stepchildren, p.id
+        out.append(f'0 @{self.people[p]}@ INDI')
+        self.__name(out, p)
+        out.append(f'1 SEX {"M" if self.male(p) else "F"}')
+        self.__event(out, p, 'BIRT', 'birth_date', 'birth_place')
+        self.__event(out, p, 'DEAT', 'death_date', 'death_place')
+        for fam in self.families:
+            if p in fam['children']:
+                out.append(f'1 FAMC @{fam["id"]}@')
+            if p in (fam['husband'], fam['wife']):
+                out.append(f'1 FAMS @{fam["id"]}@')
+        # The sources of the parents, as the families cannot cite them for
+        # each child.
+        for q, v in p.parents:
+            self.__cite(out, 1, v.sources,
+                        f'{"Отец" if self.male(q) else "Мать"}: '
+                        f'{self.__plain_name(q)}')
+        for v in p.fields.get('facts', []):
+            self.__line(out, 1, 'NOTE', f'{self.__text(v.value)} '
+                                        f'[{self.__ids(v.sources)}]')
+        if not isinstance(p, PersonId):
+            out.append(f'1 NOTE {self.PAGES}{p.id}.md')
+
+    # The families: a couple with their children, or a parent with the
+    # children whose other parent is not known; each partnership with its
+    # sources.
+    def __families(self, people):
+        found = {}
+
+        def family(husband, wife):
+            key = (husband, wife)
+            if key not in found:
+                found[key] = {'id': f'F{len(found) + 1}', 'husband': husband,
+                              'wife': wife, 'children': [], 'sources': []}
+            return found[key]
+
+        for p in people:
+            father = mother = None
+            for q, v in p.parents:
+                if self.male(q):
+                    father = q
+                else:
+                    mother = q
+            if father or mother:
+                family(father, mother)['children'].append(p)
+            for q, v in p.partners:
+                # A GEDCOM family has a husband and a wife.
+                assert self.male(p) != self.male(q), (p.id, q.id)
+                fam = family(*((p, q) if self.male(p) else (q, p)))
+                for s in v.sources:
+                    if s not in fam['sources']:
+                        fam['sources'].append(s)
+        return list(found.values())
+
+    def __source(self, out, s):
+        out.append(f'0 @{self.sources[s]}@ SOUR')
+        self.__line(out, 1, 'TITL', ('' if s.reliable else '? ') + s.id)
+        provider = self.__text(s.provider)
+        if provider:
+            self.__line(out, 1, 'PUBL', provider)
+        notes = ' '.join(''.join(
+            f'[{"" if n.reliable else "? "}{n.id}]' if isinstance(n, Source)
+            else f'{n.text} ({self.PAGES.replace("/blob/", "/tree/")}'
+                 f'{n.path})' if isinstance(n, Material) else str(n)
+            for n in s.notes).split())
+        if notes:
+            self.__line(out, 1, 'TEXT', notes)
+
+    def write(self, register):
+        people = [p for p in register.subjects.values()
+                  if isinstance(p, Person)]
+        self.people = {p: f'I{i + 1}' for i, p in enumerate(people)}
+        self.families = self.__families(people)
+        out = ['0 HEAD', '1 SOUR kosarev.tproc', '2 NAME Косаревы',
+               '1 GEDC', '2 VERS 5.5.1', '2 FORM LINEAGE-LINKED',
+               '1 CHAR UTF-8', '1 LANG Russian', '1 SUBM @U1@',
+               '0 @U1@ SUBM', '1 NAME Иван Косарев',
+               f'1 WWW {self.PAGES}index/README.md']
+        # Sources in the order they are first cited, notes included.
+        self.sources = {}
+        for p in people:
+            for f in p.fields.values():
+                for v in f:
+                    for s in v.sources:
+                        pending = [s]
+                        while pending:
+                            t = pending.pop(0)
+                            if t not in self.sources:
+                                self.sources[t] = f'S{len(self.sources) + 1}'
+                                pending += [n for n in t.notes
+                                            if isinstance(n, Source)]
+        for p in people:
+            self.__person(out, p)
+        for fam in self.families:
+            out.append(f'0 @{fam["id"]}@ FAM')
+            if fam['husband']:
+                out.append(f'1 HUSB @{self.people[fam["husband"]]}@')
+            if fam['wife']:
+                out.append(f'1 WIFE @{self.people[fam["wife"]]}@')
+            for c in fam['children']:
+                out.append(f'1 CHIL @{self.people[c]}@')
+            self.__cite(out, 1, fam['sources'])
+        for s in self.sources:
+            self.__source(out, s)
+        out.append('0 TRLR')
+        with open('kosarev.ged', 'w', encoding='utf-8-sig') as f:
+            f.write('\n'.join(out) + '\n')
+
+
 # Reads the given definition's records into a register. The records
 # refer to sources by id, and a source may come after the records that
 # cite it; the register gets the sources themselves.
@@ -4788,6 +5015,9 @@ def read(name):
     return r
 
 
-# Writes a page for each person.
+# Writes a page for each person, and the whole tree as GEDCOM.
 def main():
-    MarkdownWriter().write(read('records'))
+    register = read('records')
+    writer = MarkdownWriter()
+    writer.write(register)
+    GedcomWriter(writer.male).write(register)
