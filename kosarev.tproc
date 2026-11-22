@@ -4568,7 +4568,9 @@ class MarkdownWriter(object):
                             f'[{n.text}]({n.path})'
                             if isinstance(n, Material) else str(n)
                             for n in s.notes)
+            # Adjacent citations share one mark, separated by commas.
             notes = ' '.join(notes.split()).replace(' <sup>', '<sup>')
+            notes = notes.replace('</sup><sup>', ', ')
             provider = ''.join(str(x) for x in s.provider).strip()
             text = ' — '.join(t for t in (notes, provider) if t)
             f.write(f'\n### {s.id}\n\n'
