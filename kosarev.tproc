@@ -3276,16 +3276,11 @@ class Subject(object):
             v.sources.append(source)
 
 
-# Keeps the sources, and the subjects assembled from field values. Values
-# refer to their sources by id, so a record may come before its source.
+# The subjects assembled from field values, each value with the sources
+# that give it.
 class Register(object):
     def __init__(self):
-        self.sources = {}
         self.subjects = {}
-
-    def add_source(self, source):
-        assert source.id not in self.sources, source.id
-        self.sources[source.id] = source
 
     def add_field(self, subject, field, value, source):
         s = self.subjects.setdefault(subject, Subject(subject))
@@ -3666,14 +3661,14 @@ class MarkdownWriter(object):
     def __write_page(self, f, p, register):
         sources = []
 
-        def ref(id):
-            if id not in sources:
-                sources.append(id)
-            return f'[{sources.index(id) + 1}](#{id})'
+        def ref(source):
+            if source not in sources:
+                sources.append(source)
+            return f'[{sources.index(source) + 1}](#{source.id})'
 
         # A value is reliable only if all its sources are.
         def reliable(value):
-            return all(register.sources[s].reliable for s in value.sources)
+            return all(s.reliable for s in value.sources)
 
         def refs(value):
             return ('<sup>' + ('' if reliable(value) else '? ') +
@@ -3757,8 +3752,8 @@ class MarkdownWriter(object):
         f.write('\n## Источники\n')
         i = 0
         while i < len(sources):
-            s = register.sources[sources[i]]
-            notes = ''.join(ref(n.id) if isinstance(n, Cite) else
+            s = sources[i]
+            notes = ''.join(ref(n) if isinstance(n, Source) else
                             f'[{n.text}]({n.path})'
                             if isinstance(n, Material) else str(n)
                             for n in s.notes)
@@ -3794,7 +3789,7 @@ class MarkdownWriter(object):
     # in the tree of their own parents.
     def __write_tree(self, f, p, v, depth, register, shown, mentioned):
         def mark(v):
-            reliable = all(register.sources[s].reliable for s in v.sources)
+            reliable = all(s.reliable for s in v.sources)
             return '' if reliable else '? '
 
         def link(q):
@@ -3856,17 +3851,28 @@ class MarkdownWriter(object):
 
 # Writes a page for each person.
 def main():
-    # Process records.
-    r = Register()
+    # Read the records. They refer to sources by id, and a source may come
+    # after the records that cite it.
+    sources, records = {}, []
     for t in tproc.expand_field('records'):
         if isinstance(t, Source):
-            r.add_source(t)
+            assert t.id not in sources, t.id
+            sources[t.id] = t
         elif isinstance(t, Record):
-            for v in t.values:
-                for s in t.sources:
-                    r.add_field(t.subject, v.field, v.value, s)
+            records.append(t)
         else:
             assert not t.strip(), t
+
+    # Resolve the ids to the sources themselves, in the notes and the
+    # records.
+    for s in sources.values():
+        s.notes = tuple(sources[n.id] if isinstance(n, Cite) else n
+                        for n in s.notes)
+    r = Register()
+    for t in records:
+        for v in t.values:
+            for id in t.sources:
+                r.add_field(t.subject, v.field, v.value, sources[id])
 
     # Write output files.
     MarkdownWriter().write(r)
