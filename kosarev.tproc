@@ -3256,9 +3256,11 @@ class Value(object):
         self.sources = []
 
 
-# A person or a place: what the records say about it.
+# A person or a place: what the records say about it, in the register it
+# belongs to; relations not recorded on it are inferred from the register.
 class Subject(object):
-    def __init__(self, id):
+    def __init__(self, register, id):
+        self.register = register
         self.id = id
         # Each field is a list of alternative values. A value given by
         # several sources is one value with several sources.
@@ -3277,6 +3279,55 @@ class Subject(object):
         if source is not None and source not in v.sources:
             v.sources.append(source)
 
+    # The father and the mother, each with the value that says so; the
+    # first recorded, where there are alternatives.
+    @property
+    def parents(self):
+        return [(self.register.subjects[self.fields[f][0].value],
+                 self.fields[f][0])
+                for f in ('father', 'mother') if f in self.fields]
+
+    # The people whose father or mother this is, each with the value that
+    # says so.
+    @property
+    def children(self):
+        return [(c, v) for c in self.register.subjects.values()
+                for f in ('father', 'mother')
+                for v in c.fields.get(f, []) if v.value == self.id]
+
+    # The partners, recorded on either side, each with a value whose sources
+    # are those of all the values that say so.
+    @property
+    def partners(self):
+        found = [(self.register.subjects[v.value], v)
+                 for v in self.fields.get('partner', [])]
+        found += [(q, v) for q in self.register.subjects.values()
+                  for v in q.fields.get('partner', []) if v.value == self.id]
+        partners = {}
+        for q, v in found:
+            both = partners.setdefault(q, Value(None))
+            for s in v.sources:
+                if s not in both.sources:
+                    both.sources.append(s)
+        return list(partners.items())
+
+    # The people with the same father or mother, each with a value whose
+    # sources are those of all the parents' values that make them siblings.
+    @property
+    def siblings(self):
+        siblings = {}
+        for f in ('father', 'mother'):
+            for v in self.fields.get(f, []):
+                parent = self.register.subjects[v.value]
+                for c, w in parent.children:
+                    if c is self:
+                        continue
+                    both = siblings.setdefault(c, Value(None))
+                    for s in v.sources + w.sources:
+                        if s not in both.sources:
+                            both.sources.append(s)
+        return list(siblings.items())
+
 
 # The subjects assembled from field values, each value with the sources
 # that give it.
@@ -3285,7 +3336,7 @@ class Register(object):
         self.subjects = {}
 
     def add_field(self, subject, field, value, source):
-        s = self.subjects.setdefault(subject, Subject(subject))
+        s = self.subjects.setdefault(subject, Subject(self, subject))
         s.add(field, value, source)
 
 
@@ -3617,45 +3668,9 @@ class MarkdownWriter(object):
             return (d.first.year + d.last.year) / 2
         return d.year
 
-    # The people whose father or mother is the given person, each with the
-    # value that says so, by birth.
-    def __children(self, p, register):
-        return sorted(((c, v) for c in register.subjects.values()
-                       for f in ('father', 'mother')
-                       for v in c.fields.get(f, []) if v.value == p.id),
-                      key=lambda t: self.__birth(t[0]))
-
-    # The person's partners, recorded on either side, each with a value
-    # whose sources are those of all the values that say so.
-    def __partners(self, p, register):
-        found = [(register.subjects[v.value], v)
-                 for v in p.fields.get('partner', [])]
-        found += [(q, v) for q in register.subjects.values()
-                  for v in q.fields.get('partner', []) if v.value == p.id]
-        partners = {}
-        for q, v in found:
-            both = partners.setdefault(q, Value(None))
-            for s in v.sources:
-                if s not in both.sources:
-                    both.sources.append(s)
-        return list(partners.items())
-
-    # The people with the same father or mother as the given person, each
-    # with a value whose sources are those of all the parents' values that
-    # make them siblings.
-    def __siblings(self, p, register):
-        siblings = {}
-        for f in ('father', 'mother'):
-            for v in p.fields.get(f, []):
-                parent = register.subjects[v.value]
-                for c, w in self.__children(parent, register):
-                    if c is p:
-                        continue
-                    both = siblings.setdefault(c, Value(None))
-                    for s in v.sources + w.sources:
-                        if s not in both.sources:
-                            both.sources.append(s)
-        return sorted(siblings.items(), key=lambda t: self.__birth(t[0]))
+    # Related people with their values, ordered by birth.
+    def __by_birth(self, related):
+        return sorted(related, key=lambda t: self.__birth(t[0]))
 
     # Sources are listed at the end of the page, each under a heading of its
     # id, so it can be linked to: page.md#source-id. They are numbered on
@@ -3717,28 +3732,27 @@ class MarkdownWriter(object):
             for q, v in people:
                 f.write(f'- [{self.__name(q)}]({q.id}.md){refs(v)}\n')
 
-        parents = [(register.subjects[p.fields[n][0].value], p.fields[n][0])
-                   for n in ('father', 'mother') if n in p.fields]
+        parents = p.parents
         if parents:
             title = ('Родители' if len(parents) > 1 else
                      'Отец' if 'father' in p.fields else 'Мать')
             relation(title, parents)
 
-        if partners := self.__partners(p, register):
+        if partners := p.partners:
             if len(partners) > 1:
                 title = 'Супруги'
             else:
                 title = 'Супруг' if self.__male(partners[0][0]) else 'Супруга'
             relation(title, partners)
 
-        if children := self.__children(p, register):
+        if children := self.__by_birth(p.children):
             if len(children) > 1:
                 title = 'Дети'
             else:
                 title = 'Сын' if self.__male(children[0][0]) else 'Дочь'
             relation(title, children)
 
-        if siblings := self.__siblings(p, register):
+        if siblings := self.__by_birth(p.siblings):
             males = sum(1 for c, v in siblings if self.__male(c))
             females = len(siblings) - males
             titles = [t for t in (
@@ -3782,7 +3796,7 @@ class MarkdownWriter(object):
 
     def __descendants(self, p, register):
         found = set()
-        for c, v in self.__children(p, register):
+        for c, v in self.__by_birth(p.children):
             if c not in found:
                 found |= {c} | self.__descendants(c, register)
         return found
@@ -3802,7 +3816,7 @@ class MarkdownWriter(object):
         shown.add(p)
         line = (f'{"  " * depth}- {mark(v) if v else ""}{link(p)}'
                 f'{self.__years(p)}')
-        if partners := self.__partners(p, register):
+        if partners := p.partners:
             if len(partners) > 1:
                 title = 'супруги'
             else:
@@ -3811,7 +3825,7 @@ class MarkdownWriter(object):
                                                 for q, w in partners)
             mentioned.update(q for q, w in partners)
         f.write(line + '\n')
-        for c, w in self.__children(p, register):
+        for c, w in self.__by_birth(p.children):
             if c not in shown:
                 self.__write_tree(f, c, w, depth + 1, register, shown,
                                   mentioned)
