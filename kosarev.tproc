@@ -3918,8 +3918,8 @@ def read(name):
     sources, records = {}, []
     for t in tproc.expand_field(name):
         if isinstance(t, Source):
-            # Ids with '--' are left for citations made from other ids.
-            assert '--' not in t.id, t.id
+            # Ids with '-at-' are left for citations made from other ids.
+            assert '-at-' not in t.id, t.id
             assert t.id not in sources, t.id
             sources[t.id] = t
         elif isinstance(t, Record):
