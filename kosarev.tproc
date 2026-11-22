@@ -3849,12 +3849,12 @@ class MarkdownWriter(object):
             self.__write_index(f, register)
 
 
-# Writes a page for each person.
-def main():
-    # Read the records. They refer to sources by id, and a source may come
-    # after the records that cite it.
+# Reads the given definition's records into a register. The records
+# refer to sources by id, and a source may come after the records that
+# cite it; the register gets the sources themselves.
+def read(name):
     sources, records = {}, []
-    for t in tproc.expand_field('records'):
+    for t in tproc.expand_field(name):
         if isinstance(t, Source):
             assert t.id not in sources, t.id
             sources[t.id] = t
@@ -3863,8 +3863,6 @@ def main():
         else:
             assert not t.strip(), t
 
-    # Resolve the ids to the sources themselves, in the notes and the
-    # records.
     for s in sources.values():
         s.notes = tuple(sources[n.id] if isinstance(n, Cite) else n
                         for n in s.notes)
@@ -3873,6 +3871,9 @@ def main():
         for v in t.values:
             for id in t.sources:
                 r.add_field(t.subject, v.field, v.value, sources[id])
+    return r
 
-    # Write output files.
-    MarkdownWriter().write(r)
+
+# Writes a page for each person.
+def main():
+    MarkdownWriter().write(read('records'))
