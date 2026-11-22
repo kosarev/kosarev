@@ -40,7 +40,7 @@
         - [Прасковья Акимовна Путина](../praskovya-putina.md)
       - [Акулина Устиновна Косарева](../akulina-ustinovna.md)
     - [Устинья Алексеевна Косарева](../ustinya-alekseevna.md) (р. 1816–1817)
-  - ? [Давыд Евдокимович Косарев](../davyd-evdokimovich.md) (р. 1796–1798) — жёны: [Лукерья](../lukerya.md), [Акулина Прокофьевна Косарева](../akulina-prokofevna.md)
+  - [Давыд Евдокимович Косарев](../davyd-evdokimovich.md) (р. 1796–1798) — жёны: [Лукерья](../lukerya.md), [Акулина Прокофьевна Косарева](../akulina-prokofevna.md)
     - [Прасковья Давыдовна](../praskovya-davydovna.md) (р. 1816–1817)
     - [Степанида Давыдовна](../stepanida-davydovna.md) (р. 1817–1818)
     - [Васса Давыдовна](../vassa-davydovna.md) (р. 1826–1827)
