@@ -3680,8 +3680,8 @@ class MarkdownWriter(object):
 
     # First names to tell the sex by when there is neither a patronym nor
     # a surname.
-    MALES = ('Нил', 'Мартиньш', 'Эдгар', 'Фёдор')
-    FEMALES = ('Лукерья', 'Софья', 'Елена', 'Галина')
+    MALES = ()
+    FEMALES = ('Лукерья',)
 
     # Tells whether a person is male by the patronym, or else by the
     # surname, or else by the first name.
