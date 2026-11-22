@@ -3296,21 +3296,43 @@ class Person(Subject):
         assert field != 'place_name', (self.id, field)
         super().add(field, value, source)
 
-    # The father and the mother, each with the value that says so; the
-    # first recorded, where there are alternatives.
-    @property
-    def parents(self):
+    # The fields that name other people.
+    RELATION_FIELDS = ('father', 'mother', 'adoptive_father',
+                       'adoptive_mother', 'partner')
+
+    # The parents named by the given fields, each with the value that says
+    # so; the first recorded, where there are alternatives.
+    def __parents(self, fields):
         return [(self.register.subjects[self.fields[f][0].value],
                  self.fields[f][0])
-                for f in ('father', 'mother') if f in self.fields]
+                for f in fields if f in self.fields]
 
-    # The people whose father or mother this is, each with the value that
-    # says so.
+    # The people whose parent this is by the given fields, each with the
+    # value that says so.
+    def __children(self, fields):
+        return [(c, v) for c in self.register.subjects.values()
+                for f in fields
+                for v in c.fields.get(f, []) if v.value == self.id]
+
+    # The father and the mother.
+    @property
+    def parents(self):
+        return self.__parents(('father', 'mother'))
+
+    # The adoptive father and mother.
+    @property
+    def adoptive_parents(self):
+        return self.__parents(('adoptive_father', 'adoptive_mother'))
+
+    # The people whose father or mother this is.
     @property
     def children(self):
-        return [(c, v) for c in self.register.subjects.values()
-                for f in ('father', 'mother')
-                for v in c.fields.get(f, []) if v.value == self.id]
+        return self.__children(('father', 'mother'))
+
+    # The people whose adoptive father or mother this is.
+    @property
+    def adoptive_children(self):
+        return self.__children(('adoptive_father', 'adoptive_mother'))
 
     # The partners, recorded on either side, each with a value whose sources
     # are those of all the values that say so.
@@ -3552,6 +3574,16 @@ def mother(value):
     return FieldValue('mother', content(value))
 
 
+# The id of the subject's adoptive father.
+def adoptive_father(value):
+    return FieldValue('adoptive_father', content(value))
+
+
+# The id of the subject's adoptive mother.
+def adoptive_mother(value):
+    return FieldValue('adoptive_mother', content(value))
+
+
 # The id of one of the subject's partners; all may be true at once.
 def partner(value):
     return FieldValue('partner', content(value))
@@ -3646,8 +3678,8 @@ class MarkdownWriter(object):
 
     # First names to tell the sex by when there is neither a patronym nor
     # a surname.
-    MALES = ()
-    FEMALES = ('Лукерья',)
+    MALES = ('Нил',)
+    FEMALES = ('Лукерья', 'Софья')
 
     # Tells whether a person is male by the patronym, or else by the
     # surname, or else by the first name.
@@ -3780,6 +3812,12 @@ class MarkdownWriter(object):
                          'Отец' if 'father' in p.fields else 'Мать')
                 relation(title, parents)
 
+            if parents := p.adoptive_parents:
+                title = ('Приёмные родители' if len(parents) > 1 else
+                         'Приёмный отец' if 'adoptive_father' in p.fields
+                         else 'Приёмная мать')
+                relation(title, parents)
+
             if partners := p.partners:
                 if len(partners) > 1:
                     title = 'Супруги'
@@ -3793,6 +3831,14 @@ class MarkdownWriter(object):
                     title = 'Дети'
                 else:
                     title = 'Сын' if self.__male(children[0][0]) else 'Дочь'
+                relation(title, children)
+
+            if children := self.__by_birth(p.adoptive_children):
+                if len(children) > 1:
+                    title = 'Приёмные дети'
+                else:
+                    title = ('Приёмный сын' if self.__male(children[0][0])
+                             else 'Приёмная дочь')
                 relation(title, children)
 
             if siblings := self.__by_birth(p.siblings):
