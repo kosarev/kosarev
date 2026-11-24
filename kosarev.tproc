@@ -161,6 +161,14 @@ The Kosarev family research.
 {cite::encyclopedia-summary}. Значит, 1812 год — вероятно, год более поздней
 волны переселения или ошибка сводки.}
 
+{unreliable_source::akim-birthplace:{me}:
+Наблюдение: Аким родился между маем 1856 и апрелем 1857 года, а в
+ревизской сказке 1858 года он, одного года, записан в семье отца, Устина
+Алексеевича, в Малой Быковке {cite::revision-1858}; семья жила там с
+1815–1816 годов {cite::arrival-range}, а в 1850 году, ещё до его рождения, —
+в семье деда, Алексея Евдокимовича {cite::revision-1858}. Приписки о
+причислении у него нет. Значит, он, вероятно, родился в селе.}
+
 {unreliable_source::arrival-range:{me}:
 Вывод: в ревизской сказке 1835 года у семьи Алексея (№ 132) возрасты по
 прошлой ревизии записаны без приписки о причислении, как у старожилов, —
@@ -3579,6 +3587,10 @@ XIX века не видна. Одна из версий происхожден�
 
 {record::second-wife-children:akim-ustinovich:
 {mother::avdotya-fedorovna}
+}
+
+{record::akim-birthplace:akim-ustinovich:
+{birth_place::{link::malaya-bykovka:с. Малая Быковка}}
 }
 
 {record::ustin-identity:akim-ustinovich:
