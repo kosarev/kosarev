@@ -3,7 +3,7 @@
 **Родился:** между 1843 и 1844<sup>[1](#revision-1850)</sup>, [с. Малая Быковка](malaya-bykovka.md)<sup>? [2](#ivan-ustinovich-birthplace)</sup>
 
 **Родители:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1850)</sup> (р. 1807–1809)
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1850)</sup> (р. 1809–1810)
 - [Евдокия Косарева](evdokiya-kosareva.md)<sup>? [3](#first-wife-1850)</sup> (р. 1809–1810, ум. 1843–1849)
 
 **Братья и сестры:**

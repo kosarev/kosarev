@@ -3,7 +3,7 @@
 **Родился:** между 1856 и 1857<sup>[2](#revision-1858)</sup>, [с. Малая Быковка](malaya-bykovka.md)<sup>? [3](#akim-birthplace)</sup>
 
 **Родители:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[4](#akim-patronym), [2](#revision-1858)</sup> (р. 1807–1809)
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[4](#akim-patronym), [2](#revision-1858)</sup> (р. 1809–1810)
 - [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[5](#second-wife-children)</sup> (р. 1824–1825)
 
 **Дети:**

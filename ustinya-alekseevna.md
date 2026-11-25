@@ -3,7 +3,7 @@
 **Родилась:** между 1816 и 1817<sup>[1](#revision-1835)</sup>, [с. Малая Быковка](malaya-bykovka.md)<sup>? [3](#ustinya-alekseevna-birthplace)</sup>
 
 **Отец:**
-- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[1](#revision-1835)</sup> (р. 1772–1774, ум. 1850)
+- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[1](#revision-1835)</sup> (р. 1780–1781, ум. 1850)
 
 **Муж:**
 - [Никифор Акимович Гундоров](nikifor-gundorov.md)<sup>? [2](#ustinya-gundorova)</sup> (р. 1816–1817)
@@ -15,7 +15,7 @@
 
 **Брат и сестра:**
 - [Иулита Алексеевна Сагалаева](iulita-alekseevna.md)<sup>[1](#revision-1835), [4](#levenskoe-metrics-1806-1808), [5](#aleksey-levinskoe)</sup> (р. 1806)
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [6](#revision-1850)</sup> (р. 1807–1809)
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [6](#revision-1850)</sup> (р. 1809–1810)
 
 В 1850 году в семье отца её уже нет: вероятно, это она — «Никифора Акимова жена Устинья Алексеева», 33 лет, в семье Гундоровых (№ 130); в 1858 году — 40 лет, в соседнем с братом Устином дворе (№ 127).<sup>? [2](#ustinya-gundorova)</sup>
 

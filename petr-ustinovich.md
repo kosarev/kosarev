@@ -3,7 +3,7 @@
 **Родился:** между 1829 и 1830<sup>[1](#revision-1835), [2](#revision-1850)</sup>, [с. Малая Быковка](malaya-bykovka.md)<sup>? [3](#petr-ustinovich-birthplace)</sup>
 
 **Родители:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup> (р. 1807–1809)
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1835), [2](#revision-1850)</sup> (р. 1809–1810)
 - [Евдокия Косарева](evdokiya-kosareva.md)<sup>? [4](#first-wife-1850)</sup> (р. 1809–1810, ум. 1843–1849)
 
 **Жена:**

@@ -11,7 +11,7 @@
 - [Анисья Васильевна Согалаева](anisya-sogalaeva.md)<sup>[2](#levenskoe-1782), [5](#aleksey-levinskoe)</sup> (р. 1753–1754)
 
 **Дети:**
-- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[2](#levenskoe-1782), [3](#sogalaev-1795), [4](#levinskoe-1811), [5](#aleksey-levinskoe)</sup> (р. 1772–1774, ум. 1850)
+- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[2](#levenskoe-1782), [3](#sogalaev-1795), [4](#levinskoe-1811), [5](#aleksey-levinskoe)</sup> (р. 1780–1781, ум. 1850)
 - [Давыд Евдокимович Косарев](davyd-evdokimovich.md)<sup>? [7](#davyd-brother)</sup> (р. 1796–1798, ум. 1856)
 
 **Места:**

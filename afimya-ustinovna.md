@@ -3,7 +3,7 @@
 **Родилась:** между 1854 и 1855<sup>[1](#revision-1858)</sup>, [с. Малая Быковка](malaya-bykovka.md)<sup>? [2](#afimya-ustinovna-birthplace)</sup>
 
 **Родители:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1858)</sup> (р. 1807–1809)
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#revision-1858)</sup> (р. 1809–1810)
 - [Авдотья Федоровна Косарева](avdotya-fedorovna.md)<sup>[3](#second-wife-children)</sup> (р. 1824–1825)
 
 **Братья и сестры:**

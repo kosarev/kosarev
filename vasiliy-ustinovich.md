@@ -3,7 +3,7 @@
 **Родился:** между 1854 и 1855<sup>[1](#confession-1910)</sup> или между 1850 и 1851<sup>? [2](#ustin-sons)</sup>
 
 **Отец:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup> (р. 1807–1809)
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup> (р. 1809–1810)
 
 **Жена:**
 - [Анастасия Трофимовна Косарева](anastasiya-trofimovna.md)<sup>[1](#confession-1910)</sup> (р. 1855–1856)

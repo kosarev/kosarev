@@ -3,7 +3,7 @@
 **Родился:** между 1859 и 1860<sup>[1](#confession-1910)</sup>
 
 **Отец:**
-- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup> (р. 1807–1809)
+- [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>? [2](#ustin-sons)</sup> (р. 1809–1810)
 
 **Жена:**
 - [Ефросинья Кондратьевна Косарева](efrosinya-kondratevna.md)<sup>[1](#confession-1910)</sup> (р. 1859–1860)

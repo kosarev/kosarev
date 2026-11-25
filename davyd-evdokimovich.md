@@ -21,7 +21,7 @@
 - [Ермолай Давыдович Косарев](ermolay-davydovich.md)<sup>[2](#revision-1850-davyd)</sup> (р. 1847–1848, ум. 1852)
 
 **Брат:**
-- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>? [3](#davyd-brother), [5](#levenskoe-1782), [6](#sogalaev-1795), [7](#levinskoe-1811), [8](#aleksey-levinskoe)</sup> (р. 1772–1774, ум. 1850)
+- [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>? [3](#davyd-brother), [5](#levenskoe-1782), [6](#sogalaev-1795), [7](#levinskoe-1811), [8](#aleksey-levinskoe)</sup> (р. 1780–1781, ум. 1850)
 
 **Места:**
 - 1811 — [с. Левинское](levenskoe.md)<sup>[7](#levinskoe-1811)</sup>
