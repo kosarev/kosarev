@@ -2884,6 +2884,22 @@ https://svrt.ru/lib/revizii_tul_gub.pdf). В ревизской сказке 179
 1852 году.}
 }
 
+{record::levinskoe-1811:davyd-evdokimovich:
+{residence::{date::1811}:{link::levenskoe:с. Левинское}}
+}
+
+{record::revision-1835-davyd:davyd-evdokimovich:
+{residence::{date::1835}:{link::malaya-bykovka:с. Малая Быковка}}
+}
+
+{record::revision-1850-davyd:davyd-evdokimovich:
+{residence::{date::1850}:{link::malaya-bykovka:с. Малая Быковка}}
+}
+
+{record::revision-1858-davyd:davyd-evdokimovich:
+{residence::{date::1858}:{link::malaya-bykovka:с. Малая Быковка}}
+}
+
 {record::levinskoe-origin:davyd-evdokimovich:
 {fact::Вероятно, это Давыд, записанный в 1811 году однодворцем села
 Левинского Дряпловской волости Одоевского уезда Тульской губернии вместе
@@ -3319,6 +3335,30 @@ https://svrt.ru/lib/revizii_tul_gub.pdf). В ревизской сказке 179
 Федосьей; умер в 1801 году.}
 }
 
+{record::levenskoe-1782 aleksey-levinskoe:ivan-sogalaev:
+{residence::{date::1782}:{link::levenskoe:с. Левенское}}
+}
+
+{record::sogalaev-1795 aleksey-levinskoe:ivan-sogalaev:
+{residence::{date::1795}:{link::levenskoe:с. Левенское}}
+}
+
+{record::levenskoe-1782 aleksey-levinskoe:evdokim-kosarev:
+{residence::{date::1782}:{link::levenskoe:с. Левенское}}
+}
+
+{record::sogalaev-1795 aleksey-levinskoe:evdokim-kosarev:
+{residence::{date::1795}:{link::levenskoe:с. Левенское}}
+}
+
+{record::levenskoe-1782 aleksey-levinskoe:anisya-sogalaeva:
+{residence::{date::1782}:{link::levenskoe:с. Левенское}}
+}
+
+{record::levenskoe-metrics-1806-1808 aleksey-levinskoe:iulita-alekseevna:
+{residence::{date::1806}:{link::levenskoe:с. Левенское}}
+}
+
 {record::aleksey-levinskoe:ivan-sogalaev:
 {first_name::Иван}
 {patronym::Гаврилович}
@@ -3338,6 +3378,30 @@ https://svrt.ru/lib/revizii_tul_gub.pdf). В ревизской сказке 179
 {birth_date::{between::{date::1753}:{date::1754}}}
 {fact::Однодворческая дочь села Левенского; в 1782 году — 28 лет; в 1795
 году записана «Анна […]», 41 года.}
+}
+
+{record::levenskoe-1782 aleksey-levinskoe:aleksey-evdokimovich:
+{residence::{date::1782}:{link::levenskoe:с. Левенское}}
+}
+
+{record::sogalaev-1795 aleksey-levinskoe:aleksey-evdokimovich:
+{residence::{date::1795}:{link::levenskoe:с. Левенское}}
+}
+
+{record::levenskoe-metrics-1806-1808 aleksey-levinskoe:aleksey-evdokimovich:
+{residence::{date::1806}:{link::levenskoe:с. Левенское}}
+}
+
+{record::levinskoe-1811 aleksey-levinskoe:aleksey-evdokimovich:
+{residence::{date::1811}:{link::levenskoe:с. Левинское}}
+}
+
+{record::revision-1835:aleksey-evdokimovich:
+{residence::{date::1835}:{link::malaya-bykovka:с. Малая Быковка}}
+}
+
+{record::revision-1850:aleksey-evdokimovich:
+{residence::{date::1850}:{link::malaya-bykovka:с. Малая Быковка}}
 }
 
 {record::aleksey-levinskoe:aleksey-evdokimovich:
@@ -3752,6 +3816,22 @@ XIX века не видна. Одна из версий происхожден�
 
 {record::aleksey-levinskoe:ustin-kosarev:
 {birth_date::{between::{date::1809}:{date::1810}}}
+}
+
+{record::levinskoe-1811 aleksey-levinskoe:ustin-kosarev:
+{residence::{date::1811}:{link::levenskoe:с. Левинское}}
+}
+
+{record::revision-1835:ustin-kosarev:
+{residence::{date::1835}:{link::malaya-bykovka:с. Малая Быковка}}
+}
+
+{record::revision-1850:ustin-kosarev:
+{residence::{date::1850}:{link::malaya-bykovka:с. Малая Быковка}}
+}
+
+{record::revision-1858:ustin-kosarev:
+{residence::{date::1858}:{link::malaya-bykovka:с. Малая Быковка}}
 }
 
 {record::ustin-birthplace:ustin-kosarev:
@@ -5024,6 +5104,32 @@ XIX века не видна. Одна из версий происхожден�
 крестьян.}
 }
 
+{record::levenskoe-1795:levenskoe:
+{place_name::Левенское}
+}
+
+{record::levinskoe-1811:levenskoe:
+{place_name::Левинское}
+{fact::Село Дряпловской волости Одоевского уезда Тульской губернии; в 1811
+году — 545 однодворцев мужского пола.}
+}
+
+{record::levenskoe-metrics-1806-1808:levenskoe:
+{fact::Приход Николаевской церкви; к нему относились и деревни Корнева и
+Шепелевка.}
+}
+
+{record::odoev-geography:levenskoe:
+{fact::Ныне — село Левенское Одоевского района Тульской области (53°56′ с. ш.,
+37°02′ в. д.).}
+}
+
+{record::odnodvortsy-origins:levenskoe:
+{fact::Отсюда в 1812 году переселились в {link::malaya-bykovka:Малую Быковку}
+большинство её однодворцев — 29 семей из 44, среди них Косаревы
+(Согалаевы).}
+}
+
 {record::encyclopedia-summary:malaya-bykovka:
 {fact::По сводке энциклопедии, село основано в 1812 году, и в 1812–1834 годах
 туда переселены пахотные солдаты, однодворцы и экономические крестьяне.}
@@ -5781,6 +5887,32 @@ def link(id, *shown):
     return Link(text(id), text(rest(*shown)))
 
 
+# Where a person was recorded living at a date; a person may have several
+# residences, all true at once.
+class Residence(object):
+    def __init__(self, date, place):
+        self.date = date
+        self.place = place
+
+    def __eq__(self, other):
+        return (isinstance(other, Residence) and
+                (self.date, self.place) == (other.date, other.place))
+
+    def __hash__(self):
+        return hash((self.date, self.place))
+
+    # The earliest day the date may be, to order residences by.
+    def earliest(self):
+        d = self.date.first if isinstance(self.date, Between) else self.date
+        return d.earliest()
+
+
+# {residence::date:place}, the place as text, possibly with links.
+def residence(when, *place):
+    return FieldValue('residences',
+                      Residence(content(when), pieces(rest(*place))))
+
+
 # A free-text fact about the subject, possibly with links; all facts may
 # be true at once.
 def fact(*text):
@@ -5934,6 +6066,8 @@ class MarkdownWriter(object):
 
     # A value as text; places and facts may have links in them.
     def __shown(self, value):
+        if isinstance(value, Residence):
+            return f'{value.date} — {self.__shown(value.place)}'
         if isinstance(value, tuple):
             return ' '.join(''.join(f'[{x.text}]({x.id}.md)'
                                     if isinstance(x, Link) else
@@ -6038,6 +6172,18 @@ class MarkdownWriter(object):
             f.write(f'\n**{"Умер" if self.male(p) else "Умерла"}:** '
                     f'{event(("death_date", "death_place"))}'
                     f'{f" ({age})" if age else ""}\n')
+
+        # Where the person was recorded living, by date: «Место» for one,
+        # «Места» for several, each on a line of its own.
+        residences = sorted(p.fields.get('residences', []),
+                            key=lambda v: v.value.earliest())
+        if len(residences) == 1:
+            v = residences[0]
+            f.write(f'\n**Место:** {self.__shown(v.value)}{refs(v)}\n')
+        elif residences:
+            f.write('\n**Места:**\n')
+            for v in residences:
+                f.write(f'- {self.__shown(v.value)}{refs(v)}\n')
 
         # A relation's title on a line of its own, then each person on a
         # line of their own.
@@ -6349,6 +6495,12 @@ class GedcomWriter(object):
         out.append(f'1 SEX {"M" if self.male(p) else "F"}')
         self.__event(out, p, 'BIRT', 'birth_date', 'birth_place')
         self.__event(out, p, 'DEAT', 'death_date', 'death_place')
+        for v in sorted(p.fields.get('residences', []),
+                        key=lambda v: v.value.earliest()):
+            out.append('1 RESI')
+            out.append(f'2 DATE {self.__date(v.value.date)}')
+            self.__line(out, 2, 'PLAC', self.__text(v.value.place))
+            self.__cite(out, 2, v.sources)
         for fam in self.families:
             if p in fam['children']:
                 out.append(f'1 FAMC @{fam["id"]}@')

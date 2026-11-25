@@ -4,6 +4,10 @@
 
 **Умер:** 1800<sup>[1](#aleksey-levinskoe)</sup>
 
+**Места:**
+- 1782 — [с. Левенское](levenskoe.md)<sup>[2](#levenskoe-1782), [1](#aleksey-levinskoe)</sup>
+- 1795 — [с. Левенское](levenskoe.md)<sup>[3](#sogalaev-1795), [1](#aleksey-levinskoe)</sup>
+
 **Сын:**
 - [Евдоким Иванович Согалаев](evdokim-kosarev.md)<sup>[1](#aleksey-levinskoe)</sup> (р. 1760–1761, ум. 1801)
 

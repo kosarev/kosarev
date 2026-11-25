@@ -290,6 +290,26 @@
 2 DATE 1856
 2 SOUR @S30@
 3 QUAY 3
+1 RESI
+2 DATE 1811
+2 PLAC с. Левинское
+2 SOUR @S40@
+3 QUAY 3
+1 RESI
+2 DATE 1835
+2 PLAC с. Малая Быковка
+2 SOUR @S38@
+3 QUAY 3
+1 RESI
+2 DATE 1850
+2 PLAC с. Малая Быковка
+2 SOUR @S29@
+3 QUAY 3
+1 RESI
+2 DATE 1858
+2 PLAC с. Малая Быковка
+2 SOUR @S30@
+3 QUAY 3
 1 FAMC @F8@
 1 FAMS @F9@
 1 FAMS @F10@
@@ -748,6 +768,28 @@
 2 DATE BET 1809 AND 1810
 2 SOUR @S59@
 3 QUAY 3
+1 RESI
+2 DATE 1811
+2 PLAC с. Левинское
+2 SOUR @S40@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1835
+2 PLAC с. Малая Быковка
+2 SOUR @S27@
+3 QUAY 3
+1 RESI
+2 DATE 1850
+2 PLAC с. Малая Быковка
+2 SOUR @S28@
+3 QUAY 3
+1 RESI
+2 DATE 1858
+2 PLAC с. Малая Быковка
+2 SOUR @S31@
+3 QUAY 3
 1 FAMS @F18@
 1 FAMC @F19@
 1 FAMS @F20@
@@ -823,6 +865,44 @@
 1 DEAT
 2 DATE 1850
 2 SOUR @S31@
+3 QUAY 3
+1 RESI
+2 DATE 1782
+2 PLAC с. Левенское
+2 SOUR @S55@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1795
+2 PLAC с. Левенское
+2 SOUR @S53@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1806
+2 PLAC с. Левенское
+2 SOUR @S62@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1811
+2 PLAC с. Левинское
+2 SOUR @S40@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1835
+2 PLAC с. Малая Быковка
+2 SOUR @S27@
+3 QUAY 3
+1 RESI
+2 DATE 1850
+2 PLAC с. Малая Быковка
+2 SOUR @S28@
 3 QUAY 3
 1 FAMC @F8@
 1 FAMS @F19@
@@ -968,6 +1048,20 @@
 2 DATE 1801
 2 SOUR @S59@
 3 QUAY 3
+1 RESI
+2 DATE 1782
+2 PLAC с. Левенское
+2 SOUR @S55@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1795
+2 PLAC с. Левенское
+2 SOUR @S53@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
 1 FAMS @F8@
 1 FAMC @F22@
 1 FAMS @F23@
@@ -994,6 +1088,20 @@
 2 DATE 1800
 2 SOUR @S59@
 3 QUAY 3
+1 RESI
+2 DATE 1782
+2 PLAC с. Левенское
+2 SOUR @S55@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1795
+2 PLAC с. Левенское
+2 SOUR @S53@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
 1 FAMS @F22@
 1 NOTE Однодворец села Левенского (Левинского) Одоевского уезда Тульской губернии: в 1782 году — 54 года, с второй же
 2 CONC ной Домной Дорофеевой (первая, Федосья Федосеева, умерла в 1766 году), сыном Евдокимом и дочерьми; в 1795 год
@@ -1008,6 +1116,13 @@
 1 SEX F
 1 BIRT
 2 DATE BET 1753 AND 1754
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1782
+2 PLAC с. Левенское
+2 SOUR @S55@
+3 QUAY 3
 2 SOUR @S59@
 3 QUAY 3
 1 FAMS @F23@
@@ -1025,6 +1140,13 @@
 1 SEX F
 1 BIRT
 2 DATE 1806
+2 SOUR @S62@
+3 QUAY 3
+2 SOUR @S59@
+3 QUAY 3
+1 RESI
+2 DATE 1806
+2 PLAC с. Левенское
 2 SOUR @S62@
 3 QUAY 3
 2 SOUR @S59@
