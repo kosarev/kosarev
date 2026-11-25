@@ -2,14 +2,14 @@
 
 **Родилась:** 1806<sup>[1](#levenskoe-metrics-1806-1808), [2](#aleksey-levinskoe)</sup>
 
-**Место:** 1806 — [с. Левенское](levenskoe.md)<sup>[1](#levenskoe-metrics-1806-1808), [2](#aleksey-levinskoe)</sup>
-
 **Отец:**
 - [Алексей Евдокимович Косарев](aleksey-evdokimovich.md)<sup>[1](#levenskoe-metrics-1806-1808), [2](#aleksey-levinskoe)</sup> (р. 1772–1774, ум. 1850)
 
 **Брат и сестра:**
 - [Устин Алексеевич Косарев](ustin-kosarev.md)<sup>[1](#levenskoe-metrics-1806-1808), [2](#aleksey-levinskoe), [3](#revision-1835), [4](#revision-1850)</sup> (р. 1807–1809)
 - [Устинья Алексеевна Косарева](ustinya-alekseevna.md)<sup>[1](#levenskoe-metrics-1806-1808), [2](#aleksey-levinskoe), [3](#revision-1835)</sup> (р. 1816–1817)
+
+**Место:** 1806 — [с. Левенское](levenskoe.md)<sup>[1](#levenskoe-metrics-1806-1808), [2](#aleksey-levinskoe)</sup>
 
 ## Источники
 

@@ -2,10 +2,10 @@
 
 **Родилась:** между 1753 и 1754<sup>[1](#aleksey-levinskoe)</sup>
 
-**Место:** 1782 — [с. Левенское](levenskoe.md)<sup>[2](#levenskoe-1782), [1](#aleksey-levinskoe)</sup>
-
 **Муж:**
 - [Евдоким Иванович Согалаев](evdokim-kosarev.md)<sup>[1](#aleksey-levinskoe)</sup> (р. 1760–1761, ум. 1801)
+
+**Место:** 1782 — [с. Левенское](levenskoe.md)<sup>[2](#levenskoe-1782), [1](#aleksey-levinskoe)</sup>
 
 Однодворческая дочь села Левенского; в 1782 году — 28 лет; в 1795 году записана «Анна […]», 41 года.<sup>[1](#aleksey-levinskoe)</sup>
 

@@ -6173,18 +6173,6 @@ class MarkdownWriter(object):
                     f'{event(("death_date", "death_place"))}'
                     f'{f" ({age})" if age else ""}\n')
 
-        # Where the person was recorded living, by date: «Место» for one,
-        # «Места» for several, each on a line of its own.
-        residences = sorted(p.fields.get('residences', []),
-                            key=lambda v: v.value.earliest())
-        if len(residences) == 1:
-            v = residences[0]
-            f.write(f'\n**Место:** {self.__shown(v.value)}{refs(v)}\n')
-        elif residences:
-            f.write('\n**Места:**\n')
-            for v in residences:
-                f.write(f'- {self.__shown(v.value)}{refs(v)}\n')
-
         # A relation's title on a line of its own, then each person on a
         # line of their own.
         def relation(title, people):
@@ -6233,6 +6221,18 @@ class MarkdownWriter(object):
                 relation(' и '.join(titles[:1] +
                                     [t.lower() for t in titles[1:]]),
                          siblings)
+
+        # Where the person was recorded living, by date, after the relations:
+        # «Место» for one, «Места» for several, each on a line of its own.
+        residences = sorted(p.fields.get('residences', []),
+                            key=lambda v: v.value.earliest())
+        if len(residences) == 1:
+            v = residences[0]
+            f.write(f'\n**Место:** {self.__shown(v.value)}{refs(v)}\n')
+        elif residences:
+            f.write('\n**Места:**\n')
+            for v in residences:
+                f.write(f'- {self.__shown(v.value)}{refs(v)}\n')
 
         # Facts come last, each a paragraph of its own.
         for v in p.fields.get('facts', []):
